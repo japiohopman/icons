@@ -1,20 +1,99 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Asset Vault with Integrated Editor Engine
 
-# Run and deploy your AI Studio app
+This repository is evolving into a full creative **Asset Vault and Editor Engine** application.
 
-This contains everything you need to run your app locally.
+While icons are the initial asset category used to validate the application and workflows, the long-term vision encompasses managing, editing, and exporting diverse creative assets (images, illustrations, photographs, game assets, UI elements, backgrounds, and future AI-generated assets).
 
-View your app in AI Studio: https://ai.studio/apps/ac8af45c-8da8-44ef-a28f-8f3b001f5760
+---
 
-## Run Locally
+## 🏛️ Architecture Overview
 
-**Prerequisites:**  Node.js
+The application is structured into three distinct layers:
 
+```text
+                  ASSET VAULT
+                       |
+        ┌──────────────┴──────────────┐
+        |                             |
+     Storage                      Editor Engine
+        |                             |
+   organization                 modification
+   metadata                     processing
+   folders                      compositing
+   search                       export
+   variants                     transforms
+        |                             |
+        └──────────────┬──────────────┘
+                       |
+                  Application UI
+```
+
+### The Role of Photopea
+
+**Photopea is NOT the application.**
+Photopea serves as an underlying image processing / editing engine integrated programmatically behind our application's UI.
+
+Communication flow:
+```text
+Asset Vault UI (App / Modal Controls)
+       ↓
+Application Logic
+       ↓
+EditorEngine Abstraction Interface (`src/engine/types.ts`)
+       ↓
+PhotopeaEngine Bridge (`src/engine/PhotopeaEngine.ts`)
+       ↓
+Photopea API / Live Messaging / Scripts (`postMessage`)
+       ↓
+Asset Result (ArrayBuffer / Data URL)
+       ↓
+Asset Vault (Preserves original source asset)
+```
+
+---
+
+## 🚀 Running Locally
+
+### Prerequisites
+
+- Node.js (v18+)
+
+### Steps
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   cd proto-type/artificer-icon-library-proto-type
+   npm install
+   ```
+
+2. Run typecheck / lint:
+   ```bash
+   npm run lint
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+4. Start development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## ⚡ Current Capabilities (PHOTOPEA-001)
+
+- **Application-Owned UI**: The user interacts exclusively with application navigation, inspector panels, and editor controls. Photopea operates inside a programmatically managed engine container.
+- **EditorEngine Boundary**: Centralized messaging bridge handling Photopea iframe mounting, `postMessage` script dispatch, and array buffer message receipt.
+- **Vertical Slice Operation**: Selected assets can be opened, programmatically resized to target dimensions via engine scripting, and exported back as new asset results while keeping source assets unmodified.
+
+---
+
+## 🔮 Roadmap & Future Directions
+
+- Multi-format asset storage abstraction beyond repository static assets.
+- Advanced editing operations (crop, canvas resize, layers, filters, vector transforms).
+- Asset version history, variant tracking, and metadata provenance.
+- Non-destructive export workflows across icons, illustrations, and images.
