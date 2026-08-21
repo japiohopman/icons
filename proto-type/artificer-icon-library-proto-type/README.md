@@ -83,16 +83,22 @@ Asset Vault (Preserves original source asset)
 
 ---
 
-## ⚡ Current Capabilities (PHOTOPEA-001)
+## ⚡ Current Editor Capabilities (PHOTOPEA-001 & PHOTOPEA-005)
 
-- **Application-Owned UI**: The user interacts exclusively with application navigation, inspector panels, and editor controls. Photopea operates inside a programmatically managed engine container.
+- **Application-Owned UI**: The user interacts exclusively with application navigation, inspector panels, and application editor controls. Photopea operates inside a programmatically managed engine container behind the UI.
 - **EditorEngine Boundary**: Centralized messaging bridge featuring:
   - Task serialization queue preventing concurrent command collisions.
   - Photopea readiness handshake verification (`"done"` message signal).
   - Binary ArrayBuffer asset loading via postMessage.
   - Strict origin validation (`https://www.photopea.com`).
   - Response-driven promise resolution with safety timeouts.
-- **Vertical Slice Operation**: Selected assets can be opened, programmatically resized to target dimensions via engine scripting, and exported back as new asset results while keeping source assets unmodified.
+- **Supported Editor Operations**:
+  - **Resize (Scale)**: Programmatically resizes/scales active asset image dimensions.
+  - **Canvas Resize**: Modifies document canvas size relative to 9-point anchor presets (`center`, `top-left`, `top-center`, `bottom-right`, etc.).
+  - **Crop**: Crops document workspace to explicit pixel bounds (`x`, `y`, `width`, `height`).
+  - **Export**: Exports current edited document as new binary ArrayBuffer result (PNG) without mutating source assets.
+- **Non-Destructive Workflows**: Source assets in the Asset Vault are strictly preserved. Edits generate new result assets displayed in the application preview area.
+- **Application Validation**: Defensive input validation for non-negative coordinates, positive non-zero dimensions, and finite numbers before executing engine operations.
 
 ---
 
