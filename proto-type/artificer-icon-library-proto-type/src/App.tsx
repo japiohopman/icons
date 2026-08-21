@@ -9,6 +9,8 @@ import { ALL_ICONS, ICON_CATEGORIES, EXPLORER_TREE } from './assets/icons';
 import { motion, AnimatePresence } from 'motion/react';
 import { IconDefinition, IconCategory, FolderNode, FileNode, ExplorerNode } from './types';
 import { IconUploader } from './components/IconUploader';
+import { AssetEditorModal } from './components/AssetEditorModal';
+import { Asset } from './engine/types';
 
 // Directory Tree Helper Functions
 function findFolderByPath(node: FolderNode, path: string): FolderNode | null {
@@ -217,6 +219,8 @@ export default function App() {
   const [editingIcon, setEditingIcon] = useState<string | null>(null);
   const [showMissingOnly, setShowMissingOnly] = useState(false);
   const [showUploader, setShowUploader] = useState(false);
+  const [isEditorOpen, setIsEditorOpen] = useState(false);
+  const [vaultAssets, setVaultAssets] = useState<Record<string, Asset>>({});
   
   const allIconNames = useMemo(() => Object.keys(ALL_ICONS), []);
   
@@ -265,6 +269,26 @@ export default function App() {
     if (!selectedIcon) return null;
     return findFileNodeByIconId(EXPLORER_TREE, selectedIcon);
   }, [selectedIcon]);
+
+  const selectedAsset = useMemo<Asset | null>(() => {
+    if (!selectedIcon) return null;
+    if (vaultAssets[selectedIcon]) return vaultAssets[selectedIcon];
+
+    const def = (ALL_ICONS as Record<string, IconDefinition>)[selectedIcon];
+    const pathStr = typeof def === 'string' ? def : def?.path || '';
+    const svgData = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="${pathStr}"/></svg>`;
+    const dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgData)}`;
+
+    return {
+      id: selectedIcon,
+      name: `${selectedIcon}.svg`,
+      category: 'icon',
+      mimeType: 'image/svg+xml',
+      data: dataUrl,
+      width: 512,
+      height: 512,
+    };
+  }, [selectedIcon, vaultAssets]);
 
   // Auto-expand folder when an icon is selected (Auto-Reveal)
   useEffect(() => {
@@ -647,8 +671,14 @@ export default function App() {
                   <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
                   Copy Asset Key
                 </button>
-                <button className="w-full py-2.5 bg-white border border-slate-200 text-slate-600 rounded-lg text-xs font-semibold hover:bg-slate-50 transition-all">
-                  Request Modification
+                <button
+                  onClick={() => setIsEditorOpen(true)}
+                  className="w-full py-2.5 bg-indigo-50 border border-indigo-200 text-indigo-700 rounded-lg text-xs font-semibold hover:bg-indigo-100 transition-all flex items-center justify-center gap-2"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002 2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                  </svg>
+                  Open in Asset Editor
                 </button>
               </div>
             </div>
@@ -667,6 +697,18 @@ export default function App() {
       </div>
 
       <IconUploader isOpen={showUploader} onClose={() => setShowUploader(false)} />
+
+      <AssetEditorModal
+        asset={selectedAsset}
+        isOpen={isEditorOpen}
+        onClose={() => setIsEditorOpen(false)}
+        onSaveResult={(resultAsset) => {
+          setVaultAssets((prev) => ({
+            ...prev,
+            [resultAsset.id]: resultAsset,
+          }));
+        }}
+      />
     </div>
   );
 }

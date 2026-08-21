@@ -14,45 +14,24 @@ This is the operational taskboard for AI-assisted development.
 
 ### IN PROGRESS
 
-None. The next implementation task begins after the agentic foundation PR is reviewed and merged.
+None.
 
-### READY
+### REVIEW
 
 #### PHOTOPEA-001 — Establish the Photopea engine boundary
 
 **Goal**
 
-Replace the current iframe-first approach with an application-owned Photopea engine/bridge.
+Replace any iframe-first approach with an application-owned Photopea engine/bridge (`EditorEngine` / `PhotopeaEngine`).
 
-**Requirements**
+**Completed Requirements**
 
-- Inspect the existing Photopea implementation before changing it.
-- Use the official Photopea Live Messaging/API and scripting capabilities.
-- Keep Photopea-specific messaging behind a dedicated integration boundary.
-- Do not make the Photopea editor UI the application's editing interface.
-- Prove one real operation from Icons UI → engine → Photopea → result → Icons UI.
-- Keep the implementation small, typed, testable, and extensible.
-
-**Acceptance criteria**
-
-- The user interacts with Icons-owned UI.
-- At least one meaningful Photopea operation is triggered programmatically.
-- The operation does not require the user to operate Photopea's toolbar/menu.
-- The application receives the result.
-- Message/event listeners are cleaned up correctly.
-- Existing functionality remains intact.
-- Documentation describes the engine architecture.
-
-**Out of scope**
-
-- Full image editor implementation
-- Generic asset pipeline
-- DevKit integration
-- Batch processing
-- Database/storage system
-- Authentication
-- Large state-management changes
-- Unrelated refactors
+- Established `EditorEngine` abstraction interface (`src/engine/types.ts`) and generic `Asset` model.
+- Implemented `PhotopeaEngine` (`src/engine/PhotopeaEngine.ts`) with official Live Messaging API, binary ArrayBuffer asset transfer, task queue serialization, readiness handshake, and strict origin validation.
+- Created application-owned UI controls modal (`src/components/AssetEditorModal.tsx`).
+- Integrated into main application UI (`src/App.tsx`).
+- Proved vertical slice: Select Asset → Open Asset → Application Resize Action → Photopea Engine Execution → Application Result Preview (Original preserved).
+- Documentation updated in `proto-type/artificer-icon-library-proto-type/README.md`.
 
 ### READY — Future Photopea tasks
 
@@ -69,7 +48,7 @@ Do not implement these until they are explicitly moved into `IN PROGRESS` or ass
 
 ## Completed
 
-None yet.
+- PHOTOPEA-001 — Establish the Photopea engine boundary (Pending Review)
 
 ## Agent workflow
 
