@@ -1,0 +1,6 @@
+{
+  "name": "Artificer Icon Library",
+  "description": "A well-structured, path-based SVG icon library for RPG games and tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
