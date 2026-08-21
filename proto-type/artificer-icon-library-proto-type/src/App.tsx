@@ -9,6 +9,7 @@ import { ALL_ICONS, ICON_CATEGORIES, EXPLORER_TREE } from './assets/icons';
 import { motion, AnimatePresence } from 'motion/react';
 import { IconDefinition, IconCategory, FolderNode, FileNode, ExplorerNode } from './types';
 import { IconUploader } from './components/IconUploader';
+import { PhotopeaModal } from './components/PhotopeaModal';
 
 // Directory Tree Helper Functions
 function findFolderByPath(node: FolderNode, path: string): FolderNode | null {
@@ -217,6 +218,7 @@ export default function App() {
   const [editingIcon, setEditingIcon] = useState<string | null>(null);
   const [showMissingOnly, setShowMissingOnly] = useState(false);
   const [showUploader, setShowUploader] = useState(false);
+  const [showPhotopeaModal, setShowPhotopeaModal] = useState(false);
   
   const allIconNames = useMemo(() => Object.keys(ALL_ICONS), []);
   
@@ -638,6 +640,15 @@ export default function App() {
               </div>
 
               <div className="mt-auto p-6 space-y-3">
+                <button
+                  onClick={() => setShowPhotopeaModal(true)}
+                  className="w-full flex items-center justify-center gap-2 py-2.5 bg-indigo-600 border border-indigo-600 text-white rounded-lg text-xs font-semibold hover:bg-indigo-700 transition-all shadow-md shadow-indigo-100 cursor-pointer"
+                >
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                  </svg>
+                  Edit in Photopea (API POC)
+                </button>
                 <button 
                   onClick={() => {
                     navigator.clipboard.writeText(selectedIcon);
@@ -667,6 +678,12 @@ export default function App() {
       </div>
 
       <IconUploader isOpen={showUploader} onClose={() => setShowUploader(false)} />
+      <PhotopeaModal
+        isOpen={showPhotopeaModal}
+        onClose={() => setShowPhotopeaModal(false)}
+        iconName={selectedIcon}
+        iconDef={selectedIconDef}
+      />
     </div>
   );
 }
