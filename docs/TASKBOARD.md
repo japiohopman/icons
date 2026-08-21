@@ -18,29 +18,24 @@ None.
 
 ### REVIEW
 
-#### PHOTOPEA-001 — Establish the Photopea engine boundary
+#### PHOTOPEA-005 — Canvas and Crop Controls
 
 **Goal**
 
-Replace any iframe-first approach with an application-owned Photopea engine/bridge (`EditorEngine` / `PhotopeaEngine`).
+Add application-owned UI and engine capabilities for Canvas Resize and Crop operations on top of the established `EditorEngine` / `PhotopeaEngine` foundation.
 
 **Completed Requirements**
 
-- Established `EditorEngine` abstraction interface (`src/engine/types.ts`) and generic `Asset` model.
-- Implemented `PhotopeaEngine` (`src/engine/PhotopeaEngine.ts`) with official Live Messaging API, binary ArrayBuffer asset transfer, task queue serialization, readiness handshake, and strict origin validation.
-- Created application-owned UI controls modal (`src/components/AssetEditorModal.tsx`).
-- Integrated into main application UI (`src/App.tsx`).
-- Proved vertical slice: Select Asset → Open Asset → Application Resize Action → Photopea Engine Execution → Application Result Preview (Original preserved).
-- Documentation updated in `proto-type/artificer-icon-library-proto-type/README.md`.
+- Extended `EditorEngine` interface (`src/engine/types.ts`) with `resizeCanvas` (with `CanvasAnchor`), `crop` (with `CropBounds`), and input dimension validation.
+- Extended `PhotopeaEngine` (`src/engine/PhotopeaEngine.ts`) to execute Photopea ExtendScript canvas resize (`app.activeDocument.resizeCanvas`) and crop (`app.activeDocument.crop`) operations using official Live Messaging API.
+- Added application-owned tabbed control UI (`src/components/AssetEditorModal.tsx`) supporting Image Resize, Canvas Resize (with 3x3 anchor grid selection), and Crop Region workflows.
+- Implemented robust application-level validation for width, height, X, and Y inputs prior to sending commands to the engine.
+- Preserved non-destructive behavior (original source assets remain pristine in the Asset Vault, results return through existing asset-result preview pipeline).
 
 ### READY — Future Photopea tasks
 
 These are intentionally not assigned yet:
 
-- PHOTOPEA-002 — Import/open workflow
-- PHOTOPEA-003 — Export/result abstraction
-- PHOTOPEA-004 — Resize controls
-- PHOTOPEA-005 — Canvas/crop controls
 - PHOTOPEA-006 — Transform controls
 - PHOTOPEA-007 — Layer inspection and operations
 
@@ -48,7 +43,10 @@ Do not implement these until they are explicitly moved into `IN PROGRESS` or ass
 
 ## Completed
 
-- PHOTOPEA-001 — Establish the Photopea engine boundary (Pending Review)
+- PHOTOPEA-001 — Establish the Photopea engine boundary (DONE - merged as accepted architectural foundation)
+- PHOTOPEA-002 — Import/open workflow (Covered by merged EditorEngine ArrayBuffer pipeline)
+- PHOTOPEA-003 — Export/result abstraction (Covered by merged EditorEngine exportResult pipeline)
+- PHOTOPEA-004 — Resize controls (Covered by merged EditorEngine resize pipeline)
 
 ## Agent workflow
 

@@ -35,6 +35,30 @@ export interface ExportOptions {
 }
 
 /**
+ * Canvas anchor positions for canvas resize operations.
+ */
+export type CanvasAnchor =
+  | 'top-left'
+  | 'top-center'
+  | 'top-right'
+  | 'center-left'
+  | 'center'
+  | 'center-right'
+  | 'bottom-left'
+  | 'bottom-center'
+  | 'bottom-right';
+
+/**
+ * Bounds definition for cropping operations.
+ */
+export interface CropBounds {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
+/**
  * The Editor Engine abstraction interface.
  * Decouples the application UI from Photopea or any underlying graphics processing engine.
  */
@@ -55,9 +79,19 @@ export interface EditorEngine {
   executeScript(script: string): Promise<unknown>;
 
   /**
-   * Application-level programmatic operation: Resizes the loaded asset to new dimensions.
+   * Application-level programmatic operation: Resizes the loaded asset (image scale) to new dimensions.
    */
   resize(width: number, height: number): Promise<Asset>;
+
+  /**
+   * Application-level programmatic operation: Resizes the canvas dimensions relative to an anchor point.
+   */
+  resizeCanvas(width: number, height: number, anchor?: CanvasAnchor): Promise<Asset>;
+
+  /**
+   * Application-level programmatic operation: Crops the document to the specified region bounds.
+   */
+  crop(bounds: CropBounds): Promise<Asset>;
 
   /**
    * Exports the current document state as a new Asset result without modifying the source asset.

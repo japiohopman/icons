@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Asset, EditorEngine, EngineStatus, ExportOptions } from './types';
+import { Asset, CanvasAnchor, CropBounds, EditorEngine, EngineStatus, ExportOptions } from './types';
 
 interface QueuedTask<T = unknown> {
   action: () => Promise<T>;
@@ -12,6 +12,18 @@ interface QueuedTask<T = unknown> {
 }
 
 const PHOTOPEA_ORIGIN = 'https://www.photopea.com';
+
+const ANCHOR_MAP: Record<CanvasAnchor, string> = {
+  'top-left': 'AnchorPosition.TOPLEFT',
+  'top-center': 'AnchorPosition.TOPCENTER',
+  'top-right': 'AnchorPosition.TOPRIGHT',
+  'center-left': 'AnchorPosition.MIDDLELEFT',
+  'center': 'AnchorPosition.MIDDLECENTER',
+  'center-right': 'AnchorPosition.MIDDLERIGHT',
+  'bottom-left': 'AnchorPosition.BOTTOMLEFT',
+  'bottom-center': 'AnchorPosition.BOTTOMCENTER',
+  'bottom-right': 'AnchorPosition.BOTTOMRIGHT',
+};
 
 export class PhotopeaEngine implements EditorEngine {
   private iframe: HTMLIFrameElement | null = null;
@@ -259,13 +271,68 @@ export class PhotopeaEngine implements EditorEngine {
       throw new Error('No asset loaded in PhotopeaEngine.');
     }
 
+    if (!Number.isFinite(width) || width <= 0 || !Number.isFinite(height) || height <= 0) {
+      throw new Error('Width and height must be positive finite numbers.');
+    }
+
     this.setStatus('processing');
 
     // Execute Photopea ExtendScript to resize current active document
-    const script = `app.activeDocument.resizeImage(${width}, ${height});`;
+    const script = `app.preferences.rulerUnits = Units.PIXELS; app.activeDocument.resizeImage(${width}, ${height});`;
     await this.executeScript(script);
 
     // Export result without mutating source asset
+    const resultAsset = await this.exportResult({ format: 'png' });
+    this.setStatus('ready');
+    return resultAsset;
+  }
+
+  public async resizeCanvas(width: number, height: number, anchor: CanvasAnchor = 'center'): Promise<Asset> {
+    if (!this.currentAsset) {
+      throw new Error('No asset loaded in PhotopeaEngine.');
+    }
+
+    if (!Number.isFinite(width) || width <= 0 || !Number.isFinite(height) || height <= 0) {
+      throw new Error('Canvas width and height must be positive finite numbers.');
+    }
+
+    this.setStatus('processing');
+
+    const anchorEnum = ANCHOR_MAP[anchor] || 'AnchorPosition.MIDDLECENTER';
+    const script = `app.preferences.rulerUnits = Units.PIXELS; app.activeDocument.resizeCanvas(${width}, ${height}, ${anchorEnum});`;
+    await this.executeScript(script);
+
+    const resultAsset = await this.exportResult({ format: 'png' });
+    this.setStatus('ready');
+    return resultAsset;
+  }
+
+  public async crop(bounds: CropBounds): Promise<Asset> {
+    if (!this.currentAsset) {
+      throw new Error('No asset loaded in PhotopeaEngine.');
+    }
+
+    const { x, y, width, height } = bounds;
+
+    if (
+      !Number.isFinite(x) || x < 0 ||
+      !Number.isFinite(y) || y < 0 ||
+      !Number.isFinite(width) || width <= 0 ||
+      !Number.isFinite(height) || height <= 0
+    ) {
+      throw new Error('Crop bounds must have non-negative x, y and positive finite width, height.');
+    }
+
+    this.setStatus('processing');
+
+    const left = x;
+    const top = y;
+    const right = x + width;
+    const bottom = y + height;
+
+    const script = `app.preferences.rulerUnits = Units.PIXELS; app.activeDocument.crop([${left}, ${top}, ${right}, ${bottom}]);`;
+    await this.executeScript(script);
+
     const resultAsset = await this.exportResult({ format: 'png' });
     this.setStatus('ready');
     return resultAsset;
