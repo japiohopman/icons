@@ -43,7 +43,7 @@ EditorEngine Abstraction Interface (`src/engine/types.ts`)
        ↓
 PhotopeaEngine Bridge (`src/engine/PhotopeaEngine.ts`)
        ↓
-Photopea API / Live Messaging / Scripts (`postMessage`)
+Photopea API / Live Messaging / Binary ArrayBuffer (`postMessage`)
        ↓
 Asset Result (ArrayBuffer / Data URL)
        ↓
@@ -86,7 +86,12 @@ Asset Vault (Preserves original source asset)
 ## ⚡ Current Capabilities (PHOTOPEA-001)
 
 - **Application-Owned UI**: The user interacts exclusively with application navigation, inspector panels, and editor controls. Photopea operates inside a programmatically managed engine container.
-- **EditorEngine Boundary**: Centralized messaging bridge handling Photopea iframe mounting, `postMessage` script dispatch, and array buffer message receipt.
+- **EditorEngine Boundary**: Centralized messaging bridge featuring:
+  - Task serialization queue preventing concurrent command collisions.
+  - Photopea readiness handshake verification (`"done"` message signal).
+  - Binary ArrayBuffer asset loading via postMessage.
+  - Strict origin validation (`https://www.photopea.com`).
+  - Response-driven promise resolution with safety timeouts.
 - **Vertical Slice Operation**: Selected assets can be opened, programmatically resized to target dimensions via engine scripting, and exported back as new asset results while keeping source assets unmodified.
 
 ---

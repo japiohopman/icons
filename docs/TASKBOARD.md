@@ -27,7 +27,7 @@ Replace any iframe-first approach with an application-owned Photopea engine/brid
 **Completed Requirements**
 
 - Established `EditorEngine` abstraction interface (`src/engine/types.ts`) and generic `Asset` model.
-- Implemented `PhotopeaEngine` (`src/engine/PhotopeaEngine.ts`) with Live Messaging API communication and clean handler lifecycle cleanup.
+- Implemented `PhotopeaEngine` (`src/engine/PhotopeaEngine.ts`) with official Live Messaging API, binary ArrayBuffer asset transfer, task queue serialization, readiness handshake, and strict origin validation.
 - Created application-owned UI controls modal (`src/components/AssetEditorModal.tsx`).
 - Integrated into main application UI (`src/App.tsx`).
 - Proved vertical slice: Select Asset → Open Asset → Application Resize Action → Photopea Engine Execution → Application Result Preview (Original preserved).

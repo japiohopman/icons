@@ -5,6 +5,12 @@
 
 import { Asset, EditorEngine, EngineStatus, ExportOptions } from './types';
 
+interface QueuedTask<T = unknown> {
+  action: () => Promise<T>;
+  resolve: (value: T | PromiseLike<T>) => void;
+  reject: (reason?: unknown) => void;
+}
+
 export class PhotopeaEngine implements EditorEngine {
   private iframe: HTMLIFrameElement | null = null;
   private container: HTMLElement | null = null;
@@ -13,9 +19,13 @@ export class PhotopeaEngine implements EditorEngine {
   private currentAsset: Asset | null = null;
   private messageHandler: ((event: MessageEvent) => void) | null = null;
 
-  private pendingScriptResolve: ((value: unknown) => void) | null = null;
-  private pendingScriptReject: ((reason?: unknown) => void) | null = null;
-  private pendingArrayBufferResolve: ((buffer: ArrayBuffer) => void) | null = null;
+  private taskQueue: QueuedTask[] = [];
+  private isProcessingQueue = false;
+
+  private activeScriptResolve: ((value: unknown) => void) | null = null;
+  private activeScriptReject: ((reason?: unknown) => void) | null = null;
+  private activeArrayBufferResolve: ((buffer: ArrayBuffer) => void) | null = null;
+  private activeArrayBufferReject: ((reason?: unknown) => void) | null = null;
 
   private setStatus(newStatus: EngineStatus): void {
     if (this.status !== newStatus) {
@@ -35,6 +45,39 @@ export class PhotopeaEngine implements EditorEngine {
     };
   }
 
+  /**
+   * Enqueues an operation to ensure sequential execution and avoid race conditions.
+   */
+  private enqueue<T>(action: () => Promise<T>): Promise<T> {
+    return new Promise<T>((resolve, reject) => {
+      this.taskQueue.push({ action: action as () => Promise<unknown>, resolve: resolve as (val: unknown) => void, reject });
+      this.processQueue();
+    });
+  }
+
+  private async processQueue(): Promise<void> {
+    if (this.isProcessingQueue || this.taskQueue.length === 0) {
+      return;
+    }
+
+    this.isProcessingQueue = true;
+    const task = this.taskQueue.shift();
+
+    if (task) {
+      try {
+        const result = await task.action();
+        task.resolve(result);
+      } catch (err) {
+        task.reject(err);
+      }
+    }
+
+    this.isProcessingQueue = false;
+    if (this.taskQueue.length > 0) {
+      this.processQueue();
+    }
+  }
+
   public async init(container: HTMLElement): Promise<void> {
     if (this.iframe) {
       return;
@@ -43,13 +86,12 @@ export class PhotopeaEngine implements EditorEngine {
     this.container = container;
     this.setStatus('loading');
 
-    // Create Photopea iframe configured for Live Messaging API
     const iframe = document.createElement('iframe');
     iframe.style.width = '100%';
     iframe.style.height = '100%';
     iframe.style.border = 'none';
 
-    // Photopea API configuration object in hash
+    // Photopea Live API configuration object in hash
     const photopeaConfig = {
       environment: {
         theme: 2,
@@ -58,62 +100,58 @@ export class PhotopeaEngine implements EditorEngine {
     };
 
     iframe.src = `https://www.photopea.com#${encodeURIComponent(JSON.stringify(photopeaConfig))}`;
-
     this.iframe = iframe;
 
-    // Attach message listener for Photopea responses
-    this.messageHandler = (event: MessageEvent) => {
-      if (event.origin !== 'https://www.photopea.com') {
-        return;
-      }
-
-      const data = event.data;
-
-      // Handle binary file result from Photopea (e.g. app.activeDocument.saveToOE("png"))
-      if (data instanceof ArrayBuffer) {
-        if (this.pendingArrayBufferResolve) {
-          const resolve = this.pendingArrayBufferResolve;
-          this.pendingArrayBufferResolve = null;
-          resolve(data);
-        }
-        return;
-      }
-
-      // Handle completion string signal from Photopea
-      if (data === 'done') {
-        if (this.pendingScriptResolve) {
-          const resolve = this.pendingScriptResolve;
-          this.pendingScriptResolve = null;
-          this.pendingScriptReject = null;
-          resolve(data);
-        }
-        return;
-      }
-
-      // Handle standard string message
-      if (typeof data === 'string') {
-        if (this.pendingScriptResolve) {
-          const resolve = this.pendingScriptResolve;
-          this.pendingScriptResolve = null;
-          this.pendingScriptReject = null;
-          resolve(data);
-        }
-      }
-    };
-
-    window.addEventListener('message', this.messageHandler);
-
     return new Promise<void>((resolve, reject) => {
-      const timeout = setTimeout(() => {
-        this.setStatus('ready');
-        resolve();
-      }, 3000);
+      let isReady = false;
 
-      iframe.onload = () => {
-        clearTimeout(timeout);
-        this.setStatus('ready');
-        resolve();
+      const timeout = setTimeout(() => {
+        if (!isReady) {
+          this.setStatus('error');
+          reject(new Error('Photopea Engine initialization timed out.'));
+        }
+      }, 10000);
+
+      this.messageHandler = (event: MessageEvent) => {
+        // Strict origin check as mandated by security rules
+        if (event.origin !== 'https://www.photopea.com') {
+          return;
+        }
+
+        const data = event.data;
+
+        // Handle initial readiness handshake signal ("done" sent by Photopea when ready)
+        if (!isReady && data === 'done') {
+          isReady = true;
+          clearTimeout(timeout);
+          this.setStatus('ready');
+          resolve();
+          return;
+        }
+
+        // Handle ArrayBuffer message (e.g. from saveToOE)
+        if (data instanceof ArrayBuffer) {
+          if (this.activeArrayBufferResolve) {
+            const res = this.activeArrayBufferResolve;
+            this.activeArrayBufferResolve = null;
+            this.activeArrayBufferReject = null;
+            res(data);
+          }
+          return;
+        }
+
+        // Handle string response message from Photopea
+        if (typeof data === 'string') {
+          if (this.activeScriptResolve) {
+            const res = this.activeScriptResolve;
+            this.activeScriptResolve = null;
+            this.activeScriptReject = null;
+            res(data);
+          }
+        }
       };
+
+      window.addEventListener('message', this.messageHandler);
 
       iframe.onerror = (err) => {
         clearTimeout(timeout);
@@ -126,38 +164,92 @@ export class PhotopeaEngine implements EditorEngine {
   }
 
   public async loadAsset(asset: Asset): Promise<void> {
-    if (!this.iframe || !this.iframe.contentWindow) {
-      throw new Error('PhotopeaEngine is not initialized.');
-    }
+    return this.enqueue(async () => {
+      if (!this.iframe || !this.iframe.contentWindow) {
+        throw new Error('PhotopeaEngine is not initialized.');
+      }
 
-    this.setStatus('processing');
-    this.currentAsset = asset;
+      this.setStatus('processing');
+      this.currentAsset = asset;
 
-    // Load asset via Photopea scripting API: app.openDocument(data, name)
-    const script = `app.openDocument(${JSON.stringify(asset.data)}, ${JSON.stringify(asset.name)});`;
-    await this.executeScript(script);
-    this.setStatus('ready');
+      // Convert asset data (Data URL or SVG string) into ArrayBuffer as expected by Photopea postMessage API
+      let arrayBuffer: ArrayBuffer;
+      if (asset.data.startsWith('data:')) {
+        const base64Parts = asset.data.split(',');
+        const mimeMatch = base64Parts[0].match(/:(.*?);/);
+        const isBase64 = base64Parts[0].includes('base64');
+
+        let binaryString: string;
+        if (isBase64) {
+          binaryString = atob(base64Parts[1]);
+        } else {
+          binaryString = decodeURIComponent(base64Parts[1]);
+        }
+
+        const len = binaryString.length;
+        const bytes = new Uint8Array(len);
+        for (let i = 0; i < len; i++) {
+          bytes[i] = binaryString.charCodeAt(i);
+        }
+        arrayBuffer = bytes.buffer;
+      } else {
+        const encoder = new TextEncoder();
+        arrayBuffer = encoder.encode(asset.data).buffer;
+      }
+
+      // Send ArrayBuffer directly to Photopea to load file document
+      await new Promise<void>((resolve, reject) => {
+        const timeout = setTimeout(() => {
+          this.activeScriptResolve = null;
+          this.activeScriptReject = null;
+          reject(new Error('Timed out loading asset into Photopea.'));
+        }, 8000);
+
+        this.activeScriptResolve = () => {
+          clearTimeout(timeout);
+          resolve();
+        };
+
+        this.activeScriptReject = (err) => {
+          clearTimeout(timeout);
+          reject(err);
+        };
+
+        this.iframe!.contentWindow!.postMessage(arrayBuffer, '*');
+      });
+
+      this.setStatus('ready');
+    });
   }
 
   public async executeScript(script: string): Promise<unknown> {
-    if (!this.iframe || !this.iframe.contentWindow) {
-      throw new Error('PhotopeaEngine is not initialized.');
-    }
+    return this.enqueue(async () => {
+      if (!this.iframe || !this.iframe.contentWindow) {
+        throw new Error('PhotopeaEngine is not initialized.');
+      }
 
-    return new Promise((resolve, reject) => {
-      this.pendingScriptResolve = resolve;
-      this.pendingScriptReject = reject;
+      return new Promise((resolve, reject) => {
+        const timeout = setTimeout(() => {
+          if (this.activeScriptReject) {
+            const rej = this.activeScriptReject;
+            this.activeScriptResolve = null;
+            this.activeScriptReject = null;
+            rej(new Error(`Photopea script execution timed out: ${script}`));
+          }
+        }, 8000);
 
-      this.iframe!.contentWindow!.postMessage(script, '*');
+        this.activeScriptResolve = (res) => {
+          clearTimeout(timeout);
+          resolve(res);
+        };
 
-      // Safety timeout if Photopea does not reply
-      setTimeout(() => {
-        if (this.pendingScriptResolve === resolve) {
-          this.pendingScriptResolve = null;
-          this.pendingScriptReject = null;
-          resolve('done');
-        }
-      }, 2000);
+        this.activeScriptReject = (err) => {
+          clearTimeout(timeout);
+          reject(err);
+        };
+
+        this.iframe!.contentWindow!.postMessage(script, '*');
+      });
     });
   }
 
@@ -168,11 +260,11 @@ export class PhotopeaEngine implements EditorEngine {
 
     this.setStatus('processing');
 
-    // Execute Photopea DOM Script to resize document image
+    // Execute Photopea ExtendScript to resize current active document
     const script = `app.activeDocument.resizeImage(${width}, ${height});`;
     await this.executeScript(script);
 
-    // Export updated document result
+    // Export result without mutating source asset
     const resultAsset = await this.exportResult({ format: 'png' });
     this.setStatus('ready');
     return resultAsset;
@@ -185,17 +277,37 @@ export class PhotopeaEngine implements EditorEngine {
 
     const format = options.format || 'png';
 
-    const arrayBufferPromise = new Promise<ArrayBuffer>((resolve) => {
-      this.pendingArrayBufferResolve = resolve;
+    const buffer = await this.enqueue<ArrayBuffer>(() => {
+      if (!this.iframe || !this.iframe.contentWindow) {
+        throw new Error('PhotopeaEngine is not initialized.');
+      }
+
+      return new Promise<ArrayBuffer>((resolve, reject) => {
+        const timeout = setTimeout(() => {
+          if (this.activeArrayBufferReject) {
+            const rej = this.activeArrayBufferReject;
+            this.activeArrayBufferResolve = null;
+            this.activeArrayBufferReject = null;
+            rej(new Error(`Export operation (${format}) timed out waiting for ArrayBuffer response.`));
+          }
+        }, 8000);
+
+        this.activeArrayBufferResolve = (buf) => {
+          clearTimeout(timeout);
+          resolve(buf);
+        };
+
+        this.activeArrayBufferReject = (err) => {
+          clearTimeout(timeout);
+          reject(err);
+        };
+
+        // Command Photopea to output document as binary ArrayBuffer to OE (Output Element)
+        const script = `app.activeDocument.saveToOE("${format}");`;
+        this.iframe!.contentWindow!.postMessage(script, '*');
+      });
     });
 
-    // Ask Photopea to send current document back to Output Element/Parent Window
-    const script = `app.activeDocument.saveToOE("${format}");`;
-    this.iframe?.contentWindow?.postMessage(script, '*');
-
-    const buffer = await arrayBufferPromise;
-
-    // Convert ArrayBuffer result to Data URL
     const blob = new Blob([buffer], { type: `image/${format}` });
     const dataUrl = await new Promise<string>((resolve) => {
       const reader = new FileReader();
@@ -229,9 +341,12 @@ export class PhotopeaEngine implements EditorEngine {
 
     this.container = null;
     this.currentAsset = null;
-    this.pendingScriptResolve = null;
-    this.pendingScriptReject = null;
-    this.pendingArrayBufferResolve = null;
+    this.taskQueue = [];
+    this.isProcessingQueue = false;
+    this.activeScriptResolve = null;
+    this.activeScriptReject = null;
+    this.activeArrayBufferResolve = null;
+    this.activeArrayBufferReject = null;
     this.setStatus('uninitialized');
   }
 }
