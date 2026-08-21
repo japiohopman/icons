@@ -18,28 +18,29 @@ None.
 
 ### REVIEW
 
-#### PHOTOPEA-005 — Canvas and Crop Controls
+#### APP-001 — Establish Real Asset Vault Application Structure
 
 **Goal**
 
-Add application-owned UI and engine capabilities for Canvas Resize and Crop operations on top of the established `EditorEngine` / `PhotopeaEngine` foundation.
+Transition the product from prototype experimentation to a clean, professional production application structure in root `src/`. Treat `proto-type/` as reference-only material.
 
 **Completed Requirements**
 
-- Extended `EditorEngine` interface (`src/engine/types.ts`) with `resizeCanvas` (with `CanvasAnchor`), `crop` (with `CropBounds`), and input dimension validation.
-- Extended `PhotopeaEngine` (`src/engine/PhotopeaEngine.ts`) to execute Photopea ExtendScript canvas resize (`app.activeDocument.resizeCanvas`) and crop (`app.activeDocument.crop`) operations using official Live Messaging API.
-- Added application-owned tabbed control UI (`src/components/AssetEditorModal.tsx`) supporting Image Resize, Canvas Resize (with 3x3 anchor grid selection), and Crop Region workflows.
-- Implemented robust application-level validation for width, height, X, and Y inputs prior to sending commands to the engine.
-- Preserved non-destructive behavior (original source assets remain pristine in the Asset Vault, results return through existing asset-result preview pipeline).
+- Created root `package.json`, `tsconfig.json`, `vite.config.ts`, `index.html`, `server.ts`, and `.gitignore` configuring the production Asset Vault application.
+- Established clean domain architecture in root `src/`:
+  - `src/types/` (domain models for generic `Asset`, `AssetCategory`, `ExportOptions`, `CanvasAnchor`, `CropBounds`).
+  - `src/engine/` (`EditorEngine` abstraction interface and `PhotopeaEngine` implementation).
+  - `src/components/` (`AssetBrowser`, `AssetInspector`, `AssetEditorModal`, `AssetUploader`, `GameIcon`).
+  - `src/assets/` (Icon definitions and SVG files migrated cleanly from reference prototype).
+  - `src/App.tsx`, `src/main.tsx`, `src/index.css` (Clean application shell).
+- Updated repository documentation explicitly marking `proto-type/` as reference-only and `src/` as the primary production application location.
 
-### READY — Future Photopea tasks
-
-These are intentionally not assigned yet:
+### READY — Future Photopea & Asset Vault tasks
 
 - PHOTOPEA-006 — Transform controls
 - PHOTOPEA-007 — Layer inspection and operations
 
-Do not implement these until they are explicitly moved into `IN PROGRESS` or assigned directly.
+Do not implement these until they are explicitly assigned.
 
 ## Completed
 
@@ -47,6 +48,7 @@ Do not implement these until they are explicitly moved into `IN PROGRESS` or ass
 - PHOTOPEA-002 — Import/open workflow (Covered by merged EditorEngine ArrayBuffer pipeline)
 - PHOTOPEA-003 — Export/result abstraction (Covered by merged EditorEngine exportResult pipeline)
 - PHOTOPEA-004 — Resize controls (Covered by merged EditorEngine resize pipeline)
+- PHOTOPEA-005 — Canvas and Crop Controls (DONE - merged)
 
 ## Agent workflow
 
