@@ -69,3 +69,45 @@ In de uiteindelijke versie zal niet alleen sprake zijn van een statische SVG vie
 1. **Photopea API Integratie:** Inbedden van een headless/iframe Photopea workspace om geselecteerde iconen direct over te dragen naar een actieve Photoshop-compatibele canvas.
 2. **Template Systeem:** Kaders, runen, badges en RPG-fiches klaarmaken als lagen binnen Photopea templates.
 3. **Batch Generatie:** Automatisch genereren van complete icon-sets met consistente kleurenpaletten en effecten via API scripts.
+
+---
+
+## 6. Photopea API Proof of Concept (POC)
+
+A minimal proof of concept for Photopea API integration has been added to test live client-side communication between the Icons application and Photopea.
+
+### What Was Implemented
+- **PhotopeaModal Component (`src/components/PhotopeaModal.tsx`)**: An embedded workspace container hosting the official Photopea editor via iframe.
+- **Bi-directional Web Messaging (postMessage)**: Native browser postMessage communication to send binary SVG files to Photopea and receive binary PNG exports back.
+- **Script Controls**: Quick buttons to execute ExtendedScript commands directly in the active Photopea document context.
+- **Side-by-Side Comparison**: UI displaying the original SVG icon next to the exported PNG result returned from Photopea.
+
+### How It Works
+1. **Selection**: User selects an icon from the Icons App and clicks **"Edit in Photopea (API POC)"**.
+2. **Handshake**: The modal opens an iframe pointing to `https://www.photopea.com`. Upon initialization, Photopea sends a `"done"` postMessage string signal.
+3. **Image Transfer**: The application encodes the SVG string into a binary `ArrayBuffer` and sends it to Photopea via `postMessage(arrayBuffer, '*')`.
+4. **Operation**: The user can edit the icon directly using Photopea's canvas UI or trigger automated scripts (e.g. `app.activeDocument.activeLayer.rotate(45)` or `app.activeDocument.activeLayer.invert()`).
+5. **Export & Return**: The application sends `app.activeDocument.saveToOE("png")`. Photopea exports the document and sends back an `ArrayBuffer`, which is converted to a PNG Blob URL for immediate side-by-side preview and download.
+
+### Verified Photopea API Capabilities
+- [x] Loading Photopea iframe directly from public URL (`https://www.photopea.com`).
+- [x] Receiving initial ready state `"done"` message via `window.addEventListener('message', ...)`.
+- [x] Passing binary file data (`ArrayBuffer` of SVG) via `postMessage`.
+- [x] Executing ExtendedScript strings (`app.activeDocument.activeLayer...`) via `postMessage`.
+- [x] Exporting active document via `app.activeDocument.saveToOE("png")` and receiving PNG `ArrayBuffer`.
+- [x] Safe memory management using Blob URL creation and `URL.revokeObjectURL` cleanup on unmount.
+
+### What Was Not Tested
+- Cross-origin restrictions with custom fonts or external resource URLs loaded inside Photopea.
+- Batch processing multiple icons sequentially in a single iframe session.
+- Advanced PSD layer template synchronization with application state.
+
+### Possible Next Steps
+- Implement reusable template overlays (e.g., RPG borders and frames) loaded as layered PSD templates.
+- Add preset export scripts for generating multi-resolution icon sheets (e.g. 32px, 64px, 128px PNGs).
+
+### POC Verdict
+- **Verdict**: Works
+- **What was successfully verified**: Seamless client-side communication, binary image transfer into Photopea, ExtendedScript automation, and binary export back to the host application without requiring a backend server.
+- **Biggest limitation discovered**: Initial iframe load time depends on client network speed to fetch Photopea assets.
+- **Recommended next step**: Proceed with integrating Photopea templates for RPG borders and badge generation.
