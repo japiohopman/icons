@@ -11,6 +11,8 @@ interface QueuedTask<T = unknown> {
   reject: (reason?: unknown) => void;
 }
 
+const PHOTOPEA_ORIGIN = 'https://www.photopea.com';
+
 export class PhotopeaEngine implements EditorEngine {
   private iframe: HTMLIFrameElement | null = null;
   private container: HTMLElement | null = null;
@@ -99,7 +101,7 @@ export class PhotopeaEngine implements EditorEngine {
       },
     };
 
-    iframe.src = `https://www.photopea.com#${encodeURIComponent(JSON.stringify(photopeaConfig))}`;
+    iframe.src = `${PHOTOPEA_ORIGIN}#${encodeURIComponent(JSON.stringify(photopeaConfig))}`;
     this.iframe = iframe;
 
     return new Promise<void>((resolve, reject) => {
@@ -113,8 +115,8 @@ export class PhotopeaEngine implements EditorEngine {
       }, 10000);
 
       this.messageHandler = (event: MessageEvent) => {
-        // Strict origin check as mandated by security rules
-        if (event.origin !== 'https://www.photopea.com') {
+        // Strict origin and event source check against active iframe contentWindow
+        if (event.origin !== PHOTOPEA_ORIGIN || (this.iframe && event.source !== this.iframe.contentWindow)) {
           return;
         }
 
@@ -176,7 +178,6 @@ export class PhotopeaEngine implements EditorEngine {
       let arrayBuffer: ArrayBuffer;
       if (asset.data.startsWith('data:')) {
         const base64Parts = asset.data.split(',');
-        const mimeMatch = base64Parts[0].match(/:(.*?);/);
         const isBase64 = base64Parts[0].includes('base64');
 
         let binaryString: string;
@@ -197,7 +198,7 @@ export class PhotopeaEngine implements EditorEngine {
         arrayBuffer = encoder.encode(asset.data).buffer;
       }
 
-      // Send ArrayBuffer directly to Photopea to load file document
+      // Send ArrayBuffer directly to Photopea to load file document with exact target origin
       await new Promise<void>((resolve, reject) => {
         const timeout = setTimeout(() => {
           this.activeScriptResolve = null;
@@ -215,7 +216,7 @@ export class PhotopeaEngine implements EditorEngine {
           reject(err);
         };
 
-        this.iframe!.contentWindow!.postMessage(arrayBuffer, '*');
+        this.iframe!.contentWindow!.postMessage(arrayBuffer, PHOTOPEA_ORIGIN);
       });
 
       this.setStatus('ready');
@@ -248,7 +249,7 @@ export class PhotopeaEngine implements EditorEngine {
           reject(err);
         };
 
-        this.iframe!.contentWindow!.postMessage(script, '*');
+        this.iframe!.contentWindow!.postMessage(script, PHOTOPEA_ORIGIN);
       });
     });
   }
@@ -304,7 +305,7 @@ export class PhotopeaEngine implements EditorEngine {
 
         // Command Photopea to output document as binary ArrayBuffer to OE (Output Element)
         const script = `app.activeDocument.saveToOE("${format}");`;
-        this.iframe!.contentWindow!.postMessage(script, '*');
+        this.iframe!.contentWindow!.postMessage(script, PHOTOPEA_ORIGIN);
       });
     });
 
