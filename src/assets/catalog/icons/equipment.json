@@ -1,0 +1,3567 @@
+[
+  {
+    "id": "equipment.all_coins",
+    "name": "All Coins",
+    "file": "/assets/icons/all_coins.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "all",
+      "coins"
+    ],
+    "description": "A canonical equipment icon representing All Coins."
+  },
+  {
+    "id": "equipment.asian-lantern",
+    "name": "Asian Lantern",
+    "file": "/assets/icons/asian-lantern.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "asian",
+      "lantern"
+    ],
+    "description": "A canonical equipment icon representing Asian Lantern."
+  },
+  {
+    "id": "equipment.baby-bottle",
+    "name": "Baby Bottle",
+    "file": "/assets/icons/baby-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "baby",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Baby Bottle."
+  },
+  {
+    "id": "equipment.backpack-1",
+    "name": "Backpack 1",
+    "file": "/assets/icons/backpack-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "backpack"
+    ],
+    "description": "A canonical equipment icon representing Backpack 1."
+  },
+  {
+    "id": "equipment.backpack",
+    "name": "Backpack",
+    "file": "/assets/icons/backpack.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "backpack"
+    ],
+    "description": "A canonical equipment icon representing Backpack."
+  },
+  {
+    "id": "equipment.bagpipes",
+    "name": "Bagpipes",
+    "file": "/assets/icons/bagpipes.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bagpipes"
+    ],
+    "description": "A canonical equipment icon representing Bagpipes."
+  },
+  {
+    "id": "equipment.bar-stool",
+    "name": "Bar Stool",
+    "file": "/assets/icons/bar-stool.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bar",
+      "stool"
+    ],
+    "description": "A canonical equipment icon representing Bar Stool."
+  },
+  {
+    "id": "equipment.barbarian",
+    "name": "Barbarian",
+    "file": "/assets/icons/barbarian.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barbarian"
+    ],
+    "description": "A canonical equipment icon representing Barbarian."
+  },
+  {
+    "id": "equipment.barbecue",
+    "name": "Barbecue",
+    "file": "/assets/icons/barbecue.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barbecue"
+    ],
+    "description": "A canonical equipment icon representing Barbecue."
+  },
+  {
+    "id": "equipment.barbed-coil",
+    "name": "Barbed Coil",
+    "file": "/assets/icons/barbed-coil.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barbed",
+      "coil"
+    ],
+    "description": "A canonical equipment icon representing Barbed Coil."
+  },
+  {
+    "id": "equipment.barbed-nails",
+    "name": "Barbed Nails",
+    "file": "/assets/icons/barbed-nails.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barbed",
+      "nails"
+    ],
+    "description": "A canonical equipment icon representing Barbed Nails."
+  },
+  {
+    "id": "equipment.barbed-star",
+    "name": "Barbed Star",
+    "file": "/assets/icons/barbed-star.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barbed",
+      "star"
+    ],
+    "description": "A canonical equipment icon representing Barbed Star."
+  },
+  {
+    "id": "equipment.barbed-sun",
+    "name": "Barbed Sun",
+    "file": "/assets/icons/barbed-sun.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barbed",
+      "sun"
+    ],
+    "description": "A canonical equipment icon representing Barbed Sun."
+  },
+  {
+    "id": "equipment.barbed-wire",
+    "name": "Barbed Wire",
+    "file": "/assets/icons/barbed-wire.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barbed",
+      "wire"
+    ],
+    "description": "A canonical equipment icon representing Barbed Wire."
+  },
+  {
+    "id": "equipment.barbute",
+    "name": "Barbute",
+    "file": "/assets/icons/barbute.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barbute"
+    ],
+    "description": "A canonical equipment icon representing Barbute."
+  },
+  {
+    "id": "equipment.barefoot",
+    "name": "Barefoot",
+    "file": "/assets/icons/barefoot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barefoot"
+    ],
+    "description": "A canonical equipment icon representing Barefoot."
+  },
+  {
+    "id": "equipment.barn-owl",
+    "name": "Barn Owl",
+    "file": "/assets/icons/barn-owl.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barn",
+      "owl"
+    ],
+    "description": "A canonical equipment icon representing Barn Owl."
+  },
+  {
+    "id": "equipment.barn",
+    "name": "Barn",
+    "file": "/assets/icons/barn.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barn"
+    ],
+    "description": "A canonical equipment icon representing Barn."
+  },
+  {
+    "id": "equipment.barracks-tent",
+    "name": "Barracks Tent",
+    "file": "/assets/icons/barracks-tent.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barracks",
+      "tent"
+    ],
+    "description": "A canonical equipment icon representing Barracks Tent."
+  },
+  {
+    "id": "equipment.barracks",
+    "name": "Barracks",
+    "file": "/assets/icons/barracks.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barracks"
+    ],
+    "description": "A canonical equipment icon representing Barracks."
+  },
+  {
+    "id": "equipment.barrel-leak",
+    "name": "Barrel Leak",
+    "file": "/assets/icons/barrel-leak.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barrel",
+      "leak"
+    ],
+    "description": "A canonical equipment icon representing Barrel Leak."
+  },
+  {
+    "id": "equipment.barrel",
+    "name": "Barrel",
+    "file": "/assets/icons/barrel.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barrel"
+    ],
+    "description": "A canonical equipment icon representing Barrel."
+  },
+  {
+    "id": "equipment.barricade",
+    "name": "Barricade",
+    "file": "/assets/icons/barricade.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barricade"
+    ],
+    "description": "A canonical equipment icon representing Barricade."
+  },
+  {
+    "id": "equipment.barrier",
+    "name": "Barrier",
+    "file": "/assets/icons/barrier.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "barrier"
+    ],
+    "description": "A canonical equipment icon representing Barrier."
+  },
+  {
+    "id": "equipment.baseball-glove",
+    "name": "Baseball Glove",
+    "file": "/assets/icons/baseball-glove.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "baseball",
+      "glove"
+    ],
+    "description": "A canonical equipment icon representing Baseball Glove."
+  },
+  {
+    "id": "equipment.beach-bag",
+    "name": "Beach Bag",
+    "file": "/assets/icons/beach-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "beach",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Beach Bag."
+  },
+  {
+    "id": "equipment.beach-bucket",
+    "name": "Beach Bucket",
+    "file": "/assets/icons/beach-bucket.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "beach",
+      "bucket"
+    ],
+    "description": "A canonical equipment icon representing Beach Bucket."
+  },
+  {
+    "id": "equipment.beer-bottle",
+    "name": "Beer Bottle",
+    "file": "/assets/icons/beer-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "beer",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Beer Bottle."
+  },
+  {
+    "id": "equipment.belt-1",
+    "name": "Belt 1",
+    "file": "/assets/icons/belt-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "belt"
+    ],
+    "description": "A canonical equipment icon representing Belt 1."
+  },
+  {
+    "id": "equipment.belt-buckles",
+    "name": "Belt Buckles",
+    "file": "/assets/icons/belt-buckles.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "belt",
+      "buckles"
+    ],
+    "description": "A canonical equipment icon representing Belt Buckles."
+  },
+  {
+    "id": "equipment.belt",
+    "name": "Belt",
+    "file": "/assets/icons/belt.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "belt"
+    ],
+    "description": "A canonical equipment icon representing Belt."
+  },
+  {
+    "id": "equipment.big-diamond-ring",
+    "name": "Big Diamond Ring",
+    "file": "/assets/icons/big-diamond-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "big",
+      "diamond",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Big Diamond Ring."
+  },
+  {
+    "id": "equipment.big-gear",
+    "name": "Big Gear",
+    "file": "/assets/icons/big-gear.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "big",
+      "gear"
+    ],
+    "description": "A canonical equipment icon representing Big Gear."
+  },
+  {
+    "id": "equipment.black-bar",
+    "name": "Black Bar",
+    "file": "/assets/icons/black-bar.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "black",
+      "bar"
+    ],
+    "description": "A canonical equipment icon representing Black Bar."
+  },
+  {
+    "id": "equipment.black-belt",
+    "name": "Black Belt",
+    "file": "/assets/icons/black-belt.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "black",
+      "belt"
+    ],
+    "description": "A canonical equipment icon representing Black Belt."
+  },
+  {
+    "id": "equipment.black-book",
+    "name": "Black Book",
+    "file": "/assets/icons/black-book.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "black",
+      "book"
+    ],
+    "description": "A canonical equipment icon representing Black Book."
+  },
+  {
+    "id": "equipment.book-aura",
+    "name": "Book Aura",
+    "file": "/assets/icons/book-aura.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "book",
+      "aura"
+    ],
+    "description": "A canonical equipment icon representing Book Aura."
+  },
+  {
+    "id": "equipment.book-cover-1",
+    "name": "Book Cover 1",
+    "file": "/assets/icons/book-cover-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "book",
+      "cover"
+    ],
+    "description": "A canonical equipment icon representing Book Cover 1."
+  },
+  {
+    "id": "equipment.book-cover",
+    "name": "Book Cover",
+    "file": "/assets/icons/book-cover.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "book",
+      "cover"
+    ],
+    "description": "A canonical equipment icon representing Book Cover."
+  },
+  {
+    "id": "equipment.book-pile",
+    "name": "Book Pile",
+    "file": "/assets/icons/book-pile.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "book",
+      "pile"
+    ],
+    "description": "A canonical equipment icon representing Book Pile."
+  },
+  {
+    "id": "equipment.book-storm",
+    "name": "Book Storm",
+    "file": "/assets/icons/book-storm.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "book",
+      "storm"
+    ],
+    "description": "A canonical equipment icon representing Book Storm."
+  },
+  {
+    "id": "equipment.bookmark",
+    "name": "Bookmark",
+    "file": "/assets/icons/bookmark.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bookmark"
+    ],
+    "description": "A canonical equipment icon representing Bookmark."
+  },
+  {
+    "id": "equipment.bookmarklet",
+    "name": "Bookmarklet",
+    "file": "/assets/icons/bookmarklet.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bookmarklet"
+    ],
+    "description": "A canonical equipment icon representing Bookmarklet."
+  },
+  {
+    "id": "equipment.bookshelf",
+    "name": "Bookshelf",
+    "file": "/assets/icons/bookshelf.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bookshelf"
+    ],
+    "description": "A canonical equipment icon representing Bookshelf."
+  },
+  {
+    "id": "equipment.boot-prints",
+    "name": "Boot Prints",
+    "file": "/assets/icons/boot-prints.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "boot",
+      "prints"
+    ],
+    "description": "A canonical equipment icon representing Boot Prints."
+  },
+  {
+    "id": "equipment.boot-stomp",
+    "name": "Boot Stomp",
+    "file": "/assets/icons/boot-stomp.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "boot",
+      "stomp"
+    ],
+    "description": "A canonical equipment icon representing Boot Stomp."
+  },
+  {
+    "id": "equipment.boots-1",
+    "name": "Boots 1",
+    "file": "/assets/icons/boots-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "boots"
+    ],
+    "description": "A canonical equipment icon representing Boots 1."
+  },
+  {
+    "id": "equipment.boots",
+    "name": "Boots",
+    "file": "/assets/icons/boots.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "boots"
+    ],
+    "description": "A canonical equipment icon representing Boots."
+  },
+  {
+    "id": "equipment.boss-key",
+    "name": "Boss Key",
+    "file": "/assets/icons/boss-key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "boss",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Boss Key."
+  },
+  {
+    "id": "equipment.bottle-cap",
+    "name": "Bottle Cap",
+    "file": "/assets/icons/bottle-cap.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bottle",
+      "cap"
+    ],
+    "description": "A canonical equipment icon representing Bottle Cap."
+  },
+  {
+    "id": "equipment.bottle-vapors",
+    "name": "Bottle Vapors",
+    "file": "/assets/icons/bottle-vapors.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bottle",
+      "vapors"
+    ],
+    "description": "A canonical equipment icon representing Bottle Vapors."
+  },
+  {
+    "id": "equipment.bottled-bolt",
+    "name": "Bottled Bolt",
+    "file": "/assets/icons/bottled-bolt.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bottled",
+      "bolt"
+    ],
+    "description": "A canonical equipment icon representing Bottled Bolt."
+  },
+  {
+    "id": "equipment.bottled-shadow",
+    "name": "Bottled Shadow",
+    "file": "/assets/icons/bottled-shadow.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bottled",
+      "shadow"
+    ],
+    "description": "A canonical equipment icon representing Bottled Shadow."
+  },
+  {
+    "id": "equipment.bouncing-spring",
+    "name": "Bouncing Spring",
+    "file": "/assets/icons/bouncing-spring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bouncing",
+      "spring"
+    ],
+    "description": "A canonical equipment icon representing Bouncing Spring."
+  },
+  {
+    "id": "equipment.boxing-glove-surprise",
+    "name": "Boxing Glove Surprise",
+    "file": "/assets/icons/boxing-glove-surprise.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "boxing",
+      "glove",
+      "surprise"
+    ],
+    "description": "A canonical equipment icon representing Boxing Glove Surprise."
+  },
+  {
+    "id": "equipment.boxing-glove",
+    "name": "Boxing Glove",
+    "file": "/assets/icons/boxing-glove.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "boxing",
+      "glove"
+    ],
+    "description": "A canonical equipment icon representing Boxing Glove."
+  },
+  {
+    "id": "equipment.boxing-ring",
+    "name": "Boxing Ring",
+    "file": "/assets/icons/boxing-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "boxing",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Boxing Ring."
+  },
+  {
+    "id": "equipment.brandy-bottle",
+    "name": "Brandy Bottle",
+    "file": "/assets/icons/brandy-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "brandy",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Brandy Bottle."
+  },
+  {
+    "id": "equipment.bread-slice",
+    "name": "Bread Slice",
+    "file": "/assets/icons/bread-slice.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bread",
+      "slice"
+    ],
+    "description": "A canonical equipment icon representing Bread Slice."
+  },
+  {
+    "id": "equipment.bread",
+    "name": "Bread",
+    "file": "/assets/icons/bread.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bread"
+    ],
+    "description": "A canonical equipment icon representing Bread."
+  },
+  {
+    "id": "equipment.broken-bottle",
+    "name": "Broken Bottle",
+    "file": "/assets/icons/broken-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "broken",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Broken Bottle."
+  },
+  {
+    "id": "equipment.bucket-wheel-excavator",
+    "name": "Bucket Wheel Excavator",
+    "file": "/assets/icons/bucket-wheel-excavator.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "bucket",
+      "wheel",
+      "excavator"
+    ],
+    "description": "A canonical equipment icon representing Bucket Wheel Excavator."
+  },
+  {
+    "id": "equipment.burning-book",
+    "name": "Burning Book",
+    "file": "/assets/icons/burning-book.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "burning",
+      "book"
+    ],
+    "description": "A canonical equipment icon representing Burning Book."
+  },
+  {
+    "id": "equipment.cabbage",
+    "name": "Cabbage",
+    "file": "/assets/icons/cabbage.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cabbage"
+    ],
+    "description": "A canonical equipment icon representing Cabbage."
+  },
+  {
+    "id": "equipment.candle-flame",
+    "name": "Candle Flame",
+    "file": "/assets/icons/candle-flame.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "candle",
+      "flame"
+    ],
+    "description": "A canonical equipment icon representing Candle Flame."
+  },
+  {
+    "id": "equipment.candle-holder",
+    "name": "Candle Holder",
+    "file": "/assets/icons/candle-holder.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "candle",
+      "holder"
+    ],
+    "description": "A canonical equipment icon representing Candle Holder."
+  },
+  {
+    "id": "equipment.candle-light",
+    "name": "Candle Light",
+    "file": "/assets/icons/candle-light.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "candle",
+      "light"
+    ],
+    "description": "A canonical equipment icon representing Candle Light."
+  },
+  {
+    "id": "equipment.candle-skull",
+    "name": "Candle Skull",
+    "file": "/assets/icons/candle-skull.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "candle",
+      "skull"
+    ],
+    "description": "A canonical equipment icon representing Candle Skull."
+  },
+  {
+    "id": "equipment.candlebright",
+    "name": "Candlebright",
+    "file": "/assets/icons/candlebright.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "candlebright"
+    ],
+    "description": "A canonical equipment icon representing Candlebright."
+  },
+  {
+    "id": "equipment.candles",
+    "name": "Candles",
+    "file": "/assets/icons/candles.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "candles"
+    ],
+    "description": "A canonical equipment icon representing Candles."
+  },
+  {
+    "id": "equipment.candlestick-phone",
+    "name": "Candlestick Phone",
+    "file": "/assets/icons/candlestick-phone.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "candlestick",
+      "phone"
+    ],
+    "description": "A canonical equipment icon representing Candlestick Phone."
+  },
+  {
+    "id": "equipment.capybara",
+    "name": "Capybara",
+    "file": "/assets/icons/capybara.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "capybara"
+    ],
+    "description": "A canonical equipment icon representing Capybara."
+  },
+  {
+    "id": "equipment.car-key",
+    "name": "Car Key",
+    "file": "/assets/icons/car-key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "car",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Car Key."
+  },
+  {
+    "id": "equipment.car-wheel",
+    "name": "Car Wheel",
+    "file": "/assets/icons/car-wheel.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "car",
+      "wheel"
+    ],
+    "description": "A canonical equipment icon representing Car Wheel."
+  },
+  {
+    "id": "equipment.cartwheel",
+    "name": "Cartwheel",
+    "file": "/assets/icons/cartwheel.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cartwheel"
+    ],
+    "description": "A canonical equipment icon representing Cartwheel."
+  },
+  {
+    "id": "equipment.ceiling-barnacle",
+    "name": "Ceiling Barnacle",
+    "file": "/assets/icons/ceiling-barnacle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ceiling",
+      "barnacle"
+    ],
+    "description": "A canonical equipment icon representing Ceiling Barnacle."
+  },
+  {
+    "id": "equipment.cellar-barrels",
+    "name": "Cellar Barrels",
+    "file": "/assets/icons/cellar-barrels.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cellar",
+      "barrels"
+    ],
+    "description": "A canonical equipment icon representing Cellar Barrels."
+  },
+  {
+    "id": "equipment.chelsea-boot",
+    "name": "Chelsea Boot",
+    "file": "/assets/icons/chelsea-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "chelsea",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Chelsea Boot."
+  },
+  {
+    "id": "equipment.chest-1",
+    "name": "Chest 1",
+    "file": "/assets/icons/chest-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "chest"
+    ],
+    "description": "A canonical equipment icon representing Chest 1."
+  },
+  {
+    "id": "equipment.chest",
+    "name": "Chest",
+    "file": "/assets/icons/chest.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "chest"
+    ],
+    "description": "A canonical equipment icon representing Chest."
+  },
+  {
+    "id": "equipment.chestnut-leaf",
+    "name": "Chestnut Leaf",
+    "file": "/assets/icons/chestnut-leaf.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "chestnut",
+      "leaf"
+    ],
+    "description": "A canonical equipment icon representing Chestnut Leaf."
+  },
+  {
+    "id": "equipment.chips-bag",
+    "name": "Chips Bag",
+    "file": "/assets/icons/chips-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "chips",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Chips Bag."
+  },
+  {
+    "id": "equipment.chocolate-bar",
+    "name": "Chocolate Bar",
+    "file": "/assets/icons/chocolate-bar.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "chocolate",
+      "bar"
+    ],
+    "description": "A canonical equipment icon representing Chocolate Bar."
+  },
+  {
+    "id": "equipment.claw-string",
+    "name": "Claw String",
+    "file": "/assets/icons/claw-string.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "claw",
+      "string"
+    ],
+    "description": "A canonical equipment icon representing Claw String."
+  },
+  {
+    "id": "equipment.cloak-1",
+    "name": "Cloak 1",
+    "file": "/assets/icons/cloak-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cloak"
+    ],
+    "description": "A canonical equipment icon representing Cloak 1."
+  },
+  {
+    "id": "equipment.cloak",
+    "name": "Cloak",
+    "file": "/assets/icons/cloak.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cloak"
+    ],
+    "description": "A canonical equipment icon representing Cloak."
+  },
+  {
+    "id": "equipment.cloaked-figure-on-horseback",
+    "name": "Cloaked Figure On Horseback",
+    "file": "/assets/icons/cloaked-figure-on-horseback.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cloaked",
+      "figure",
+      "horseback"
+    ],
+    "description": "A canonical equipment icon representing Cloaked Figure On Horseback."
+  },
+  {
+    "id": "equipment.closed-barbute",
+    "name": "Closed Barbute",
+    "file": "/assets/icons/closed-barbute.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "closed",
+      "barbute"
+    ],
+    "description": "A canonical equipment icon representing Closed Barbute."
+  },
+  {
+    "id": "equipment.cloud-ring",
+    "name": "Cloud Ring",
+    "file": "/assets/icons/cloud-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cloud",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Cloud Ring."
+  },
+  {
+    "id": "equipment.coin",
+    "name": "Coin",
+    "file": "/assets/icons/coin.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "coin"
+    ],
+    "description": "A canonical equipment icon representing Coin."
+  },
+  {
+    "id": "equipment.coinflip",
+    "name": "Coinflip",
+    "file": "/assets/icons/coinflip.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "coinflip"
+    ],
+    "description": "A canonical equipment icon representing Coinflip."
+  },
+  {
+    "id": "equipment.coins-1",
+    "name": "Coins 1",
+    "file": "/assets/icons/coins-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "coins"
+    ],
+    "description": "A canonical equipment icon representing Coins 1."
+  },
+  {
+    "id": "equipment.coins-pile",
+    "name": "Coins Pile",
+    "file": "/assets/icons/coins-pile.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "coins",
+      "pile"
+    ],
+    "description": "A canonical equipment icon representing Coins Pile."
+  },
+  {
+    "id": "equipment.coins",
+    "name": "Coins",
+    "file": "/assets/icons/coins.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "coins"
+    ],
+    "description": "A canonical equipment icon representing Coins."
+  },
+  {
+    "id": "equipment.compass",
+    "name": "Compass",
+    "file": "/assets/icons/compass.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "compass"
+    ],
+    "description": "A canonical equipment icon representing Compass."
+  },
+  {
+    "id": "equipment.concrete-bag",
+    "name": "Concrete Bag",
+    "file": "/assets/icons/concrete-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "concrete",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Concrete Bag."
+  },
+  {
+    "id": "equipment.container",
+    "name": "Container",
+    "file": "/assets/icons/container.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "container"
+    ],
+    "description": "A canonical equipment icon representing Container."
+  },
+  {
+    "id": "equipment.cooking-glove",
+    "name": "Cooking Glove",
+    "file": "/assets/icons/cooking-glove.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cooking",
+      "glove"
+    ],
+    "description": "A canonical equipment icon representing Cooking Glove."
+  },
+  {
+    "id": "equipment.copper_coin",
+    "name": "Copper Coin",
+    "file": "/assets/icons/copper_coin.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "copper",
+      "coin"
+    ],
+    "description": "A canonical equipment icon representing Copper Coin."
+  },
+  {
+    "id": "equipment.cowboy-boot",
+    "name": "Cowboy Boot",
+    "file": "/assets/icons/cowboy-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "cowboy",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Cowboy Boot."
+  },
+  {
+    "id": "equipment.crowbar",
+    "name": "Crowbar",
+    "file": "/assets/icons/crowbar.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "crowbar"
+    ],
+    "description": "A canonical equipment icon representing Crowbar."
+  },
+  {
+    "id": "equipment.crown-coin",
+    "name": "Crown Coin",
+    "file": "/assets/icons/crown-coin.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "crown",
+      "coin"
+    ],
+    "description": "A canonical equipment icon representing Crown Coin."
+  },
+  {
+    "id": "equipment.crystal-bars",
+    "name": "Crystal Bars",
+    "file": "/assets/icons/crystal-bars.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "crystal",
+      "bars"
+    ],
+    "description": "A canonical equipment icon representing Crystal Bars."
+  },
+  {
+    "id": "equipment.crystal-earrings",
+    "name": "Crystal Earrings",
+    "file": "/assets/icons/crystal-earrings.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "crystal",
+      "earrings"
+    ],
+    "description": "A canonical equipment icon representing Crystal Earrings."
+  },
+  {
+    "id": "equipment.diamond-ring",
+    "name": "Diamond Ring",
+    "file": "/assets/icons/diamond-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "diamond",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Diamond Ring."
+  },
+  {
+    "id": "equipment.disc-golf-bag",
+    "name": "Disc Golf Bag",
+    "file": "/assets/icons/disc-golf-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "disc",
+      "golf",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Disc Golf Bag."
+  },
+  {
+    "id": "equipment.donkey",
+    "name": "Donkey",
+    "file": "/assets/icons/donkey.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "donkey"
+    ],
+    "description": "A canonical equipment icon representing Donkey."
+  },
+  {
+    "id": "equipment.door-ring-handle",
+    "name": "Door Ring Handle",
+    "file": "/assets/icons/door-ring-handle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "door",
+      "ring",
+      "handle"
+    ],
+    "description": "A canonical equipment icon representing Door Ring Handle."
+  },
+  {
+    "id": "equipment.double-ringed-orb",
+    "name": "Double Ringed Orb",
+    "file": "/assets/icons/double-ringed-orb.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "double",
+      "ringed",
+      "orb"
+    ],
+    "description": "A canonical equipment icon representing Double Ringed Orb."
+  },
+  {
+    "id": "equipment.drink-me",
+    "name": "Drink Me",
+    "file": "/assets/icons/drink-me.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "drink"
+    ],
+    "description": "A canonical equipment icon representing Drink Me."
+  },
+  {
+    "id": "equipment.drinking",
+    "name": "Drinking",
+    "file": "/assets/icons/drinking.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "drinking"
+    ],
+    "description": "A canonical equipment icon representing Drinking."
+  },
+  {
+    "id": "equipment.drop-earrings",
+    "name": "Drop Earrings",
+    "file": "/assets/icons/drop-earrings.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "drop",
+      "earrings"
+    ],
+    "description": "A canonical equipment icon representing Drop Earrings."
+  },
+  {
+    "id": "equipment.duffel-bag",
+    "name": "Duffel Bag",
+    "file": "/assets/icons/duffel-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "duffel",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Duffel Bag."
+  },
+  {
+    "id": "equipment.earrings",
+    "name": "Earrings",
+    "file": "/assets/icons/earrings.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "earrings"
+    ],
+    "description": "A canonical equipment icon representing Earrings."
+  },
+  {
+    "id": "equipment.electrum_coin",
+    "name": "Electrum Coin",
+    "file": "/assets/icons/electrum_coin.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "electrum",
+      "coin"
+    ],
+    "description": "A canonical equipment icon representing Electrum Coin."
+  },
+  {
+    "id": "equipment.empty-metal-bucket-handle",
+    "name": "Empty Metal Bucket Handle",
+    "file": "/assets/icons/empty-metal-bucket-handle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "empty",
+      "metal",
+      "bucket",
+      "handle"
+    ],
+    "description": "A canonical equipment icon representing Empty Metal Bucket Handle."
+  },
+  {
+    "id": "equipment.empty-metal-bucket",
+    "name": "Empty Metal Bucket",
+    "file": "/assets/icons/empty-metal-bucket.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "empty",
+      "metal",
+      "bucket"
+    ],
+    "description": "A canonical equipment icon representing Empty Metal Bucket."
+  },
+  {
+    "id": "equipment.empty-wood-bucket-handle",
+    "name": "Empty Wood Bucket Handle",
+    "file": "/assets/icons/empty-wood-bucket-handle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "empty",
+      "wood",
+      "bucket",
+      "handle"
+    ],
+    "description": "A canonical equipment icon representing Empty Wood Bucket Handle."
+  },
+  {
+    "id": "equipment.empty-wood-bucket",
+    "name": "Empty Wood Bucket",
+    "file": "/assets/icons/empty-wood-bucket.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "empty",
+      "wood",
+      "bucket"
+    ],
+    "description": "A canonical equipment icon representing Empty Wood Bucket."
+  },
+  {
+    "id": "equipment.engagement-ring",
+    "name": "Engagement Ring",
+    "file": "/assets/icons/engagement-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "engagement",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Engagement Ring."
+  },
+  {
+    "id": "equipment.evil-book",
+    "name": "Evil Book",
+    "file": "/assets/icons/evil-book.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "evil",
+      "book"
+    ],
+    "description": "A canonical equipment icon representing Evil Book."
+  },
+  {
+    "id": "equipment.fertilizer-bag",
+    "name": "Fertilizer Bag",
+    "file": "/assets/icons/fertilizer-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "fertilizer",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Fertilizer Bag."
+  },
+  {
+    "id": "equipment.fire-bottle",
+    "name": "Fire Bottle",
+    "file": "/assets/icons/fire-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "fire",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Fire Bottle."
+  },
+  {
+    "id": "equipment.fire-gem",
+    "name": "Fire Gem",
+    "file": "/assets/icons/fire-gem.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "fire",
+      "gem"
+    ],
+    "description": "A canonical equipment icon representing Fire Gem."
+  },
+  {
+    "id": "equipment.fire-ring",
+    "name": "Fire Ring",
+    "file": "/assets/icons/fire-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "fire",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Fire Ring."
+  },
+  {
+    "id": "equipment.fish-bucket",
+    "name": "Fish Bucket",
+    "file": "/assets/icons/fish-bucket.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "fish",
+      "bucket"
+    ],
+    "description": "A canonical equipment icon representing Fish Bucket."
+  },
+  {
+    "id": "equipment.food-chain",
+    "name": "Food Chain",
+    "file": "/assets/icons/food-chain.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "food",
+      "chain"
+    ],
+    "description": "A canonical equipment icon representing Food Chain."
+  },
+  {
+    "id": "equipment.food-truck",
+    "name": "Food Truck",
+    "file": "/assets/icons/food-truck.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "food",
+      "truck"
+    ],
+    "description": "A canonical equipment icon representing Food Truck."
+  },
+  {
+    "id": "equipment.foundry-bucket",
+    "name": "Foundry Bucket",
+    "file": "/assets/icons/foundry-bucket.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "foundry",
+      "bucket"
+    ],
+    "description": "A canonical equipment icon representing Foundry Bucket."
+  },
+  {
+    "id": "equipment.frozen-ring",
+    "name": "Frozen Ring",
+    "file": "/assets/icons/frozen-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "frozen",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Frozen Ring."
+  },
+  {
+    "id": "equipment.full-metal-bucket-handle",
+    "name": "Full Metal Bucket Handle",
+    "file": "/assets/icons/full-metal-bucket-handle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "full",
+      "metal",
+      "bucket",
+      "handle"
+    ],
+    "description": "A canonical equipment icon representing Full Metal Bucket Handle."
+  },
+  {
+    "id": "equipment.full-metal-bucket",
+    "name": "Full Metal Bucket",
+    "file": "/assets/icons/full-metal-bucket.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "full",
+      "metal",
+      "bucket"
+    ],
+    "description": "A canonical equipment icon representing Full Metal Bucket."
+  },
+  {
+    "id": "equipment.full-wood-bucket-handle",
+    "name": "Full Wood Bucket Handle",
+    "file": "/assets/icons/full-wood-bucket-handle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "full",
+      "wood",
+      "bucket",
+      "handle"
+    ],
+    "description": "A canonical equipment icon representing Full Wood Bucket Handle."
+  },
+  {
+    "id": "equipment.full-wood-bucket",
+    "name": "Full Wood Bucket",
+    "file": "/assets/icons/full-wood-bucket.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "full",
+      "wood",
+      "bucket"
+    ],
+    "description": "A canonical equipment icon representing Full Wood Bucket."
+  },
+  {
+    "id": "equipment.fur-boot",
+    "name": "Fur Boot",
+    "file": "/assets/icons/fur-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "fur",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Fur Boot."
+  },
+  {
+    "id": "equipment.gear-stick-pattern",
+    "name": "Gear Stick Pattern",
+    "file": "/assets/icons/gear-stick-pattern.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gear",
+      "stick",
+      "pattern"
+    ],
+    "description": "A canonical equipment icon representing Gear Stick Pattern."
+  },
+  {
+    "id": "equipment.gear-stick",
+    "name": "Gear Stick",
+    "file": "/assets/icons/gear-stick.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gear",
+      "stick"
+    ],
+    "description": "A canonical equipment icon representing Gear Stick."
+  },
+  {
+    "id": "equipment.gears",
+    "name": "Gears",
+    "file": "/assets/icons/gears.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gears"
+    ],
+    "description": "A canonical equipment icon representing Gears."
+  },
+  {
+    "id": "equipment.gem-chain",
+    "name": "Gem Chain",
+    "file": "/assets/icons/gem-chain.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gem",
+      "chain"
+    ],
+    "description": "A canonical equipment icon representing Gem Chain."
+  },
+  {
+    "id": "equipment.gem-necklace",
+    "name": "Gem Necklace",
+    "file": "/assets/icons/gem-necklace.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gem",
+      "necklace"
+    ],
+    "description": "A canonical equipment icon representing Gem Necklace."
+  },
+  {
+    "id": "equipment.gem-pendant",
+    "name": "Gem Pendant",
+    "file": "/assets/icons/gem-pendant.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gem",
+      "pendant"
+    ],
+    "description": "A canonical equipment icon representing Gem Pendant."
+  },
+  {
+    "id": "equipment.gem",
+    "name": "Gem",
+    "file": "/assets/icons/gem.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gem"
+    ],
+    "description": "A canonical equipment icon representing Gem."
+  },
+  {
+    "id": "equipment.gemini",
+    "name": "Gemini",
+    "file": "/assets/icons/gemini.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gemini"
+    ],
+    "description": "A canonical equipment icon representing Gemini."
+  },
+  {
+    "id": "equipment.gems",
+    "name": "Gems",
+    "file": "/assets/icons/gems.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gems"
+    ],
+    "description": "A canonical equipment icon representing Gems."
+  },
+  {
+    "id": "equipment.gingerbread-man",
+    "name": "Gingerbread Man",
+    "file": "/assets/icons/gingerbread-man.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gingerbread",
+      "man"
+    ],
+    "description": "A canonical equipment icon representing Gingerbread Man."
+  },
+  {
+    "id": "equipment.globe-ring",
+    "name": "Globe Ring",
+    "file": "/assets/icons/globe-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "globe",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Globe Ring."
+  },
+  {
+    "id": "equipment.gloves",
+    "name": "Gloves",
+    "file": "/assets/icons/gloves.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gloves"
+    ],
+    "description": "A canonical equipment icon representing Gloves."
+  },
+  {
+    "id": "equipment.gold-bar",
+    "name": "Gold Bar",
+    "file": "/assets/icons/gold-bar.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gold",
+      "bar"
+    ],
+    "description": "A canonical equipment icon representing Gold Bar."
+  },
+  {
+    "id": "equipment.gold-mine",
+    "name": "Gold Mine",
+    "file": "/assets/icons/gold-mine.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gold",
+      "mine"
+    ],
+    "description": "A canonical equipment icon representing Gold Mine."
+  },
+  {
+    "id": "equipment.gold-nuggets",
+    "name": "Gold Nuggets",
+    "file": "/assets/icons/gold-nuggets.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gold",
+      "nuggets"
+    ],
+    "description": "A canonical equipment icon representing Gold Nuggets."
+  },
+  {
+    "id": "equipment.gold-scarab",
+    "name": "Gold Scarab",
+    "file": "/assets/icons/gold-scarab.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gold",
+      "scarab"
+    ],
+    "description": "A canonical equipment icon representing Gold Scarab."
+  },
+  {
+    "id": "equipment.gold-shell",
+    "name": "Gold Shell",
+    "file": "/assets/icons/gold-shell.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gold",
+      "shell"
+    ],
+    "description": "A canonical equipment icon representing Gold Shell."
+  },
+  {
+    "id": "equipment.gold-stack",
+    "name": "Gold Stack",
+    "file": "/assets/icons/gold-stack.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gold",
+      "stack"
+    ],
+    "description": "A canonical equipment icon representing Gold Stack."
+  },
+  {
+    "id": "equipment.gold_coin",
+    "name": "Gold Coin",
+    "file": "/assets/icons/gold_coin.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gold",
+      "coin"
+    ],
+    "description": "A canonical equipment icon representing Gold Coin."
+  },
+  {
+    "id": "equipment.gym-bag",
+    "name": "Gym Bag",
+    "file": "/assets/icons/gym-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "gym",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Gym Bag."
+  },
+  {
+    "id": "equipment.hand-bag",
+    "name": "Hand Bag",
+    "file": "/assets/icons/hand-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "hand",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Hand Bag."
+  },
+  {
+    "id": "equipment.health-potion",
+    "name": "Health Potion",
+    "file": "/assets/icons/health-potion.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "health",
+      "potion"
+    ],
+    "description": "A canonical equipment icon representing Health Potion."
+  },
+  {
+    "id": "equipment.hearing-disabled",
+    "name": "Hearing Disabled",
+    "file": "/assets/icons/hearing-disabled.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "hearing",
+      "disabled"
+    ],
+    "description": "A canonical equipment icon representing Hearing Disabled."
+  },
+  {
+    "id": "equipment.heart-bottle",
+    "name": "Heart Bottle",
+    "file": "/assets/icons/heart-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "heart",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Heart Bottle."
+  },
+  {
+    "id": "equipment.heart-earrings",
+    "name": "Heart Earrings",
+    "file": "/assets/icons/heart-earrings.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "heart",
+      "earrings"
+    ],
+    "description": "A canonical equipment icon representing Heart Earrings."
+  },
+  {
+    "id": "equipment.heart-key",
+    "name": "Heart Key",
+    "file": "/assets/icons/heart-key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "heart",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Heart Key."
+  },
+  {
+    "id": "equipment.hockey",
+    "name": "Hockey",
+    "file": "/assets/icons/hockey.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "hockey"
+    ],
+    "description": "A canonical equipment icon representing Hockey."
+  },
+  {
+    "id": "equipment.house-keys",
+    "name": "House Keys",
+    "file": "/assets/icons/house-keys.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "house",
+      "keys"
+    ],
+    "description": "A canonical equipment icon representing House Keys."
+  },
+  {
+    "id": "equipment.hovering",
+    "name": "Hovering",
+    "file": "/assets/icons/hovering.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "hovering"
+    ],
+    "description": "A canonical equipment icon representing Hovering."
+  },
+  {
+    "id": "equipment.jewel-crown",
+    "name": "Jewel Crown",
+    "file": "/assets/icons/jewel-crown.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "jewel",
+      "crown"
+    ],
+    "description": "A canonical equipment icon representing Jewel Crown."
+  },
+  {
+    "id": "equipment.jeweled-chalice",
+    "name": "Jeweled Chalice",
+    "file": "/assets/icons/jeweled-chalice.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "jeweled",
+      "chalice"
+    ],
+    "description": "A canonical equipment icon representing Jeweled Chalice."
+  },
+  {
+    "id": "equipment.key-1",
+    "name": "Key 1",
+    "file": "/assets/icons/key-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Key 1."
+  },
+  {
+    "id": "equipment.key-card",
+    "name": "Key Card",
+    "file": "/assets/icons/key-card.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "key",
+      "card"
+    ],
+    "description": "A canonical equipment icon representing Key Card."
+  },
+  {
+    "id": "equipment.key-lock",
+    "name": "Key Lock",
+    "file": "/assets/icons/key-lock.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "key",
+      "lock"
+    ],
+    "description": "A canonical equipment icon representing Key Lock."
+  },
+  {
+    "id": "equipment.key",
+    "name": "Key",
+    "file": "/assets/icons/key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Key."
+  },
+  {
+    "id": "equipment.keyboard",
+    "name": "Keyboard",
+    "file": "/assets/icons/keyboard.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "keyboard"
+    ],
+    "description": "A canonical equipment icon representing Keyboard."
+  },
+  {
+    "id": "equipment.keyring",
+    "name": "Keyring",
+    "file": "/assets/icons/keyring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "keyring"
+    ],
+    "description": "A canonical equipment icon representing Keyring."
+  },
+  {
+    "id": "equipment.lantern-flame",
+    "name": "Lantern Flame",
+    "file": "/assets/icons/lantern-flame.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "lantern",
+      "flame"
+    ],
+    "description": "A canonical equipment icon representing Lantern Flame."
+  },
+  {
+    "id": "equipment.lantern",
+    "name": "Lantern",
+    "file": "/assets/icons/lantern.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "lantern"
+    ],
+    "description": "A canonical equipment icon representing Lantern."
+  },
+  {
+    "id": "equipment.lead-pipe",
+    "name": "Lead Pipe",
+    "file": "/assets/icons/lead-pipe.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "lead",
+      "pipe"
+    ],
+    "description": "A canonical equipment icon representing Lead Pipe."
+  },
+  {
+    "id": "equipment.leather-boot",
+    "name": "Leather Boot",
+    "file": "/assets/icons/leather-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "leather",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Leather Boot."
+  },
+  {
+    "id": "equipment.life-bar",
+    "name": "Life Bar",
+    "file": "/assets/icons/life-bar.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "life",
+      "bar"
+    ],
+    "description": "A canonical equipment icon representing Life Bar."
+  },
+  {
+    "id": "equipment.light-backpack",
+    "name": "Light Backpack",
+    "file": "/assets/icons/light-backpack.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "light",
+      "backpack"
+    ],
+    "description": "A canonical equipment icon representing Light Backpack."
+  },
+  {
+    "id": "equipment.linked-rings",
+    "name": "Linked Rings",
+    "file": "/assets/icons/linked-rings.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "linked",
+      "rings"
+    ],
+    "description": "A canonical equipment icon representing Linked Rings."
+  },
+  {
+    "id": "equipment.locked-chest",
+    "name": "Locked Chest",
+    "file": "/assets/icons/locked-chest.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "locked",
+      "chest"
+    ],
+    "description": "A canonical equipment icon representing Locked Chest."
+  },
+  {
+    "id": "equipment.magic-potion",
+    "name": "Magic Potion",
+    "file": "/assets/icons/magic-potion.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "magic",
+      "potion"
+    ],
+    "description": "A canonical equipment icon representing Magic Potion."
+  },
+  {
+    "id": "equipment.manual-meat-grinder",
+    "name": "Manual Meat Grinder",
+    "file": "/assets/icons/manual-meat-grinder.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "manual",
+      "meat",
+      "grinder"
+    ],
+    "description": "A canonical equipment icon representing Manual Meat Grinder."
+  },
+  {
+    "id": "equipment.meat-cleaver",
+    "name": "Meat Cleaver",
+    "file": "/assets/icons/meat-cleaver.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "meat",
+      "cleaver"
+    ],
+    "description": "A canonical equipment icon representing Meat Cleaver."
+  },
+  {
+    "id": "equipment.meat-hook",
+    "name": "Meat Hook",
+    "file": "/assets/icons/meat-hook.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "meat",
+      "hook"
+    ],
+    "description": "A canonical equipment icon representing Meat Hook."
+  },
+  {
+    "id": "equipment.meat",
+    "name": "Meat",
+    "file": "/assets/icons/meat.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "meat"
+    ],
+    "description": "A canonical equipment icon representing Meat."
+  },
+  {
+    "id": "equipment.medieval-barracks",
+    "name": "Medieval Barracks",
+    "file": "/assets/icons/medieval-barracks.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "medieval",
+      "barracks"
+    ],
+    "description": "A canonical equipment icon representing Medieval Barracks."
+  },
+  {
+    "id": "equipment.metal-bar",
+    "name": "Metal Bar",
+    "file": "/assets/icons/metal-bar.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "metal",
+      "bar"
+    ],
+    "description": "A canonical equipment icon representing Metal Bar."
+  },
+  {
+    "id": "equipment.metal-boot",
+    "name": "Metal Boot",
+    "file": "/assets/icons/metal-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "metal",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Metal Boot."
+  },
+  {
+    "id": "equipment.millenium-key",
+    "name": "Millenium Key",
+    "file": "/assets/icons/millenium-key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "millenium",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Millenium Key."
+  },
+  {
+    "id": "equipment.mimic-chest",
+    "name": "Mimic Chest",
+    "file": "/assets/icons/mimic-chest.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "mimic",
+      "chest"
+    ],
+    "description": "A canonical equipment icon representing Mimic Chest."
+  },
+  {
+    "id": "equipment.monkey-wrench",
+    "name": "Monkey Wrench",
+    "file": "/assets/icons/monkey-wrench.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "monkey",
+      "wrench"
+    ],
+    "description": "A canonical equipment icon representing Monkey Wrench."
+  },
+  {
+    "id": "equipment.monkey",
+    "name": "Monkey",
+    "file": "/assets/icons/monkey.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "monkey"
+    ],
+    "description": "A canonical equipment icon representing Monkey."
+  },
+  {
+    "id": "equipment.mono-wheel-robot",
+    "name": "Mono Wheel Robot",
+    "file": "/assets/icons/mono-wheel-robot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "mono",
+      "wheel",
+      "robot"
+    ],
+    "description": "A canonical equipment icon representing Mono Wheel Robot."
+  },
+  {
+    "id": "equipment.mooring-bollard",
+    "name": "Mooring Bollard",
+    "file": "/assets/icons/mooring-bollard.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "mooring",
+      "bollard"
+    ],
+    "description": "A canonical equipment icon representing Mooring Bollard."
+  },
+  {
+    "id": "equipment.mouth-watering",
+    "name": "Mouth Watering",
+    "file": "/assets/icons/mouth-watering.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "mouth",
+      "watering"
+    ],
+    "description": "A canonical equipment icon representing Mouth Watering."
+  },
+  {
+    "id": "equipment.musical-keyboard",
+    "name": "Musical Keyboard",
+    "file": "/assets/icons/musical-keyboard.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "musical",
+      "keyboard"
+    ],
+    "description": "A canonical equipment icon representing Musical Keyboard."
+  },
+  {
+    "id": "equipment.network-bars",
+    "name": "Network Bars",
+    "file": "/assets/icons/network-bars.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "network",
+      "bars"
+    ],
+    "description": "A canonical equipment icon representing Network Bars."
+  },
+  {
+    "id": "equipment.notebook",
+    "name": "Notebook",
+    "file": "/assets/icons/notebook.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "notebook"
+    ],
+    "description": "A canonical equipment icon representing Notebook."
+  },
+  {
+    "id": "equipment.old-lantern",
+    "name": "Old Lantern",
+    "file": "/assets/icons/old-lantern.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "old",
+      "lantern"
+    ],
+    "description": "A canonical equipment icon representing Old Lantern."
+  },
+  {
+    "id": "equipment.open-book",
+    "name": "Open Book",
+    "file": "/assets/icons/open-book.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "open",
+      "book"
+    ],
+    "description": "A canonical equipment icon representing Open Book."
+  },
+  {
+    "id": "equipment.open-chest",
+    "name": "Open Chest",
+    "file": "/assets/icons/open-chest.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "open",
+      "chest"
+    ],
+    "description": "A canonical equipment icon representing Open Chest."
+  },
+  {
+    "id": "equipment.open-treasure-chest",
+    "name": "Open Treasure Chest",
+    "file": "/assets/icons/open-treasure-chest.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "open",
+      "treasure",
+      "chest"
+    ],
+    "description": "A canonical equipment icon representing Open Treasure Chest."
+  },
+  {
+    "id": "equipment.opened-food-can",
+    "name": "Opened Food Can",
+    "file": "/assets/icons/opened-food-can.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "opened",
+      "food",
+      "can"
+    ],
+    "description": "A canonical equipment icon representing Opened Food Can."
+  },
+  {
+    "id": "equipment.paint-bucket",
+    "name": "Paint Bucket",
+    "file": "/assets/icons/paint-bucket.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "paint",
+      "bucket"
+    ],
+    "description": "A canonical equipment icon representing Paint Bucket."
+  },
+  {
+    "id": "equipment.paper-bag-crumpled",
+    "name": "Paper Bag Crumpled",
+    "file": "/assets/icons/paper-bag-crumpled.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "paper",
+      "bag",
+      "crumpled"
+    ],
+    "description": "A canonical equipment icon representing Paper Bag Crumpled."
+  },
+  {
+    "id": "equipment.paper-bag-folded",
+    "name": "Paper Bag Folded",
+    "file": "/assets/icons/paper-bag-folded.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "paper",
+      "bag",
+      "folded"
+    ],
+    "description": "A canonical equipment icon representing Paper Bag Folded."
+  },
+  {
+    "id": "equipment.paper-bag-open",
+    "name": "Paper Bag Open",
+    "file": "/assets/icons/paper-bag-open.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "paper",
+      "bag",
+      "open"
+    ],
+    "description": "A canonical equipment icon representing Paper Bag Open."
+  },
+  {
+    "id": "equipment.paper-lantern",
+    "name": "Paper Lantern",
+    "file": "/assets/icons/paper-lantern.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "paper",
+      "lantern"
+    ],
+    "description": "A canonical equipment icon representing Paper Lantern."
+  },
+  {
+    "id": "equipment.pearl-earring",
+    "name": "Pearl Earring",
+    "file": "/assets/icons/pearl-earring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "pearl",
+      "earring"
+    ],
+    "description": "A canonical equipment icon representing Pearl Earring."
+  },
+  {
+    "id": "equipment.pendant-key",
+    "name": "Pendant Key",
+    "file": "/assets/icons/pendant-key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "pendant",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Pendant Key."
+  },
+  {
+    "id": "equipment.perfume-bottle",
+    "name": "Perfume Bottle",
+    "file": "/assets/icons/perfume-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "perfume",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Perfume Bottle."
+  },
+  {
+    "id": "equipment.perpendicular-rings",
+    "name": "Perpendicular Rings",
+    "file": "/assets/icons/perpendicular-rings.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "perpendicular",
+      "rings"
+    ],
+    "description": "A canonical equipment icon representing Perpendicular Rings."
+  },
+  {
+    "id": "equipment.piano-keys",
+    "name": "Piano Keys",
+    "file": "/assets/icons/piano-keys.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "piano",
+      "keys"
+    ],
+    "description": "A canonical equipment icon representing Piano Keys."
+  },
+  {
+    "id": "equipment.pipe-organ",
+    "name": "Pipe Organ",
+    "file": "/assets/icons/pipe-organ.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "pipe",
+      "organ"
+    ],
+    "description": "A canonical equipment icon representing Pipe Organ."
+  },
+  {
+    "id": "equipment.pipes",
+    "name": "Pipes",
+    "file": "/assets/icons/pipes.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "pipes"
+    ],
+    "description": "A canonical equipment icon representing Pipes."
+  },
+  {
+    "id": "equipment.plant-watering",
+    "name": "Plant Watering",
+    "file": "/assets/icons/plant-watering.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "plant",
+      "watering"
+    ],
+    "description": "A canonical equipment icon representing Plant Watering."
+  },
+  {
+    "id": "equipment.platinum_coin",
+    "name": "Platinum Coin",
+    "file": "/assets/icons/platinum_coin.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "platinum",
+      "coin"
+    ],
+    "description": "A canonical equipment icon representing Platinum Coin."
+  },
+  {
+    "id": "equipment.poison-bottle",
+    "name": "Poison Bottle",
+    "file": "/assets/icons/poison-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "poison",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Poison Bottle."
+  },
+  {
+    "id": "equipment.potion-ball",
+    "name": "Potion Ball",
+    "file": "/assets/icons/potion-ball.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "potion",
+      "ball"
+    ],
+    "description": "A canonical equipment icon representing Potion Ball."
+  },
+  {
+    "id": "equipment.potion-of-madness",
+    "name": "Potion Of Madness",
+    "file": "/assets/icons/potion-of-madness.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "potion",
+      "madness"
+    ],
+    "description": "A canonical equipment icon representing Potion Of Madness."
+  },
+  {
+    "id": "equipment.pouring-chalice",
+    "name": "Pouring Chalice",
+    "file": "/assets/icons/pouring-chalice.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "pouring",
+      "chalice"
+    ],
+    "description": "A canonical equipment icon representing Pouring Chalice."
+  },
+  {
+    "id": "equipment.pouring-pot",
+    "name": "Pouring Pot",
+    "file": "/assets/icons/pouring-pot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "pouring",
+      "pot"
+    ],
+    "description": "A canonical equipment icon representing Pouring Pot."
+  },
+  {
+    "id": "equipment.powder-bag",
+    "name": "Powder Bag",
+    "file": "/assets/icons/powder-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "powder",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Powder Bag."
+  },
+  {
+    "id": "equipment.power-ring",
+    "name": "Power Ring",
+    "file": "/assets/icons/power-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "power",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Power Ring."
+  },
+  {
+    "id": "equipment.pumpkin-lantern",
+    "name": "Pumpkin Lantern",
+    "file": "/assets/icons/pumpkin-lantern.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "pumpkin",
+      "lantern"
+    ],
+    "description": "A canonical equipment icon representing Pumpkin Lantern."
+  },
+  {
+    "id": "equipment.ring-1",
+    "name": "Ring 1",
+    "file": "/assets/icons/ring-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Ring 1."
+  },
+  {
+    "id": "equipment.ring-box",
+    "name": "Ring Box",
+    "file": "/assets/icons/ring-box.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ring",
+      "box"
+    ],
+    "description": "A canonical equipment icon representing Ring Box."
+  },
+  {
+    "id": "equipment.ring-mould",
+    "name": "Ring Mould",
+    "file": "/assets/icons/ring-mould.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ring",
+      "mould"
+    ],
+    "description": "A canonical equipment icon representing Ring Mould."
+  },
+  {
+    "id": "equipment.ring",
+    "name": "Ring",
+    "file": "/assets/icons/ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Ring."
+  },
+  {
+    "id": "equipment.ringed-beam",
+    "name": "Ringed Beam",
+    "file": "/assets/icons/ringed-beam.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ringed",
+      "beam"
+    ],
+    "description": "A canonical equipment icon representing Ringed Beam."
+  },
+  {
+    "id": "equipment.ringed-planet",
+    "name": "Ringed Planet",
+    "file": "/assets/icons/ringed-planet.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ringed",
+      "planet"
+    ],
+    "description": "A canonical equipment icon representing Ringed Planet."
+  },
+  {
+    "id": "equipment.ringed-tentacle",
+    "name": "Ringed Tentacle",
+    "file": "/assets/icons/ringed-tentacle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ringed",
+      "tentacle"
+    ],
+    "description": "A canonical equipment icon representing Ringed Tentacle."
+  },
+  {
+    "id": "equipment.ringing-alarm",
+    "name": "Ringing Alarm",
+    "file": "/assets/icons/ringing-alarm.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ringing",
+      "alarm"
+    ],
+    "description": "A canonical equipment icon representing Ringing Alarm."
+  },
+  {
+    "id": "equipment.ringing-bell",
+    "name": "Ringing Bell",
+    "file": "/assets/icons/ringing-bell.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ringing",
+      "bell"
+    ],
+    "description": "A canonical equipment icon representing Ringing Bell."
+  },
+  {
+    "id": "equipment.ringmaster",
+    "name": "Ringmaster",
+    "file": "/assets/icons/ringmaster.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ringmaster"
+    ],
+    "description": "A canonical equipment icon representing Ringmaster."
+  },
+  {
+    "id": "equipment.round-potion",
+    "name": "Round Potion",
+    "file": "/assets/icons/round-potion.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "round",
+      "potion"
+    ],
+    "description": "A canonical equipment icon representing Round Potion."
+  },
+  {
+    "id": "equipment.rubber-boot",
+    "name": "Rubber Boot",
+    "file": "/assets/icons/rubber-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "rubber",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Rubber Boot."
+  },
+  {
+    "id": "equipment.rule-book",
+    "name": "Rule Book",
+    "file": "/assets/icons/rule-book.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "rule",
+      "book"
+    ],
+    "description": "A canonical equipment icon representing Rule Book."
+  },
+  {
+    "id": "equipment.sake-bottle",
+    "name": "Sake Bottle",
+    "file": "/assets/icons/sake-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "sake",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Sake Bottle."
+  },
+  {
+    "id": "equipment.scabbard",
+    "name": "Scabbard",
+    "file": "/assets/icons/scabbard.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "scabbard"
+    ],
+    "description": "A canonical equipment icon representing Scabbard."
+  },
+  {
+    "id": "equipment.school-bag",
+    "name": "School Bag",
+    "file": "/assets/icons/school-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "school",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing School Bag."
+  },
+  {
+    "id": "equipment.scroll-quill",
+    "name": "Scroll Quill",
+    "file": "/assets/icons/scroll-quill.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "scroll",
+      "quill"
+    ],
+    "description": "A canonical equipment icon representing Scroll Quill."
+  },
+  {
+    "id": "equipment.scroll-unfurled",
+    "name": "Scroll Unfurled",
+    "file": "/assets/icons/scroll-unfurled.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "scroll",
+      "unfurled"
+    ],
+    "description": "A canonical equipment icon representing Scroll Unfurled."
+  },
+  {
+    "id": "equipment.secret-book",
+    "name": "Secret Book",
+    "file": "/assets/icons/secret-book.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "secret",
+      "book"
+    ],
+    "description": "A canonical equipment icon representing Secret Book."
+  },
+  {
+    "id": "equipment.sewing-string",
+    "name": "Sewing String",
+    "file": "/assets/icons/sewing-string.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "sewing",
+      "string"
+    ],
+    "description": "A canonical equipment icon representing Sewing String."
+  },
+  {
+    "id": "equipment.ship-wheel",
+    "name": "Ship Wheel",
+    "file": "/assets/icons/ship-wheel.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ship",
+      "wheel"
+    ],
+    "description": "A canonical equipment icon representing Ship Wheel."
+  },
+  {
+    "id": "equipment.shopping-bag",
+    "name": "Shopping Bag",
+    "file": "/assets/icons/shopping-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "shopping",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Shopping Bag."
+  },
+  {
+    "id": "equipment.shoulder-bag",
+    "name": "Shoulder Bag",
+    "file": "/assets/icons/shoulder-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "shoulder",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Shoulder Bag."
+  },
+  {
+    "id": "equipment.silver_coin",
+    "name": "Silver Coin",
+    "file": "/assets/icons/silver_coin.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "silver",
+      "coin"
+    ],
+    "description": "A canonical equipment icon representing Silver Coin."
+  },
+  {
+    "id": "equipment.skeleton-key",
+    "name": "Skeleton Key",
+    "file": "/assets/icons/skeleton-key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "skeleton",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Skeleton Key."
+  },
+  {
+    "id": "equipment.ski-boot",
+    "name": "Ski Boot",
+    "file": "/assets/icons/ski-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "ski",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Ski Boot."
+  },
+  {
+    "id": "equipment.skull-ring",
+    "name": "Skull Ring",
+    "file": "/assets/icons/skull-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "skull",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Skull Ring."
+  },
+  {
+    "id": "equipment.skull-with-syringe",
+    "name": "Skull With Syringe",
+    "file": "/assets/icons/skull-with-syringe.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "skull",
+      "with",
+      "syringe"
+    ],
+    "description": "A canonical equipment icon representing Skull With Syringe."
+  },
+  {
+    "id": "equipment.sleeping-bag",
+    "name": "Sleeping Bag",
+    "file": "/assets/icons/sleeping-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "sleeping",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Sleeping Bag."
+  },
+  {
+    "id": "equipment.sliced-bread",
+    "name": "Sliced Bread",
+    "file": "/assets/icons/sliced-bread.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "sliced",
+      "bread"
+    ],
+    "description": "A canonical equipment icon representing Sliced Bread."
+  },
+  {
+    "id": "equipment.slumbering-sanctuary",
+    "name": "Slumbering Sanctuary",
+    "file": "/assets/icons/slumbering-sanctuary.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "slumbering",
+      "sanctuary"
+    ],
+    "description": "A canonical equipment icon representing Slumbering Sanctuary."
+  },
+  {
+    "id": "equipment.smoking-pipe",
+    "name": "Smoking Pipe",
+    "file": "/assets/icons/smoking-pipe.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "smoking",
+      "pipe"
+    ],
+    "description": "A canonical equipment icon representing Smoking Pipe."
+  },
+  {
+    "id": "equipment.snow-bottle",
+    "name": "Snow Bottle",
+    "file": "/assets/icons/snow-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "snow",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Snow Bottle."
+  },
+  {
+    "id": "equipment.soda-bottle",
+    "name": "Soda Bottle",
+    "file": "/assets/icons/soda-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "soda",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Soda Bottle."
+  },
+  {
+    "id": "equipment.soldering-iron",
+    "name": "Soldering Iron",
+    "file": "/assets/icons/soldering-iron.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "soldering",
+      "iron"
+    ],
+    "description": "A canonical equipment icon representing Soldering Iron."
+  },
+  {
+    "id": "equipment.spell-book",
+    "name": "Spell Book",
+    "file": "/assets/icons/spell-book.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "spell",
+      "book"
+    ],
+    "description": "A canonical equipment icon representing Spell Book."
+  },
+  {
+    "id": "equipment.spinning-wheel",
+    "name": "Spinning Wheel",
+    "file": "/assets/icons/spinning-wheel.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "spinning",
+      "wheel"
+    ],
+    "description": "A canonical equipment icon representing Spinning Wheel."
+  },
+  {
+    "id": "equipment.spiral-bottle",
+    "name": "Spiral Bottle",
+    "file": "/assets/icons/spiral-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "spiral",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Spiral Bottle."
+  },
+  {
+    "id": "equipment.spring",
+    "name": "Spring",
+    "file": "/assets/icons/spring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "spring"
+    ],
+    "description": "A canonical equipment icon representing Spring."
+  },
+  {
+    "id": "equipment.square-bottle",
+    "name": "Square Bottle",
+    "file": "/assets/icons/square-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "square",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Square Bottle."
+  },
+  {
+    "id": "equipment.standing-potion",
+    "name": "Standing Potion",
+    "file": "/assets/icons/standing-potion.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "standing",
+      "potion"
+    ],
+    "description": "A canonical equipment icon representing Standing Potion."
+  },
+  {
+    "id": "equipment.star-key",
+    "name": "Star Key",
+    "file": "/assets/icons/star-key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "star",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Star Key."
+  },
+  {
+    "id": "equipment.steeltoe-boots",
+    "name": "Steeltoe Boots",
+    "file": "/assets/icons/steeltoe-boots.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "steeltoe",
+      "boots"
+    ],
+    "description": "A canonical equipment icon representing Steeltoe Boots."
+  },
+  {
+    "id": "equipment.steering-wheel",
+    "name": "Steering Wheel",
+    "file": "/assets/icons/steering-wheel.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "steering",
+      "wheel"
+    ],
+    "description": "A canonical equipment icon representing Steering Wheel."
+  },
+  {
+    "id": "equipment.sticky-boot",
+    "name": "Sticky Boot",
+    "file": "/assets/icons/sticky-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "sticky",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Sticky Boot."
+  },
+  {
+    "id": "equipment.stone-wheel",
+    "name": "Stone Wheel",
+    "file": "/assets/icons/stone-wheel.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "stone",
+      "wheel"
+    ],
+    "description": "A canonical equipment icon representing Stone Wheel."
+  },
+  {
+    "id": "equipment.straight-pipe",
+    "name": "Straight Pipe",
+    "file": "/assets/icons/straight-pipe.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "straight",
+      "pipe"
+    ],
+    "description": "A canonical equipment icon representing Straight Pipe."
+  },
+  {
+    "id": "equipment.swap-bag",
+    "name": "Swap Bag",
+    "file": "/assets/icons/swap-bag.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "swap",
+      "bag"
+    ],
+    "description": "A canonical equipment icon representing Swap Bag."
+  },
+  {
+    "id": "equipment.swirl-ring",
+    "name": "Swirl Ring",
+    "file": "/assets/icons/swirl-ring.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "swirl",
+      "ring"
+    ],
+    "description": "A canonical equipment icon representing Swirl Ring."
+  },
+  {
+    "id": "equipment.swirl-string",
+    "name": "Swirl String",
+    "file": "/assets/icons/swirl-string.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "swirl",
+      "string"
+    ],
+    "description": "A canonical equipment icon representing Swirl String."
+  },
+  {
+    "id": "equipment.syringe-1",
+    "name": "Syringe 1",
+    "file": "/assets/icons/syringe-1.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "syringe"
+    ],
+    "description": "A canonical equipment icon representing Syringe 1."
+  },
+  {
+    "id": "equipment.syringe",
+    "name": "Syringe",
+    "file": "/assets/icons/syringe.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "syringe"
+    ],
+    "description": "A canonical equipment icon representing Syringe."
+  },
+  {
+    "id": "equipment.tabi-boot",
+    "name": "Tabi Boot",
+    "file": "/assets/icons/tabi-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tabi",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Tabi Boot."
+  },
+  {
+    "id": "equipment.tarot-10-wheel-of-fortune",
+    "name": "Tarot 10 Wheel Of Fortune",
+    "file": "/assets/icons/tarot-10-wheel-of-fortune.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tarot",
+      "wheel",
+      "fortune"
+    ],
+    "description": "A canonical equipment icon representing Tarot 10 Wheel Of Fortune."
+  },
+  {
+    "id": "equipment.tarot-20-judgement",
+    "name": "Tarot 20 Judgement",
+    "file": "/assets/icons/tarot-20-judgement.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tarot",
+      "judgement"
+    ],
+    "description": "A canonical equipment icon representing Tarot 20 Judgement."
+  },
+  {
+    "id": "equipment.tarot_10_wheel_of_fortune",
+    "name": "Wheel Of Fortune",
+    "file": "/assets/icons/tarot_10_wheel_of_fortune.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tarot",
+      "wheel",
+      "fortune"
+    ],
+    "description": "A canonical equipment icon representing Wheel Of Fortune."
+  },
+  {
+    "id": "equipment.tarot_20_judgement",
+    "name": "Judgement",
+    "file": "/assets/icons/tarot_20_judgement.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tarot",
+      "judgement"
+    ],
+    "description": "A canonical equipment icon representing Judgement."
+  },
+  {
+    "id": "equipment.tearing",
+    "name": "Tearing",
+    "file": "/assets/icons/tearing.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tearing"
+    ],
+    "description": "A canonical equipment icon representing Tearing."
+  },
+  {
+    "id": "equipment.tee-pipe",
+    "name": "Tee Pipe",
+    "file": "/assets/icons/tee-pipe.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tee",
+      "pipe"
+    ],
+    "description": "A canonical equipment icon representing Tee Pipe."
+  },
+  {
+    "id": "equipment.tentacles-barrier",
+    "name": "Tentacles Barrier",
+    "file": "/assets/icons/tentacles-barrier.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tentacles",
+      "barrier"
+    ],
+    "description": "A canonical equipment icon representing Tentacles Barrier."
+  },
+  {
+    "id": "equipment.three-keys",
+    "name": "Three Keys",
+    "file": "/assets/icons/three-keys.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "three",
+      "keys"
+    ],
+    "description": "A canonical equipment icon representing Three Keys."
+  },
+  {
+    "id": "equipment.tied-scroll",
+    "name": "Tied Scroll",
+    "file": "/assets/icons/tied-scroll.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tied",
+      "scroll"
+    ],
+    "description": "A canonical equipment icon representing Tied Scroll."
+  },
+  {
+    "id": "equipment.transportation-rings",
+    "name": "Transportation Rings",
+    "file": "/assets/icons/transportation-rings.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "transportation",
+      "rings"
+    ],
+    "description": "A canonical equipment icon representing Transportation Rings."
+  },
+  {
+    "id": "equipment.tribal-gear",
+    "name": "Tribal Gear",
+    "file": "/assets/icons/tribal-gear.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "tribal",
+      "gear"
+    ],
+    "description": "A canonical equipment icon representing Tribal Gear."
+  },
+  {
+    "id": "equipment.two-coins",
+    "name": "Two Coins",
+    "file": "/assets/icons/two-coins.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "two",
+      "coins"
+    ],
+    "description": "A canonical equipment icon representing Two Coins."
+  },
+  {
+    "id": "equipment.usb-key",
+    "name": "Usb Key",
+    "file": "/assets/icons/usb-key.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "usb",
+      "key"
+    ],
+    "description": "A canonical equipment icon representing Usb Key."
+  },
+  {
+    "id": "equipment.walking-boot",
+    "name": "Walking Boot",
+    "file": "/assets/icons/walking-boot.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "walking",
+      "boot"
+    ],
+    "description": "A canonical equipment icon representing Walking Boot."
+  },
+  {
+    "id": "equipment.water-bottle",
+    "name": "Water Bottle",
+    "file": "/assets/icons/water-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "water",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Water Bottle."
+  },
+  {
+    "id": "equipment.watering-can",
+    "name": "Watering Can",
+    "file": "/assets/icons/watering-can.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "watering",
+      "can"
+    ],
+    "description": "A canonical equipment icon representing Watering Can."
+  },
+  {
+    "id": "equipment.white-book",
+    "name": "White Book",
+    "file": "/assets/icons/white-book.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "white",
+      "book"
+    ],
+    "description": "A canonical equipment icon representing White Book."
+  },
+  {
+    "id": "equipment.window-bars",
+    "name": "Window Bars",
+    "file": "/assets/icons/window-bars.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "window",
+      "bars"
+    ],
+    "description": "A canonical equipment icon representing Window Bars."
+  },
+  {
+    "id": "equipment.wine-bottle",
+    "name": "Wine Bottle",
+    "file": "/assets/icons/wine-bottle.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "wine",
+      "bottle"
+    ],
+    "description": "A canonical equipment icon representing Wine Bottle."
+  },
+  {
+    "id": "equipment.wing-cloak",
+    "name": "Wing Cloak",
+    "file": "/assets/icons/wing-cloak.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "wing",
+      "cloak"
+    ],
+    "description": "A canonical equipment icon representing Wing Cloak."
+  },
+  {
+    "id": "equipment.winter-gloves",
+    "name": "Winter Gloves",
+    "file": "/assets/icons/winter-gloves.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "winter",
+      "gloves"
+    ],
+    "description": "A canonical equipment icon representing Winter Gloves."
+  },
+  {
+    "id": "equipment.wrench",
+    "name": "Wrench",
+    "file": "/assets/icons/wrench.svg",
+    "category": "equipment",
+    "tags": [
+      "equipment",
+      "wrench"
+    ],
+    "description": "A canonical equipment icon representing Wrench."
+  }
+]

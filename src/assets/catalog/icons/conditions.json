@@ -1,0 +1,654 @@
+[
+  {
+    "id": "conditions.afterburn",
+    "name": "Afterburn",
+    "file": "/assets/icons/afterburn.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "afterburn"
+    ],
+    "description": "A canonical conditions icon representing Afterburn."
+  },
+  {
+    "id": "conditions.bleeding-eye",
+    "name": "Bleeding Eye",
+    "file": "/assets/icons/bleeding-eye.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "bleeding",
+      "eye"
+    ],
+    "description": "A canonical conditions icon representing Bleeding Eye."
+  },
+  {
+    "id": "conditions.bleeding-heart",
+    "name": "Bleeding Heart",
+    "file": "/assets/icons/bleeding-heart.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "bleeding",
+      "heart"
+    ],
+    "description": "A canonical conditions icon representing Bleeding Heart."
+  },
+  {
+    "id": "conditions.bleeding-wound",
+    "name": "Bleeding Wound",
+    "file": "/assets/icons/bleeding-wound.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "bleeding",
+      "wound"
+    ],
+    "description": "A canonical conditions icon representing Bleeding Wound."
+  },
+  {
+    "id": "conditions.bleeding",
+    "name": "Bleeding",
+    "file": "/assets/icons/bleeding.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "bleeding"
+    ],
+    "description": "A canonical conditions icon representing Bleeding."
+  },
+  {
+    "id": "conditions.blinded-1",
+    "name": "Blinded 1",
+    "file": "/assets/icons/blinded-1.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "blinded"
+    ],
+    "description": "A canonical conditions icon representing Blinded 1."
+  },
+  {
+    "id": "conditions.blinded",
+    "name": "Blinded",
+    "file": "/assets/icons/blinded.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "blinded"
+    ],
+    "description": "A canonical conditions icon representing Blinded."
+  },
+  {
+    "id": "conditions.blindfold",
+    "name": "Blindfold",
+    "file": "/assets/icons/blindfold.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "blindfold"
+    ],
+    "description": "A canonical conditions icon representing Blindfold."
+  },
+  {
+    "id": "conditions.brain-freeze",
+    "name": "Brain Freeze",
+    "file": "/assets/icons/brain-freeze.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "brain",
+      "freeze"
+    ],
+    "description": "A canonical conditions icon representing Brain Freeze."
+  },
+  {
+    "id": "conditions.burn",
+    "name": "Burn",
+    "file": "/assets/icons/burn.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burn"
+    ],
+    "description": "A canonical conditions icon representing Burn."
+  },
+  {
+    "id": "conditions.burning-1",
+    "name": "Burning 1",
+    "file": "/assets/icons/burning-1.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning"
+    ],
+    "description": "A canonical conditions icon representing Burning 1."
+  },
+  {
+    "id": "conditions.burning-blobs",
+    "name": "Burning Blobs",
+    "file": "/assets/icons/burning-blobs.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "blobs"
+    ],
+    "description": "A canonical conditions icon representing Burning Blobs."
+  },
+  {
+    "id": "conditions.burning-dot",
+    "name": "Burning Dot",
+    "file": "/assets/icons/burning-dot.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "dot"
+    ],
+    "description": "A canonical conditions icon representing Burning Dot."
+  },
+  {
+    "id": "conditions.burning-embers",
+    "name": "Burning Embers",
+    "file": "/assets/icons/burning-embers.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "embers"
+    ],
+    "description": "A canonical conditions icon representing Burning Embers."
+  },
+  {
+    "id": "conditions.burning-eye",
+    "name": "Burning Eye",
+    "file": "/assets/icons/burning-eye.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "eye"
+    ],
+    "description": "A canonical conditions icon representing Burning Eye."
+  },
+  {
+    "id": "conditions.burning-forest",
+    "name": "Burning Forest",
+    "file": "/assets/icons/burning-forest.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "forest"
+    ],
+    "description": "A canonical conditions icon representing Burning Forest."
+  },
+  {
+    "id": "conditions.burning-meteor",
+    "name": "Burning Meteor",
+    "file": "/assets/icons/burning-meteor.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "meteor"
+    ],
+    "description": "A canonical conditions icon representing Burning Meteor."
+  },
+  {
+    "id": "conditions.burning-passion",
+    "name": "Burning Passion",
+    "file": "/assets/icons/burning-passion.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "passion"
+    ],
+    "description": "A canonical conditions icon representing Burning Passion."
+  },
+  {
+    "id": "conditions.burning-round-shot",
+    "name": "Burning Round Shot",
+    "file": "/assets/icons/burning-round-shot.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "round",
+      "shot"
+    ],
+    "description": "A canonical conditions icon representing Burning Round Shot."
+  },
+  {
+    "id": "conditions.burning-skull",
+    "name": "Burning Skull",
+    "file": "/assets/icons/burning-skull.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "skull"
+    ],
+    "description": "A canonical conditions icon representing Burning Skull."
+  },
+  {
+    "id": "conditions.burning-tree",
+    "name": "Burning Tree",
+    "file": "/assets/icons/burning-tree.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning",
+      "tree"
+    ],
+    "description": "A canonical conditions icon representing Burning Tree."
+  },
+  {
+    "id": "conditions.burning",
+    "name": "Burning",
+    "file": "/assets/icons/burning.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "burning"
+    ],
+    "description": "A canonical conditions icon representing Burning."
+  },
+  {
+    "id": "conditions.card-burn",
+    "name": "Card Burn",
+    "file": "/assets/icons/card-burn.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "card",
+      "burn"
+    ],
+    "description": "A canonical conditions icon representing Card Burn."
+  },
+  {
+    "id": "conditions.charm",
+    "name": "Charm",
+    "file": "/assets/icons/charm.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "charm"
+    ],
+    "description": "A canonical conditions icon representing Charm."
+  },
+  {
+    "id": "conditions.charmed-1",
+    "name": "Charmed 1",
+    "file": "/assets/icons/charmed-1.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "charmed"
+    ],
+    "description": "A canonical conditions icon representing Charmed 1."
+  },
+  {
+    "id": "conditions.charmed",
+    "name": "Charmed",
+    "file": "/assets/icons/charmed.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "charmed"
+    ],
+    "description": "A canonical conditions icon representing Charmed."
+  },
+  {
+    "id": "conditions.cursed-star",
+    "name": "Cursed Star",
+    "file": "/assets/icons/cursed-star.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "cursed",
+      "star"
+    ],
+    "description": "A canonical conditions icon representing Cursed Star."
+  },
+  {
+    "id": "conditions.cursed",
+    "name": "Cursed",
+    "file": "/assets/icons/cursed.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "cursed"
+    ],
+    "description": "A canonical conditions icon representing Cursed."
+  },
+  {
+    "id": "conditions.diseased",
+    "name": "Diseased",
+    "file": "/assets/icons/diseased.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "diseased"
+    ],
+    "description": "A canonical conditions icon representing Diseased."
+  },
+  {
+    "id": "conditions.exhaustion-1",
+    "name": "Exhaustion 1",
+    "file": "/assets/icons/exhaustion-1.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "exhaustion"
+    ],
+    "description": "A canonical conditions icon representing Exhaustion 1."
+  },
+  {
+    "id": "conditions.exhaustion-2",
+    "name": "Exhaustion 2",
+    "file": "/assets/icons/exhaustion-2.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "exhaustion"
+    ],
+    "description": "A canonical conditions icon representing Exhaustion 2."
+  },
+  {
+    "id": "conditions.exhaustion-3",
+    "name": "Exhaustion 3",
+    "file": "/assets/icons/exhaustion-3.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "exhaustion"
+    ],
+    "description": "A canonical conditions icon representing Exhaustion 3."
+  },
+  {
+    "id": "conditions.exhaustion-4",
+    "name": "Exhaustion 4",
+    "file": "/assets/icons/exhaustion-4.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "exhaustion"
+    ],
+    "description": "A canonical conditions icon representing Exhaustion 4."
+  },
+  {
+    "id": "conditions.exhaustion-5",
+    "name": "Exhaustion 5",
+    "file": "/assets/icons/exhaustion-5.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "exhaustion"
+    ],
+    "description": "A canonical conditions icon representing Exhaustion 5."
+  },
+  {
+    "id": "conditions.exhaustion-6",
+    "name": "Exhaustion 6",
+    "file": "/assets/icons/exhaustion-6.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "exhaustion"
+    ],
+    "description": "A canonical conditions icon representing Exhaustion 6."
+  },
+  {
+    "id": "conditions.exhaustion-d",
+    "name": "Exhaustion D",
+    "file": "/assets/icons/exhaustion-d.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "exhaustion"
+    ],
+    "description": "A canonical conditions icon representing Exhaustion D."
+  },
+  {
+    "id": "conditions.exhaustion",
+    "name": "Exhaustion",
+    "file": "/assets/icons/exhaustion.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "exhaustion"
+    ],
+    "description": "A canonical conditions icon representing Exhaustion."
+  },
+  {
+    "id": "conditions.frozen-block",
+    "name": "Frozen Block",
+    "file": "/assets/icons/frozen-block.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "frozen",
+      "block"
+    ],
+    "description": "A canonical conditions icon representing Frozen Block."
+  },
+  {
+    "id": "conditions.frozen-body",
+    "name": "Frozen Body",
+    "file": "/assets/icons/frozen-body.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "frozen",
+      "body"
+    ],
+    "description": "A canonical conditions icon representing Frozen Body."
+  },
+  {
+    "id": "conditions.heartburn",
+    "name": "Heartburn",
+    "file": "/assets/icons/heartburn.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "heartburn"
+    ],
+    "description": "A canonical conditions icon representing Heartburn."
+  },
+  {
+    "id": "conditions.laserburn",
+    "name": "Laserburn",
+    "file": "/assets/icons/laserburn.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "laserburn"
+    ],
+    "description": "A canonical conditions icon representing Laserburn."
+  },
+  {
+    "id": "conditions.night-sleep",
+    "name": "Night Sleep",
+    "file": "/assets/icons/night-sleep.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "night",
+      "sleep"
+    ],
+    "description": "A canonical conditions icon representing Night Sleep."
+  },
+  {
+    "id": "conditions.paralyzed-1",
+    "name": "Paralyzed 1",
+    "file": "/assets/icons/paralyzed-1.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "paralyzed"
+    ],
+    "description": "A canonical conditions icon representing Paralyzed 1."
+  },
+  {
+    "id": "conditions.paralyzed",
+    "name": "Paralyzed",
+    "file": "/assets/icons/paralyzed.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "paralyzed"
+    ],
+    "description": "A canonical conditions icon representing Paralyzed."
+  },
+  {
+    "id": "conditions.poison-1",
+    "name": "Poison 1",
+    "file": "/assets/icons/poison-1.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "poison"
+    ],
+    "description": "A canonical conditions icon representing Poison 1."
+  },
+  {
+    "id": "conditions.poison-cloud",
+    "name": "Poison Cloud",
+    "file": "/assets/icons/poison-cloud.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "poison",
+      "cloud"
+    ],
+    "description": "A canonical conditions icon representing Poison Cloud."
+  },
+  {
+    "id": "conditions.poison-gas",
+    "name": "Poison Gas",
+    "file": "/assets/icons/poison-gas.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "poison",
+      "gas"
+    ],
+    "description": "A canonical conditions icon representing Poison Gas."
+  },
+  {
+    "id": "conditions.poison",
+    "name": "Poison",
+    "file": "/assets/icons/poison.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "poison"
+    ],
+    "description": "A canonical conditions icon representing Poison."
+  },
+  {
+    "id": "conditions.poison_breath",
+    "name": "Poison Breath",
+    "file": "/assets/icons/poison_breath.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "poison",
+      "breath"
+    ],
+    "description": "A canonical conditions icon representing Poison Breath."
+  },
+  {
+    "id": "conditions.poisoned-1",
+    "name": "Poisoned 1",
+    "file": "/assets/icons/poisoned-1.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "poisoned"
+    ],
+    "description": "A canonical conditions icon representing Poisoned 1."
+  },
+  {
+    "id": "conditions.poisoned",
+    "name": "Poisoned",
+    "file": "/assets/icons/poisoned.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "poisoned"
+    ],
+    "description": "A canonical conditions icon representing Poisoned."
+  },
+  {
+    "id": "conditions.silenced",
+    "name": "Silenced",
+    "file": "/assets/icons/silenced.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "silenced"
+    ],
+    "description": "A canonical conditions icon representing Silenced."
+  },
+  {
+    "id": "conditions.sleeping",
+    "name": "Sleeping",
+    "file": "/assets/icons/sleeping.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "sleeping"
+    ],
+    "description": "A canonical conditions icon representing Sleeping."
+  },
+  {
+    "id": "conditions.sleepy",
+    "name": "Sleepy",
+    "file": "/assets/icons/sleepy.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "sleepy"
+    ],
+    "description": "A canonical conditions icon representing Sleepy."
+  },
+  {
+    "id": "conditions.stunned-1",
+    "name": "Stunned 1",
+    "file": "/assets/icons/stunned-1.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "stunned"
+    ],
+    "description": "A canonical conditions icon representing Stunned 1."
+  },
+  {
+    "id": "conditions.stunned",
+    "name": "Stunned",
+    "file": "/assets/icons/stunned.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "stunned"
+    ],
+    "description": "A canonical conditions icon representing Stunned."
+  },
+  {
+    "id": "conditions.three-burning-balls",
+    "name": "Three Burning Balls",
+    "file": "/assets/icons/three-burning-balls.svg",
+    "category": "conditions",
+    "tags": [
+      "conditions",
+      "three",
+      "burning",
+      "balls"
+    ],
+    "description": "A canonical conditions icon representing Three Burning Balls."
+  }
+]

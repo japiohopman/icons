@@ -13,12 +13,29 @@ export type AssetCategory =
   | 'background'
   | 'other';
 
+export interface CatalogAsset {
+  id: string;
+  name: string;
+  file: string; // e.g. "/assets/icons/attack.svg"
+  category: string; // e.g. "combat"
+  tags?: string[];
+  description?: string;
+  usage?: string;
+  usedIn?: string;
+}
+
+export interface CatalogCategory {
+  id: string;
+  name: string;
+  description: string;
+}
+
 export interface Asset {
   id: string;
   name: string;
   category: AssetCategory;
   mimeType: string;
-  data: string;
+  data: string; // data URL or SVG content or fetchable path
   width?: number;
   height?: number;
   metadata?: Record<string, unknown>;

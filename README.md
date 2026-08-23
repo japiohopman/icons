@@ -8,15 +8,49 @@ While icons are the initial asset category used to validate application workflow
 
 ---
 
+## 🏛️ Asset Architecture: Core Directive
+
+The repository enforces a strict rule separating physical file storage from application semantics:
+
+```text
+public/assets/            → PHYSICAL ASSET STORAGE (Files)
+src/assets/catalog/      → SEMANTIC ASSET CATALOG (Meaning & Metadata)
+src/                     → APPLICATION CODE
+proto-type/              → REFERENCE ONLY
+```
+
+> **Note**: APP-002 establishes the canonical asset catalog and storage structure. APP-002 does not implement asset import or server-side asset mutation.
+
+### Physical Asset Store (`public/assets/`)
+All physical asset files live outside `src/`.
+- `public/assets/icons/` is a **flat physical asset store** containing physical `.svg` files.
+- Physical asset directories are intentionally flat (no category subdirectories like `public/assets/icons/combat/`).
+- The directory structure is intentionally dumb; the catalog provides the intelligence.
+
+### Semantic Asset Catalog (`src/assets/catalog/`)
+Logical organization, metadata, and taxonomy belong in `src/assets/catalog/`:
+- `src/assets/catalog/icons/*.json` contains JSON catalog files (`combat.json`, `equipment.json`, `creatures.json`, `magic.json`, etc.).
+- JSON is the semantic source of truth.
+- Provides **stable asset IDs** (e.g. `combat.attack`), display names, category classifications, tags, descriptions, and physical file paths (`/assets/icons/attack.svg`).
+- Filenames and folder structures are NOT canonical asset identities; asset identity is resolved via catalog metadata.
+
+---
+
 ## 📁 Repository Structure
 
 ```text
 icons/
+├── public/                               # PUBLIC STATIC PHYSICAL ASSET STORE
+│   └── assets/                           # Physical creative assets
+│       └── icons/                        # Flat icon store (*.svg)
 ├── src/                                  # PRODUCTION APPLICATION (Primary Codebase)
-│   ├── types/                            # Domain types (Asset, AssetCategory, ExportOptions, etc.)
+│   ├── types/                            # Domain types (Asset, CatalogAsset, ExportOptions, etc.)
+│   ├── lib/                              # Catalog loader & services (getIconCatalog, getAssetById, etc.)
 │   ├── engine/                           # EditorEngine interface & PhotopeaEngine bridge
-│   ├── components/                       # Application UI components (Browser, Inspector, Modal, Uploader)
-│   ├── assets/                           # Vault assets and explorer tree definitions
+│   ├── components/                       # Application UI components (Browser, Inspector, Modal)
+│   ├── assets/
+│   │   └── catalog/                      # Semantic JSON asset catalogs
+│   │       └── icons/                    # Category JSON files (combat.json, magic.json, etc.)
 │   ├── App.tsx                           # Application shell & state routing
 │   ├── main.tsx                          # Application entry
 │   └── index.css                         # Tailwind CSS styling
@@ -24,14 +58,13 @@ icons/
 │   └── artificer-icon-library-proto-type/ # Archived prototype implementation
 ├── docs/                                 # Documentation & taskboard
 │   └── TASKBOARD.md                      # Development taskboard
-├── public/                               # Public static assets
 ├── package.json                          # Production dependencies & scripts
 ├── tsconfig.json                         # TypeScript configuration
 ├── vite.config.ts                        # Vite bundler configuration
 └── server.ts                             # Development Express/Vite server
 ```
 
-> ⚠️ **Development Note**: From `APP-001` onward, the `proto-type/` directory is **reference material only**. Do not add new features or application logic to `proto-type/`. All production code belongs in root `src/`.
+> ⚠️ **Development Note**: `proto-type/` directory is **reference material only**. Do not add new features or application logic to `proto-type/`. All production code belongs in root `src/`. No physical SVG assets belong inside `src/`.
 
 ---
 
@@ -48,7 +81,7 @@ The application is structured into three distinct layers:
         |                             |
    organization                 modification
    metadata                     processing
-   folders                      compositing
+   JSON catalog                 compositing
    search                       export
    variants                     transforms
         |                             |
@@ -61,6 +94,8 @@ The application is structured into three distinct layers:
 
 ```text
 Asset Vault UI (`src/components/`)
+       ↓
+Catalog Loader (`src/lib/catalog.ts`)
        ↓
 Application State & Logic (`src/App.tsx`)
        ↓
@@ -111,6 +146,7 @@ The application will be accessible at `http://localhost:3000`.
 
 ## ⚡ Production Capabilities
 
+- **Catalog-Driven Vault**: The UI renders assets directly from the semantic JSON catalog, mapping stable asset IDs to physical asset store URLs (`/assets/icons/*.svg`).
 - **Application-Owned UI**: The user interacts exclusively with application navigation, inspector panels, and application editor controls. Photopea operates inside a programmatically managed engine container behind the UI.
 - **EditorEngine Boundary**: Centralized messaging bridge featuring:
   - Task serialization queue preventing concurrent command collisions.

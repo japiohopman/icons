@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "ui.alarm-clock",
+    "name": "Alarm Clock",
+    "file": "/assets/icons/alarm-clock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "alarm",
+      "clock"
+    ],
+    "description": "A canonical ui icon representing Alarm Clock."
+  },
+  {
+    "id": "ui.archive-research",
+    "name": "Archive Research",
+    "file": "/assets/icons/archive-research.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "archive",
+      "research"
+    ],
+    "description": "A canonical ui icon representing Archive Research."
+  },
+  {
+    "id": "ui.ascending-block",
+    "name": "Ascending Block",
+    "file": "/assets/icons/ascending-block.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "ascending",
+      "block"
+    ],
+    "description": "A canonical ui icon representing Ascending Block."
+  },
+  {
+    "id": "ui.block-house",
+    "name": "Block House",
+    "file": "/assets/icons/block-house.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "block",
+      "house"
+    ],
+    "description": "A canonical ui icon representing Block House."
+  },
+  {
+    "id": "ui.boomerang-cross",
+    "name": "Boomerang Cross",
+    "file": "/assets/icons/boomerang-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "boomerang",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Boomerang Cross."
+  },
+  {
+    "id": "ui.button-finger",
+    "name": "Button Finger",
+    "file": "/assets/icons/button-finger.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "button",
+      "finger"
+    ],
+    "description": "A canonical ui icon representing Button Finger."
+  },
+  {
+    "id": "ui.camargue-cross",
+    "name": "Camargue Cross",
+    "file": "/assets/icons/camargue-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "camargue",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Camargue Cross."
+  },
+  {
+    "id": "ui.captain-hat-profile",
+    "name": "Captain Hat Profile",
+    "file": "/assets/icons/captain-hat-profile.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "captain",
+      "hat",
+      "profile"
+    ],
+    "description": "A canonical ui icon representing Captain Hat Profile."
+  },
+  {
+    "id": "ui.check-mark",
+    "name": "Check Mark",
+    "file": "/assets/icons/check-mark.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "check",
+      "mark"
+    ],
+    "description": "A canonical ui icon representing Check Mark."
+  },
+  {
+    "id": "ui.check",
+    "name": "Check",
+    "file": "/assets/icons/check.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "check"
+    ],
+    "description": "A canonical ui icon representing Check."
+  },
+  {
+    "id": "ui.checkbox-tree",
+    "name": "Checkbox Tree",
+    "file": "/assets/icons/checkbox-tree.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "checkbox",
+      "tree"
+    ],
+    "description": "A canonical ui icon representing Checkbox Tree."
+  },
+  {
+    "id": "ui.checkered-diamond",
+    "name": "Checkered Diamond",
+    "file": "/assets/icons/checkered-diamond.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "checkered",
+      "diamond"
+    ],
+    "description": "A canonical ui icon representing Checkered Diamond."
+  },
+  {
+    "id": "ui.checkered-flag",
+    "name": "Checkered Flag",
+    "file": "/assets/icons/checkered-flag.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "checkered",
+      "flag"
+    ],
+    "description": "A canonical ui icon representing Checkered Flag."
+  },
+  {
+    "id": "ui.checklist",
+    "name": "Checklist",
+    "file": "/assets/icons/checklist.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "checklist"
+    ],
+    "description": "A canonical ui icon representing Checklist."
+  },
+  {
+    "id": "ui.cliff-crossing",
+    "name": "Cliff Crossing",
+    "file": "/assets/icons/cliff-crossing.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "cliff",
+      "crossing"
+    ],
+    "description": "A canonical ui icon representing Cliff Crossing."
+  },
+  {
+    "id": "ui.clock-tower",
+    "name": "Clock Tower",
+    "file": "/assets/icons/clock-tower.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "clock",
+      "tower"
+    ],
+    "description": "A canonical ui icon representing Clock Tower."
+  },
+  {
+    "id": "ui.clockwise-rotation",
+    "name": "Clockwise Rotation",
+    "file": "/assets/icons/clockwise-rotation.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "clockwise",
+      "rotation"
+    ],
+    "description": "A canonical ui icon representing Clockwise Rotation."
+  },
+  {
+    "id": "ui.clockwork",
+    "name": "Clockwork",
+    "file": "/assets/icons/clockwork.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "clockwork"
+    ],
+    "description": "A canonical ui icon representing Clockwork."
+  },
+  {
+    "id": "ui.cog-lock",
+    "name": "Cog Lock",
+    "file": "/assets/icons/cog-lock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "cog",
+      "lock"
+    ],
+    "description": "A canonical ui icon representing Cog Lock."
+  },
+  {
+    "id": "ui.cog",
+    "name": "Cog",
+    "file": "/assets/icons/cog.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "cog"
+    ],
+    "description": "A canonical ui icon representing Cog."
+  },
+  {
+    "id": "ui.cogsplosion",
+    "name": "Cogsplosion",
+    "file": "/assets/icons/cogsplosion.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "cogsplosion"
+    ],
+    "description": "A canonical ui icon representing Cogsplosion."
+  },
+  {
+    "id": "ui.combination-lock",
+    "name": "Combination Lock",
+    "file": "/assets/icons/combination-lock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "combination",
+      "lock"
+    ],
+    "description": "A canonical ui icon representing Combination Lock."
+  },
+  {
+    "id": "ui.credits-currency",
+    "name": "Credits Currency",
+    "file": "/assets/icons/credits-currency.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "credits",
+      "currency"
+    ],
+    "description": "A canonical ui icon representing Credits Currency."
+  },
+  {
+    "id": "ui.cross-flare",
+    "name": "Cross Flare",
+    "file": "/assets/icons/cross-flare.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "cross",
+      "flare"
+    ],
+    "description": "A canonical ui icon representing Cross Flare."
+  },
+  {
+    "id": "ui.cross-mark",
+    "name": "Cross Mark",
+    "file": "/assets/icons/cross-mark.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "cross",
+      "mark"
+    ],
+    "description": "A canonical ui icon representing Cross Mark."
+  },
+  {
+    "id": "ui.crosscut-saw",
+    "name": "Crosscut Saw",
+    "file": "/assets/icons/crosscut-saw.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crosscut",
+      "saw"
+    ],
+    "description": "A canonical ui icon representing Crosscut Saw."
+  },
+  {
+    "id": "ui.crossed-air-flows",
+    "name": "Crossed Air Flows",
+    "file": "/assets/icons/crossed-air-flows.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crossed",
+      "air",
+      "flows"
+    ],
+    "description": "A canonical ui icon representing Crossed Air Flows."
+  },
+  {
+    "id": "ui.crossed-bones",
+    "name": "Crossed Bones",
+    "file": "/assets/icons/crossed-bones.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crossed",
+      "bones"
+    ],
+    "description": "A canonical ui icon representing Crossed Bones."
+  },
+  {
+    "id": "ui.crossed-chains",
+    "name": "Crossed Chains",
+    "file": "/assets/icons/crossed-chains.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crossed",
+      "chains"
+    ],
+    "description": "A canonical ui icon representing Crossed Chains."
+  },
+  {
+    "id": "ui.crossed-pistols",
+    "name": "Crossed Pistols",
+    "file": "/assets/icons/crossed-pistols.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crossed",
+      "pistols"
+    ],
+    "description": "A canonical ui icon representing Crossed Pistols."
+  },
+  {
+    "id": "ui.crossed-sabres",
+    "name": "Crossed Sabres",
+    "file": "/assets/icons/crossed-sabres.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crossed",
+      "sabres"
+    ],
+    "description": "A canonical ui icon representing Crossed Sabres."
+  },
+  {
+    "id": "ui.crossed-slashes",
+    "name": "Crossed Slashes",
+    "file": "/assets/icons/crossed-slashes.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crossed",
+      "slashes"
+    ],
+    "description": "A canonical ui icon representing Crossed Slashes."
+  },
+  {
+    "id": "ui.crosshair",
+    "name": "Crosshair",
+    "file": "/assets/icons/crosshair.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crosshair"
+    ],
+    "description": "A canonical ui icon representing Crosshair."
+  },
+  {
+    "id": "ui.crossroad",
+    "name": "Crossroad",
+    "file": "/assets/icons/crossroad.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "crossroad"
+    ],
+    "description": "A canonical ui icon representing Crossroad."
+  },
+  {
+    "id": "ui.cuckoo-clock",
+    "name": "Cuckoo Clock",
+    "file": "/assets/icons/cuckoo-clock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "cuckoo",
+      "clock"
+    ],
+    "description": "A canonical ui icon representing Cuckoo Clock."
+  },
+  {
+    "id": "ui.dial-padlock",
+    "name": "Dial Padlock",
+    "file": "/assets/icons/dial-padlock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "dial",
+      "padlock"
+    ],
+    "description": "A canonical ui icon representing Dial Padlock."
+  },
+  {
+    "id": "ui.egyptian-profile",
+    "name": "Egyptian Profile",
+    "file": "/assets/icons/egyptian-profile.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "egyptian",
+      "profile"
+    ],
+    "description": "A canonical ui icon representing Egyptian Profile."
+  },
+  {
+    "id": "ui.files",
+    "name": "Files",
+    "file": "/assets/icons/files.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "files"
+    ],
+    "description": "A canonical ui icon representing Files."
+  },
+  {
+    "id": "ui.fingers-crossed",
+    "name": "Fingers Crossed",
+    "file": "/assets/icons/fingers-crossed.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "fingers",
+      "crossed"
+    ],
+    "description": "A canonical ui icon representing Fingers Crossed."
+  },
+  {
+    "id": "ui.full-folder",
+    "name": "Full Folder",
+    "file": "/assets/icons/full-folder.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "full",
+      "folder"
+    ],
+    "description": "A canonical ui icon representing Full Folder."
+  },
+  {
+    "id": "ui.gamepad-cross",
+    "name": "Gamepad Cross",
+    "file": "/assets/icons/gamepad-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "gamepad",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Gamepad Cross."
+  },
+  {
+    "id": "ui.glock",
+    "name": "Glock",
+    "file": "/assets/icons/glock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "glock"
+    ],
+    "description": "A canonical ui icon representing Glock."
+  },
+  {
+    "id": "ui.gothic-cross",
+    "name": "Gothic Cross",
+    "file": "/assets/icons/gothic-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "gothic",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Gothic Cross."
+  },
+  {
+    "id": "ui.hamburger-menu",
+    "name": "Hamburger Menu",
+    "file": "/assets/icons/hamburger-menu.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "hamburger",
+      "menu"
+    ],
+    "description": "A canonical ui icon representing Hamburger Menu."
+  },
+  {
+    "id": "ui.heart-minus",
+    "name": "Heart Minus",
+    "file": "/assets/icons/heart-minus.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "heart",
+      "minus"
+    ],
+    "description": "A canonical ui icon representing Heart Minus."
+  },
+  {
+    "id": "ui.heart-plus",
+    "name": "Heart Plus",
+    "file": "/assets/icons/heart-plus.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "heart",
+      "plus"
+    ],
+    "description": "A canonical ui icon representing Heart Plus."
+  },
+  {
+    "id": "ui.hell-crosses",
+    "name": "Hell Crosses",
+    "file": "/assets/icons/hell-crosses.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "hell",
+      "crosses"
+    ],
+    "description": "A canonical ui icon representing Hell Crosses."
+  },
+  {
+    "id": "ui.home-garage",
+    "name": "Home Garage",
+    "file": "/assets/icons/home-garage.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "home",
+      "garage"
+    ],
+    "description": "A canonical ui icon representing Home Garage."
+  },
+  {
+    "id": "ui.hospital-cross",
+    "name": "Hospital Cross",
+    "file": "/assets/icons/hospital-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "hospital",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Hospital Cross."
+  },
+  {
+    "id": "ui.info",
+    "name": "Info",
+    "file": "/assets/icons/info.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "info"
+    ],
+    "description": "A canonical ui icon representing Info."
+  },
+  {
+    "id": "ui.iron-cross",
+    "name": "Iron Cross",
+    "file": "/assets/icons/iron-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "iron",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Iron Cross."
+  },
+  {
+    "id": "ui.jerusalem-cross",
+    "name": "Jerusalem Cross",
+    "file": "/assets/icons/jerusalem-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "jerusalem",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Jerusalem Cross."
+  },
+  {
+    "id": "ui.jump-across",
+    "name": "Jump Across",
+    "file": "/assets/icons/jump-across.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "jump",
+      "across"
+    ],
+    "description": "A canonical ui icon representing Jump Across."
+  },
+  {
+    "id": "ui.level-crossing",
+    "name": "Level Crossing",
+    "file": "/assets/icons/level-crossing.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "level",
+      "crossing"
+    ],
+    "description": "A canonical ui icon representing Level Crossing."
+  },
+  {
+    "id": "ui.lock-picking",
+    "name": "Lock Picking",
+    "file": "/assets/icons/lock-picking.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "lock",
+      "picking"
+    ],
+    "description": "A canonical ui icon representing Lock Picking."
+  },
+  {
+    "id": "ui.lock-spy",
+    "name": "Lock Spy",
+    "file": "/assets/icons/lock-spy.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "lock",
+      "spy"
+    ],
+    "description": "A canonical ui icon representing Lock Spy."
+  },
+  {
+    "id": "ui.locked-box",
+    "name": "Locked Box",
+    "file": "/assets/icons/locked-box.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "locked",
+      "box"
+    ],
+    "description": "A canonical ui icon representing Locked Box."
+  },
+  {
+    "id": "ui.locked-door",
+    "name": "Locked Door",
+    "file": "/assets/icons/locked-door.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "locked",
+      "door"
+    ],
+    "description": "A canonical ui icon representing Locked Door."
+  },
+  {
+    "id": "ui.locked-fortress",
+    "name": "Locked Fortress",
+    "file": "/assets/icons/locked-fortress.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "locked",
+      "fortress"
+    ],
+    "description": "A canonical ui icon representing Locked Fortress."
+  },
+  {
+    "id": "ui.locked-heart",
+    "name": "Locked Heart",
+    "file": "/assets/icons/locked-heart.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "locked",
+      "heart"
+    ],
+    "description": "A canonical ui icon representing Locked Heart."
+  },
+  {
+    "id": "ui.lockers",
+    "name": "Lockers",
+    "file": "/assets/icons/lockers.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "lockers"
+    ],
+    "description": "A canonical ui icon representing Lockers."
+  },
+  {
+    "id": "ui.lockpicks",
+    "name": "Lockpicks",
+    "file": "/assets/icons/lockpicks.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "lockpicks"
+    ],
+    "description": "A canonical ui icon representing Lockpicks."
+  },
+  {
+    "id": "ui.meditation",
+    "name": "Meditation",
+    "file": "/assets/icons/meditation.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "meditation"
+    ],
+    "description": "A canonical ui icon representing Meditation."
+  },
+  {
+    "id": "ui.next-button",
+    "name": "Next Button",
+    "file": "/assets/icons/next-button.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "next",
+      "button"
+    ],
+    "description": "A canonical ui icon representing Next Button."
+  },
+  {
+    "id": "ui.open-folder",
+    "name": "Open Folder",
+    "file": "/assets/icons/open-folder.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "open",
+      "folder"
+    ],
+    "description": "A canonical ui icon representing Open Folder."
+  },
+  {
+    "id": "ui.padlock-open",
+    "name": "Padlock Open",
+    "file": "/assets/icons/padlock-open.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "padlock",
+      "open"
+    ],
+    "description": "A canonical ui icon representing Padlock Open."
+  },
+  {
+    "id": "ui.padlock",
+    "name": "Padlock",
+    "file": "/assets/icons/padlock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "padlock"
+    ],
+    "description": "A canonical ui icon representing Padlock."
+  },
+  {
+    "id": "ui.pause-button",
+    "name": "Pause Button",
+    "file": "/assets/icons/pause-button.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "pause",
+      "button"
+    ],
+    "description": "A canonical ui icon representing Pause Button."
+  },
+  {
+    "id": "ui.plague-doctor-profile",
+    "name": "Plague Doctor Profile",
+    "file": "/assets/icons/plague-doctor-profile.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "plague",
+      "doctor",
+      "profile"
+    ],
+    "description": "A canonical ui icon representing Plague Doctor Profile."
+  },
+  {
+    "id": "ui.plain-padlock",
+    "name": "Plain Padlock",
+    "file": "/assets/icons/plain-padlock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "plain",
+      "padlock"
+    ],
+    "description": "A canonical ui icon representing Plain Padlock."
+  },
+  {
+    "id": "ui.play-button",
+    "name": "Play Button",
+    "file": "/assets/icons/play-button.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "play",
+      "button"
+    ],
+    "description": "A canonical ui icon representing Play Button."
+  },
+  {
+    "id": "ui.pokecog",
+    "name": "Pokecog",
+    "file": "/assets/icons/pokecog.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "pokecog"
+    ],
+    "description": "A canonical ui icon representing Pokecog."
+  },
+  {
+    "id": "ui.power-button",
+    "name": "Power Button",
+    "file": "/assets/icons/power-button.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "power",
+      "button"
+    ],
+    "description": "A canonical ui icon representing Power Button."
+  },
+  {
+    "id": "ui.previous-button",
+    "name": "Previous Button",
+    "file": "/assets/icons/previous-button.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "previous",
+      "button"
+    ],
+    "description": "A canonical ui icon representing Previous Button."
+  },
+  {
+    "id": "ui.radar-cross-section",
+    "name": "Radar Cross Section",
+    "file": "/assets/icons/radar-cross-section.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "radar",
+      "cross",
+      "section"
+    ],
+    "description": "A canonical ui icon representing Radar Cross Section."
+  },
+  {
+    "id": "ui.ram-profile",
+    "name": "Ram Profile",
+    "file": "/assets/icons/ram-profile.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "ram",
+      "profile"
+    ],
+    "description": "A canonical ui icon representing Ram Profile."
+  },
+  {
+    "id": "ui.research",
+    "name": "Research",
+    "file": "/assets/icons/research.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "research"
+    ],
+    "description": "A canonical ui icon representing Research."
+  },
+  {
+    "id": "ui.save-1",
+    "name": "Save 1",
+    "file": "/assets/icons/save-1.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "save"
+    ],
+    "description": "A canonical ui icon representing Save 1."
+  },
+  {
+    "id": "ui.save",
+    "name": "Save",
+    "file": "/assets/icons/save.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "save"
+    ],
+    "description": "A canonical ui icon representing Save."
+  },
+  {
+    "id": "ui.settings-knobs",
+    "name": "Settings Knobs",
+    "file": "/assets/icons/settings-knobs.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "settings",
+      "knobs"
+    ],
+    "description": "A canonical ui icon representing Settings Knobs."
+  },
+  {
+    "id": "ui.settings",
+    "name": "Settings",
+    "file": "/assets/icons/settings.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "settings"
+    ],
+    "description": "A canonical ui icon representing Settings."
+  },
+  {
+    "id": "ui.sherlock-holmes",
+    "name": "Sherlock Holmes",
+    "file": "/assets/icons/sherlock-holmes.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "sherlock",
+      "holmes"
+    ],
+    "description": "A canonical ui icon representing Sherlock Holmes."
+  },
+  {
+    "id": "ui.shirt-button",
+    "name": "Shirt Button",
+    "file": "/assets/icons/shirt-button.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "shirt",
+      "button"
+    ],
+    "description": "A canonical ui icon representing Shirt Button."
+  },
+  {
+    "id": "ui.skull-crossed-bones",
+    "name": "Skull Crossed Bones",
+    "file": "/assets/icons/skull-crossed-bones.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "skull",
+      "crossed",
+      "bones"
+    ],
+    "description": "A canonical ui icon representing Skull Crossed Bones."
+  },
+  {
+    "id": "ui.split-cross",
+    "name": "Split Cross",
+    "file": "/assets/icons/split-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "split",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Split Cross."
+  },
+  {
+    "id": "ui.stone-block",
+    "name": "Stone Block",
+    "file": "/assets/icons/stone-block.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "stone",
+      "block"
+    ],
+    "description": "A canonical ui icon representing Stone Block."
+  },
+  {
+    "id": "ui.tire-iron-cross",
+    "name": "Tire Iron Cross",
+    "file": "/assets/icons/tire-iron-cross.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "tire",
+      "iron",
+      "cross"
+    ],
+    "description": "A canonical ui icon representing Tire Iron Cross."
+  },
+  {
+    "id": "ui.trait-saves",
+    "name": "Saves",
+    "file": "/assets/icons/trait-saves.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "trait",
+      "saves"
+    ],
+    "description": "A canonical ui icon representing Saves."
+  },
+  {
+    "id": "ui.triple-lock",
+    "name": "Triple Lock",
+    "file": "/assets/icons/triple-lock.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "triple",
+      "lock"
+    ],
+    "description": "A canonical ui icon representing Triple Lock."
+  },
+  {
+    "id": "ui.trousers-1",
+    "name": "Trousers 1",
+    "file": "/assets/icons/trousers-1.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "trousers"
+    ],
+    "description": "A canonical ui icon representing Trousers 1."
+  },
+  {
+    "id": "ui.trousers",
+    "name": "Trousers",
+    "file": "/assets/icons/trousers.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "trousers"
+    ],
+    "description": "A canonical ui icon representing Trousers."
+  },
+  {
+    "id": "ui.unlocking",
+    "name": "Unlocking",
+    "file": "/assets/icons/unlocking.svg",
+    "category": "ui",
+    "tags": [
+      "ui",
+      "unlocking"
+    ],
+    "description": "A canonical ui icon representing Unlocking."
+  }
+]

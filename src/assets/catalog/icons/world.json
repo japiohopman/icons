@@ -1,0 +1,2808 @@
+[
+  {
+    "id": "world.alien-stare",
+    "name": "Alien Stare",
+    "file": "/assets/icons/alien-stare.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "alien",
+      "stare"
+    ],
+    "description": "A canonical world icon representing Alien Stare."
+  },
+  {
+    "id": "world.allied-star",
+    "name": "Allied Star",
+    "file": "/assets/icons/allied-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "allied",
+      "star"
+    ],
+    "description": "A canonical world icon representing Allied Star."
+  },
+  {
+    "id": "world.ancient-ruins",
+    "name": "Ancient Ruins",
+    "file": "/assets/icons/ancient-ruins.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "ancient",
+      "ruins"
+    ],
+    "description": "A canonical world icon representing Ancient Ruins."
+  },
+  {
+    "id": "world.arabic-door",
+    "name": "Arabic Door",
+    "file": "/assets/icons/arabic-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "arabic",
+      "door"
+    ],
+    "description": "A canonical world icon representing Arabic Door."
+  },
+  {
+    "id": "world.at-sea",
+    "name": "At Sea",
+    "file": "/assets/icons/at-sea.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sea"
+    ],
+    "description": "A canonical world icon representing At Sea."
+  },
+  {
+    "id": "world.aztec-calendar-sun",
+    "name": "Aztec Calendar Sun",
+    "file": "/assets/icons/aztec-calendar-sun.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "aztec",
+      "calendar",
+      "sun"
+    ],
+    "description": "A canonical world icon representing Aztec Calendar Sun."
+  },
+  {
+    "id": "world.beveled-star",
+    "name": "Beveled Star",
+    "file": "/assets/icons/beveled-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "beveled",
+      "star"
+    ],
+    "description": "A canonical world icon representing Beveled Star."
+  },
+  {
+    "id": "world.birch-trees",
+    "name": "Birch Trees",
+    "file": "/assets/icons/birch-trees.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "birch",
+      "trees"
+    ],
+    "description": "A canonical world icon representing Birch Trees."
+  },
+  {
+    "id": "world.black-flag",
+    "name": "Black Flag",
+    "file": "/assets/icons/black-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "black",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Black Flag."
+  },
+  {
+    "id": "world.black-sea",
+    "name": "Black Sea",
+    "file": "/assets/icons/black-sea.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "black",
+      "sea"
+    ],
+    "description": "A canonical world icon representing Black Sea."
+  },
+  {
+    "id": "world.bonsai-tree",
+    "name": "Bonsai Tree",
+    "file": "/assets/icons/bonsai-tree.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "bonsai",
+      "tree"
+    ],
+    "description": "A canonical world icon representing Bonsai Tree."
+  },
+  {
+    "id": "world.boomerang-sun",
+    "name": "Boomerang Sun",
+    "file": "/assets/icons/boomerang-sun.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "boomerang",
+      "sun"
+    ],
+    "description": "A canonical world icon representing Boomerang Sun."
+  },
+  {
+    "id": "world.brazil-flag",
+    "name": "Brazil Flag",
+    "file": "/assets/icons/brazil-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "brazil",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Brazil Flag."
+  },
+  {
+    "id": "world.bus-doors",
+    "name": "Bus Doors",
+    "file": "/assets/icons/bus-doors.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "bus",
+      "doors"
+    ],
+    "description": "A canonical world icon representing Bus Doors."
+  },
+  {
+    "id": "world.car-door",
+    "name": "Car Door",
+    "file": "/assets/icons/car-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "car",
+      "door"
+    ],
+    "description": "A canonical world icon representing Car Door."
+  },
+  {
+    "id": "world.car-seat",
+    "name": "Car Seat",
+    "file": "/assets/icons/car-seat.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "car",
+      "seat"
+    ],
+    "description": "A canonical world icon representing Car Seat."
+  },
+  {
+    "id": "world.castle-1",
+    "name": "Castle 1",
+    "file": "/assets/icons/castle-1.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "castle"
+    ],
+    "description": "A canonical world icon representing Castle 1."
+  },
+  {
+    "id": "world.castle-ruins",
+    "name": "Castle Ruins",
+    "file": "/assets/icons/castle-ruins.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "castle",
+      "ruins"
+    ],
+    "description": "A canonical world icon representing Castle Ruins."
+  },
+  {
+    "id": "world.castle",
+    "name": "Castle",
+    "file": "/assets/icons/castle.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "castle"
+    ],
+    "description": "A canonical world icon representing Castle."
+  },
+  {
+    "id": "world.cave-entrance",
+    "name": "Cave Entrance",
+    "file": "/assets/icons/cave-entrance.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "cave",
+      "entrance"
+    ],
+    "description": "A canonical world icon representing Cave Entrance."
+  },
+  {
+    "id": "world.caveman",
+    "name": "Caveman",
+    "file": "/assets/icons/caveman.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "caveman"
+    ],
+    "description": "A canonical world icon representing Caveman."
+  },
+  {
+    "id": "world.circle-forest",
+    "name": "Circle Forest",
+    "file": "/assets/icons/circle-forest.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "circle",
+      "forest"
+    ],
+    "description": "A canonical world icon representing Circle Forest."
+  },
+  {
+    "id": "world.closed-doors",
+    "name": "Closed Doors",
+    "file": "/assets/icons/closed-doors.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "closed",
+      "doors"
+    ],
+    "description": "A canonical world icon representing Closed Doors."
+  },
+  {
+    "id": "world.cloud-download",
+    "name": "Cloud Download",
+    "file": "/assets/icons/cloud-download.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "cloud",
+      "download"
+    ],
+    "description": "A canonical world icon representing Cloud Download."
+  },
+  {
+    "id": "world.cloud-upload",
+    "name": "Cloud Upload",
+    "file": "/assets/icons/cloud-upload.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "cloud",
+      "upload"
+    ],
+    "description": "A canonical world icon representing Cloud Upload."
+  },
+  {
+    "id": "world.cloudy-fork",
+    "name": "Cloudy Fork",
+    "file": "/assets/icons/cloudy-fork.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "cloudy",
+      "fork"
+    ],
+    "description": "A canonical world icon representing Cloudy Fork."
+  },
+  {
+    "id": "world.control-tower",
+    "name": "Control Tower",
+    "file": "/assets/icons/control-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "control",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Control Tower."
+  },
+  {
+    "id": "world.corner-flag",
+    "name": "Corner Flag",
+    "file": "/assets/icons/corner-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "corner",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Corner Flag."
+  },
+  {
+    "id": "world.curling-stone",
+    "name": "Curling Stone",
+    "file": "/assets/icons/curling-stone.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "curling",
+      "stone"
+    ],
+    "description": "A canonical world icon representing Curling Stone."
+  },
+  {
+    "id": "world.damaged-house",
+    "name": "Damaged House",
+    "file": "/assets/icons/damaged-house.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "damaged",
+      "house"
+    ],
+    "description": "A canonical world icon representing Damaged House."
+  },
+  {
+    "id": "world.death-star",
+    "name": "Death Star",
+    "file": "/assets/icons/death-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "death",
+      "star"
+    ],
+    "description": "A canonical world icon representing Death Star."
+  },
+  {
+    "id": "world.deku-tree",
+    "name": "Deku Tree",
+    "file": "/assets/icons/deku-tree.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "deku",
+      "tree"
+    ],
+    "description": "A canonical world icon representing Deku Tree."
+  },
+  {
+    "id": "world.difficult-terrain",
+    "name": "Difficult Terrain",
+    "file": "/assets/icons/difficult-terrain.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "difficult",
+      "terrain"
+    ],
+    "description": "A canonical world icon representing Difficult Terrain."
+  },
+  {
+    "id": "world.door-watcher",
+    "name": "Door Watcher",
+    "file": "/assets/icons/door-watcher.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "door",
+      "watcher"
+    ],
+    "description": "A canonical world icon representing Door Watcher."
+  },
+  {
+    "id": "world.door",
+    "name": "Door",
+    "file": "/assets/icons/door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "door"
+    ],
+    "description": "A canonical world icon representing Door."
+  },
+  {
+    "id": "world.doorway",
+    "name": "Doorway",
+    "file": "/assets/icons/doorway.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "doorway"
+    ],
+    "description": "A canonical world icon representing Doorway."
+  },
+  {
+    "id": "world.dripping-star",
+    "name": "Dripping Star",
+    "file": "/assets/icons/dripping-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "dripping",
+      "star"
+    ],
+    "description": "A canonical world icon representing Dripping Star."
+  },
+  {
+    "id": "world.dripping-stone",
+    "name": "Dripping Stone",
+    "file": "/assets/icons/dripping-stone.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "dripping",
+      "stone"
+    ],
+    "description": "A canonical world icon representing Dripping Stone."
+  },
+  {
+    "id": "world.dungeon-gate",
+    "name": "Dungeon Gate",
+    "file": "/assets/icons/dungeon-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "dungeon",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Dungeon Gate."
+  },
+  {
+    "id": "world.dust-cloud",
+    "name": "Dust Cloud",
+    "file": "/assets/icons/dust-cloud.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "dust",
+      "cloud"
+    ],
+    "description": "A canonical world icon representing Dust Cloud."
+  },
+  {
+    "id": "world.earth-africa-europe",
+    "name": "Earth Africa Europe",
+    "file": "/assets/icons/earth-africa-europe.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "earth",
+      "africa",
+      "europe"
+    ],
+    "description": "A canonical world icon representing Earth Africa Europe."
+  },
+  {
+    "id": "world.earth-america",
+    "name": "Earth America",
+    "file": "/assets/icons/earth-america.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "earth",
+      "america"
+    ],
+    "description": "A canonical world icon representing Earth America."
+  },
+  {
+    "id": "world.earth-asia-oceania",
+    "name": "Earth Asia Oceania",
+    "file": "/assets/icons/earth-asia-oceania.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "earth",
+      "asia",
+      "oceania"
+    ],
+    "description": "A canonical world icon representing Earth Asia Oceania."
+  },
+  {
+    "id": "world.earth-crack",
+    "name": "Earth Crack",
+    "file": "/assets/icons/earth-crack.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "earth",
+      "crack"
+    ],
+    "description": "A canonical world icon representing Earth Crack."
+  },
+  {
+    "id": "world.earth-spit",
+    "name": "Earth Spit",
+    "file": "/assets/icons/earth-spit.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "earth",
+      "spit"
+    ],
+    "description": "A canonical world icon representing Earth Spit."
+  },
+  {
+    "id": "world.earth-worm",
+    "name": "Earth Worm",
+    "file": "/assets/icons/earth-worm.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "earth",
+      "worm"
+    ],
+    "description": "A canonical world icon representing Earth Worm."
+  },
+  {
+    "id": "world.egyptian-temple",
+    "name": "Egyptian Temple",
+    "file": "/assets/icons/egyptian-temple.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "egyptian",
+      "temple"
+    ],
+    "description": "A canonical world icon representing Egyptian Temple."
+  },
+  {
+    "id": "world.elven-castle",
+    "name": "Elven Castle",
+    "file": "/assets/icons/elven-castle.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "elven",
+      "castle"
+    ],
+    "description": "A canonical world icon representing Elven Castle."
+  },
+  {
+    "id": "world.entry-door",
+    "name": "Entry Door",
+    "file": "/assets/icons/entry-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "entry",
+      "door"
+    ],
+    "description": "A canonical world icon representing Entry Door."
+  },
+  {
+    "id": "world.european-flag",
+    "name": "European Flag",
+    "file": "/assets/icons/european-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "european",
+      "flag"
+    ],
+    "description": "A canonical world icon representing European Flag."
+  },
+  {
+    "id": "world.evil-moon",
+    "name": "Evil Moon",
+    "file": "/assets/icons/evil-moon.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "evil",
+      "moon"
+    ],
+    "description": "A canonical world icon representing Evil Moon."
+  },
+  {
+    "id": "world.evil-tower",
+    "name": "Evil Tower",
+    "file": "/assets/icons/evil-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "evil",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Evil Tower."
+  },
+  {
+    "id": "world.evil-tree",
+    "name": "Evil Tree",
+    "file": "/assets/icons/evil-tree.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "evil",
+      "tree"
+    ],
+    "description": "A canonical world icon representing Evil Tree."
+  },
+  {
+    "id": "world.exit-door",
+    "name": "Exit Door",
+    "file": "/assets/icons/exit-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "exit",
+      "door"
+    ],
+    "description": "A canonical world icon representing Exit Door."
+  },
+  {
+    "id": "world.falcon-moon",
+    "name": "Falcon Moon",
+    "file": "/assets/icons/falcon-moon.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "falcon",
+      "moon"
+    ],
+    "description": "A canonical world icon representing Falcon Moon."
+  },
+  {
+    "id": "world.falling-rocks",
+    "name": "Falling Rocks",
+    "file": "/assets/icons/falling-rocks.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "falling",
+      "rocks"
+    ],
+    "description": "A canonical world icon representing Falling Rocks."
+  },
+  {
+    "id": "world.falling-star",
+    "name": "Falling Star",
+    "file": "/assets/icons/falling-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "falling",
+      "star"
+    ],
+    "description": "A canonical world icon representing Falling Star."
+  },
+  {
+    "id": "world.family-house",
+    "name": "Family House",
+    "file": "/assets/icons/family-house.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "family",
+      "house"
+    ],
+    "description": "A canonical world icon representing Family House."
+  },
+  {
+    "id": "world.family-tree",
+    "name": "Family Tree",
+    "file": "/assets/icons/family-tree.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "family",
+      "tree"
+    ],
+    "description": "A canonical world icon representing Family Tree."
+  },
+  {
+    "id": "world.flag-objective",
+    "name": "Flag Objective",
+    "file": "/assets/icons/flag-objective.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "flag",
+      "objective"
+    ],
+    "description": "A canonical world icon representing Flag Objective."
+  },
+  {
+    "id": "world.flat-star",
+    "name": "Flat Star",
+    "file": "/assets/icons/flat-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "flat",
+      "star"
+    ],
+    "description": "A canonical world icon representing Flat Star."
+  },
+  {
+    "id": "world.flexible-star",
+    "name": "Flexible Star",
+    "file": "/assets/icons/flexible-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "flexible",
+      "star"
+    ],
+    "description": "A canonical world icon representing Flexible Star."
+  },
+  {
+    "id": "world.flower-star",
+    "name": "Flower Star",
+    "file": "/assets/icons/flower-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "flower",
+      "star"
+    ],
+    "description": "A canonical world icon representing Flower Star."
+  },
+  {
+    "id": "world.fluffy-cloud",
+    "name": "Fluffy Cloud",
+    "file": "/assets/icons/fluffy-cloud.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "fluffy",
+      "cloud"
+    ],
+    "description": "A canonical world icon representing Fluffy Cloud."
+  },
+  {
+    "id": "world.flying-flag",
+    "name": "Flying Flag",
+    "file": "/assets/icons/flying-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "flying",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Flying Flag."
+  },
+  {
+    "id": "world.forest-camp",
+    "name": "Forest Camp",
+    "file": "/assets/icons/forest-camp.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "forest",
+      "camp"
+    ],
+    "description": "A canonical world icon representing Forest Camp."
+  },
+  {
+    "id": "world.forest-entrance",
+    "name": "Forest Entrance",
+    "file": "/assets/icons/forest-entrance.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "forest",
+      "entrance"
+    ],
+    "description": "A canonical world icon representing Forest Entrance."
+  },
+  {
+    "id": "world.forest",
+    "name": "Forest",
+    "file": "/assets/icons/forest.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "forest"
+    ],
+    "description": "A canonical world icon representing Forest."
+  },
+  {
+    "id": "world.fruit-tree",
+    "name": "Fruit Tree",
+    "file": "/assets/icons/fruit-tree.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "fruit",
+      "tree"
+    ],
+    "description": "A canonical world icon representing Fruit Tree."
+  },
+  {
+    "id": "world.gate",
+    "name": "Gate",
+    "file": "/assets/icons/gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Gate."
+  },
+  {
+    "id": "world.golf-flag",
+    "name": "Golf Flag",
+    "file": "/assets/icons/golf-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "golf",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Golf Flag."
+  },
+  {
+    "id": "world.grain-bundle",
+    "name": "Grain Bundle",
+    "file": "/assets/icons/grain-bundle.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "grain",
+      "bundle"
+    ],
+    "description": "A canonical world icon representing Grain Bundle."
+  },
+  {
+    "id": "world.grain",
+    "name": "Grain",
+    "file": "/assets/icons/grain.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "grain"
+    ],
+    "description": "A canonical world icon representing Grain."
+  },
+  {
+    "id": "world.greek-temple",
+    "name": "Greek Temple",
+    "file": "/assets/icons/greek-temple.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "greek",
+      "temple"
+    ],
+    "description": "A canonical world icon representing Greek Temple."
+  },
+  {
+    "id": "world.greenhouse",
+    "name": "Greenhouse",
+    "file": "/assets/icons/greenhouse.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "greenhouse"
+    ],
+    "description": "A canonical world icon representing Greenhouse."
+  },
+  {
+    "id": "world.guarded-tower",
+    "name": "Guarded Tower",
+    "file": "/assets/icons/guarded-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "guarded",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Guarded Tower."
+  },
+  {
+    "id": "world.heaven-gate",
+    "name": "Heaven Gate",
+    "file": "/assets/icons/heaven-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "heaven",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Heaven Gate."
+  },
+  {
+    "id": "world.heavy-rain",
+    "name": "Heavy Rain",
+    "file": "/assets/icons/heavy-rain.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "heavy",
+      "rain"
+    ],
+    "description": "A canonical world icon representing Heavy Rain."
+  },
+  {
+    "id": "world.heraldic-sun",
+    "name": "Heraldic Sun",
+    "file": "/assets/icons/heraldic-sun.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "heraldic",
+      "sun"
+    ],
+    "description": "A canonical world icon representing Heraldic Sun."
+  },
+  {
+    "id": "world.hobbit-door",
+    "name": "Hobbit Door",
+    "file": "/assets/icons/hobbit-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "hobbit",
+      "door"
+    ],
+    "description": "A canonical world icon representing Hobbit Door."
+  },
+  {
+    "id": "world.house",
+    "name": "House",
+    "file": "/assets/icons/house.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "house"
+    ],
+    "description": "A canonical world icon representing House."
+  },
+  {
+    "id": "world.incoming-rocket",
+    "name": "Incoming Rocket",
+    "file": "/assets/icons/incoming-rocket.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "incoming",
+      "rocket"
+    ],
+    "description": "A canonical world icon representing Incoming Rocket."
+  },
+  {
+    "id": "world.india-gate",
+    "name": "India Gate",
+    "file": "/assets/icons/india-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "india",
+      "gate"
+    ],
+    "description": "A canonical world icon representing India Gate."
+  },
+  {
+    "id": "world.island",
+    "name": "Island",
+    "file": "/assets/icons/island.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "island"
+    ],
+    "description": "A canonical world icon representing Island."
+  },
+  {
+    "id": "world.juggling-seal",
+    "name": "Juggling Seal",
+    "file": "/assets/icons/juggling-seal.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "juggling",
+      "seal"
+    ],
+    "description": "A canonical world icon representing Juggling Seal."
+  },
+  {
+    "id": "world.knocked-out-stars",
+    "name": "Knocked Out Stars",
+    "file": "/assets/icons/knocked-out-stars.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "knocked",
+      "out",
+      "stars"
+    ],
+    "description": "A canonical world icon representing Knocked Out Stars."
+  },
+  {
+    "id": "world.law-star",
+    "name": "Law Star",
+    "file": "/assets/icons/law-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "law",
+      "star"
+    ],
+    "description": "A canonical world icon representing Law Star."
+  },
+  {
+    "id": "world.level-end-flag",
+    "name": "Level End Flag",
+    "file": "/assets/icons/level-end-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "level",
+      "end",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Level End Flag."
+  },
+  {
+    "id": "world.logic-gate-and",
+    "name": "Logic Gate And",
+    "file": "/assets/icons/logic-gate-and.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "logic",
+      "gate",
+      "and"
+    ],
+    "description": "A canonical world icon representing Logic Gate And."
+  },
+  {
+    "id": "world.logic-gate-nand",
+    "name": "Logic Gate Nand",
+    "file": "/assets/icons/logic-gate-nand.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "logic",
+      "gate",
+      "nand"
+    ],
+    "description": "A canonical world icon representing Logic Gate Nand."
+  },
+  {
+    "id": "world.logic-gate-nor",
+    "name": "Logic Gate Nor",
+    "file": "/assets/icons/logic-gate-nor.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "logic",
+      "gate",
+      "nor"
+    ],
+    "description": "A canonical world icon representing Logic Gate Nor."
+  },
+  {
+    "id": "world.logic-gate-not",
+    "name": "Logic Gate Not",
+    "file": "/assets/icons/logic-gate-not.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "logic",
+      "gate",
+      "not"
+    ],
+    "description": "A canonical world icon representing Logic Gate Not."
+  },
+  {
+    "id": "world.logic-gate-nxor",
+    "name": "Logic Gate Nxor",
+    "file": "/assets/icons/logic-gate-nxor.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "logic",
+      "gate",
+      "nxor"
+    ],
+    "description": "A canonical world icon representing Logic Gate Nxor."
+  },
+  {
+    "id": "world.logic-gate-or",
+    "name": "Logic Gate Or",
+    "file": "/assets/icons/logic-gate-or.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "logic",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Logic Gate Or."
+  },
+  {
+    "id": "world.logic-gate-xor",
+    "name": "Logic Gate Xor",
+    "file": "/assets/icons/logic-gate-xor.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "logic",
+      "gate",
+      "xor"
+    ],
+    "description": "A canonical world icon representing Logic Gate Xor."
+  },
+  {
+    "id": "world.magic-gate",
+    "name": "Magic Gate",
+    "file": "/assets/icons/magic-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "magic",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Magic Gate."
+  },
+  {
+    "id": "world.map_marker",
+    "name": "Map Marker",
+    "file": "/assets/icons/map_marker.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "map",
+      "marker"
+    ],
+    "description": "A canonical world icon representing Map Marker."
+  },
+  {
+    "id": "world.maple-leaf",
+    "name": "Maple Leaf",
+    "file": "/assets/icons/maple-leaf.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "maple",
+      "leaf"
+    ],
+    "description": "A canonical world icon representing Maple Leaf."
+  },
+  {
+    "id": "world.mass-driver",
+    "name": "Mass Driver",
+    "file": "/assets/icons/mass-driver.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "mass",
+      "driver"
+    ],
+    "description": "A canonical world icon representing Mass Driver."
+  },
+  {
+    "id": "world.medieval-gate",
+    "name": "Medieval Gate",
+    "file": "/assets/icons/medieval-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "medieval",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Medieval Gate."
+  },
+  {
+    "id": "world.moebius-star",
+    "name": "Moebius Star",
+    "file": "/assets/icons/moebius-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "moebius",
+      "star"
+    ],
+    "description": "A canonical world icon representing Moebius Star."
+  },
+  {
+    "id": "world.moon",
+    "name": "Moon",
+    "file": "/assets/icons/moon.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "moon"
+    ],
+    "description": "A canonical world icon representing Moon."
+  },
+  {
+    "id": "world.mountain-cave",
+    "name": "Mountain Cave",
+    "file": "/assets/icons/mountain-cave.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "mountain",
+      "cave"
+    ],
+    "description": "A canonical world icon representing Mountain Cave."
+  },
+  {
+    "id": "world.mountain-climbing",
+    "name": "Mountain Climbing",
+    "file": "/assets/icons/mountain-climbing.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "mountain",
+      "climbing"
+    ],
+    "description": "A canonical world icon representing Mountain Climbing."
+  },
+  {
+    "id": "world.mountain-road",
+    "name": "Mountain Road",
+    "file": "/assets/icons/mountain-road.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "mountain",
+      "road"
+    ],
+    "description": "A canonical world icon representing Mountain Road."
+  },
+  {
+    "id": "world.mountains",
+    "name": "Mountains",
+    "file": "/assets/icons/mountains.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "mountains"
+    ],
+    "description": "A canonical world icon representing Mountains."
+  },
+  {
+    "id": "world.mountaintop",
+    "name": "Mountaintop",
+    "file": "/assets/icons/mountaintop.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "mountaintop"
+    ],
+    "description": "A canonical world icon representing Mountaintop."
+  },
+  {
+    "id": "world.mushroom-cloud",
+    "name": "Mushroom Cloud",
+    "file": "/assets/icons/mushroom-cloud.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "mushroom",
+      "cloud"
+    ],
+    "description": "A canonical world icon representing Mushroom Cloud."
+  },
+  {
+    "id": "world.mushroom-house",
+    "name": "Mushroom House",
+    "file": "/assets/icons/mushroom-house.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "mushroom",
+      "house"
+    ],
+    "description": "A canonical world icon representing Mushroom House."
+  },
+  {
+    "id": "world.north-star-shuriken",
+    "name": "North Star Shuriken",
+    "file": "/assets/icons/north-star-shuriken.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "north",
+      "star",
+      "shuriken"
+    ],
+    "description": "A canonical world icon representing North Star Shuriken."
+  },
+  {
+    "id": "world.open-gate",
+    "name": "Open Gate",
+    "file": "/assets/icons/open-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "open",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Open Gate."
+  },
+  {
+    "id": "world.palm-tree",
+    "name": "Palm Tree",
+    "file": "/assets/icons/palm-tree.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "palm",
+      "tree"
+    ],
+    "description": "A canonical world icon representing Palm Tree."
+  },
+  {
+    "id": "world.paper-windmill",
+    "name": "Paper Windmill",
+    "file": "/assets/icons/paper-windmill.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "paper",
+      "windmill"
+    ],
+    "description": "A canonical world icon representing Paper Windmill."
+  },
+  {
+    "id": "world.party-flags",
+    "name": "Party Flags",
+    "file": "/assets/icons/party-flags.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "party",
+      "flags"
+    ],
+    "description": "A canonical world icon representing Party Flags."
+  },
+  {
+    "id": "world.pine-tree",
+    "name": "Pine Tree",
+    "file": "/assets/icons/pine-tree.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "pine",
+      "tree"
+    ],
+    "description": "A canonical world icon representing Pine Tree."
+  },
+  {
+    "id": "world.pisa-tower",
+    "name": "Pisa Tower",
+    "file": "/assets/icons/pisa-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "pisa",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Pisa Tower."
+  },
+  {
+    "id": "world.polar-star",
+    "name": "Polar Star",
+    "file": "/assets/icons/polar-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "polar",
+      "star"
+    ],
+    "description": "A canonical world icon representing Polar Star."
+  },
+  {
+    "id": "world.radio-tower",
+    "name": "Radio Tower",
+    "file": "/assets/icons/radio-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "radio",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Radio Tower."
+  },
+  {
+    "id": "world.raining",
+    "name": "Raining",
+    "file": "/assets/icons/raining.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "raining"
+    ],
+    "description": "A canonical world icon representing Raining."
+  },
+  {
+    "id": "world.ranch-gate",
+    "name": "Ranch Gate",
+    "file": "/assets/icons/ranch-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "ranch",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Ranch Gate."
+  },
+  {
+    "id": "world.restrained-1",
+    "name": "Restrained 1",
+    "file": "/assets/icons/restrained-1.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "restrained"
+    ],
+    "description": "A canonical world icon representing Restrained 1."
+  },
+  {
+    "id": "world.restrained",
+    "name": "Restrained",
+    "file": "/assets/icons/restrained.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "restrained"
+    ],
+    "description": "A canonical world icon representing Restrained."
+  },
+  {
+    "id": "world.river",
+    "name": "River",
+    "file": "/assets/icons/river.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "river"
+    ],
+    "description": "A canonical world icon representing River."
+  },
+  {
+    "id": "world.rock-1",
+    "name": "Rock 1",
+    "file": "/assets/icons/rock-1.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "rock"
+    ],
+    "description": "A canonical world icon representing Rock 1."
+  },
+  {
+    "id": "world.rock-golem",
+    "name": "Rock Golem",
+    "file": "/assets/icons/rock-golem.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "rock",
+      "golem"
+    ],
+    "description": "A canonical world icon representing Rock Golem."
+  },
+  {
+    "id": "world.rock",
+    "name": "Rock",
+    "file": "/assets/icons/rock.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "rock"
+    ],
+    "description": "A canonical world icon representing Rock."
+  },
+  {
+    "id": "world.rocket-thruster",
+    "name": "Rocket Thruster",
+    "file": "/assets/icons/rocket-thruster.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "rocket",
+      "thruster"
+    ],
+    "description": "A canonical world icon representing Rocket Thruster."
+  },
+  {
+    "id": "world.rocket",
+    "name": "Rocket",
+    "file": "/assets/icons/rocket.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "rocket"
+    ],
+    "description": "A canonical world icon representing Rocket."
+  },
+  {
+    "id": "world.rocking-chair",
+    "name": "Rocking Chair",
+    "file": "/assets/icons/rocking-chair.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "rocking",
+      "chair"
+    ],
+    "description": "A canonical world icon representing Rocking Chair."
+  },
+  {
+    "id": "world.round-star",
+    "name": "Round Star",
+    "file": "/assets/icons/round-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "round",
+      "star"
+    ],
+    "description": "A canonical world icon representing Round Star."
+  },
+  {
+    "id": "world.saloon-doors",
+    "name": "Saloon Doors",
+    "file": "/assets/icons/saloon-doors.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "saloon",
+      "doors"
+    ],
+    "description": "A canonical world icon representing Saloon Doors."
+  },
+  {
+    "id": "world.sand-castle",
+    "name": "Sand Castle",
+    "file": "/assets/icons/sand-castle.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sand",
+      "castle"
+    ],
+    "description": "A canonical world icon representing Sand Castle."
+  },
+  {
+    "id": "world.screwdriver",
+    "name": "Screwdriver",
+    "file": "/assets/icons/screwdriver.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "screwdriver"
+    ],
+    "description": "A canonical world icon representing Screwdriver."
+  },
+  {
+    "id": "world.sea-cliff",
+    "name": "Sea Cliff",
+    "file": "/assets/icons/sea-cliff.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sea",
+      "cliff"
+    ],
+    "description": "A canonical world icon representing Sea Cliff."
+  },
+  {
+    "id": "world.sea-creature",
+    "name": "Sea Creature",
+    "file": "/assets/icons/sea-creature.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sea",
+      "creature"
+    ],
+    "description": "A canonical world icon representing Sea Creature."
+  },
+  {
+    "id": "world.sea-serpent",
+    "name": "Sea Serpent",
+    "file": "/assets/icons/sea-serpent.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sea",
+      "serpent"
+    ],
+    "description": "A canonical world icon representing Sea Serpent."
+  },
+  {
+    "id": "world.sea-star",
+    "name": "Sea Star",
+    "file": "/assets/icons/sea-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sea",
+      "star"
+    ],
+    "description": "A canonical world icon representing Sea Star."
+  },
+  {
+    "id": "world.sea-turtle",
+    "name": "Sea Turtle",
+    "file": "/assets/icons/sea-turtle.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sea",
+      "turtle"
+    ],
+    "description": "A canonical world icon representing Sea Turtle."
+  },
+  {
+    "id": "world.sea-urchin",
+    "name": "Sea Urchin",
+    "file": "/assets/icons/sea-urchin.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sea",
+      "urchin"
+    ],
+    "description": "A canonical world icon representing Sea Urchin."
+  },
+  {
+    "id": "world.seagull",
+    "name": "Seagull",
+    "file": "/assets/icons/seagull.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "seagull"
+    ],
+    "description": "A canonical world icon representing Seagull."
+  },
+  {
+    "id": "world.seated-mouse",
+    "name": "Seated Mouse",
+    "file": "/assets/icons/seated-mouse.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "seated",
+      "mouse"
+    ],
+    "description": "A canonical world icon representing Seated Mouse."
+  },
+  {
+    "id": "world.secret-door",
+    "name": "Secret Door",
+    "file": "/assets/icons/secret-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "secret",
+      "door"
+    ],
+    "description": "A canonical world icon representing Secret Door."
+  },
+  {
+    "id": "world.security-gate",
+    "name": "Security Gate",
+    "file": "/assets/icons/security-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "security",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Security Gate."
+  },
+  {
+    "id": "world.seven-pointed-star",
+    "name": "Seven Pointed Star",
+    "file": "/assets/icons/seven-pointed-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "seven",
+      "pointed",
+      "star"
+    ],
+    "description": "A canonical world icon representing Seven Pointed Star."
+  },
+  {
+    "id": "world.shamrock",
+    "name": "Shamrock",
+    "file": "/assets/icons/shamrock.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "shamrock"
+    ],
+    "description": "A canonical world icon representing Shamrock."
+  },
+  {
+    "id": "world.siege-tower",
+    "name": "Siege Tower",
+    "file": "/assets/icons/siege-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "siege",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Siege Tower."
+  },
+  {
+    "id": "world.smoking-volcano",
+    "name": "Smoking Volcano",
+    "file": "/assets/icons/smoking-volcano.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "smoking",
+      "volcano"
+    ],
+    "description": "A canonical world icon representing Smoking Volcano."
+  },
+  {
+    "id": "world.snowboard",
+    "name": "Snowboard",
+    "file": "/assets/icons/snowboard.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "snowboard"
+    ],
+    "description": "A canonical world icon representing Snowboard."
+  },
+  {
+    "id": "world.snowflake-1",
+    "name": "Snowflake 1",
+    "file": "/assets/icons/snowflake-1.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "snowflake"
+    ],
+    "description": "A canonical world icon representing Snowflake 1."
+  },
+  {
+    "id": "world.snowflake-2",
+    "name": "Snowflake 2",
+    "file": "/assets/icons/snowflake-2.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "snowflake"
+    ],
+    "description": "A canonical world icon representing Snowflake 2."
+  },
+  {
+    "id": "world.snowing",
+    "name": "Snowing",
+    "file": "/assets/icons/snowing.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "snowing"
+    ],
+    "description": "A canonical world icon representing Snowing."
+  },
+  {
+    "id": "world.snowman",
+    "name": "Snowman",
+    "file": "/assets/icons/snowman.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "snowman"
+    ],
+    "description": "A canonical world icon representing Snowman."
+  },
+  {
+    "id": "world.south-africa-flag",
+    "name": "South Africa Flag",
+    "file": "/assets/icons/south-africa-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "south",
+      "africa",
+      "flag"
+    ],
+    "description": "A canonical world icon representing South Africa Flag."
+  },
+  {
+    "id": "world.spooky-house",
+    "name": "Spooky House",
+    "file": "/assets/icons/spooky-house.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "spooky",
+      "house"
+    ],
+    "description": "A canonical world icon representing Spooky House."
+  },
+  {
+    "id": "world.star-altar",
+    "name": "Star Altar",
+    "file": "/assets/icons/star-altar.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "altar"
+    ],
+    "description": "A canonical world icon representing Star Altar."
+  },
+  {
+    "id": "world.star-cycle",
+    "name": "Star Cycle",
+    "file": "/assets/icons/star-cycle.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "cycle"
+    ],
+    "description": "A canonical world icon representing Star Cycle."
+  },
+  {
+    "id": "world.star-flag",
+    "name": "Star Flag",
+    "file": "/assets/icons/star-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Star Flag."
+  },
+  {
+    "id": "world.star-formation",
+    "name": "Star Formation",
+    "file": "/assets/icons/star-formation.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "formation"
+    ],
+    "description": "A canonical world icon representing Star Formation."
+  },
+  {
+    "id": "world.star-gate",
+    "name": "Star Gate",
+    "file": "/assets/icons/star-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Star Gate."
+  },
+  {
+    "id": "world.star-medal",
+    "name": "Star Medal",
+    "file": "/assets/icons/star-medal.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "medal"
+    ],
+    "description": "A canonical world icon representing Star Medal."
+  },
+  {
+    "id": "world.star-prominences",
+    "name": "Star Prominences",
+    "file": "/assets/icons/star-prominences.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "prominences"
+    ],
+    "description": "A canonical world icon representing Star Prominences."
+  },
+  {
+    "id": "world.star-pupil",
+    "name": "Star Pupil",
+    "file": "/assets/icons/star-pupil.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "pupil"
+    ],
+    "description": "A canonical world icon representing Star Pupil."
+  },
+  {
+    "id": "world.star-satellites",
+    "name": "Star Satellites",
+    "file": "/assets/icons/star-satellites.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "satellites"
+    ],
+    "description": "A canonical world icon representing Star Satellites."
+  },
+  {
+    "id": "world.star-shuriken",
+    "name": "Star Shuriken",
+    "file": "/assets/icons/star-shuriken.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "shuriken"
+    ],
+    "description": "A canonical world icon representing Star Shuriken."
+  },
+  {
+    "id": "world.star-struck",
+    "name": "Star Struck",
+    "file": "/assets/icons/star-struck.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "struck"
+    ],
+    "description": "A canonical world icon representing Star Struck."
+  },
+  {
+    "id": "world.star-swirl",
+    "name": "Star Swirl",
+    "file": "/assets/icons/star-swirl.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "star",
+      "swirl"
+    ],
+    "description": "A canonical world icon representing Star Swirl."
+  },
+  {
+    "id": "world.starfighter",
+    "name": "Starfighter",
+    "file": "/assets/icons/starfighter.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "starfighter"
+    ],
+    "description": "A canonical world icon representing Starfighter."
+  },
+  {
+    "id": "world.stars-stack",
+    "name": "Stars Stack",
+    "file": "/assets/icons/stars-stack.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stars",
+      "stack"
+    ],
+    "description": "A canonical world icon representing Stars Stack."
+  },
+  {
+    "id": "world.staryu",
+    "name": "Staryu",
+    "file": "/assets/icons/staryu.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "staryu"
+    ],
+    "description": "A canonical world icon representing Staryu."
+  },
+  {
+    "id": "world.steel-door",
+    "name": "Steel Door",
+    "file": "/assets/icons/steel-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "steel",
+      "door"
+    ],
+    "description": "A canonical world icon representing Steel Door."
+  },
+  {
+    "id": "world.stone-bridge",
+    "name": "Stone Bridge",
+    "file": "/assets/icons/stone-bridge.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "bridge"
+    ],
+    "description": "A canonical world icon representing Stone Bridge."
+  },
+  {
+    "id": "world.stone-bust",
+    "name": "Stone Bust",
+    "file": "/assets/icons/stone-bust.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "bust"
+    ],
+    "description": "A canonical world icon representing Stone Bust."
+  },
+  {
+    "id": "world.stone-crafting",
+    "name": "Stone Crafting",
+    "file": "/assets/icons/stone-crafting.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "crafting"
+    ],
+    "description": "A canonical world icon representing Stone Crafting."
+  },
+  {
+    "id": "world.stone-path",
+    "name": "Stone Path",
+    "file": "/assets/icons/stone-path.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "path"
+    ],
+    "description": "A canonical world icon representing Stone Path."
+  },
+  {
+    "id": "world.stone-pile",
+    "name": "Stone Pile",
+    "file": "/assets/icons/stone-pile.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "pile"
+    ],
+    "description": "A canonical world icon representing Stone Pile."
+  },
+  {
+    "id": "world.stone-sphere",
+    "name": "Stone Sphere",
+    "file": "/assets/icons/stone-sphere.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "sphere"
+    ],
+    "description": "A canonical world icon representing Stone Sphere."
+  },
+  {
+    "id": "world.stone-stack",
+    "name": "Stone Stack",
+    "file": "/assets/icons/stone-stack.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "stack"
+    ],
+    "description": "A canonical world icon representing Stone Stack."
+  },
+  {
+    "id": "world.stone-tablet",
+    "name": "Stone Tablet",
+    "file": "/assets/icons/stone-tablet.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "tablet"
+    ],
+    "description": "A canonical world icon representing Stone Tablet."
+  },
+  {
+    "id": "world.stone-throne",
+    "name": "Stone Throne",
+    "file": "/assets/icons/stone-throne.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "throne"
+    ],
+    "description": "A canonical world icon representing Stone Throne."
+  },
+  {
+    "id": "world.stone-tower",
+    "name": "Stone Tower",
+    "file": "/assets/icons/stone-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Stone Tower."
+  },
+  {
+    "id": "world.stone-wall",
+    "name": "Stone Wall",
+    "file": "/assets/icons/stone-wall.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "stone",
+      "wall"
+    ],
+    "description": "A canonical world icon representing Stone Wall."
+  },
+  {
+    "id": "world.striped-sun",
+    "name": "Striped Sun",
+    "file": "/assets/icons/striped-sun.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "striped",
+      "sun"
+    ],
+    "description": "A canonical world icon representing Striped Sun."
+  },
+  {
+    "id": "world.subway-train",
+    "name": "Subway Train",
+    "file": "/assets/icons/subway-train.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "subway",
+      "train"
+    ],
+    "description": "A canonical world icon representing Subway Train."
+  },
+  {
+    "id": "world.sun-cloud",
+    "name": "Sun Cloud",
+    "file": "/assets/icons/sun-cloud.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sun",
+      "cloud"
+    ],
+    "description": "A canonical world icon representing Sun Cloud."
+  },
+  {
+    "id": "world.sun-priest",
+    "name": "Sun Priest",
+    "file": "/assets/icons/sun-priest.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sun",
+      "priest"
+    ],
+    "description": "A canonical world icon representing Sun Priest."
+  },
+  {
+    "id": "world.sun-radiations",
+    "name": "Sun Radiations",
+    "file": "/assets/icons/sun-radiations.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sun",
+      "radiations"
+    ],
+    "description": "A canonical world icon representing Sun Radiations."
+  },
+  {
+    "id": "world.sun",
+    "name": "Sun",
+    "file": "/assets/icons/sun.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sun"
+    ],
+    "description": "A canonical world icon representing Sun."
+  },
+  {
+    "id": "world.sundial",
+    "name": "Sundial",
+    "file": "/assets/icons/sundial.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sundial"
+    ],
+    "description": "A canonical world icon representing Sundial."
+  },
+  {
+    "id": "world.sunflower",
+    "name": "Sunflower",
+    "file": "/assets/icons/sunflower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sunflower"
+    ],
+    "description": "A canonical world icon representing Sunflower."
+  },
+  {
+    "id": "world.sunglasses",
+    "name": "Sunglasses",
+    "file": "/assets/icons/sunglasses.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sunglasses"
+    ],
+    "description": "A canonical world icon representing Sunglasses."
+  },
+  {
+    "id": "world.sunrise-1",
+    "name": "Sunrise 1",
+    "file": "/assets/icons/sunrise-1.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sunrise"
+    ],
+    "description": "A canonical world icon representing Sunrise 1."
+  },
+  {
+    "id": "world.sunrise",
+    "name": "Sunrise",
+    "file": "/assets/icons/sunrise.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sunrise"
+    ],
+    "description": "A canonical world icon representing Sunrise."
+  },
+  {
+    "id": "world.sunset",
+    "name": "Sunset",
+    "file": "/assets/icons/sunset.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sunset"
+    ],
+    "description": "A canonical world icon representing Sunset."
+  },
+  {
+    "id": "world.swamp",
+    "name": "Swamp",
+    "file": "/assets/icons/swamp.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "swamp"
+    ],
+    "description": "A canonical world icon representing Swamp."
+  },
+  {
+    "id": "world.sydney-opera-house",
+    "name": "Sydney Opera House",
+    "file": "/assets/icons/sydney-opera-house.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "sydney",
+      "opera",
+      "house"
+    ],
+    "description": "A canonical world icon representing Sydney Opera House."
+  },
+  {
+    "id": "world.temple-door",
+    "name": "Temple Door",
+    "file": "/assets/icons/temple-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "temple",
+      "door"
+    ],
+    "description": "A canonical world icon representing Temple Door."
+  },
+  {
+    "id": "world.temple-gate",
+    "name": "Temple Gate",
+    "file": "/assets/icons/temple-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "temple",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Temple Gate."
+  },
+  {
+    "id": "world.tension-snowflake",
+    "name": "Tension Snowflake",
+    "file": "/assets/icons/tension-snowflake.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tension",
+      "snowflake"
+    ],
+    "description": "A canonical world icon representing Tension Snowflake."
+  },
+  {
+    "id": "world.tombstone-1",
+    "name": "Tombstone 1",
+    "file": "/assets/icons/tombstone-1.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tombstone"
+    ],
+    "description": "A canonical world icon representing Tombstone 1."
+  },
+  {
+    "id": "world.tombstone",
+    "name": "Tombstone",
+    "file": "/assets/icons/tombstone.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tombstone"
+    ],
+    "description": "A canonical world icon representing Tombstone."
+  },
+  {
+    "id": "world.tower-bridge",
+    "name": "Tower Bridge",
+    "file": "/assets/icons/tower-bridge.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tower",
+      "bridge"
+    ],
+    "description": "A canonical world icon representing Tower Bridge."
+  },
+  {
+    "id": "world.tower-fall",
+    "name": "Tower Fall",
+    "file": "/assets/icons/tower-fall.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tower",
+      "fall"
+    ],
+    "description": "A canonical world icon representing Tower Fall."
+  },
+  {
+    "id": "world.tower-flag",
+    "name": "Tower Flag",
+    "file": "/assets/icons/tower-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tower",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Tower Flag."
+  },
+  {
+    "id": "world.treasure-map",
+    "name": "Treasure Map",
+    "file": "/assets/icons/treasure-map.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "treasure",
+      "map"
+    ],
+    "description": "A canonical world icon representing Treasure Map."
+  },
+  {
+    "id": "world.tree-branch",
+    "name": "Tree Branch",
+    "file": "/assets/icons/tree-branch.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tree",
+      "branch"
+    ],
+    "description": "A canonical world icon representing Tree Branch."
+  },
+  {
+    "id": "world.tree-door",
+    "name": "Tree Door",
+    "file": "/assets/icons/tree-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tree",
+      "door"
+    ],
+    "description": "A canonical world icon representing Tree Door."
+  },
+  {
+    "id": "world.tree-growth",
+    "name": "Tree Growth",
+    "file": "/assets/icons/tree-growth.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tree",
+      "growth"
+    ],
+    "description": "A canonical world icon representing Tree Growth."
+  },
+  {
+    "id": "world.tree-roots",
+    "name": "Tree Roots",
+    "file": "/assets/icons/tree-roots.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tree",
+      "roots"
+    ],
+    "description": "A canonical world icon representing Tree Roots."
+  },
+  {
+    "id": "world.tree-swing",
+    "name": "Tree Swing",
+    "file": "/assets/icons/tree-swing.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tree",
+      "swing"
+    ],
+    "description": "A canonical world icon representing Tree Swing."
+  },
+  {
+    "id": "world.treehouse",
+    "name": "Treehouse",
+    "file": "/assets/icons/treehouse.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "treehouse"
+    ],
+    "description": "A canonical world icon representing Treehouse."
+  },
+  {
+    "id": "world.triple-gate",
+    "name": "Triple Gate",
+    "file": "/assets/icons/triple-gate.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "triple",
+      "gate"
+    ],
+    "description": "A canonical world icon representing Triple Gate."
+  },
+  {
+    "id": "world.trumpet-flag",
+    "name": "Trumpet Flag",
+    "file": "/assets/icons/trumpet-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "trumpet",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Trumpet Flag."
+  },
+  {
+    "id": "world.tusks-flag",
+    "name": "Tusks Flag",
+    "file": "/assets/icons/tusks-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tusks",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Tusks Flag."
+  },
+  {
+    "id": "world.tv-tower",
+    "name": "Tv Tower",
+    "file": "/assets/icons/tv-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Tv Tower."
+  },
+  {
+    "id": "world.ubisoft-sun",
+    "name": "Ubisoft Sun",
+    "file": "/assets/icons/ubisoft-sun.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "ubisoft",
+      "sun"
+    ],
+    "description": "A canonical world icon representing Ubisoft Sun."
+  },
+  {
+    "id": "world.underground-cave",
+    "name": "Underground Cave",
+    "file": "/assets/icons/underground-cave.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "underground",
+      "cave"
+    ],
+    "description": "A canonical world icon representing Underground Cave."
+  },
+  {
+    "id": "world.usa-flag",
+    "name": "Usa Flag",
+    "file": "/assets/icons/usa-flag.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "usa",
+      "flag"
+    ],
+    "description": "A canonical world icon representing Usa Flag."
+  },
+  {
+    "id": "world.viking-longhouse",
+    "name": "Viking Longhouse",
+    "file": "/assets/icons/viking-longhouse.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "viking",
+      "longhouse"
+    ],
+    "description": "A canonical world icon representing Viking Longhouse."
+  },
+  {
+    "id": "world.volcano",
+    "name": "Volcano",
+    "file": "/assets/icons/volcano.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "volcano"
+    ],
+    "description": "A canonical world icon representing Volcano."
+  },
+  {
+    "id": "world.watchtower",
+    "name": "Watchtower",
+    "file": "/assets/icons/watchtower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "watchtower"
+    ],
+    "description": "A canonical world icon representing Watchtower."
+  },
+  {
+    "id": "world.water-tower",
+    "name": "Water Tower",
+    "file": "/assets/icons/water-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "water",
+      "tower"
+    ],
+    "description": "A canonical world icon representing Water Tower."
+  },
+  {
+    "id": "world.wax-seal",
+    "name": "Wax Seal",
+    "file": "/assets/icons/wax-seal.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "wax",
+      "seal"
+    ],
+    "description": "A canonical world icon representing Wax Seal."
+  },
+  {
+    "id": "world.whirlwind-1",
+    "name": "Whirlwind 1",
+    "file": "/assets/icons/whirlwind-1.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "whirlwind"
+    ],
+    "description": "A canonical world icon representing Whirlwind 1."
+  },
+  {
+    "id": "world.whirlwind",
+    "name": "Whirlwind",
+    "file": "/assets/icons/whirlwind.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "whirlwind"
+    ],
+    "description": "A canonical world icon representing Whirlwind."
+  },
+  {
+    "id": "world.white-tower",
+    "name": "White Tower",
+    "file": "/assets/icons/white-tower.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "white",
+      "tower"
+    ],
+    "description": "A canonical world icon representing White Tower."
+  },
+  {
+    "id": "world.willow-tree",
+    "name": "Willow Tree",
+    "file": "/assets/icons/willow-tree.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "willow",
+      "tree"
+    ],
+    "description": "A canonical world icon representing Willow Tree."
+  },
+  {
+    "id": "world.wind-hole",
+    "name": "Wind Hole",
+    "file": "/assets/icons/wind-hole.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "wind",
+      "hole"
+    ],
+    "description": "A canonical world icon representing Wind Hole."
+  },
+  {
+    "id": "world.wind-slap",
+    "name": "Wind Slap",
+    "file": "/assets/icons/wind-slap.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "wind",
+      "slap"
+    ],
+    "description": "A canonical world icon representing Wind Slap."
+  },
+  {
+    "id": "world.wind-turbine",
+    "name": "Wind Turbine",
+    "file": "/assets/icons/wind-turbine.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "wind",
+      "turbine"
+    ],
+    "description": "A canonical world icon representing Wind Turbine."
+  },
+  {
+    "id": "world.windchimes",
+    "name": "Windchimes",
+    "file": "/assets/icons/windchimes.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "windchimes"
+    ],
+    "description": "A canonical world icon representing Windchimes."
+  },
+  {
+    "id": "world.windmill",
+    "name": "Windmill",
+    "file": "/assets/icons/windmill.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "windmill"
+    ],
+    "description": "A canonical world icon representing Windmill."
+  },
+  {
+    "id": "world.window",
+    "name": "Window",
+    "file": "/assets/icons/window.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "window"
+    ],
+    "description": "A canonical world icon representing Window."
+  },
+  {
+    "id": "world.windpump",
+    "name": "Windpump",
+    "file": "/assets/icons/windpump.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "windpump"
+    ],
+    "description": "A canonical world icon representing Windpump."
+  },
+  {
+    "id": "world.windsock",
+    "name": "Windsock",
+    "file": "/assets/icons/windsock.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "windsock"
+    ],
+    "description": "A canonical world icon representing Windsock."
+  },
+  {
+    "id": "world.windy-stripes",
+    "name": "Windy Stripes",
+    "file": "/assets/icons/windy-stripes.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "windy",
+      "stripes"
+    ],
+    "description": "A canonical world icon representing Windy Stripes."
+  },
+  {
+    "id": "world.wooden-door",
+    "name": "Wooden Door",
+    "file": "/assets/icons/wooden-door.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "wooden",
+      "door"
+    ],
+    "description": "A canonical world icon representing Wooden Door."
+  },
+  {
+    "id": "world.wrapping-star",
+    "name": "Wrapping Star",
+    "file": "/assets/icons/wrapping-star.svg",
+    "category": "world",
+    "tags": [
+      "world",
+      "wrapping",
+      "star"
+    ],
+    "description": "A canonical world icon representing Wrapping Star."
+  }
+]
