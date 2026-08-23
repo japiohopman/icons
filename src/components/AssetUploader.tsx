@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { ICON_CATEGORIES } from '../assets/icons';
+import { CATALOG_CATEGORIES } from '../lib/catalog';
 
 interface AssetUploaderProps {
   isOpen: boolean;
@@ -29,7 +29,7 @@ export const AssetUploader: React.FC<AssetUploaderProps> = ({ isOpen, onClose })
       setFile(selectedFile);
       const generatedId = selectedFile.name.replace(/\.svg$/i, '').toLowerCase().replace(/[^a-z0-9]/g, '_');
       setIconId(generatedId);
-      setLabel(generatedId.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()));
+      setLabel(generatedId.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()));
 
       const reader = new FileReader();
       reader.onload = (event) => {
@@ -50,14 +50,8 @@ export const AssetUploader: React.FC<AssetUploaderProps> = ({ isOpen, onClose })
     setIsProcessing(true);
     setMessage(null);
 
-    const categoryObj = ICON_CATEGORIES.find(c => c.id === selectedCategory);
-    const categoryFolder = categoryObj ? categoryObj.file.replace(/^svg\//, '').replace(/\/$/, '') : selectedCategory;
-
-    let enrichedSvg = svgContent;
-    if (label) enrichedSvg = enrichedSvg.replace(/<svg/i, `<svg data-label="${label}"`);
-    if (description) enrichedSvg = enrichedSvg.replace(/<svg/i, `<svg data-description="${description}"`);
-
-    const markdownRow = `| ${iconId} | \`src/assets/icons/svg/${categoryFolder}/${iconId}.svg\` | ${label} | ${description} |`;
+    const filename = `${iconId}.svg`;
+    const publicPath = `/assets/icons/${filename}`;
 
     try {
       const response = await fetch('/api/icons/add', {
@@ -65,22 +59,24 @@ export const AssetUploader: React.FC<AssetUploaderProps> = ({ isOpen, onClose })
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           categoryId: selectedCategory,
-          file: categoryFolder,
-          iconId,
-          svgContent: enrichedSvg,
-          markdownRow,
+          filename,
+          iconId: `${selectedCategory}.${iconId}`,
+          label: label || iconId,
+          description: description || `A canonical ${selectedCategory} icon.`,
+          publicPath,
+          svgContent,
         }),
       });
 
       const data = await response.json();
       if (response.ok && data.success) {
-        setMessage({ type: 'success', text: `Icon ${iconId} imported successfully!` });
+        setMessage({ type: 'success', text: `Asset ${iconId} imported successfully into Vault!` });
         setTimeout(() => {
           onClose();
           window.location.reload();
         }, 1200);
       } else {
-        setMessage({ type: 'error', text: data.error || 'Failed to import icon.' });
+        setMessage({ type: 'error', text: data.error || 'Failed to import asset.' });
       }
     } catch (err: any) {
       setMessage({ type: 'error', text: err.message || 'Server connection error.' });
@@ -103,9 +99,13 @@ export const AssetUploader: React.FC<AssetUploaderProps> = ({ isOpen, onClose })
 
         <form onSubmit={handleSubmit} className="p-6 space-y-4">
           {message && (
-            <div className={`p-3 rounded-lg text-xs font-medium ${
-              message.type === 'success' ? 'bg-green-50 border border-green-200 text-green-700' : 'bg-red-50 border border-red-200 text-red-700'
-            }`}>
+            <div
+              className={`p-3 rounded-lg text-xs font-medium ${
+                message.type === 'success'
+                  ? 'bg-green-50 border border-green-200 text-green-700'
+                  : 'bg-red-50 border border-red-200 text-red-700'
+              }`}
+            >
               {message.text}
             </div>
           )}
@@ -122,7 +122,7 @@ export const AssetUploader: React.FC<AssetUploaderProps> = ({ isOpen, onClose })
 
           <div className="grid grid-cols-2 gap-3">
             <div>
-              <label className="text-xs font-semibold text-slate-700 block mb-1">Asset ID</label>
+              <label className="text-xs font-semibold text-slate-700 block mb-1">Asset ID Slug</label>
               <input
                 type="text"
                 value={iconId}
@@ -132,21 +132,23 @@ export const AssetUploader: React.FC<AssetUploaderProps> = ({ isOpen, onClose })
               />
             </div>
             <div>
-              <label className="text-xs font-semibold text-slate-700 block mb-1">Category</label>
+              <label className="text-xs font-semibold text-slate-700 block mb-1">Catalog Category</label>
               <select
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
                 className="w-full px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-xs focus:border-indigo-500 focus:outline-hidden"
               >
-                {ICON_CATEGORIES.map(cat => (
-                  <option key={cat.id} value={cat.id}>{cat.name}</option>
+                {CATALOG_CATEGORIES.map((cat) => (
+                  <option key={cat.id} value={cat.id}>
+                    {cat.name}
+                  </option>
                 ))}
               </select>
             </div>
           </div>
 
           <div>
-            <label className="text-xs font-semibold text-slate-700 block mb-1">Label</label>
+            <label className="text-xs font-semibold text-slate-700 block mb-1">Display Label</label>
             <input
               type="text"
               value={label}
@@ -168,11 +170,7 @@ export const AssetUploader: React.FC<AssetUploaderProps> = ({ isOpen, onClose })
           </div>
 
           <div className="pt-2 flex justify-end gap-3">
-            <button
-              type="button"
-              onClick={onClose}
-              className="px-4 py-2 text-xs font-medium text-slate-600 hover:text-slate-800"
-            >
+            <button type="button" onClick={onClose} className="px-4 py-2 text-xs font-medium text-slate-600 hover:text-slate-800">
               Cancel
             </button>
             <button

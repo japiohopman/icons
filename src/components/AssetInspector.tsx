@@ -6,22 +6,18 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { GameIcon } from './GameIcon';
-import { IconDefinition, FileNode } from '../types/index';
+import { CatalogAsset } from '../types/asset';
 
 interface AssetInspectorProps {
-  selectedIcon: string | null;
-  metadata: IconDefinition | null;
-  fileNode: FileNode | null;
+  selectedAsset: CatalogAsset | null;
   onOpenEditor: () => void;
 }
 
 export const AssetInspector: React.FC<AssetInspectorProps> = ({
-  selectedIcon,
-  metadata,
-  fileNode,
+  selectedAsset,
   onOpenEditor,
 }) => {
-  if (!selectedIcon) {
+  if (!selectedAsset) {
     return (
       <aside className="w-80 bg-white border-l border-slate-200 shrink-0 hidden lg:flex flex-col z-10 shadow-[-4px_0_12px_rgba(0,0,0,0.02)]">
         <div className="flex-1 flex flex-col items-center justify-center p-8 text-center text-slate-400 space-y-4">
@@ -51,26 +47,26 @@ export const AssetInspector: React.FC<AssetInspectorProps> = ({
           <div className="aspect-square bg-slate-50 rounded-2xl flex items-center justify-center mb-8 border border-slate-100 relative group overflow-hidden shadow-inner">
             <div className="absolute inset-0 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:16px_16px] opacity-30" />
             <motion.div
-              key={selectedIcon}
+              key={selectedAsset.id}
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               className="text-slate-800 relative z-10"
             >
-              <GameIcon name={selectedIcon} size={128} fallbackName="save" />
+              <GameIcon asset={selectedAsset} size={128} />
             </motion.div>
           </div>
 
           <div className="space-y-6">
             <div>
               <h2 className="text-xl font-bold text-slate-900 tracking-tight mb-1">
-                {metadata?.label || selectedIcon.replace(/_/g, ' ')}
+                {selectedAsset.name}
               </h2>
               <div className="flex flex-wrap gap-2">
                 <span className="text-[10px] font-mono bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded border border-slate-200 uppercase tracking-tighter">
                   Asset Vault
                 </span>
                 <span className="text-[10px] font-mono bg-indigo-50 text-indigo-700 px-1.5 py-0.5 rounded border border-indigo-100/50 uppercase tracking-tighter">
-                  SVG Vector
+                  {selectedAsset.category}
                 </span>
               </div>
             </div>
@@ -79,24 +75,19 @@ export const AssetInspector: React.FC<AssetInspectorProps> = ({
               <div>
                 <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Description</label>
                 <p className="text-slate-600 leading-relaxed text-xs">
-                  {metadata?.description || `A symbolic asset representing ${selectedIcon.replace(/_/g, ' ')}.`}
+                  {selectedAsset.description || `A symbolic asset representing ${selectedAsset.name}.`}
                 </p>
               </div>
 
-              {metadata?.usage && (
+              {selectedAsset.tags && selectedAsset.tags.length > 0 && (
                 <div>
-                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Usage Context</label>
-                  <div className="p-3 rounded-lg bg-indigo-50/50 border border-indigo-100/50 text-[11px] text-indigo-800 leading-snug">
-                    {metadata.usage}
-                  </div>
-                </div>
-              )}
-
-              {metadata?.usedIn && (
-                <div>
-                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Used In</label>
-                  <div className="p-3 rounded-lg bg-slate-50 border border-slate-100 text-[11px] text-slate-600 leading-snug">
-                    {metadata.usedIn}
+                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Tags</label>
+                  <div className="flex flex-wrap gap-1.5">
+                    {selectedAsset.tags.map((tag) => (
+                      <span key={tag} className="text-[10px] font-mono bg-slate-100 text-slate-600 px-2 py-0.5 rounded">
+                        #{tag}
+                      </span>
+                    ))}
                   </div>
                 </div>
               )}
@@ -104,13 +95,15 @@ export const AssetInspector: React.FC<AssetInspectorProps> = ({
               <div className="pt-4 border-t border-slate-100">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Viewbox</label>
-                    <span className="font-mono text-xs text-slate-600">0 0 512 512</span>
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Asset ID</label>
+                    <span className="font-mono text-xs text-slate-600 truncate block max-w-[140px]" title={selectedAsset.id}>
+                      {selectedAsset.id}
+                    </span>
                   </div>
                   <div>
-                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">File Source</label>
-                    <span className="font-mono text-xs text-slate-600 truncate block max-w-[140px]" title={fileNode ? `src/assets/icons/svg/${fileNode.path}` : 'index.ts'}>
-                      {fileNode ? `src/assets/icons/svg/${fileNode.path}` : 'index.ts'}
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">File Path</label>
+                    <span className="font-mono text-xs text-slate-600 truncate block max-w-[140px]" title={selectedAsset.file}>
+                      public{selectedAsset.file}
                     </span>
                   </div>
                 </div>
@@ -122,7 +115,7 @@ export const AssetInspector: React.FC<AssetInspectorProps> = ({
         <div className="mt-auto p-6 space-y-3">
           <button
             onClick={() => {
-              navigator.clipboard.writeText(selectedIcon);
+              navigator.clipboard.writeText(selectedAsset.id);
             }}
             className="w-full flex items-center justify-center gap-2 py-2.5 bg-slate-900 border border-slate-900 text-white rounded-lg text-xs font-semibold hover:bg-slate-800 transition-all shadow-md shadow-slate-200"
           >

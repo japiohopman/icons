@@ -10,33 +10,58 @@ async function startServer() {
   app.use(express.json());
 
   app.post("/api/icons/add", (req, res) => {
-    const { file, iconId, svgContent, markdownRow } = req.body;
+    const { categoryId, filename, iconId, label, description, publicPath, svgContent } = req.body;
 
-    if (!file || !iconId || !svgContent) {
+    const fileToSave = filename || (iconId ? `${iconId.split('.').pop()}.svg` : null);
+    if (!fileToSave || !svgContent) {
       return res.status(400).json({ error: "Missing required fields" });
     }
 
-    const dirPath = path.join(process.cwd(), "src/assets/icons", file);
-    const filePath = path.join(dirPath, `${iconId}.svg`);
-    const assetsMdPath = path.join(process.cwd(), "ASSETS.md");
+    const publicIconsDir = path.join(process.cwd(), "public/assets/icons");
+    const physicalFilePath = path.join(publicIconsDir, fileToSave);
+
+    const category = categoryId || "general";
+    const catalogJsonPath = path.join(process.cwd(), "src/assets/catalog/icons", `${category}.json`);
 
     try {
-      if (!fs.existsSync(dirPath)) {
-        fs.mkdirSync(dirPath, { recursive: true });
+      if (!fs.existsSync(publicIconsDir)) {
+        fs.mkdirSync(publicIconsDir, { recursive: true });
       }
 
-      fs.writeFileSync(filePath, svgContent, "utf8");
+      // 1. Save physical asset to flat store public/assets/icons/
+      fs.writeFileSync(physicalFilePath, svgContent, "utf8");
 
-      if (markdownRow && fs.existsSync(assetsMdPath)) {
-        let mdContent = fs.readFileSync(assetsMdPath, "utf8");
-        if (mdContent.includes("## Metadata Register")) {
-          if (!mdContent.endsWith("\n")) mdContent += "\n";
-          mdContent += `${markdownRow}\n`;
-          fs.writeFileSync(assetsMdPath, mdContent);
-        }
+      // 2. Add catalog metadata entry to src/assets/catalog/icons/<category>.json
+      const assetEntry = {
+        id: iconId || `${category}.${fileToSave.replace(/\.svg$/, '')}`,
+        name: label || fileToSave.replace(/\.svg$/, ''),
+        file: publicPath || `/assets/icons/${fileToSave}`,
+        category: category,
+        tags: [category, fileToSave.replace(/\.svg$/, '')],
+        description: description || `A canonical ${category} icon.`,
+      };
+
+      let catalogAssets = [];
+      if (fs.existsSync(catalogJsonPath)) {
+        const raw = fs.readFileSync(catalogJsonPath, "utf8");
+        catalogAssets = JSON.parse(raw);
       }
 
-      res.json({ success: true });
+      // Replace existing entry if ID matches, else push
+      const existingIdx = catalogAssets.findIndex((a: any) => a.id === assetEntry.id);
+      if (existingIdx >= 0) {
+        catalogAssets[existingIdx] = assetEntry;
+      } else {
+        catalogAssets.push(assetEntry);
+      }
+
+      const catalogDir = path.dirname(catalogJsonPath);
+      if (!fs.existsSync(catalogDir)) {
+        fs.mkdirSync(catalogDir, { recursive: true });
+      }
+      fs.writeFileSync(catalogJsonPath, JSON.stringify(catalogAssets, null, 2), "utf8");
+
+      res.json({ success: true, asset: assetEntry });
     } catch (error: any) {
       res.status(500).json({ error: error.message });
     }

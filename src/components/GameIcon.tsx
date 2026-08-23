@@ -4,57 +4,53 @@
  */
 
 import React from 'react';
-import { IconDefinition } from '../types/index';
-import { ALL_ICONS } from '../assets/icons';
-import { motion } from 'motion/react';
+import { motion, HTMLMotionProps } from 'motion/react';
+import { CatalogAsset } from '../types/asset';
+import { getAssetById } from '../lib/catalog';
 
-export const GAME_ICONS = ALL_ICONS;
-
-export type GameIconName = keyof typeof GAME_ICONS;
-
-interface GameIconProps extends React.SVGAttributes<SVGElement> {
+interface GameIconProps extends Omit<HTMLMotionProps<'img'>, 'children'> {
+  asset?: CatalogAsset | null;
   name?: string;
-  path?: string;
+  file?: string;
   size?: number;
   width?: number;
   height?: number;
-  color?: string;
-  rotate?: number;
   animation?: 'none' | 'bounce' | 'pulse' | 'spin' | 'ping' | 'float';
-  fallbackName?: GameIconName | string;
+  fallbackName?: string;
 }
 
 export const GameIcon: React.FC<GameIconProps> = ({
+  asset,
   name,
-  path: directPath,
+  file,
   className,
   size,
   width,
   height,
-  color,
-  rotate: directRotate,
-  animation: directAnimation,
-  fallbackName,
+  animation,
+  fallbackName = 'combat.attack',
   ...props
 }) => {
-  const getIconDef = (nameStr: string | undefined): IconDefinition | undefined => {
-    if (!nameStr) return undefined;
-    return (GAME_ICONS as any)[nameStr];
-  };
+  let resolvedFile = file || asset?.file;
 
-  const def = getIconDef(name) || (fallbackName ? getIconDef(fallbackName) : undefined);
-  const metadata = typeof def === 'object' ? def : null;
-
-  const rawHtml = (metadata as any)?.rawHtml;
-  const path = directPath || (typeof def === 'string' ? def : metadata?.path);
-
-  if (!path && !rawHtml) {
-    return null;
+  if (!resolvedFile && name) {
+    const found = getAssetById(name);
+    if (found) {
+      resolvedFile = found.file;
+    } else {
+      const cleanName = name.split('/').pop()?.replace(/\.svg$/, '') || name;
+      resolvedFile = `/assets/icons/${cleanName}.svg`;
+    }
   }
 
-  const finalColor = color || metadata?.color || "currentColor";
-  const finalRotate = directRotate !== undefined ? directRotate : (metadata?.rotate || 0);
-  const finalAnimation = directAnimation || metadata?.animation;
+  if (!resolvedFile && fallbackName) {
+    const fallback = getAssetById(fallbackName);
+    resolvedFile = fallback ? fallback.file : `/assets/icons/${fallbackName}.svg`;
+  }
+
+  if (!resolvedFile) {
+    return null;
+  }
 
   const w = width || size || 24;
   const h = height || size || 24;
@@ -62,64 +58,39 @@ export const GameIcon: React.FC<GameIconProps> = ({
   const animationVariants = {
     bounce: {
       y: [0, -4, 0],
-      transition: { duration: 0.6, repeat: Infinity, ease: "easeInOut" }
+      transition: { duration: 0.6, repeat: Infinity, ease: 'easeInOut' },
     },
     float: {
       y: [0, -8, 0],
-      transition: { duration: 2, repeat: Infinity, ease: "easeInOut" }
+      transition: { duration: 2, repeat: Infinity, ease: 'easeInOut' },
     },
     pulse: {
       scale: [1, 1.1, 1],
       opacity: [1, 0.8, 1],
-      transition: { duration: 1.5, repeat: Infinity, ease: "easeInOut" }
+      transition: { duration: 1.5, repeat: Infinity, ease: 'easeInOut' },
     },
     spin: {
       rotate: [0, 360],
-      transition: { duration: 2, repeat: Infinity, ease: "linear" }
+      transition: { duration: 2, repeat: Infinity, ease: 'linear' },
     },
     ping: {
       scale: [1, 1.5, 1],
       opacity: [1, 0, 1],
-      transition: { duration: 1.5, repeat: Infinity, ease: "easeOut" }
-    }
+      transition: { duration: 1.5, repeat: Infinity, ease: 'easeOut' },
+    },
   };
 
-  const anim = finalAnimation && finalAnimation !== 'none' ? animationVariants[finalAnimation] : {};
-
-  if (rawHtml) {
-    return (
-      <motion.svg
-        viewBox={(metadata as any).viewBox || "0 0 512 512"}
-        width={w}
-        height={h}
-        fill={finalColor}
-        className={className}
-        xmlns="http://www.w3.org/2000/svg"
-        animate={{
-          rotate: finalRotate,
-          ...anim
-        }}
-        dangerouslySetInnerHTML={{ __html: rawHtml }}
-        {...props as any}
-      />
-    );
-  }
+  const anim = animation && animation !== 'none' ? animationVariants[animation] : {};
 
   return (
-    <motion.svg
-      viewBox="0 0 512 512"
+    <motion.img
+      src={resolvedFile}
+      alt={asset?.name || name || 'Icon'}
       width={w}
       height={h}
-      fill={finalColor}
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      animate={{
-        rotate: finalRotate,
-        ...anim
-      }}
-      {...props as any}
-    >
-      <path d={path} />
-    </motion.svg>
+      className={`inline-block object-contain pointer-events-none select-none ${className || ''}`}
+      animate={{ ...anim }}
+      {...props}
+    />
   );
 };

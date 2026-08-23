@@ -1,0 +1,2657 @@
+[
+  {
+    "id": "character.alien-skull",
+    "name": "Alien Skull",
+    "file": "/assets/icons/alien-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "alien",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Alien Skull."
+  },
+  {
+    "id": "character.all-seeing-eye",
+    "name": "All Seeing Eye",
+    "file": "/assets/icons/all-seeing-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "all",
+      "seeing",
+      "eye"
+    ],
+    "description": "A canonical character icon representing All Seeing Eye."
+  },
+  {
+    "id": "character.american-football-ball",
+    "name": "American Football Ball",
+    "file": "/assets/icons/american-football-ball.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "american",
+      "football",
+      "ball"
+    ],
+    "description": "A canonical character icon representing American Football Ball."
+  },
+  {
+    "id": "character.american-football-player",
+    "name": "American Football Player",
+    "file": "/assets/icons/american-football-player.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "american",
+      "football",
+      "player"
+    ],
+    "description": "A canonical character icon representing American Football Player."
+  },
+  {
+    "id": "character.angry-eyes",
+    "name": "Angry Eyes",
+    "file": "/assets/icons/angry-eyes.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "angry",
+      "eyes"
+    ],
+    "description": "A canonical character icon representing Angry Eyes."
+  },
+  {
+    "id": "character.animal-skull",
+    "name": "Animal Skull",
+    "file": "/assets/icons/animal-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "animal",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Animal Skull."
+  },
+  {
+    "id": "character.baby-face",
+    "name": "Baby Face",
+    "file": "/assets/icons/baby-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "baby",
+      "face"
+    ],
+    "description": "A canonical character icon representing Baby Face."
+  },
+  {
+    "id": "character.babyfoot-players",
+    "name": "Babyfoot Players",
+    "file": "/assets/icons/babyfoot-players.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "babyfoot",
+      "players"
+    ],
+    "description": "A canonical character icon representing Babyfoot Players."
+  },
+  {
+    "id": "character.backbone-shell",
+    "name": "Backbone Shell",
+    "file": "/assets/icons/backbone-shell.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "backbone",
+      "shell"
+    ],
+    "description": "A canonical character icon representing Backbone Shell."
+  },
+  {
+    "id": "character.ball-heart",
+    "name": "Ball Heart",
+    "file": "/assets/icons/ball-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "ball",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Ball Heart."
+  },
+  {
+    "id": "character.basset-hound-head",
+    "name": "Basset Hound Head",
+    "file": "/assets/icons/basset-hound-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "basset",
+      "hound",
+      "head"
+    ],
+    "description": "A canonical character icon representing Basset Hound Head."
+  },
+  {
+    "id": "character.body-balance",
+    "name": "Body Balance",
+    "file": "/assets/icons/body-balance.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "body",
+      "balance"
+    ],
+    "description": "A canonical character icon representing Body Balance."
+  },
+  {
+    "id": "character.body-height",
+    "name": "Body Height",
+    "file": "/assets/icons/body-height.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "body",
+      "height"
+    ],
+    "description": "A canonical character icon representing Body Height."
+  },
+  {
+    "id": "character.body-swapping",
+    "name": "Body Swapping",
+    "file": "/assets/icons/body-swapping.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "body",
+      "swapping"
+    ],
+    "description": "A canonical character icon representing Body Swapping."
+  },
+  {
+    "id": "character.bolt-eye",
+    "name": "Bolt Eye",
+    "file": "/assets/icons/bolt-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "bolt",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Bolt Eye."
+  },
+  {
+    "id": "character.bone-gnawer",
+    "name": "Bone Gnawer",
+    "file": "/assets/icons/bone-gnawer.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "bone",
+      "gnawer"
+    ],
+    "description": "A canonical character icon representing Bone Gnawer."
+  },
+  {
+    "id": "character.bone-knife-1",
+    "name": "Bone Knife 1",
+    "file": "/assets/icons/bone-knife-1.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "bone",
+      "knife"
+    ],
+    "description": "A canonical character icon representing Bone Knife 1."
+  },
+  {
+    "id": "character.bone-knife",
+    "name": "Bone Knife",
+    "file": "/assets/icons/bone-knife.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "bone",
+      "knife"
+    ],
+    "description": "A canonical character icon representing Bone Knife."
+  },
+  {
+    "id": "character.brain-dump",
+    "name": "Brain Dump",
+    "file": "/assets/icons/brain-dump.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "brain",
+      "dump"
+    ],
+    "description": "A canonical character icon representing Brain Dump."
+  },
+  {
+    "id": "character.brain-leak",
+    "name": "Brain Leak",
+    "file": "/assets/icons/brain-leak.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "brain",
+      "leak"
+    ],
+    "description": "A canonical character icon representing Brain Leak."
+  },
+  {
+    "id": "character.brain-stem",
+    "name": "Brain Stem",
+    "file": "/assets/icons/brain-stem.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "brain",
+      "stem"
+    ],
+    "description": "A canonical character icon representing Brain Stem."
+  },
+  {
+    "id": "character.brain-tentacle",
+    "name": "Brain Tentacle",
+    "file": "/assets/icons/brain-tentacle.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "brain",
+      "tentacle"
+    ],
+    "description": "A canonical character icon representing Brain Tentacle."
+  },
+  {
+    "id": "character.brain",
+    "name": "Brain",
+    "file": "/assets/icons/brain.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "brain"
+    ],
+    "description": "A canonical character icon representing Brain."
+  },
+  {
+    "id": "character.brainstorm",
+    "name": "Brainstorm",
+    "file": "/assets/icons/brainstorm.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "brainstorm"
+    ],
+    "description": "A canonical character icon representing Brainstorm."
+  },
+  {
+    "id": "character.brass-eye",
+    "name": "Brass Eye",
+    "file": "/assets/icons/brass-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "brass",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Brass Eye."
+  },
+  {
+    "id": "character.broken-bone",
+    "name": "Broken Bone",
+    "file": "/assets/icons/broken-bone.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "broken",
+      "bone"
+    ],
+    "description": "A canonical character icon representing Broken Bone."
+  },
+  {
+    "id": "character.broken-heart-zone",
+    "name": "Broken Heart Zone",
+    "file": "/assets/icons/broken-heart-zone.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "broken",
+      "heart",
+      "zone"
+    ],
+    "description": "A canonical character icon representing Broken Heart Zone."
+  },
+  {
+    "id": "character.broken-heart",
+    "name": "Broken Heart",
+    "file": "/assets/icons/broken-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "broken",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Broken Heart."
+  },
+  {
+    "id": "character.broken-skull",
+    "name": "Broken Skull",
+    "file": "/assets/icons/broken-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "broken",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Broken Skull."
+  },
+  {
+    "id": "character.buffalo-head",
+    "name": "Buffalo Head",
+    "file": "/assets/icons/buffalo-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "buffalo",
+      "head"
+    ],
+    "description": "A canonical character icon representing Buffalo Head."
+  },
+  {
+    "id": "character.bullseye",
+    "name": "Bullseye",
+    "file": "/assets/icons/bullseye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "bullseye"
+    ],
+    "description": "A canonical character icon representing Bullseye."
+  },
+  {
+    "id": "character.camel-head",
+    "name": "Camel Head",
+    "file": "/assets/icons/camel-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "camel",
+      "head"
+    ],
+    "description": "A canonical character icon representing Camel Head."
+  },
+  {
+    "id": "character.centaur-heart",
+    "name": "Centaur Heart",
+    "file": "/assets/icons/centaur-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "centaur",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Centaur Heart."
+  },
+  {
+    "id": "character.chained-heart",
+    "name": "Chained Heart",
+    "file": "/assets/icons/chained-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "chained",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Chained Heart."
+  },
+  {
+    "id": "character.character-1",
+    "name": "Character 1",
+    "file": "/assets/icons/character-1.svg",
+    "category": "character",
+    "tags": [
+      "character"
+    ],
+    "description": "A canonical character icon representing Character 1."
+  },
+  {
+    "id": "character.character",
+    "name": "Character",
+    "file": "/assets/icons/character.svg",
+    "category": "character",
+    "tags": [
+      "character"
+    ],
+    "description": "A canonical character icon representing Character."
+  },
+  {
+    "id": "character.chewed-heart",
+    "name": "Chewed Heart",
+    "file": "/assets/icons/chewed-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "chewed",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Chewed Heart."
+  },
+  {
+    "id": "character.chewed-skull",
+    "name": "Chewed Skull",
+    "file": "/assets/icons/chewed-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "chewed",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Chewed Skull."
+  },
+  {
+    "id": "character.chopped-skull",
+    "name": "Chopped Skull",
+    "file": "/assets/icons/chopped-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "chopped",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Chopped Skull."
+  },
+  {
+    "id": "character.cold-heart",
+    "name": "Cold Heart",
+    "file": "/assets/icons/cold-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "cold",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Cold Heart."
+  },
+  {
+    "id": "character.condylura-skull",
+    "name": "Condylura Skull",
+    "file": "/assets/icons/condylura-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "condylura",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Condylura Skull."
+  },
+  {
+    "id": "character.cracked-alien-skull",
+    "name": "Cracked Alien Skull",
+    "file": "/assets/icons/cracked-alien-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "cracked",
+      "alien",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Cracked Alien Skull."
+  },
+  {
+    "id": "character.cyber-eye",
+    "name": "Cyber Eye",
+    "file": "/assets/icons/cyber-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "cyber",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Cyber Eye."
+  },
+  {
+    "id": "character.cyborg-face",
+    "name": "Cyborg Face",
+    "file": "/assets/icons/cyborg-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "cyborg",
+      "face"
+    ],
+    "description": "A canonical character icon representing Cyborg Face."
+  },
+  {
+    "id": "character.daemon-skull",
+    "name": "Daemon Skull",
+    "file": "/assets/icons/daemon-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "daemon",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Daemon Skull."
+  },
+  {
+    "id": "character.dead-eye",
+    "name": "Dead Eye",
+    "file": "/assets/icons/dead-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "dead",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Dead Eye."
+  },
+  {
+    "id": "character.dead-head",
+    "name": "Dead Head",
+    "file": "/assets/icons/dead-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "dead",
+      "head"
+    ],
+    "description": "A canonical character icon representing Dead Head."
+  },
+  {
+    "id": "character.death-skull",
+    "name": "Death Skull",
+    "file": "/assets/icons/death-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "death",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Death Skull."
+  },
+  {
+    "id": "character.deer-head",
+    "name": "Deer Head",
+    "file": "/assets/icons/deer-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "deer",
+      "head"
+    ],
+    "description": "A canonical character icon representing Deer Head."
+  },
+  {
+    "id": "character.desert-skull",
+    "name": "Desert Skull",
+    "file": "/assets/icons/desert-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "desert",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Desert Skull."
+  },
+  {
+    "id": "character.diablo-skull",
+    "name": "Diablo Skull",
+    "file": "/assets/icons/diablo-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "diablo",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Diablo Skull."
+  },
+  {
+    "id": "character.doctor-face",
+    "name": "Doctor Face",
+    "file": "/assets/icons/doctor-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "doctor",
+      "face"
+    ],
+    "description": "A canonical character icon representing Doctor Face."
+  },
+  {
+    "id": "character.door-handle",
+    "name": "Door Handle",
+    "file": "/assets/icons/door-handle.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "door",
+      "handle"
+    ],
+    "description": "A canonical character icon representing Door Handle."
+  },
+  {
+    "id": "character.double-face-mask",
+    "name": "Double Face Mask",
+    "file": "/assets/icons/double-face-mask.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "double",
+      "face",
+      "mask"
+    ],
+    "description": "A canonical character icon representing Double Face Mask."
+  },
+  {
+    "id": "character.dread-skull",
+    "name": "Dread Skull",
+    "file": "/assets/icons/dread-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "dread",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Dread Skull."
+  },
+  {
+    "id": "character.egg-eye",
+    "name": "Egg Eye",
+    "file": "/assets/icons/egg-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "egg",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Egg Eye."
+  },
+  {
+    "id": "character.erlenmeyer",
+    "name": "Erlenmeyer",
+    "file": "/assets/icons/erlenmeyer.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "erlenmeyer"
+    ],
+    "description": "A canonical character icon representing Erlenmeyer."
+  },
+  {
+    "id": "character.evil-eyes",
+    "name": "Evil Eyes",
+    "file": "/assets/icons/evil-eyes.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "evil",
+      "eyes"
+    ],
+    "description": "A canonical character icon representing Evil Eyes."
+  },
+  {
+    "id": "character.evil-hand",
+    "name": "Evil Hand",
+    "file": "/assets/icons/evil-hand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "evil",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Evil Hand."
+  },
+  {
+    "id": "character.eye-of-horus",
+    "name": "Eye Of Horus",
+    "file": "/assets/icons/eye-of-horus.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "eye",
+      "horus"
+    ],
+    "description": "A canonical character icon representing Eye Of Horus."
+  },
+  {
+    "id": "character.eye-target",
+    "name": "Eye Target",
+    "file": "/assets/icons/eye-target.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "eye",
+      "target"
+    ],
+    "description": "A canonical character icon representing Eye Target."
+  },
+  {
+    "id": "character.eyeball",
+    "name": "Eyeball",
+    "file": "/assets/icons/eyeball.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "eyeball"
+    ],
+    "description": "A canonical character icon representing Eyeball."
+  },
+  {
+    "id": "character.eyedropper",
+    "name": "Eyedropper",
+    "file": "/assets/icons/eyedropper.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "eyedropper"
+    ],
+    "description": "A canonical character icon representing Eyedropper."
+  },
+  {
+    "id": "character.eyelashes",
+    "name": "Eyelashes",
+    "file": "/assets/icons/eyelashes.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "eyelashes"
+    ],
+    "description": "A canonical character icon representing Eyelashes."
+  },
+  {
+    "id": "character.eyepatch",
+    "name": "Eyepatch",
+    "file": "/assets/icons/eyepatch.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "eyepatch"
+    ],
+    "description": "A canonical character icon representing Eyepatch."
+  },
+  {
+    "id": "character.eyestalk",
+    "name": "Eyestalk",
+    "file": "/assets/icons/eyestalk.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "eyestalk"
+    ],
+    "description": "A canonical character icon representing Eyestalk."
+  },
+  {
+    "id": "character.face-to-face",
+    "name": "Face To Face",
+    "file": "/assets/icons/face-to-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "face"
+    ],
+    "description": "A canonical character icon representing Face To Face."
+  },
+  {
+    "id": "character.falling-eye",
+    "name": "Falling Eye",
+    "file": "/assets/icons/falling-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "falling",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Falling Eye."
+  },
+  {
+    "id": "character.fanged-skull",
+    "name": "Fanged Skull",
+    "file": "/assets/icons/fanged-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "fanged",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Fanged Skull."
+  },
+  {
+    "id": "character.figurehead",
+    "name": "Figurehead",
+    "file": "/assets/icons/figurehead.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "figurehead"
+    ],
+    "description": "A canonical character icon representing Figurehead."
+  },
+  {
+    "id": "character.foot-plaster",
+    "name": "Foot Plaster",
+    "file": "/assets/icons/foot-plaster.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "foot",
+      "plaster"
+    ],
+    "description": "A canonical character icon representing Foot Plaster."
+  },
+  {
+    "id": "character.foot-trip",
+    "name": "Foot Trip",
+    "file": "/assets/icons/foot-trip.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "foot",
+      "trip"
+    ],
+    "description": "A canonical character icon representing Foot Trip."
+  },
+  {
+    "id": "character.footprint",
+    "name": "Footprint",
+    "file": "/assets/icons/footprint.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "footprint"
+    ],
+    "description": "A canonical character icon representing Footprint."
+  },
+  {
+    "id": "character.footsteps",
+    "name": "Footsteps",
+    "file": "/assets/icons/footsteps.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "footsteps"
+    ],
+    "description": "A canonical character icon representing Footsteps."
+  },
+  {
+    "id": "character.footy-field",
+    "name": "Footy Field",
+    "file": "/assets/icons/footy-field.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "footy",
+      "field"
+    ],
+    "description": "A canonical character icon representing Footy Field."
+  },
+  {
+    "id": "character.fox-head",
+    "name": "Fox Head",
+    "file": "/assets/icons/fox-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "fox",
+      "head"
+    ],
+    "description": "A canonical character icon representing Fox Head."
+  },
+  {
+    "id": "character.glass-heart",
+    "name": "Glass Heart",
+    "file": "/assets/icons/glass-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "glass",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Glass Heart."
+  },
+  {
+    "id": "character.glowing-hands",
+    "name": "Glowing Hands",
+    "file": "/assets/icons/glowing-hands.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "glowing",
+      "hands"
+    ],
+    "description": "A canonical character icon representing Glowing Hands."
+  },
+  {
+    "id": "character.golem-head",
+    "name": "Golem Head",
+    "file": "/assets/icons/golem-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "golem",
+      "head"
+    ],
+    "description": "A canonical character icon representing Golem Head."
+  },
+  {
+    "id": "character.goo-skull",
+    "name": "Goo Skull",
+    "file": "/assets/icons/goo-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "goo",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Goo Skull."
+  },
+  {
+    "id": "character.gooey-eyed-sun",
+    "name": "Gooey Eyed Sun",
+    "file": "/assets/icons/gooey-eyed-sun.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "gooey",
+      "eyed",
+      "sun"
+    ],
+    "description": "A canonical character icon representing Gooey Eyed Sun."
+  },
+  {
+    "id": "character.guitar-bass-head",
+    "name": "Guitar Bass Head",
+    "file": "/assets/icons/guitar-bass-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "guitar",
+      "bass",
+      "head"
+    ],
+    "description": "A canonical character icon representing Guitar Bass Head."
+  },
+  {
+    "id": "character.guitar-head",
+    "name": "Guitar Head",
+    "file": "/assets/icons/guitar-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "guitar",
+      "head"
+    ],
+    "description": "A canonical character icon representing Guitar Head."
+  },
+  {
+    "id": "character.half-body-crawling",
+    "name": "Half Body Crawling",
+    "file": "/assets/icons/half-body-crawling.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "half",
+      "body",
+      "crawling"
+    ],
+    "description": "A canonical character icon representing Half Body Crawling."
+  },
+  {
+    "id": "character.half-heart",
+    "name": "Half Heart",
+    "file": "/assets/icons/half-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "half",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Half Heart."
+  },
+  {
+    "id": "character.hand-1",
+    "name": "Hand 1",
+    "file": "/assets/icons/hand-1.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Hand 1."
+  },
+  {
+    "id": "character.hand-bandage",
+    "name": "Hand Bandage",
+    "file": "/assets/icons/hand-bandage.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand",
+      "bandage"
+    ],
+    "description": "A canonical character icon representing Hand Bandage."
+  },
+  {
+    "id": "character.hand-grip",
+    "name": "Hand Grip",
+    "file": "/assets/icons/hand-grip.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand",
+      "grip"
+    ],
+    "description": "A canonical character icon representing Hand Grip."
+  },
+  {
+    "id": "character.hand-of-god",
+    "name": "Hand Of God",
+    "file": "/assets/icons/hand-of-god.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand",
+      "god"
+    ],
+    "description": "A canonical character icon representing Hand Of God."
+  },
+  {
+    "id": "character.hand-ok",
+    "name": "Hand Ok",
+    "file": "/assets/icons/hand-ok.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Hand Ok."
+  },
+  {
+    "id": "character.hand-saw",
+    "name": "Hand Saw",
+    "file": "/assets/icons/hand-saw.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand",
+      "saw"
+    ],
+    "description": "A canonical character icon representing Hand Saw."
+  },
+  {
+    "id": "character.hand-truck",
+    "name": "Hand Truck",
+    "file": "/assets/icons/hand-truck.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand",
+      "truck"
+    ],
+    "description": "A canonical character icon representing Hand Truck."
+  },
+  {
+    "id": "character.hand-wing",
+    "name": "Hand Wing",
+    "file": "/assets/icons/hand-wing.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand",
+      "wing"
+    ],
+    "description": "A canonical character icon representing Hand Wing."
+  },
+  {
+    "id": "character.hand",
+    "name": "Hand",
+    "file": "/assets/icons/hand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Hand."
+  },
+  {
+    "id": "character.handcuffed",
+    "name": "Handcuffed",
+    "file": "/assets/icons/handcuffed.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "handcuffed"
+    ],
+    "description": "A canonical character icon representing Handcuffed."
+  },
+  {
+    "id": "character.handcuffs",
+    "name": "Handcuffs",
+    "file": "/assets/icons/handcuffs.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "handcuffs"
+    ],
+    "description": "A canonical character icon representing Handcuffs."
+  },
+  {
+    "id": "character.handheld-fan",
+    "name": "Handheld Fan",
+    "file": "/assets/icons/handheld-fan.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "handheld",
+      "fan"
+    ],
+    "description": "A canonical character icon representing Handheld Fan."
+  },
+  {
+    "id": "character.happy-skull",
+    "name": "Happy Skull",
+    "file": "/assets/icons/happy-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "happy",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Happy Skull."
+  },
+  {
+    "id": "character.harry-potter-skull",
+    "name": "Harry Potter Skull",
+    "file": "/assets/icons/harry-potter-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "harry",
+      "potter",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Harry Potter Skull."
+  },
+  {
+    "id": "character.head-shot",
+    "name": "Head Shot",
+    "file": "/assets/icons/head-shot.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "head",
+      "shot"
+    ],
+    "description": "A canonical character icon representing Head Shot."
+  },
+  {
+    "id": "character.head",
+    "name": "Head",
+    "file": "/assets/icons/head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "head"
+    ],
+    "description": "A canonical character icon representing Head."
+  },
+  {
+    "id": "character.headband-knot",
+    "name": "Headband Knot",
+    "file": "/assets/icons/headband-knot.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "headband",
+      "knot"
+    ],
+    "description": "A canonical character icon representing Headband Knot."
+  },
+  {
+    "id": "character.headphones",
+    "name": "Headphones",
+    "file": "/assets/icons/headphones.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "headphones"
+    ],
+    "description": "A canonical character icon representing Headphones."
+  },
+  {
+    "id": "character.headshot-1",
+    "name": "Headshot 1",
+    "file": "/assets/icons/headshot-1.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "headshot"
+    ],
+    "description": "A canonical character icon representing Headshot 1."
+  },
+  {
+    "id": "character.headshot",
+    "name": "Headshot",
+    "file": "/assets/icons/headshot.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "headshot"
+    ],
+    "description": "A canonical character icon representing Headshot."
+  },
+  {
+    "id": "character.heart-beats",
+    "name": "Heart Beats",
+    "file": "/assets/icons/heart-beats.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heart",
+      "beats"
+    ],
+    "description": "A canonical character icon representing Heart Beats."
+  },
+  {
+    "id": "character.heart-drop",
+    "name": "Heart Drop",
+    "file": "/assets/icons/heart-drop.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heart",
+      "drop"
+    ],
+    "description": "A canonical character icon representing Heart Drop."
+  },
+  {
+    "id": "character.heart-inside",
+    "name": "Heart Inside",
+    "file": "/assets/icons/heart-inside.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heart",
+      "inside"
+    ],
+    "description": "A canonical character icon representing Heart Inside."
+  },
+  {
+    "id": "character.heart-necklace",
+    "name": "Heart Necklace",
+    "file": "/assets/icons/heart-necklace.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heart",
+      "necklace"
+    ],
+    "description": "A canonical character icon representing Heart Necklace."
+  },
+  {
+    "id": "character.heart-organ",
+    "name": "Heart Organ",
+    "file": "/assets/icons/heart-organ.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heart",
+      "organ"
+    ],
+    "description": "A canonical character icon representing Heart Organ."
+  },
+  {
+    "id": "character.heart-stake",
+    "name": "Heart Stake",
+    "file": "/assets/icons/heart-stake.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heart",
+      "stake"
+    ],
+    "description": "A canonical character icon representing Heart Stake."
+  },
+  {
+    "id": "character.heart-tower",
+    "name": "Heart Tower",
+    "file": "/assets/icons/heart-tower.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heart",
+      "tower"
+    ],
+    "description": "A canonical character icon representing Heart Tower."
+  },
+  {
+    "id": "character.heart-wings",
+    "name": "Heart Wings",
+    "file": "/assets/icons/heart-wings.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heart",
+      "wings"
+    ],
+    "description": "A canonical character icon representing Heart Wings."
+  },
+  {
+    "id": "character.hearts",
+    "name": "Hearts",
+    "file": "/assets/icons/hearts.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hearts"
+    ],
+    "description": "A canonical character icon representing Hearts."
+  },
+  {
+    "id": "character.heron",
+    "name": "Heron",
+    "file": "/assets/icons/heron.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "heron"
+    ],
+    "description": "A canonical character icon representing Heron."
+  },
+  {
+    "id": "character.horned-skull",
+    "name": "Horned Skull",
+    "file": "/assets/icons/horned-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "horned",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Horned Skull."
+  },
+  {
+    "id": "character.hot-surface",
+    "name": "Hot Surface",
+    "file": "/assets/icons/hot-surface.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hot",
+      "surface"
+    ],
+    "description": "A canonical character icon representing Hot Surface."
+  },
+  {
+    "id": "character.hunter-eyes",
+    "name": "Hunter Eyes",
+    "file": "/assets/icons/hunter-eyes.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hunter",
+      "eyes"
+    ],
+    "description": "A canonical character icon representing Hunter Eyes."
+  },
+  {
+    "id": "character.hyena-head",
+    "name": "Hyena Head",
+    "file": "/assets/icons/hyena-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hyena",
+      "head"
+    ],
+    "description": "A canonical character icon representing Hyena Head."
+  },
+  {
+    "id": "character.hypersonic-bolt",
+    "name": "Hypersonic Bolt",
+    "file": "/assets/icons/hypersonic-bolt.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hypersonic",
+      "bolt"
+    ],
+    "description": "A canonical character icon representing Hypersonic Bolt."
+  },
+  {
+    "id": "character.hypersonic-melon",
+    "name": "Hypersonic Melon",
+    "file": "/assets/icons/hypersonic-melon.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "hypersonic",
+      "melon"
+    ],
+    "description": "A canonical character icon representing Hypersonic Melon."
+  },
+  {
+    "id": "character.invisible-face",
+    "name": "Invisible Face",
+    "file": "/assets/icons/invisible-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "invisible",
+      "face"
+    ],
+    "description": "A canonical character icon representing Invisible Face."
+  },
+  {
+    "id": "character.iron-hand-1",
+    "name": "Iron Hand 1",
+    "file": "/assets/icons/iron-hand-1.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "iron",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Iron Hand 1."
+  },
+  {
+    "id": "character.jawbone",
+    "name": "Jawbone",
+    "file": "/assets/icons/jawbone.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "jawbone"
+    ],
+    "description": "A canonical character icon representing Jawbone."
+  },
+  {
+    "id": "character.kenku-head",
+    "name": "Kenku Head",
+    "file": "/assets/icons/kenku-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "kenku",
+      "head"
+    ],
+    "description": "A canonical character icon representing Kenku Head."
+  },
+  {
+    "id": "character.labrador-head",
+    "name": "Labrador Head",
+    "file": "/assets/icons/labrador-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "labrador",
+      "head"
+    ],
+    "description": "A canonical character icon representing Labrador Head."
+  },
+  {
+    "id": "character.leaky-skull",
+    "name": "Leaky Skull",
+    "file": "/assets/icons/leaky-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "leaky",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Leaky Skull."
+  },
+  {
+    "id": "character.lynx-head",
+    "name": "Lynx Head",
+    "file": "/assets/icons/lynx-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "lynx",
+      "head"
+    ],
+    "description": "A canonical character icon representing Lynx Head."
+  },
+  {
+    "id": "character.mandrill-head",
+    "name": "Mandrill Head",
+    "file": "/assets/icons/mandrill-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "mandrill",
+      "head"
+    ],
+    "description": "A canonical character icon representing Mandrill Head."
+  },
+  {
+    "id": "character.match-head",
+    "name": "Match Head",
+    "file": "/assets/icons/match-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "match",
+      "head"
+    ],
+    "description": "A canonical character icon representing Match Head."
+  },
+  {
+    "id": "character.mecha-head",
+    "name": "Mecha Head",
+    "file": "/assets/icons/mecha-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "mecha",
+      "head"
+    ],
+    "description": "A canonical character icon representing Mecha Head."
+  },
+  {
+    "id": "character.medal-skull",
+    "name": "Medal Skull",
+    "file": "/assets/icons/medal-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "medal",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Medal Skull."
+  },
+  {
+    "id": "character.medusa-head",
+    "name": "Medusa Head",
+    "file": "/assets/icons/medusa-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "medusa",
+      "head"
+    ],
+    "description": "A canonical character icon representing Medusa Head."
+  },
+  {
+    "id": "character.metal-golem-head",
+    "name": "Metal Golem Head",
+    "file": "/assets/icons/metal-golem-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "metal",
+      "golem",
+      "head"
+    ],
+    "description": "A canonical character icon representing Metal Golem Head."
+  },
+  {
+    "id": "character.metal-hand",
+    "name": "Metal Hand",
+    "file": "/assets/icons/metal-hand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "metal",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Metal Hand."
+  },
+  {
+    "id": "character.mineral-heart",
+    "name": "Mineral Heart",
+    "file": "/assets/icons/mineral-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "mineral",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Mineral Heart."
+  },
+  {
+    "id": "character.monk-face",
+    "name": "Monk Face",
+    "file": "/assets/icons/monk-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "monk",
+      "face"
+    ],
+    "description": "A canonical character icon representing Monk Face."
+  },
+  {
+    "id": "character.mummy-head",
+    "name": "Mummy Head",
+    "file": "/assets/icons/mummy-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "mummy",
+      "head"
+    ],
+    "description": "A canonical character icon representing Mummy Head."
+  },
+  {
+    "id": "character.muscle-fat",
+    "name": "Muscle Fat",
+    "file": "/assets/icons/muscle-fat.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "muscle",
+      "fat"
+    ],
+    "description": "A canonical character icon representing Muscle Fat."
+  },
+  {
+    "id": "character.muscle-up",
+    "name": "Muscle Up",
+    "file": "/assets/icons/muscle-up.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "muscle"
+    ],
+    "description": "A canonical character icon representing Muscle Up."
+  },
+  {
+    "id": "character.nailed-foot",
+    "name": "Nailed Foot",
+    "file": "/assets/icons/nailed-foot.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "nailed",
+      "foot"
+    ],
+    "description": "A canonical character icon representing Nailed Foot."
+  },
+  {
+    "id": "character.nailed-head",
+    "name": "Nailed Head",
+    "file": "/assets/icons/nailed-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "nailed",
+      "head"
+    ],
+    "description": "A canonical character icon representing Nailed Head."
+  },
+  {
+    "id": "character.nested-hearts",
+    "name": "Nested Hearts",
+    "file": "/assets/icons/nested-hearts.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "nested",
+      "hearts"
+    ],
+    "description": "A canonical character icon representing Nested Hearts."
+  },
+  {
+    "id": "character.ninja-head",
+    "name": "Ninja Head",
+    "file": "/assets/icons/ninja-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "ninja",
+      "head"
+    ],
+    "description": "A canonical character icon representing Ninja Head."
+  },
+  {
+    "id": "character.ninja-heroic-stance",
+    "name": "Ninja Heroic Stance",
+    "file": "/assets/icons/ninja-heroic-stance.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "ninja",
+      "heroic",
+      "stance"
+    ],
+    "description": "A canonical character icon representing Ninja Heroic Stance."
+  },
+  {
+    "id": "character.ninja-mask",
+    "name": "Ninja Mask",
+    "file": "/assets/icons/ninja-mask.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "ninja",
+      "mask"
+    ],
+    "description": "A canonical character icon representing Ninja Mask."
+  },
+  {
+    "id": "character.ninja-star",
+    "name": "Ninja Star",
+    "file": "/assets/icons/ninja-star.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "ninja",
+      "star"
+    ],
+    "description": "A canonical character icon representing Ninja Star."
+  },
+  {
+    "id": "character.ninja-velociraptor",
+    "name": "Ninja Velociraptor",
+    "file": "/assets/icons/ninja-velociraptor.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "ninja",
+      "velociraptor"
+    ],
+    "description": "A canonical character icon representing Ninja Velociraptor."
+  },
+  {
+    "id": "character.nun-face",
+    "name": "Nun Face",
+    "file": "/assets/icons/nun-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "nun",
+      "face"
+    ],
+    "description": "A canonical character icon representing Nun Face."
+  },
+  {
+    "id": "character.octogonal-eye",
+    "name": "Octogonal Eye",
+    "file": "/assets/icons/octogonal-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "octogonal",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Octogonal Eye."
+  },
+  {
+    "id": "character.one-eyed",
+    "name": "One Eyed",
+    "file": "/assets/icons/one-eyed.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "one",
+      "eyed"
+    ],
+    "description": "A canonical character icon representing One Eyed."
+  },
+  {
+    "id": "character.opposite-hearts",
+    "name": "Opposite Hearts",
+    "file": "/assets/icons/opposite-hearts.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "opposite",
+      "hearts"
+    ],
+    "description": "A canonical character icon representing Opposite Hearts."
+  },
+  {
+    "id": "character.overhead",
+    "name": "Overhead",
+    "file": "/assets/icons/overhead.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "overhead"
+    ],
+    "description": "A canonical character icon representing Overhead."
+  },
+  {
+    "id": "character.parrot-head",
+    "name": "Parrot Head",
+    "file": "/assets/icons/parrot-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "parrot",
+      "head"
+    ],
+    "description": "A canonical character icon representing Parrot Head."
+  },
+  {
+    "id": "character.paw-heart",
+    "name": "Paw Heart",
+    "file": "/assets/icons/paw-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "paw",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Paw Heart."
+  },
+  {
+    "id": "character.pelvis-bone",
+    "name": "Pelvis Bone",
+    "file": "/assets/icons/pelvis-bone.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "pelvis",
+      "bone"
+    ],
+    "description": "A canonical character icon representing Pelvis Bone."
+  },
+  {
+    "id": "character.person-in-bed",
+    "name": "Person In Bed",
+    "file": "/assets/icons/person-in-bed.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "person",
+      "bed"
+    ],
+    "description": "A canonical character icon representing Person In Bed."
+  },
+  {
+    "id": "character.person-in-blizzard",
+    "name": "Person In Blizzard",
+    "file": "/assets/icons/person-in-blizzard.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "person",
+      "blizzard"
+    ],
+    "description": "A canonical character icon representing Person In Blizzard."
+  },
+  {
+    "id": "character.person",
+    "name": "Person",
+    "file": "/assets/icons/person.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "person"
+    ],
+    "description": "A canonical character icon representing Person."
+  },
+  {
+    "id": "character.piece-skull",
+    "name": "Piece Skull",
+    "file": "/assets/icons/piece-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "piece",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Piece Skull."
+  },
+  {
+    "id": "character.pierced-body",
+    "name": "Pierced Body",
+    "file": "/assets/icons/pierced-body.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "pierced",
+      "body"
+    ],
+    "description": "A canonical character icon representing Pierced Body."
+  },
+  {
+    "id": "character.pierced-heart",
+    "name": "Pierced Heart",
+    "file": "/assets/icons/pierced-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "pierced",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Pierced Heart."
+  },
+  {
+    "id": "character.pig-face",
+    "name": "Pig Face",
+    "file": "/assets/icons/pig-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "pig",
+      "face"
+    ],
+    "description": "A canonical character icon representing Pig Face."
+  },
+  {
+    "id": "character.poker-hand",
+    "name": "Poker Hand",
+    "file": "/assets/icons/poker-hand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "poker",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Poker Hand."
+  },
+  {
+    "id": "character.portrait",
+    "name": "Portrait",
+    "file": "/assets/icons/portrait.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "portrait"
+    ],
+    "description": "A canonical character icon representing Portrait."
+  },
+  {
+    "id": "character.rabbit-head",
+    "name": "Rabbit Head",
+    "file": "/assets/icons/rabbit-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "rabbit",
+      "head"
+    ],
+    "description": "A canonical character icon representing Rabbit Head."
+  },
+  {
+    "id": "character.raccoon-head",
+    "name": "Raccoon Head",
+    "file": "/assets/icons/raccoon-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "raccoon",
+      "head"
+    ],
+    "description": "A canonical character icon representing Raccoon Head."
+  },
+  {
+    "id": "character.robber-hand",
+    "name": "Robber Hand",
+    "file": "/assets/icons/robber-hand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "robber",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Robber Hand."
+  },
+  {
+    "id": "character.rogue",
+    "name": "Rogue",
+    "file": "/assets/icons/rogue.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "rogue"
+    ],
+    "description": "A canonical character icon representing Rogue."
+  },
+  {
+    "id": "character.running-ninja",
+    "name": "Running Ninja",
+    "file": "/assets/icons/running-ninja.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "running",
+      "ninja"
+    ],
+    "description": "A canonical character icon representing Running Ninja."
+  },
+  {
+    "id": "character.sauropod-head",
+    "name": "Sauropod Head",
+    "file": "/assets/icons/sauropod-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "sauropod",
+      "head"
+    ],
+    "description": "A canonical character icon representing Sauropod Head."
+  },
+  {
+    "id": "character.semi-closed-eye",
+    "name": "Semi Closed Eye",
+    "file": "/assets/icons/semi-closed-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "semi",
+      "closed",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Semi Closed Eye."
+  },
+  {
+    "id": "character.severed-hand",
+    "name": "Severed Hand",
+    "file": "/assets/icons/severed-hand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "severed",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Severed Hand."
+  },
+  {
+    "id": "character.shaking-hands",
+    "name": "Shaking Hands",
+    "file": "/assets/icons/shaking-hands.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "shaking",
+      "hands"
+    ],
+    "description": "A canonical character icon representing Shaking Hands."
+  },
+  {
+    "id": "character.sharped-teeth-skull",
+    "name": "Sharped Teeth Skull",
+    "file": "/assets/icons/sharped-teeth-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "sharped",
+      "teeth",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Sharped Teeth Skull."
+  },
+  {
+    "id": "character.shattered-heart",
+    "name": "Shattered Heart",
+    "file": "/assets/icons/shattered-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "shattered",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Shattered Heart."
+  },
+  {
+    "id": "character.sheikah-eye",
+    "name": "Sheikah Eye",
+    "file": "/assets/icons/sheikah-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "sheikah",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Sheikah Eye."
+  },
+  {
+    "id": "character.shining-heart",
+    "name": "Shining Heart",
+    "file": "/assets/icons/shining-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "shining",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Shining Heart."
+  },
+  {
+    "id": "character.six-eyes",
+    "name": "Six Eyes",
+    "file": "/assets/icons/six-eyes.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "six",
+      "eyes"
+    ],
+    "description": "A canonical character icon representing Six Eyes."
+  },
+  {
+    "id": "character.skeletal-hand",
+    "name": "Skeletal Hand",
+    "file": "/assets/icons/skeletal-hand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "skeletal",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Skeletal Hand."
+  },
+  {
+    "id": "character.skull-bolt",
+    "name": "Skull Bolt",
+    "file": "/assets/icons/skull-bolt.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "skull",
+      "bolt"
+    ],
+    "description": "A canonical character icon representing Skull Bolt."
+  },
+  {
+    "id": "character.skull-crack",
+    "name": "Skull Crack",
+    "file": "/assets/icons/skull-crack.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "skull",
+      "crack"
+    ],
+    "description": "A canonical character icon representing Skull Crack."
+  },
+  {
+    "id": "character.skull-in-jar",
+    "name": "Skull In Jar",
+    "file": "/assets/icons/skull-in-jar.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "skull",
+      "jar"
+    ],
+    "description": "A canonical character icon representing Skull In Jar."
+  },
+  {
+    "id": "character.skull-mask",
+    "name": "Skull Mask",
+    "file": "/assets/icons/skull-mask.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "skull",
+      "mask"
+    ],
+    "description": "A canonical character icon representing Skull Mask."
+  },
+  {
+    "id": "character.skull-sabertooth",
+    "name": "Skull Sabertooth",
+    "file": "/assets/icons/skull-sabertooth.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "skull",
+      "sabertooth"
+    ],
+    "description": "A canonical character icon representing Skull Sabertooth."
+  },
+  {
+    "id": "character.skull-signet",
+    "name": "Skull Signet",
+    "file": "/assets/icons/skull-signet.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "skull",
+      "signet"
+    ],
+    "description": "A canonical character icon representing Skull Signet."
+  },
+  {
+    "id": "character.snail-eyes",
+    "name": "Snail Eyes",
+    "file": "/assets/icons/snail-eyes.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "snail",
+      "eyes"
+    ],
+    "description": "A canonical character icon representing Snail Eyes."
+  },
+  {
+    "id": "character.spade-skull",
+    "name": "Spade Skull",
+    "file": "/assets/icons/spade-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "spade",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Spade Skull."
+  },
+  {
+    "id": "character.split-body",
+    "name": "Split Body",
+    "file": "/assets/icons/split-body.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "split",
+      "body"
+    ],
+    "description": "A canonical character icon representing Split Body."
+  },
+  {
+    "id": "character.spock-hand",
+    "name": "Spock Hand",
+    "file": "/assets/icons/spock-hand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "spock",
+      "hand"
+    ],
+    "description": "A canonical character icon representing Spock Hand."
+  },
+  {
+    "id": "character.squid-head",
+    "name": "Squid Head",
+    "file": "/assets/icons/squid-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "squid",
+      "head"
+    ],
+    "description": "A canonical character icon representing Squid Head."
+  },
+  {
+    "id": "character.stag-head",
+    "name": "Stag Head",
+    "file": "/assets/icons/stag-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "stag",
+      "head"
+    ],
+    "description": "A canonical character icon representing Stag Head."
+  },
+  {
+    "id": "character.star-skull",
+    "name": "Star Skull",
+    "file": "/assets/icons/star-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "star",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Star Skull."
+  },
+  {
+    "id": "character.stoned-skull",
+    "name": "Stoned Skull",
+    "file": "/assets/icons/stoned-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "stoned",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Stoned Skull."
+  },
+  {
+    "id": "character.sunken-eye",
+    "name": "Sunken Eye",
+    "file": "/assets/icons/sunken-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "sunken",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Sunken Eye."
+  },
+  {
+    "id": "character.surprised-skull",
+    "name": "Surprised Skull",
+    "file": "/assets/icons/surprised-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "surprised",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Surprised Skull."
+  },
+  {
+    "id": "character.surrounded-eye",
+    "name": "Surrounded Eye",
+    "file": "/assets/icons/surrounded-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "surrounded",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Surrounded Eye."
+  },
+  {
+    "id": "character.t-rex-skull",
+    "name": "T Rex Skull",
+    "file": "/assets/icons/t-rex-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "rex",
+      "skull"
+    ],
+    "description": "A canonical character icon representing T Rex Skull."
+  },
+  {
+    "id": "character.techno-heart",
+    "name": "Techno Heart",
+    "file": "/assets/icons/techno-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "techno",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Techno Heart."
+  },
+  {
+    "id": "character.templar-eye",
+    "name": "Templar Eye",
+    "file": "/assets/icons/templar-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "templar",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Templar Eye."
+  },
+  {
+    "id": "character.templar-heart",
+    "name": "Templar Heart",
+    "file": "/assets/icons/templar-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "templar",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Templar Heart."
+  },
+  {
+    "id": "character.tentacle-heart",
+    "name": "Tentacle Heart",
+    "file": "/assets/icons/tentacle-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "tentacle",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Tentacle Heart."
+  },
+  {
+    "id": "character.tentacles-skull",
+    "name": "Tentacles Skull",
+    "file": "/assets/icons/tentacles-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "tentacles",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Tentacles Skull."
+  },
+  {
+    "id": "character.third-eye",
+    "name": "Third Eye",
+    "file": "/assets/icons/third-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "third",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Third Eye."
+  },
+  {
+    "id": "character.thunder-skull",
+    "name": "Thunder Skull",
+    "file": "/assets/icons/thunder-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "thunder",
+      "skull"
+    ],
+    "description": "A canonical character icon representing Thunder Skull."
+  },
+  {
+    "id": "character.tiger-head",
+    "name": "Tiger Head",
+    "file": "/assets/icons/tiger-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "tiger",
+      "head"
+    ],
+    "description": "A canonical character icon representing Tiger Head."
+  },
+  {
+    "id": "character.tired-eye",
+    "name": "Tired Eye",
+    "file": "/assets/icons/tired-eye.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "tired",
+      "eye"
+    ],
+    "description": "A canonical character icon representing Tired Eye."
+  },
+  {
+    "id": "character.totem-head",
+    "name": "Totem Head",
+    "file": "/assets/icons/totem-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "totem",
+      "head"
+    ],
+    "description": "A canonical character icon representing Totem Head."
+  },
+  {
+    "id": "character.tree-face",
+    "name": "Tree Face",
+    "file": "/assets/icons/tree-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "tree",
+      "face"
+    ],
+    "description": "A canonical character icon representing Tree Face."
+  },
+  {
+    "id": "character.triple-skulls",
+    "name": "Triple Skulls",
+    "file": "/assets/icons/triple-skulls.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "triple",
+      "skulls"
+    ],
+    "description": "A canonical character icon representing Triple Skulls."
+  },
+  {
+    "id": "character.triton-head",
+    "name": "Triton Head",
+    "file": "/assets/icons/triton-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "triton",
+      "head"
+    ],
+    "description": "A canonical character icon representing Triton Head."
+  },
+  {
+    "id": "character.trombone",
+    "name": "Trombone",
+    "file": "/assets/icons/trombone.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "trombone"
+    ],
+    "description": "A canonical character icon representing Trombone."
+  },
+  {
+    "id": "character.underhand",
+    "name": "Underhand",
+    "file": "/assets/icons/underhand.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "underhand"
+    ],
+    "description": "A canonical character icon representing Underhand."
+  },
+  {
+    "id": "character.viking-head",
+    "name": "Viking Head",
+    "file": "/assets/icons/viking-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "viking",
+      "head"
+    ],
+    "description": "A canonical character icon representing Viking Head."
+  },
+  {
+    "id": "character.vr-headset",
+    "name": "Vr Headset",
+    "file": "/assets/icons/vr-headset.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "headset"
+    ],
+    "description": "A canonical character icon representing Vr Headset."
+  },
+  {
+    "id": "character.walrus-head",
+    "name": "Walrus Head",
+    "file": "/assets/icons/walrus-head.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "walrus",
+      "head"
+    ],
+    "description": "A canonical character icon representing Walrus Head."
+  },
+  {
+    "id": "character.william-tell-skull",
+    "name": "William Tell Skull",
+    "file": "/assets/icons/william-tell-skull.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "william",
+      "tell",
+      "skull"
+    ],
+    "description": "A canonical character icon representing William Tell Skull."
+  },
+  {
+    "id": "character.wingfoot",
+    "name": "Wingfoot",
+    "file": "/assets/icons/wingfoot.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "wingfoot"
+    ],
+    "description": "A canonical character icon representing Wingfoot."
+  },
+  {
+    "id": "character.witch-face",
+    "name": "Witch Face",
+    "file": "/assets/icons/witch-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "witch",
+      "face"
+    ],
+    "description": "A canonical character icon representing Witch Face."
+  },
+  {
+    "id": "character.wizard-face",
+    "name": "Wizard Face",
+    "file": "/assets/icons/wizard-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "wizard",
+      "face"
+    ],
+    "description": "A canonical character icon representing Wizard Face."
+  },
+  {
+    "id": "character.woman-elf-face",
+    "name": "Woman Elf Face",
+    "file": "/assets/icons/woman-elf-face.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "woman",
+      "elf",
+      "face"
+    ],
+    "description": "A canonical character icon representing Woman Elf Face."
+  },
+  {
+    "id": "character.worried-eyes",
+    "name": "Worried Eyes",
+    "file": "/assets/icons/worried-eyes.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "worried",
+      "eyes"
+    ],
+    "description": "A canonical character icon representing Worried Eyes."
+  },
+  {
+    "id": "character.wrapped-heart",
+    "name": "Wrapped Heart",
+    "file": "/assets/icons/wrapped-heart.svg",
+    "category": "character",
+    "tags": [
+      "character",
+      "wrapped",
+      "heart"
+    ],
+    "description": "A canonical character icon representing Wrapped Heart."
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "id": "tarot.tarot-00-the-fool",
+    "name": "Tarot 00 The Fool",
+    "file": "/assets/icons/tarot-00-the-fool.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "fool"
+    ],
+    "description": "A canonical tarot icon representing Tarot 00 The Fool."
+  },
+  {
+    "id": "tarot.tarot-01-the-magician",
+    "name": "Tarot 01 The Magician",
+    "file": "/assets/icons/tarot-01-the-magician.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "magician"
+    ],
+    "description": "A canonical tarot icon representing Tarot 01 The Magician."
+  },
+  {
+    "id": "tarot.tarot-02-the-high-priestess",
+    "name": "Tarot 02 The High Priestess",
+    "file": "/assets/icons/tarot-02-the-high-priestess.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "high",
+      "priestess"
+    ],
+    "description": "A canonical tarot icon representing Tarot 02 The High Priestess."
+  },
+  {
+    "id": "tarot.tarot-03-the-empress",
+    "name": "Tarot 03 The Empress",
+    "file": "/assets/icons/tarot-03-the-empress.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "empress"
+    ],
+    "description": "A canonical tarot icon representing Tarot 03 The Empress."
+  },
+  {
+    "id": "tarot.tarot-04-the-emperor",
+    "name": "Tarot 04 The Emperor",
+    "file": "/assets/icons/tarot-04-the-emperor.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "emperor"
+    ],
+    "description": "A canonical tarot icon representing Tarot 04 The Emperor."
+  },
+  {
+    "id": "tarot.tarot-06-the-lovers",
+    "name": "Tarot 06 The Lovers",
+    "file": "/assets/icons/tarot-06-the-lovers.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "lovers"
+    ],
+    "description": "A canonical tarot icon representing Tarot 06 The Lovers."
+  },
+  {
+    "id": "tarot.tarot-07-the-chariot",
+    "name": "Tarot 07 The Chariot",
+    "file": "/assets/icons/tarot-07-the-chariot.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "chariot"
+    ],
+    "description": "A canonical tarot icon representing Tarot 07 The Chariot."
+  },
+  {
+    "id": "tarot.tarot-08-strength",
+    "name": "Tarot 08 Strength",
+    "file": "/assets/icons/tarot-08-strength.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "strength"
+    ],
+    "description": "A canonical tarot icon representing Tarot 08 Strength."
+  },
+  {
+    "id": "tarot.tarot-09-the-hermit",
+    "name": "Tarot 09 The Hermit",
+    "file": "/assets/icons/tarot-09-the-hermit.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "hermit"
+    ],
+    "description": "A canonical tarot icon representing Tarot 09 The Hermit."
+  },
+  {
+    "id": "tarot.tarot-12-the-hanged-man",
+    "name": "Tarot 12 The Hanged Man",
+    "file": "/assets/icons/tarot-12-the-hanged-man.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "hanged",
+      "man"
+    ],
+    "description": "A canonical tarot icon representing Tarot 12 The Hanged Man."
+  },
+  {
+    "id": "tarot.tarot-13-death",
+    "name": "Tarot 13 Death",
+    "file": "/assets/icons/tarot-13-death.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "death"
+    ],
+    "description": "A canonical tarot icon representing Tarot 13 Death."
+  },
+  {
+    "id": "tarot.tarot-14-temperance",
+    "name": "Tarot 14 Temperance",
+    "file": "/assets/icons/tarot-14-temperance.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "temperance"
+    ],
+    "description": "A canonical tarot icon representing Tarot 14 Temperance."
+  },
+  {
+    "id": "tarot.tarot-16-the-tower",
+    "name": "Tarot 16 The Tower",
+    "file": "/assets/icons/tarot-16-the-tower.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "tower"
+    ],
+    "description": "A canonical tarot icon representing Tarot 16 The Tower."
+  },
+  {
+    "id": "tarot.tarot-17-the-star",
+    "name": "Tarot 17 The Star",
+    "file": "/assets/icons/tarot-17-the-star.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "star"
+    ],
+    "description": "A canonical tarot icon representing Tarot 17 The Star."
+  },
+  {
+    "id": "tarot.tarot-18-the-moon",
+    "name": "Tarot 18 The Moon",
+    "file": "/assets/icons/tarot-18-the-moon.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "moon"
+    ],
+    "description": "A canonical tarot icon representing Tarot 18 The Moon."
+  },
+  {
+    "id": "tarot.tarot-19-the-sun",
+    "name": "Tarot 19 The Sun",
+    "file": "/assets/icons/tarot-19-the-sun.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "sun"
+    ],
+    "description": "A canonical tarot icon representing Tarot 19 The Sun."
+  },
+  {
+    "id": "tarot.tarot-21-the-world",
+    "name": "Tarot 21 The World",
+    "file": "/assets/icons/tarot-21-the-world.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "world"
+    ],
+    "description": "A canonical tarot icon representing Tarot 21 The World."
+  },
+  {
+    "id": "tarot.tarot_00_the_fool",
+    "name": "The Fool",
+    "file": "/assets/icons/tarot_00_the_fool.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "fool"
+    ],
+    "description": "A canonical tarot icon representing The Fool."
+  },
+  {
+    "id": "tarot.tarot_01_the_magician",
+    "name": "The Magician",
+    "file": "/assets/icons/tarot_01_the_magician.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "magician"
+    ],
+    "description": "A canonical tarot icon representing The Magician."
+  },
+  {
+    "id": "tarot.tarot_02_the_priestess",
+    "name": "The Priestess",
+    "file": "/assets/icons/tarot_02_the_priestess.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "priestess"
+    ],
+    "description": "A canonical tarot icon representing The Priestess."
+  },
+  {
+    "id": "tarot.tarot_03_the_empress",
+    "name": "The Empress",
+    "file": "/assets/icons/tarot_03_the_empress.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "empress"
+    ],
+    "description": "A canonical tarot icon representing The Empress."
+  },
+  {
+    "id": "tarot.tarot_04_the_emperor",
+    "name": "The Emperor",
+    "file": "/assets/icons/tarot_04_the_emperor.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "emperor"
+    ],
+    "description": "A canonical tarot icon representing The Emperor."
+  },
+  {
+    "id": "tarot.tarot_06_the_lovers",
+    "name": "The Lovers",
+    "file": "/assets/icons/tarot_06_the_lovers.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "lovers"
+    ],
+    "description": "A canonical tarot icon representing The Lovers."
+  },
+  {
+    "id": "tarot.tarot_07_the_chariot",
+    "name": "The Chariot",
+    "file": "/assets/icons/tarot_07_the_chariot.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "chariot"
+    ],
+    "description": "A canonical tarot icon representing The Chariot."
+  },
+  {
+    "id": "tarot.tarot_08_strength",
+    "name": "Strength",
+    "file": "/assets/icons/tarot_08_strength.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "strength"
+    ],
+    "description": "A canonical tarot icon representing Strength."
+  },
+  {
+    "id": "tarot.tarot_09_the_hermit",
+    "name": "The Hermit",
+    "file": "/assets/icons/tarot_09_the_hermit.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "hermit"
+    ],
+    "description": "A canonical tarot icon representing The Hermit."
+  },
+  {
+    "id": "tarot.tarot_12_the_hanged_man",
+    "name": "The Hanged Man",
+    "file": "/assets/icons/tarot_12_the_hanged_man.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "hanged",
+      "man"
+    ],
+    "description": "A canonical tarot icon representing The Hanged Man."
+  },
+  {
+    "id": "tarot.tarot_13_death",
+    "name": "Death",
+    "file": "/assets/icons/tarot_13_death.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "death"
+    ],
+    "description": "A canonical tarot icon representing Death."
+  },
+  {
+    "id": "tarot.tarot_14_temperance",
+    "name": "Temperance",
+    "file": "/assets/icons/tarot_14_temperance.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "temperance"
+    ],
+    "description": "A canonical tarot icon representing Temperance."
+  },
+  {
+    "id": "tarot.tarot_16_the_tower",
+    "name": "The Tower",
+    "file": "/assets/icons/tarot_16_the_tower.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "tower"
+    ],
+    "description": "A canonical tarot icon representing The Tower."
+  },
+  {
+    "id": "tarot.tarot_17_the_star",
+    "name": "The Star",
+    "file": "/assets/icons/tarot_17_the_star.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "star"
+    ],
+    "description": "A canonical tarot icon representing The Star."
+  },
+  {
+    "id": "tarot.tarot_18_the_moon",
+    "name": "The Moon",
+    "file": "/assets/icons/tarot_18_the_moon.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "moon"
+    ],
+    "description": "A canonical tarot icon representing The Moon."
+  },
+  {
+    "id": "tarot.tarot_19_the_sun",
+    "name": "The Sun",
+    "file": "/assets/icons/tarot_19_the_sun.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "sun"
+    ],
+    "description": "A canonical tarot icon representing The Sun."
+  },
+  {
+    "id": "tarot.tarot_21_the_world",
+    "name": "The World",
+    "file": "/assets/icons/tarot_21_the_world.svg",
+    "category": "tarot",
+    "tags": [
+      "tarot",
+      "the",
+      "world"
+    ],
+    "description": "A canonical tarot icon representing The World."
+  }
+]
