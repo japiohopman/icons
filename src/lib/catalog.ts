@@ -3,18 +3,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import combat from '../assets/catalog/icons/combat.json';
-import equipment from '../assets/catalog/icons/equipment.json';
-import creatures from '../assets/catalog/icons/creatures.json';
-import magic from '../assets/catalog/icons/magic.json';
-import conditions from '../assets/catalog/icons/conditions.json';
-import character from '../assets/catalog/icons/character.json';
-import world from '../assets/catalog/icons/world.json';
-import cardsDice from '../assets/catalog/icons/cards_dice.json';
-import tarot from '../assets/catalog/icons/tarot.json';
-import ui from '../assets/catalog/icons/ui.json';
-import general from '../assets/catalog/icons/general.json';
-
 import { CatalogAsset, CatalogCategory } from '../types/asset';
 
 export const CATALOG_CATEGORIES: CatalogCategory[] = [
@@ -31,19 +19,19 @@ export const CATALOG_CATEGORIES: CatalogCategory[] = [
   { id: 'general', name: 'General Vault Assets', description: 'Miscellaneous icons and symbols.' },
 ];
 
-const ALL_CATALOG_ASSETS: CatalogAsset[] = [
-  ...combat,
-  ...equipment,
-  ...creatures,
-  ...magic,
-  ...conditions,
-  ...character,
-  ...world,
-  ...cardsDice,
-  ...tarot,
-  ...ui,
-  ...general,
-] as CatalogAsset[];
+// Dynamically import all JSON catalog files under src/assets/catalog/icons/
+const catalogModules = (import.meta as any).glob('/src/assets/catalog/icons/*.json', {
+  eager: true,
+}) as Record<string, { default: CatalogAsset[] }>;
+
+const ALL_CATALOG_ASSETS: CatalogAsset[] = [];
+
+Object.values(catalogModules).forEach((module) => {
+  const assets = module.default || module;
+  if (Array.isArray(assets)) {
+    ALL_CATALOG_ASSETS.push(...(assets as CatalogAsset[]));
+  }
+});
 
 const ASSETS_BY_ID = new Map<string, CatalogAsset>(
   ALL_CATALOG_ASSETS.map((asset) => [asset.id, asset])
