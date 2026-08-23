@@ -19,6 +19,8 @@ src/                     → APPLICATION CODE
 proto-type/              → REFERENCE ONLY
 ```
 
+> **Note**: APP-002 establishes the canonical asset catalog and storage structure. APP-002 does not implement asset import or server-side asset mutation.
+
 ### Physical Asset Store (`public/assets/`)
 All physical asset files live outside `src/`.
 - `public/assets/icons/` is a **flat physical asset store** containing physical `.svg` files.
@@ -45,7 +47,7 @@ icons/
 │   ├── types/                            # Domain types (Asset, CatalogAsset, ExportOptions, etc.)
 │   ├── lib/                              # Catalog loader & services (getIconCatalog, getAssetById, etc.)
 │   ├── engine/                           # EditorEngine interface & PhotopeaEngine bridge
-│   ├── components/                       # Application UI components (Browser, Inspector, Modal, Uploader)
+│   ├── components/                       # Application UI components (Browser, Inspector, Modal)
 │   ├── assets/
 │   │   └── catalog/                      # Semantic JSON asset catalogs
 │   │       └── icons/                    # Category JSON files (combat.json, magic.json, etc.)
