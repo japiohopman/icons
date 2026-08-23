@@ -49,16 +49,9 @@ const ASSETS_BY_ID = new Map<string, CatalogAsset>(
   ALL_CATALOG_ASSETS.map((asset) => [asset.id, asset])
 );
 
-// Map by physical file name / path for flexible fallback resolution
-const ASSETS_BY_FILE = new Map<string, CatalogAsset>();
-ALL_CATALOG_ASSETS.forEach((asset) => {
-  ASSETS_BY_FILE.set(asset.file, asset);
-  const fileName = asset.file.split('/').pop();
-  if (fileName) {
-    ASSETS_BY_FILE.set(fileName, asset);
-    ASSETS_BY_FILE.set(fileName.replace(/\.svg$/, ''), asset);
-  }
-});
+const ASSETS_BY_FILE = new Map<string, CatalogAsset>(
+  ALL_CATALOG_ASSETS.map((asset) => [asset.file, asset])
+);
 
 export function getIconCatalog(): CatalogAsset[] {
   return ALL_CATALOG_ASSETS;
@@ -69,10 +62,11 @@ export function getCatalogCategories(): CatalogCategory[] {
 }
 
 export function getAssetById(id: string): CatalogAsset | undefined {
-  if (ASSETS_BY_ID.has(id)) {
-    return ASSETS_BY_ID.get(id);
-  }
-  return ASSETS_BY_FILE.get(id);
+  return ASSETS_BY_ID.get(id);
+}
+
+export function getAssetByFile(file: string): CatalogAsset | undefined {
+  return ASSETS_BY_FILE.get(file);
 }
 
 export function getAssetsByCategory(categoryId: string): CatalogAsset[] {

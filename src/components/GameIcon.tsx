@@ -6,7 +6,7 @@
 import React from 'react';
 import { motion, HTMLMotionProps } from 'motion/react';
 import { CatalogAsset } from '../types/asset';
-import { getAssetById } from '../lib/catalog';
+import { getAssetById, getAssetByFile } from '../lib/catalog';
 
 interface GameIconProps extends Omit<HTMLMotionProps<'img'>, 'children'> {
   asset?: CatalogAsset | null;
@@ -34,18 +34,18 @@ export const GameIcon: React.FC<GameIconProps> = ({
   let resolvedFile = file || asset?.file;
 
   if (!resolvedFile && name) {
-    const found = getAssetById(name);
-    if (found) {
-      resolvedFile = found.file;
-    } else {
-      const cleanName = name.split('/').pop()?.replace(/\.svg$/, '') || name;
-      resolvedFile = `/assets/icons/${cleanName}.svg`;
+    const foundById = getAssetById(name);
+    if (foundById) {
+      resolvedFile = foundById.file;
+    } else if (name.startsWith('/assets/')) {
+      const foundByFile = getAssetByFile(name);
+      resolvedFile = foundByFile ? foundByFile.file : name;
     }
   }
 
   if (!resolvedFile && fallbackName) {
     const fallback = getAssetById(fallbackName);
-    resolvedFile = fallback ? fallback.file : `/assets/icons/${fallbackName}.svg`;
+    resolvedFile = fallback ? fallback.file : `/assets/icons/attack.svg`;
   }
 
   if (!resolvedFile) {
