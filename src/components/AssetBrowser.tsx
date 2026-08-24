@@ -1,8 +1,62 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { useDraggable } from '@dnd-kit/core';
+import { useVirtualizer } from '@tanstack/react-virtual';
 import { GameIcon } from '@/assets/game_icons';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from 'motion/react';
 import { IconDefinition } from '@/types/vault';
 import { ALL_ICONS } from '@/assets/icons';
+
+interface DraggableAssetCardProps {
+  id: string;
+  isSelected: boolean;
+  onSelect: (id: string) => void;
+}
+
+const DraggableAssetCard: React.FC<DraggableAssetCardProps> = ({ id, isSelected, onSelect }) => {
+  const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
+    id,
+  });
+
+  const style: React.CSSProperties = {
+    transform: transform ? `translate3d(${transform.x}px, ${transform.y}px, 0)` : undefined,
+    opacity: isDragging ? 0.5 : 1,
+    zIndex: isDragging ? 999 : 'auto',
+  };
+
+  return (
+    <div
+      ref={setNodeRef}
+      style={style}
+      {...listeners}
+      {...attributes}
+      onClick={() => onSelect(id)}
+      className={`group relative p-3 bg-white border rounded-xl flex flex-col items-center justify-between gap-2 transition-all duration-150 cursor-grab active:cursor-grabbing select-none h-28
+        ${
+          isSelected
+            ? 'border-indigo-500 ring-2 ring-indigo-500/20 shadow-md bg-indigo-50/20'
+            : 'border-slate-200 hover:border-slate-300 hover:shadow-xs'
+        }`}
+    >
+      <div
+        className={`w-12 h-12 flex items-center justify-center transition-transform duration-200 group-hover:scale-105 ${
+          isSelected ? 'text-indigo-600' : 'text-slate-500 group-hover:text-slate-700'
+        }`}
+      >
+        <GameIcon name={id} size={32} fallbackName="save" />
+      </div>
+      <div className="w-full text-center">
+        <div
+          className={`text-[10px] font-mono px-1.5 py-0.5 rounded truncate ${
+            isSelected ? 'bg-indigo-100 text-indigo-800 font-semibold' : 'bg-slate-100 text-slate-600'
+          }`}
+          title={id}
+        >
+          {id}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 interface AssetBrowserProps {
   assetIds: string[];
@@ -27,61 +81,53 @@ export const AssetBrowser: React.FC<AssetBrowserProps> = ({
   showMissingOnly,
   onShowMissingOnlyToggle,
 }) => {
+  const parentRef = useRef<HTMLDivElement>(null);
+
+  // Virtualization calculations for large catalog lists
+  const COLUMNS = 6;
+  const rowCount = Math.ceil(assetIds.length / COLUMNS);
+
+  const rowVirtualizer = useVirtualizer({
+    count: rowCount,
+    getScrollElement: () => parentRef.current,
+    estimateSize: () => 124,
+    overscan: 5,
+  });
+
   return (
-    <main className="flex-1 flex flex-col min-w-0 bg-slate-50/30">
-      {/* Navigation / Filter Bar */}
-      <div className="h-12 bg-white border-b border-slate-200 flex items-center px-6 justify-between shrink-0">
-        <div className="flex items-center gap-2.5 text-xs text-slate-500 font-medium">
+    <main className="flex-1 flex flex-col min-w-0 bg-slate-50/40">
+      {/* Header Toolbar */}
+      <div className="h-12 bg-white border-b border-slate-200 flex items-center px-6 justify-between shrink-0 z-10">
+        <div className="flex items-center gap-2 text-xs text-slate-500 font-medium">
           <button onClick={() => onFolderSelect('all')} className="hover:text-slate-800 transition-colors">
-            Artificer Vault
+            Vault Root
           </button>
           <svg className="w-3 h-3 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
           </svg>
-          {activeFolderPath !== 'all' ? (
-            <div className="flex items-center gap-1.5">
-              <span className="text-slate-400 font-mono">svg</span>
-              {activeFolderPath.split('/').map((segment, idx, arr) => (
-                <React.Fragment key={segment}>
-                  <svg className="w-3 h-3 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                  </svg>
-                  <button
-                    onClick={() => {
-                      const targetPath = arr.slice(0, idx + 1).join('/');
-                      onFolderSelect(targetPath);
-                    }}
-                    className={`font-mono px-1.5 py-0.5 rounded transition-all hover:bg-slate-100 ${
-                      idx === arr.length - 1 ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-slate-500'
-                    }`}
-                  >
-                    {segment}
-                  </button>
-                </React.Fragment>
-              ))}
-            </div>
-          ) : (
-            <span className="font-semibold text-slate-700 uppercase tracking-wider text-[10px]">ALL ASSETS</span>
-          )}
+          <span className="font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded text-[11px] font-mono">
+            {activeFolderPath.toUpperCase()}
+          </span>
+          <span className="text-slate-400 font-mono text-[11px]">({assetIds.length} assets)</span>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           <button
             onClick={onShowMissingOnlyToggle}
-            className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase tracking-widest transition-all ${
+            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider transition-all ${
               showMissingOnly
-                ? 'bg-orange-100 text-orange-600 ring-1 ring-orange-200'
+                ? 'bg-amber-100 text-amber-700 ring-1 ring-amber-300'
                 : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
             }`}
           >
-            <div className={`w-1.5 h-1.5 rounded-full ${showMissingOnly ? 'bg-orange-500 animate-pulse' : 'bg-slate-300'}`}></div>
-            {showMissingOnly ? 'Missing Paths Only' : 'Filter Missing'}
+            <div className={`w-1.5 h-1.5 rounded-full ${showMissingOnly ? 'bg-amber-500 animate-pulse' : 'bg-slate-300'}`}></div>
+            Filter Missing
           </button>
 
-          <div className="flex bg-slate-100 p-0.5 rounded-lg">
+          <div className="flex bg-slate-100 p-0.5 rounded-lg border border-slate-200">
             <button
               onClick={() => onViewModeChange('grid')}
-              className={`p-1.5 rounded-md transition-all ${
+              className={`p-1 rounded-md transition-all ${
                 viewMode === 'grid' ? 'bg-white shadow-xs text-indigo-600' : 'text-slate-400 hover:text-slate-600'
               }`}
             >
@@ -91,7 +137,7 @@ export const AssetBrowser: React.FC<AssetBrowserProps> = ({
             </button>
             <button
               onClick={() => onViewModeChange('list')}
-              className={`p-1.5 rounded-md transition-all ${
+              className={`p-1 rounded-md transition-all ${
                 viewMode === 'list' ? 'bg-white shadow-xs text-indigo-600' : 'text-slate-400 hover:text-slate-600'
               }`}
             >
@@ -103,123 +149,90 @@ export const AssetBrowser: React.FC<AssetBrowserProps> = ({
         </div>
       </div>
 
-      {/* Grid or List Content */}
-      <div className="flex-1 p-8 overflow-y-auto custom-scrollbar">
+      {/* Main Content Area */}
+      <div ref={parentRef} className="flex-1 p-6 overflow-y-auto custom-scrollbar">
         {viewMode === 'grid' ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8 gap-5 pb-12">
-            <AnimatePresence mode="popLayout">
-              {assetIds.map((id) => (
-                <motion.button
-                  layout
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, scale: 0.95 }}
-                  key={id}
-                  onClick={() => onSelectAsset(id)}
-                  className={`group relative p-4 bg-white border rounded-xl flex flex-col items-center gap-4 transition-all duration-200
-                    ${
-                      selectedAssetId === id
-                        ? 'border-indigo-400 ring-4 ring-indigo-500/5 shadow-lg shadow-indigo-500/10'
-                        : 'border-slate-200 hover:border-slate-300 hover:shadow-md active:scale-95'
-                    }`}
+          <div
+            style={{
+              height: `${rowVirtualizer.getTotalSize()}px`,
+              width: '100%',
+              position: 'relative',
+            }}
+          >
+            {rowVirtualizer.getVirtualItems().map((virtualRow) => {
+              const startIndex = virtualRow.index * COLUMNS;
+              const rowItems = assetIds.slice(startIndex, startIndex + COLUMNS);
+
+              return (
+                <div
+                  key={virtualRow.key}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: `${virtualRow.size}px`,
+                    transform: `translateY(${virtualRow.start}px)`,
+                  }}
+                  className="grid grid-cols-6 gap-4 pr-2"
                 >
-                  <div
-                    className={`w-14 h-14 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 ${
-                      selectedAssetId === id ? 'text-indigo-600' : 'text-slate-400 group-hover:text-slate-600'
-                    }`}
-                  >
-                    <GameIcon name={id} size={36} fallbackName="save" />
-                  </div>
-                  <div className="w-full text-center">
-                    <div
-                      className={`text-[10px] font-mono px-2 py-1 rounded truncate transition-all ${
-                        selectedAssetId === id ? 'bg-indigo-50 text-indigo-700' : 'bg-slate-50 text-slate-500'
-                      }`}
-                    >
-                      {id}
-                    </div>
-                  </div>
-                </motion.button>
-              ))}
-            </AnimatePresence>
+                  {rowItems.map((id) => (
+                    <DraggableAssetCard
+                      key={id}
+                      id={id}
+                      isSelected={selectedAssetId === id}
+                      onSelect={onSelectAsset}
+                    />
+                  ))}
+                </div>
+              );
+            })}
           </div>
         ) : (
-          <div className="flex flex-col gap-3 pb-12">
-            <div className="grid grid-cols-[64px_200px_1fr_1fr_120px] gap-4 px-6 py-3 bg-slate-100 rounded-lg text-[10px] font-bold text-slate-500 uppercase tracking-widest items-center">
+          <div className="flex flex-col gap-2 pb-12">
+            <div className="grid grid-cols-[50px_200px_1fr_120px] gap-4 px-4 py-2.5 bg-slate-100 rounded-lg text-[10px] font-bold text-slate-500 uppercase tracking-wider items-center">
               <div className="text-center">Preview</div>
-              <div>Asset Name</div>
+              <div>Asset ID</div>
               <div>Description</div>
-              <div>Usage</div>
-              <div className="text-right">Actions</div>
+              <div className="text-right">Action</div>
             </div>
-            <AnimatePresence mode="popLayout">
-              {assetIds.map((id) => {
-                const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
-                return (
-                  <motion.div
-                    layout
-                    initial={{ opacity: 0, x: -10 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, scale: 0.98 }}
-                    key={id}
-                    onClick={() => onSelectAsset(id)}
-                    className={`grid grid-cols-[64px_200px_1fr_1fr_120px] gap-4 px-4 py-3 bg-white border rounded-xl items-center transition-all cursor-pointer ${
-                      selectedAssetId === id
-                        ? 'border-indigo-300 shadow-sm ring-2 ring-indigo-500/5 shadow-indigo-100'
-                        : 'border-slate-200 hover:border-slate-300 hover:shadow-xs'
-                    }`}
-                  >
-                    <div
-                      className={`flex items-center justify-center w-12 h-12 bg-slate-50 rounded-lg ${
-                        selectedAssetId === id ? 'text-indigo-600' : 'text-slate-400'
-                      }`}
-                    >
-                      <GameIcon name={id} size={28} />
-                    </div>
-                    <div>
-                      <div className="font-bold text-slate-700 truncate">{id}</div>
-                      <div className="text-[10px] font-mono text-slate-400">Icon Asset</div>
-                    </div>
-                    <div>
-                      <p className="text-xs text-slate-500 line-clamp-2 italic pr-4">
-                        {def?.description || 'No description provided.'}
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs text-indigo-700/80 line-clamp-2 font-medium pr-4">
-                        {def?.usage || 'Universal System Asset'}
-                      </p>
-                    </div>
-                    <div className="flex gap-1 justify-end">
-                      <button className="p-1.5 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded transition-colors">
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                          />
-                        </svg>
-                      </button>
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </AnimatePresence>
+
+            {assetIds.map((id) => {
+              const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
+              const isSelected = selectedAssetId === id;
+
+              return (
+                <motion.div
+                  key={id}
+                  onClick={() => onSelectAsset(id)}
+                  className={`grid grid-cols-[50px_200px_1fr_120px] gap-4 px-4 py-2.5 bg-white border rounded-xl items-center transition-all cursor-pointer ${
+                    isSelected
+                      ? 'border-indigo-400 ring-2 ring-indigo-500/10 shadow-xs bg-indigo-50/10'
+                      : 'border-slate-200 hover:border-slate-300'
+                  }`}
+                >
+                  <div className="flex items-center justify-center w-9 h-9 bg-slate-50 rounded-lg text-slate-600">
+                    <GameIcon name={id} size={24} />
+                  </div>
+                  <div className="font-bold text-slate-800 text-xs truncate font-mono">{id}</div>
+                  <div className="text-xs text-slate-500 truncate italic">
+                    {def?.description || 'System icon asset.'}
+                  </div>
+                  <div className="text-right">
+                    <span className="text-[10px] font-mono text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-100">
+                      Select
+                    </span>
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
         )}
 
         {assetIds.length === 0 && (
-          <div className="h-full flex flex-col items-center justify-center text-slate-400 space-y-4 py-20">
-            <div className="p-4 bg-white rounded-full border border-slate-100 shadow-sm">
-              <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-            </div>
-            <div className="text-center">
-              <p className="font-semibold text-slate-600">No assets found</p>
-              <p className="text-sm">Try clearing your filters or searching for another asset term.</p>
-            </div>
+          <div className="h-full flex flex-col items-center justify-center text-slate-400 py-16">
+            <p className="font-semibold text-slate-600">No assets found</p>
+            <p className="text-xs">Select a different folder or search query.</p>
           </div>
         )}
       </div>

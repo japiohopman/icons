@@ -192,6 +192,7 @@ Resolve and verify the current Photopea SVG export timeout observed during Asset
 
 ## Completed
 
+- PHOTOPEA-008 — Reliable SVG Export
 - PHOTOPEA-001 — Establish the Photopea engine boundary (Pending Review)
 - VAULT-001 — Establish the real application structure (Pending Review)
 
