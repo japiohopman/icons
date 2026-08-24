@@ -61,6 +61,32 @@ JSON is the canonical semantic layer for:
 
 SVG files are physical assets, not metadata sources.
 
+### Virtual folder boundary
+
+Asset Vault folders are **logical entities**, not physical filesystem directories.
+
+Do not create category/folder subdirectories under `public/assets/icons/`.
+
+Physical storage remains flat. Folder organization belongs in the semantic application/catalog layer.
+
+### State boundary
+
+The Asset Vault is a multi-surface application. Shared application state should live in a lightweight Zustand store under `src/store/` when it crosses browser, folder, selection, editor, or persistence surfaces.
+
+The store owns state, not infrastructure. Do not place Photopea communication, filesystem access, catalog parsing, or persistence implementation inside the store.
+
+### Performance boundary
+
+The catalog contains thousands of assets. Do not eagerly render every asset as a DOM node at application startup.
+
+Prefer:
+
+- lazy catalog loading where useful
+- virtualized asset grids/lists
+- visible-item rendering
+- lightweight previews
+- measured performance improvements rather than artificial delays
+
 ### Editor boundary
 
 ```text
@@ -97,6 +123,54 @@ Establish the production Asset Editor workspace with real Save, Save As, and Exp
 - Support genuine SVG serialization for SVG source assets.
 - Separate Export (derivative format downloads) from Vault Save/Save As persistence.
 
+#### VAULT-003 — Asset Explorer, Virtual Folders & Performance
+
+**Goal**
+
+Turn the Asset Vault into a scalable, desktop-like asset management experience without changing the flat physical asset store.
+
+**Required outcomes**
+
+- Introduce a lightweight Zustand Asset Vault store under `src/store/`.
+- Model logical folders independently from physical filesystem directories.
+- Support New Folder and Rename Folder.
+- Support asset selection and drag/drop assignment into logical folders.
+- Use `dnd-kit` for drag/drop unless a concrete technical reason requires another maintained solution.
+- Build a Windows-like browser/navigation experience.
+- Virtualize large asset grids/lists so thousands of assets do not become thousands of DOM nodes.
+- Lazy-load catalog data where it materially improves startup.
+- Keep catalog services, persistence, and Photopea communication outside the Zustand store.
+- Measure/verify startup and browser performance rather than masking delays with arbitrary timeouts.
+
+**Explicitly out of scope**
+
+- Physical folder creation under `public/assets/icons/`.
+- Database/cloud storage.
+- Multi-user collaboration.
+- Asset version history.
+- Image generation.
+- Rebuilding the editor engine.
+
+#### PHOTOPEA-008 — Reliable SVG Export
+
+**Goal**
+
+Resolve and verify the current Photopea SVG export timeout observed during Asset Vault Save As.
+
+**Required outcomes**
+
+- Diagnose the `saveToOE("svg")` timeout through the existing `PhotopeaEngine` boundary.
+- Preserve the real SVG export path; never fake SVG from raster output.
+- Implement the smallest reliable fix.
+- Add focused verification for SVG Save/Save As.
+
+**Explicitly out of scope**
+
+- Replacing Photopea.
+- Rebuilding `EditorEngine`.
+- Adding a second editor integration.
+- Changing the Asset Vault catalog architecture.
+
 ## Completed
 
 - PHOTOPEA-001 — Establish the Photopea engine boundary (DONE - merged)
@@ -115,7 +189,8 @@ Establish the production Asset Editor workspace with real Save, Save As, and Exp
 5. Inspect the existing implementation and the prototype reference.
 6. Do not copy the prototype architecture.
 7. Implement the smallest maintainable production solution.
-8. Run checks.
-9. Update relevant documentation.
-10. Open a focused PR.
-11. Report exactly what was tested and any limitations.
+8. Respect the physical/semantic/state/editor boundaries defined above.
+9. Run checks.
+10. Update relevant documentation.
+11. Open a focused PR.
+12. Report exactly what was tested and any limitations.
