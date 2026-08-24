@@ -8,7 +8,7 @@ While icons are the initial asset category used to validate application workflow
 
 ---
 
-## 🏛️ Asset Architecture: Core Directive
+## 🏛️ Asset Architecture & Production Workflows
 
 The repository enforces a strict rule separating physical file storage from application semantics:
 
@@ -18,8 +18,6 @@ src/assets/catalog/      → SEMANTIC ASSET CATALOG (Meaning & Metadata)
 src/                     → APPLICATION CODE
 proto-type/              → REFERENCE ONLY
 ```
-
-> **Note**: APP-002 establishes the canonical asset catalog and storage structure. APP-002 does not implement asset import or server-side asset mutation.
 
 ### Physical Asset Store (`public/assets/`)
 All physical asset files live outside `src/`.
@@ -34,6 +32,13 @@ Logical organization, metadata, and taxonomy belong in `src/assets/catalog/`:
 - Provides **stable asset IDs** (e.g. `combat.attack`), display names, category classifications, tags, descriptions, and physical file paths (`/assets/icons/attack.svg`).
 - Filenames and folder structures are NOT canonical asset identities; asset identity is resolved via catalog metadata.
 
+### Asset Editor Workspace & Save Workflows (VAULT-002)
+- **Full Application Workspace**: Occupies the viewport, providing a full editing canvas with native Photopea tools.
+- **Save**: Updates the current active asset by saving the physical asset file (`public/assets/icons/*.svg`) and updating the semantic JSON catalog (`src/assets/catalog/icons/*.json`). Edits persist across page reloads.
+- **Save As**: Creates a NEW asset with a new stable asset ID, new physical filename, new physical asset file, and new catalog entry while preserving the original asset untouched.
+- **Export**: Generates derivative output formats (PNG, WebP, JPG, SVG) for browser download without mutating vault assets.
+- **SVG Preservation**: SVG source assets export and save as genuine vector SVG files via Photopea's vector serialization.
+
 ---
 
 ## 📁 Repository Structure
@@ -47,7 +52,7 @@ icons/
 │   ├── types/                            # Domain types (Asset, CatalogAsset, ExportOptions, etc.)
 │   ├── lib/                              # Catalog loader & services (getIconCatalog, getAssetById, etc.)
 │   ├── engine/                           # EditorEngine interface & PhotopeaEngine bridge
-│   ├── components/                       # Application UI components (Browser, Inspector, Modal)
+│   ├── components/                       # Application UI components (Browser, Inspector, Workspace)
 │   ├── assets/
 │   │   └── catalog/                      # Semantic JSON asset catalogs
 │   │       └── icons/                    # Category JSON files (combat.json, magic.json, etc.)
@@ -61,54 +66,10 @@ icons/
 ├── package.json                          # Production dependencies & scripts
 ├── tsconfig.json                         # TypeScript configuration
 ├── vite.config.ts                        # Vite bundler configuration
-└── server.ts                             # Development Express/Vite server
+└── server.ts                             # Development Express/Vite server & Persistence API
 ```
 
 > ⚠️ **Development Note**: `proto-type/` directory is **reference material only**. Do not add new features or application logic to `proto-type/`. All production code belongs in root `src/`. No physical SVG assets belong inside `src/`.
-
----
-
-## 🏛️ Architecture Overview
-
-The application is structured into three distinct layers:
-
-```text
-                  ASSET VAULT
-                       |
-        ┌──────────────┴──────────────┐
-        |                             |
-     Storage                      Editor Engine
-        |                             |
-   organization                 modification
-   metadata                     processing
-   JSON catalog                 compositing
-   search                       export
-   variants                     transforms
-        |                             |
-        └──────────────┬──────────────┘
-                       |
-                  Application UI
-```
-
-### Communication Flow
-
-```text
-Asset Vault UI (`src/components/`)
-       ↓
-Catalog Loader (`src/lib/catalog.ts`)
-       ↓
-Application State & Logic (`src/App.tsx`)
-       ↓
-EditorEngine Abstraction Interface (`src/engine/EditorEngine.ts`)
-       ↓
-PhotopeaEngine Bridge (`src/engine/PhotopeaEngine.ts`)
-       ↓
-Photopea API / Live Messaging / Binary ArrayBuffer (`postMessage`)
-       ↓
-Asset Result (ArrayBuffer / Data URL)
-       ↓
-Asset Vault (Preserves original source asset)
-```
 
 ---
 
@@ -146,17 +107,8 @@ The application will be accessible at `http://localhost:3000`.
 
 ## ⚡ Production Capabilities
 
+- **Full Editor Workspace**: Expands to full screen with complete Photopea editing tools, asset info panel, display name editing, and unsaved changes protection.
+- **Real Asset Persistence**: Integrated `/api/assets/save` server endpoint persists physical assets to `public/assets/icons/` and syncs JSON catalogs in `src/assets/catalog/icons/`.
+- **Non-Destructive Save As**: Save As creates new stable asset IDs and files while leaving source assets preserved.
 - **Catalog-Driven Vault**: The UI renders assets directly from the semantic JSON catalog, mapping stable asset IDs to physical asset store URLs (`/assets/icons/*.svg`).
-- **Application-Owned UI**: The user interacts exclusively with application navigation, inspector panels, and application editor controls. Photopea operates inside a programmatically managed engine container behind the UI.
-- **EditorEngine Boundary**: Centralized messaging bridge featuring:
-  - Task serialization queue preventing concurrent command collisions.
-  - Photopea readiness handshake verification (`"done"` message signal).
-  - Binary ArrayBuffer asset transfer via postMessage.
-  - Strict origin validation (`https://www.photopea.com`).
-  - Response-driven promise resolution with safety timeouts.
-- **Supported Editor Operations**:
-  - **Resize (Scale)**: Resizes active asset image dimensions.
-  - **Canvas Resize**: Modifies document canvas size relative to 9-point anchor presets (`center`, `top-left`, `bottom-right`, etc.).
-  - **Crop**: Crops document workspace to explicit pixel bounds (`x`, `y`, `width`, `height`).
-  - **Export**: Exports current edited document as new binary ArrayBuffer result (PNG) without mutating source assets.
-- **Non-Destructive Workflows**: Source assets in the Asset Vault are strictly preserved. Edits generate new result assets displayed in the application preview area.
+- **EditorEngine Boundary**: Centralized messaging bridge featuring task serialization, Photopea readiness verification, and postMessage binary/text handling.

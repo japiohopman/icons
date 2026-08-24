@@ -333,6 +333,7 @@ export class PhotopeaEngine implements EditorEngine {
     }
 
     const format = options.format || 'png';
+    const mimeType = format === 'svg' ? 'image/svg+xml' : `image/${format}`;
 
     const buffer = await this.enqueue<ArrayBuffer>(() => {
       if (!this.iframe || !this.iframe.contentWindow) {
@@ -364,18 +365,24 @@ export class PhotopeaEngine implements EditorEngine {
       });
     });
 
-    const blob = new Blob([buffer], { type: `image/${format}` });
-    const dataUrl = await new Promise<string>((resolve) => {
-      const reader = new FileReader();
-      reader.onloadend = () => resolve(reader.result as string);
-      reader.readAsDataURL(blob);
-    });
+    let dataUrl: string;
+    if (format === 'svg') {
+      const svgText = new TextDecoder().decode(buffer);
+      dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgText)}`;
+    } else {
+      const blob = new Blob([buffer], { type: mimeType });
+      dataUrl = await new Promise<string>((resolve) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result as string);
+        reader.readAsDataURL(blob);
+      });
+    }
 
     return {
       id: `${this.currentAsset.id}-edited-${Date.now()}`,
       name: `${this.currentAsset.name}-edited.${format}`,
       category: this.currentAsset.category,
-      mimeType: `image/${format}`,
+      mimeType,
       data: dataUrl,
       metadata: {
         originalId: this.currentAsset.id,

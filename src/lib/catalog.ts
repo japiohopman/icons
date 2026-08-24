@@ -63,3 +63,15 @@ export function getAssetsByCategory(categoryId: string): CatalogAsset[] {
   }
   return ALL_CATALOG_ASSETS.filter((a) => a.category === categoryId);
 }
+
+export function addOrUpdateCatalogAsset(asset: CatalogAsset): void {
+  ASSETS_BY_ID.set(asset.id, asset);
+  ASSETS_BY_FILE.set(asset.file, asset);
+
+  const existingIdx = ALL_CATALOG_ASSETS.findIndex((a) => a.id === asset.id);
+  if (existingIdx >= 0) {
+    ALL_CATALOG_ASSETS[existingIdx] = asset;
+  } else {
+    ALL_CATALOG_ASSETS.unshift(asset);
+  }
+}

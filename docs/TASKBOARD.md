@@ -34,7 +34,7 @@ public/assets/
 
 `public/assets/icons/` is intentionally a **flat icon store**.
 
-New SVG files should be addable there without creating application imports or a new source-code directory.
+New SVG files can be added there without creating application imports or a new source-code directory.
 
 ### Semantic catalog boundary
 
@@ -75,58 +75,27 @@ PhotopeaEngine
 Photopea
 ```
 
-The Photopea iframe/runtime may exist internally but must not become the application's editor UI.
-
-### Storage boundary
-
-Do not hard-code the future product to GitHub or a filesystem layout beyond the current public asset store. The catalog must provide a layer that can later point to server/object storage.
+The Photopea iframe/runtime exists internally but operates behind the application's editor workspace UI.
 
 ## Current priority
 
 ### IN PROGRESS
 
-#### APP-002 — Establish the Canonical Asset Vault Catalog
+#### VAULT-002 — Production Asset Editor & Save / Save As Workflow
 
 **Goal**
 
-Correct the current production architecture before adding more editor features.
-
-Create the real Asset Vault asset model using:
-
-```text
-public/assets/icons/     → physical SVG files
-src/assets/catalog/      → JSON semantic catalog
-```
-
-The prototype must remain reference-only.
+Establish the production Asset Editor workspace with real Save, Save As, and Export workflows.
 
 **Required outcomes**
 
-- Remove production SVG files from `src/`.
-- Stop using SVG files as the runtime metadata/source-of-truth mechanism.
-- Establish a canonical JSON catalog for icons.
-- Keep physical SVG assets in the flat `public/assets/icons/` directory.
-- Use stable asset IDs independent of physical filenames.
-- Make the application resolve an asset from catalog metadata to its public asset path.
-- Remove production dependence on legacy/duplicate icon paths where safe.
-- Preserve existing icon functionality while moving it onto the canonical catalog.
-- Do not add new editor features in this task.
-
-**Important**
-
-Do not blindly migrate the prototype.
-
-Inspect it, extract useful ideas, then implement the production architecture cleanly.
-
-### BLOCKED / HUMAN DECISION
-
-None currently.
-
-### READY
-
-No new feature task is authorized until APP-002 is reviewed.
-
-Future work such as transform, layers, variants, presets, and additional asset types must wait for explicit assignment.
+- Replace small editor modal with a full-viewport application workspace.
+- Give users full access to Photopea's native editing tools.
+- Implement Rename and Display Name management in the editor panel.
+- Implement persistent Save updating physical asset files (`public/assets/icons/*.svg`) and catalog records (`src/assets/catalog/icons/*.json`).
+- Implement Save As creating a new stable asset ID, new physical asset file, and new catalog record while preserving original assets.
+- Support genuine SVG serialization for SVG source assets.
+- Separate Export (derivative format downloads) from Vault Save/Save As persistence.
 
 ## Completed
 
@@ -134,7 +103,8 @@ Future work such as transform, layers, variants, presets, and additional asset t
 - PHOTOPEA-002 — Import/open workflow (covered by merged EditorEngine pipeline)
 - PHOTOPEA-003 — Export/result abstraction (covered by merged EditorEngine pipeline)
 - PHOTOPEA-004 — Resize controls (covered by merged EditorEngine pipeline)
-- PHOTOPEA-005 — Canvas and Crop Controls (merged; implementation review/foundation correction continues through APP-002)
+- PHOTOPEA-005 — Canvas and Crop Controls (merged)
+- APP-002 — Establish Canonical Asset Vault Catalog (merged/completed)
 
 ## Agent workflow
 
@@ -149,7 +119,3 @@ Future work such as transform, layers, variants, presets, and additional asset t
 9. Update relevant documentation.
 10. Open a focused PR.
 11. Report exactly what was tested and any limitations.
-
-## Human decision points
-
-Architecture changes, scope expansion, new infrastructure, new external services, storage changes, security/configuration decisions, and product-direction changes require explicit human approval.

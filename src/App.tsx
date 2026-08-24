@@ -4,11 +4,17 @@
  */
 
 import React, { useState, useMemo } from 'react';
-import { getIconCatalog, getCatalogCategories, getAssetsByCategory, getAssetById } from './lib/catalog';
-import { CatalogAsset, CatalogCategory, Asset } from './types/asset';
+import {
+  getIconCatalog,
+  getCatalogCategories,
+  getAssetsByCategory,
+  getAssetById,
+  addOrUpdateCatalogAsset,
+} from './lib/catalog';
+import { CatalogAsset, CatalogCategory } from './types/asset';
 import { AssetBrowser } from './components/AssetBrowser';
 import { AssetInspector } from './components/AssetInspector';
-import { AssetEditorModal } from './components/AssetEditorModal';
+import { AssetEditorWorkspace } from './components/AssetEditorWorkspace';
 
 export default function App() {
   const [selectedAssetId, setSelectedAssetId] = useState<string>('combat.attack');
@@ -16,10 +22,10 @@ export default function App() {
   const [selectedCategoryId, setSelectedCategoryId] = useState<string>('all');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
-  const [isEditorOpen, setIsEditorOpen] = useState(false);
-  const [editorAsset, setEditorAsset] = useState<Asset | null>(null);
+  const [isWorkspaceOpen, setIsWorkspaceOpen] = useState<boolean>(false);
+  const [catalogVersion, setCatalogVersion] = useState<number>(0);
 
-  const allAssets = useMemo(() => getIconCatalog(), []);
+  const allAssets = useMemo(() => getIconCatalog(), [catalogVersion]);
   const categories = useMemo(() => getCatalogCategories(), []);
 
   const filteredAssets = useMemo(() => {
@@ -36,49 +42,23 @@ export default function App() {
     }
 
     return assets;
-  }, [selectedCategoryId, searchQuery]);
+  }, [selectedCategoryId, searchQuery, catalogVersion]);
 
   const selectedAsset = useMemo<CatalogAsset | null>(() => {
     if (!selectedAssetId) return null;
     return getAssetById(selectedAssetId) || allAssets[0] || null;
-  }, [selectedAssetId, allAssets]);
+  }, [selectedAssetId, allAssets, catalogVersion]);
 
-  const handleOpenEditor = async () => {
-    if (!selectedAsset) return;
-
-    try {
-      const res = await fetch(selectedAsset.file);
-      let dataUrl: string;
-      if (res.ok) {
-        const svgContent = await res.text();
-        dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgContent)}`;
-      } else {
-        dataUrl = selectedAsset.file;
-      }
-
-      setEditorAsset({
-        id: selectedAsset.id,
-        name: `${selectedAsset.name}.svg`,
-        category: 'icon',
-        mimeType: 'image/svg+xml',
-        data: dataUrl,
-        width: 512,
-        height: 512,
-      });
-      setIsEditorOpen(true);
-    } catch (err) {
-      console.error('Failed to prepare asset for editor:', err);
-      setEditorAsset({
-        id: selectedAsset.id,
-        name: `${selectedAsset.name}.svg`,
-        category: 'icon',
-        mimeType: 'image/svg+xml',
-        data: selectedAsset.file,
-        width: 512,
-        height: 512,
-      });
-      setIsEditorOpen(true);
+  const handleOpenWorkspace = () => {
+    if (selectedAsset) {
+      setIsWorkspaceOpen(true);
     }
+  };
+
+  const handleSaveSuccess = (savedAsset: CatalogAsset) => {
+    addOrUpdateCatalogAsset(savedAsset);
+    setSelectedAssetId(savedAsset.id);
+    setCatalogVersion((v) => v + 1);
   };
 
   return (
@@ -233,10 +213,15 @@ export default function App() {
           </div>
         </main>
 
-        <AssetInspector selectedAsset={selectedAsset} onOpenEditor={handleOpenEditor} />
+        <AssetInspector selectedAsset={selectedAsset} onOpenEditor={handleOpenWorkspace} />
       </div>
 
-      <AssetEditorModal asset={editorAsset} isOpen={isEditorOpen} onClose={() => setIsEditorOpen(false)} />
+      <AssetEditorWorkspace
+        catalogAsset={selectedAsset}
+        isOpen={isWorkspaceOpen}
+        onClose={() => setIsWorkspaceOpen(false)}
+        onSaveSuccess={handleSaveSuccess}
+      />
     </div>
   );
 }
