@@ -22,8 +22,8 @@ export class PhotopeaEngine implements EditorEngine {
 
   private activeScriptResolve: ((value: unknown) => void) | null = null;
   private activeScriptReject: ((reason?: unknown) => void) | null = null;
-  private activeArrayBufferResolve: ((buffer: ArrayBuffer) => void) | null = null;
-  private activeArrayBufferReject: ((reason?: unknown) => void) | null = null;
+  private activeExportResolve: ((data: ArrayBuffer | string) => void) | null = null;
+  private activeExportReject: ((reason?: unknown) => void) | null = null;
 
   private setStatus(newStatus: EngineStatus): void {
     if (this.status !== newStatus) {
@@ -126,16 +126,32 @@ export class PhotopeaEngine implements EditorEngine {
         }
 
         if (data instanceof ArrayBuffer) {
-          if (this.activeArrayBufferResolve) {
-            const res = this.activeArrayBufferResolve;
-            this.activeArrayBufferResolve = null;
-            this.activeArrayBufferReject = null;
+          if (this.activeExportResolve) {
+            const res = this.activeExportResolve;
+            this.activeExportResolve = null;
+            this.activeExportReject = null;
             res(data);
           }
           return;
         }
 
         if (typeof data === 'string') {
+          if (this.activeExportResolve) {
+            const res = this.activeExportResolve;
+            const rej = this.activeExportReject;
+            this.activeExportResolve = null;
+            this.activeExportReject = null;
+
+            if (data === 'done') {
+              if (rej) {
+                rej(new Error('Export operation failed: Photopea finished execution without export payload.'));
+              }
+            } else {
+              res(data);
+            }
+            return;
+          }
+
           if (this.activeScriptResolve) {
             const res = this.activeScriptResolve;
             this.activeScriptResolve = null;
@@ -265,27 +281,27 @@ export class PhotopeaEngine implements EditorEngine {
 
     const format = options.format || 'png';
 
-    const buffer = await this.enqueue<ArrayBuffer>(() => {
+    const rawResult = await this.enqueue<ArrayBuffer | string>(() => {
       if (!this.iframe || !this.iframe.contentWindow) {
         throw new Error('PhotopeaEngine is not initialized.');
       }
 
-      return new Promise<ArrayBuffer>((resolve, reject) => {
+      return new Promise<ArrayBuffer | string>((resolve, reject) => {
         const timeout = setTimeout(() => {
-          if (this.activeArrayBufferReject) {
-            const rej = this.activeArrayBufferReject;
-            this.activeArrayBufferResolve = null;
-            this.activeArrayBufferReject = null;
-            rej(new Error(`Export operation (${format}) timed out waiting for ArrayBuffer response.`));
+          if (this.activeExportReject) {
+            const rej = this.activeExportReject;
+            this.activeExportResolve = null;
+            this.activeExportReject = null;
+            rej(new Error(`Export operation (${format}) timed out waiting for response.`));
           }
         }, 8000);
 
-        this.activeArrayBufferResolve = (buf) => {
+        this.activeExportResolve = (data) => {
           clearTimeout(timeout);
-          resolve(buf);
+          resolve(data);
         };
 
-        this.activeArrayBufferReject = (err) => {
+        this.activeExportReject = (err) => {
           clearTimeout(timeout);
           reject(err);
         };
@@ -295,18 +311,36 @@ export class PhotopeaEngine implements EditorEngine {
       });
     });
 
-    const blob = new Blob([buffer], { type: `image/${format}` });
-    const dataUrl = await new Promise<string>((resolve) => {
-      const reader = new FileReader();
-      reader.onloadend = () => resolve(reader.result as string);
-      reader.readAsDataURL(blob);
-    });
+    let dataUrl: string;
+    const mimeType = format === 'svg' ? 'image/svg+xml' : `image/${format}`;
+
+    if (rawResult instanceof ArrayBuffer) {
+      if (format === 'svg') {
+        const svgText = new TextDecoder().decode(rawResult);
+        dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgText)}`;
+      } else {
+        const blob = new Blob([rawResult], { type: mimeType });
+        dataUrl = await new Promise<string>((resolve) => {
+          const reader = new FileReader();
+          reader.onloadend = () => resolve(reader.result as string);
+          reader.readAsDataURL(blob);
+        });
+      }
+    } else {
+      if (rawResult.startsWith('data:')) {
+        dataUrl = rawResult;
+      } else if (format === 'svg') {
+        dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(rawResult)}`;
+      } else {
+        dataUrl = rawResult;
+      }
+    }
 
     return {
       id: `${this.currentAsset.id}-edited-${Date.now()}`,
       name: `${this.currentAsset.name.replace(/\.[^/.]+$/, '')}-edited.${format}`,
       category: this.currentAsset.category,
-      mimeType: `image/${format}`,
+      mimeType,
       data: dataUrl,
       width: this.currentAsset.width,
       height: this.currentAsset.height,
@@ -328,14 +362,16 @@ export class PhotopeaEngine implements EditorEngine {
       this.iframe = null;
     }
 
-    this.container = null;
+    if (this.container) {
+      this.container = null;
+    }
     this.currentAsset = null;
     this.taskQueue = [];
     this.isProcessingQueue = false;
     this.activeScriptResolve = null;
     this.activeScriptReject = null;
-    this.activeArrayBufferResolve = null;
-    this.activeArrayBufferReject = null;
+    this.activeExportResolve = null;
+    this.activeExportReject = null;
     this.setStatus('uninitialized');
   }
 }

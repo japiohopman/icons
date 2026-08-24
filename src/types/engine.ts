@@ -5,6 +5,24 @@ import { Asset, ExportOptions } from './asset';
  */
 export type EngineStatus = 'uninitialized' | 'loading' | 'ready' | 'processing' | 'error';
 
+export type CanvasAnchor =
+  | 'top-left'
+  | 'top-center'
+  | 'top-right'
+  | 'center-left'
+  | 'center'
+  | 'center-right'
+  | 'bottom-left'
+  | 'bottom-center'
+  | 'bottom-right';
+
+export interface CropBounds {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
 /**
  * The Editor Engine abstraction interface.
  * Decouples the application UI from Photopea or any underlying graphics processing engine.

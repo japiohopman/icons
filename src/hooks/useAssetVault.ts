@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { Asset } from '@/types/asset';
-import { IconDefinition, VaultFilterOptions, FolderNode, FileNode, ExplorerNode } from '@/types/vault';
+import { IconDefinition, VaultFilterOptions } from '@/types/vault';
 import { assetService } from '@/services/assetService';
 import { EXPLORER_TREE } from '@/assets/icons';
 

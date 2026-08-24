@@ -31,3 +31,23 @@ export interface ExportOptions {
   format?: 'png' | 'jpg' | 'webp' | 'svg';
   quality?: number;
 }
+
+export interface CatalogAsset {
+  id: string;
+  name: string;
+  category: string;
+  file: string;
+  tags?: string[];
+  description?: string;
+  author?: string;
+  license?: string;
+}
+
+export interface CatalogCategory {
+  id: string;
+  name: string;
+  description: string;
+  iconName?: string;
+}
+
+export type { EngineStatus, CanvasAnchor, CropBounds } from './engine';

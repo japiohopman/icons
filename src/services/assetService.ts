@@ -1,6 +1,6 @@
 import { Asset } from '@/types/asset';
 import { IconDefinition, VaultFilterOptions } from '@/types/vault';
-import { ALL_ICONS, EXPLORER_TREE } from '@/assets/icons';
+import { ALL_ICONS } from '@/assets/icons';
 
 export interface IAssetService {
   getAsset(id: string): Promise<Asset | null>;
