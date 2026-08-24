@@ -73,6 +73,7 @@ src/
 ├── engine/
 ├── hooks/
 ├── lib/
+├── store/
 ├── tools/
 ├── types/
 └── assets/
@@ -82,6 +83,99 @@ src/
 The `proto-type/` directory is **reference-only**.
 
 Agents must never use the prototype as the production application architecture or add new product functionality there.
+
+## Asset Vault state architecture
+
+The Asset Vault is becoming a desktop-like application rather than a simple icon list. Shared application state should be centralized where it crosses multiple UI surfaces.
+
+The planned state boundary is a lightweight Zustand store under `src/store/`.
+
+The store may own application state such as:
+
+- active folder
+- selected assets
+- folder tree
+- search/filter state
+- browser/view state
+- drag-and-drop state
+- editor session state
+- unsaved-change state
+- persistence status
+
+The store must **not** become a dumping ground for services or engine implementations. File I/O, catalog parsing, persistence APIs, and Photopea communication remain behind dedicated services/engines.
+
+## Virtual folders and desktop-like asset management
+
+The Asset Vault should provide a familiar Windows-like file-management experience while keeping the physical asset store flat.
+
+Folders are **logical/semantic entities**, not filesystem directories.
+
+Conceptually:
+
+```text
+Asset Vault
+├── Combat
+│   ├── Weapons
+│   └── Attacks
+├── Magic
+├── Creatures
+└── UI
+```
+
+while physical icon files remain:
+
+```text
+public/assets/icons/
+    attack.svg
+    sword.svg
+    ...
+```
+
+Folder metadata belongs in the semantic application/catalog layer. Creating, renaming, moving, and organizing folders must not create physical subdirectories under `public/assets/icons/`.
+
+The intended interaction model includes:
+
+- New Folder
+- Rename Folder
+- Select assets
+- Drag assets into folders
+- Drag folders where supported
+- Multi-selection
+- familiar desktop-style navigation
+
+`dnd-kit` is the preferred drag-and-drop foundation unless an assigned task establishes a concrete reason to use another maintained solution.
+
+## Catalog and performance architecture
+
+The current icon catalog contains thousands of assets. The UI must not assume that every catalog entry should become a DOM node at application startup.
+
+Performance work should favor architectural solutions over timing tricks:
+
+- lazy-load catalog data where useful
+- virtualize large asset grids/lists
+- render only visible asset previews
+- avoid eager creation of thousands of animated React elements
+- keep editor/asset-browser state separate from raw catalog parsing
+
+A target architecture is:
+
+```text
+JSON catalogs
+      ↓
+Catalog service
+      ↓
+Zustand Asset Vault store
+      ↓
+Virtualized Asset Browser
+      ↓
+Asset Editor
+      ↓
+EditorEngine
+      ↓
+PhotopeaEngine
+```
+
+Do not add arbitrary delays or timeouts merely to make startup appear faster. Measure and address the actual source of work.
 
 ## Editor architecture
 
@@ -108,18 +202,22 @@ The Photopea iframe/runtime may exist internally, but it is not the application'
 - [x] Editor engine boundary
 - [x] Photopea import/result communication
 - [x] CI validation
-- [ ] Establish canonical Asset Vault catalog
+- [x] Establish canonical Asset Vault catalog
 - [ ] Remove production dependence on prototype and legacy icon paths
 
 ### Phase 2 — Asset Vault foundation
 
-- [ ] Establish flat `public/assets/` physical asset stores
-- [ ] Establish JSON catalog architecture
-- [ ] Define stable asset identity
-- [ ] Build icon catalog/import workflow
-- [ ] Build application-owned asset browser from catalog data
-- [ ] Build asset inspector
-- [ ] Separate asset storage from editor implementation
+- [x] Establish flat `public/assets/` physical asset stores
+- [x] Establish JSON catalog architecture
+- [x] Define stable asset identity
+- [x] Build icon catalog/import workflow
+- [x] Build application-owned asset browser from catalog data
+- [x] Build asset inspector
+- [x] Separate asset storage from editor implementation
+- [ ] Establish logical/virtual folder model
+- [ ] Establish centralized Asset Vault application state
+- [ ] Add desktop-like folder and drag/drop workflows
+- [ ] Add virtualized/lazy asset browsing for large catalogs
 
 ### Phase 3 — Core editing
 
@@ -132,6 +230,7 @@ The Photopea iframe/runtime may exist internally, but it is not the application'
 - [ ] Basic layer operations
 - [x] Export PNG/result pipeline
 - [ ] Export additional supported formats where appropriate
+- [ ] Reliable SVG Save/Save As workflow
 
 ### Phase 4 — Icon workflows
 
