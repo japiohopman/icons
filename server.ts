@@ -11,7 +11,7 @@ async function startServer() {
   app.use(express.json({ limit: "25mb" }));
 
   app.post("/api/assets/save", (req, res) => {
-    const { action, assetId, name, category, file, content, tags, description } = req.body;
+    const { action, assetId, originalAssetId, name, category, file, content, tags, description } = req.body;
 
     if (!assetId || !name || !category || !file || content === undefined) {
       return res.status(400).json({ error: "Missing required asset fields." });
@@ -39,7 +39,40 @@ async function startServer() {
         fs.mkdirSync(publicIconsDir, { recursive: true });
       }
 
-      // 1. Write physical file bytes / markup
+      // Check all catalog JSON files for existing assetId
+      let existingAssetFoundInCatalog = false;
+      if (fs.existsSync(catalogDir)) {
+        const catFiles = fs.readdirSync(catalogDir).filter(f => f.endsWith(".json"));
+        for (const cFile of catFiles) {
+          try {
+            const raw = fs.readFileSync(path.join(catalogDir, cFile), "utf8");
+            const items = JSON.parse(raw);
+            if (Array.isArray(items) && items.some((item: any) => item.id === assetId)) {
+              existingAssetFoundInCatalog = true;
+              break;
+            }
+          } catch (e) {
+            // Ignore parse errors on check
+          }
+        }
+      }
+
+      // 1. HARDENING FOR SAVE AS
+      if (action === "save-as") {
+        if (originalAssetId && assetId === originalAssetId) {
+          return res.status(400).json({ error: "Save As must use a new asset ID different from the original." });
+        }
+
+        if (fs.existsSync(physicalFilePath)) {
+          return res.status(409).json({ error: "Save As failed: Physical asset file already exists." });
+        }
+
+        if (existingAssetFoundInCatalog) {
+          return res.status(409).json({ error: "Save As failed: Asset ID already exists in catalog." });
+        }
+      }
+
+      // 2. Write physical file
       let fileBuffer: Buffer | string;
       if (typeof content === "string" && content.startsWith("data:")) {
         const base64Parts = content.split(",");
@@ -55,7 +88,7 @@ async function startServer() {
 
       fs.writeFileSync(physicalFilePath, fileBuffer, "utf8");
 
-      // 2. Update catalog entry in src/assets/catalog/icons/<category>.json
+      // 3. Update catalog entry in src/assets/catalog/icons/<category>.json
       const catalogEntry = {
         id: assetId,
         name: name,

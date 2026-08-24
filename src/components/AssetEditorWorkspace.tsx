@@ -32,7 +32,7 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
 
   // Form states
   const [displayName, setDisplayName] = useState<string>('');
-  const [category, setCategory] = useState<string>('combat');
+  const [saveAsCategory, setSaveAsCategory] = useState<string>('combat');
   const [saveAsSlug, setSaveAsSlug] = useState<string>('');
   const [showSaveAsDialog, setShowSaveAsDialog] = useState<boolean>(false);
   const [exportFormat, setExportFormat] = useState<'png' | 'svg' | 'jpg' | 'webp'>('png');
@@ -41,7 +41,7 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
   useEffect(() => {
     if (catalogAsset) {
       setDisplayName(catalogAsset.name);
-      setCategory(catalogAsset.category);
+      setSaveAsCategory(catalogAsset.category);
       setSaveAsSlug(`${catalogAsset.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-copy`);
       setHasUnsavedChanges(false);
       setMessage(null);
@@ -120,7 +120,7 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
     }
   };
 
-  // Perform Save (Updates existing vault asset)
+  // Perform Save (Updates existing vault asset in its category)
   const handleSave = async () => {
     if (!engineRef.current) return;
     setIsProcessing(true);
@@ -136,8 +136,9 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
         body: JSON.stringify({
           action: 'save',
           assetId: catalogAsset.id,
+          originalAssetId: catalogAsset.id,
           name: displayName || catalogAsset.name,
-          category: category || catalogAsset.category,
+          category: catalogAsset.category, // Category remains immutable during normal Save
           file: catalogAsset.file,
           content: exportedResult.data,
           tags: catalogAsset.tags,
@@ -173,7 +174,13 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
       return;
     }
 
-    const newAssetId = `${category}.${cleanSlug}`;
+    const newAssetId = `${saveAsCategory}.${cleanSlug}`;
+
+    if (newAssetId === catalogAsset.id) {
+      setMessage({ type: 'error', text: 'Save As asset ID must be strictly different from the original asset ID.' });
+      return;
+    }
+
     const newFilename = `${cleanSlug}.svg`;
     const newFilePath = `/assets/icons/${newFilename}`;
 
@@ -189,12 +196,13 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
         body: JSON.stringify({
           action: 'save-as',
           assetId: newAssetId,
+          originalAssetId: catalogAsset.id,
           name: displayName || cleanSlug,
-          category: category,
+          category: saveAsCategory,
           file: newFilePath,
           content: exportedResult.data,
-          tags: [category, cleanSlug],
-          description: `A canonical ${category} asset representing ${displayName || cleanSlug}.`,
+          tags: [saveAsCategory, cleanSlug],
+          description: `A canonical ${saveAsCategory} asset representing ${displayName || cleanSlug}.`,
         }),
       });
 
@@ -351,22 +359,14 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
 
                 <div>
                   <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">
-                    Category
+                    Category (Immutable for Save)
                   </label>
-                  <select
-                    value={category}
-                    onChange={(e) => {
-                      setCategory(e.target.value);
-                      setHasUnsavedChanges(true);
-                    }}
-                    className="w-full px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-100 rounded-lg text-xs focus:border-indigo-500 focus:outline-hidden"
-                  >
-                    {CATALOG_CATEGORIES.map((cat) => (
-                      <option key={cat.id} value={cat.id}>
-                        {cat.name}
-                      </option>
-                    ))}
-                  </select>
+                  <input
+                    type="text"
+                    disabled
+                    value={catalogAsset.category}
+                    className="w-full px-3 py-1.5 bg-slate-900/50 border border-slate-800 text-slate-400 rounded-lg text-xs cursor-not-allowed uppercase font-mono"
+                  />
                 </div>
 
                 <div>
@@ -444,6 +444,21 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
               </div>
 
               <div>
+                <label className="text-xs font-medium text-slate-300 block mb-1">New Asset Category</label>
+                <select
+                  value={saveAsCategory}
+                  onChange={(e) => setSaveAsCategory(e.target.value)}
+                  className="w-full px-3 py-1.5 bg-slate-950 border border-slate-700 text-slate-100 rounded-lg text-xs focus:border-indigo-500 focus:outline-hidden"
+                >
+                  {CATALOG_CATEGORIES.map((cat) => (
+                    <option key={cat.id} value={cat.id}>
+                      {cat.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              <div>
                 <label className="text-xs font-medium text-slate-300 block mb-1">Asset ID Slug</label>
                 <input
                   type="text"
@@ -453,7 +468,7 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
                   className="w-full px-3 py-1.5 bg-slate-950 border border-slate-700 font-mono text-slate-100 rounded-lg text-xs focus:border-indigo-500 focus:outline-hidden"
                 />
                 <span className="text-[10px] text-slate-500 mt-1 block">
-                  Resulting ID: <code className="text-indigo-400">{category}.{saveAsSlug || 'slug'}</code>
+                  Resulting ID: <code className="text-indigo-400">{saveAsCategory}.{saveAsSlug || 'slug'}</code>
                 </span>
               </div>
             </div>
