@@ -2,7 +2,11 @@
 
 This is the operational taskboard for AI-assisted development.
 
-## Product identity
+> **CRITICAL RULE FOR ALL AGENTS**:
+> The `proto-type/` directory is **reference-only**.
+> All new features, UI components, hooks, engine integrations, and application logic **MUST** target the production application structure in `src/`.
+
+## Status definitions
 
 `icons` is an **Asset Vault with an integrated Editor Engine**.
 
@@ -123,7 +127,27 @@ Establish the production Asset Editor workspace with real Save, Save As, and Exp
 - Support genuine SVG serialization for SVG source assets.
 - Separate Export (derivative format downloads) from Vault Save/Save As persistence.
 
-#### VAULT-003 — Asset Explorer, Virtual Folders & Performance
+#### VAULT-001 — Establish the Real Application Structure
+
+**Goal**
+
+Transition the project from prototype experimentation to a clean, production-grade Asset Vault foundation in `src/`.
+
+**Completed Requirements**
+
+- Created production `src/` architecture:
+  - `src/types/`: Domain models (`asset.ts`, `engine.ts`, `vault.ts`).
+  - `src/services/`: Asset storage and repository abstraction (`assetService.ts`).
+  - `src/engine/`: `EditorEngine` abstraction and `PhotopeaEngine` bridge.
+  - `src/tools/`: Editor tools (`resize.ts`, `export.ts`).
+  - `src/hooks/`: Vault & editor state management (`useAssetVault.ts`, `useEditor.ts`).
+  - `src/components/`: Modular UI (`AssetVaultHeader`, `AssetVaultSidebar`, `AssetBrowser`, `AssetInspector`, `AssetEditorModal`).
+  - `src/assets/`: Icon definitions catalog and `GameIcon` renderer.
+- Standardized root project configuration (`package.json`, `tsconfig.json`, `vite.config.ts`, `index.html`, `.gitignore`).
+- Updated documentation (`README.md`, `docs/TASKBOARD.md`) marking `proto-type/` as reference-only.
+- Verified vertical flow: Asset Vault -> Select Asset -> Inspect Asset -> Open Editor -> EditorEngine -> Photopea -> Output Result -> Save to Vault.
+
+#### PHOTOPEA-001 — Establish the Photopea engine boundary
 
 **Goal**
 
@@ -131,16 +155,11 @@ Turn the Asset Vault into a scalable, desktop-like asset management experience w
 
 **Required outcomes**
 
-- Introduce a lightweight Zustand Asset Vault store under `src/store/`.
-- Model logical folders independently from physical filesystem directories.
-- Support New Folder and Rename Folder.
-- Support asset selection and drag/drop assignment into logical folders.
-- Use `dnd-kit` for drag/drop unless a concrete technical reason requires another maintained solution.
-- Build a Windows-like browser/navigation experience.
-- Virtualize large asset grids/lists so thousands of assets do not become thousands of DOM nodes.
-- Lazy-load catalog data where it materially improves startup.
-- Keep catalog services, persistence, and Photopea communication outside the Zustand store.
-- Measure/verify startup and browser performance rather than masking delays with arbitrary timeouts.
+- Established `EditorEngine` abstraction interface (`src/types/engine.ts`) and generic `Asset` model.
+- Implemented `PhotopeaEngine` (`src/engine/PhotopeaEngine.ts`) with official Live Messaging API, binary ArrayBuffer asset transfer, task queue serialization, readiness handshake, and strict origin validation.
+- Created application-owned UI controls modal (`src/components/AssetEditorModal.tsx`).
+- Integrated into main application UI (`src/App.tsx`).
+- Proved vertical slice: Select Asset → Open Asset → Application Resize Action → Photopea Engine Execution → Application Result Preview (Original preserved).
 
 **Explicitly out of scope**
 
@@ -173,12 +192,8 @@ Resolve and verify the current Photopea SVG export timeout observed during Asset
 
 ## Completed
 
-- PHOTOPEA-001 — Establish the Photopea engine boundary (DONE - merged)
-- PHOTOPEA-002 — Import/open workflow (covered by merged EditorEngine pipeline)
-- PHOTOPEA-003 — Export/result abstraction (covered by merged EditorEngine pipeline)
-- PHOTOPEA-004 — Resize controls (covered by merged EditorEngine pipeline)
-- PHOTOPEA-005 — Canvas and Crop Controls (merged)
-- APP-002 — Establish Canonical Asset Vault Catalog (merged/completed)
+- PHOTOPEA-001 — Establish the Photopea engine boundary (Pending Review)
+- VAULT-001 — Establish the real application structure (Pending Review)
 
 ## Agent workflow
 

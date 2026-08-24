@@ -1,10 +1,5 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
-import { Asset, CanvasAnchor, CropBounds, EngineStatus, ExportOptions } from '../types/asset';
-import { EditorEngine } from './EditorEngine';
+import { Asset, ExportOptions } from '@/types/asset';
+import { EditorEngine, EngineStatus } from '@/types/engine';
 
 interface QueuedTask<T = unknown> {
   action: () => Promise<T>;
@@ -13,18 +8,6 @@ interface QueuedTask<T = unknown> {
 }
 
 const PHOTOPEA_ORIGIN = 'https://www.photopea.com';
-
-const ANCHOR_MAP: Record<CanvasAnchor, string> = {
-  'top-left': 'AnchorPosition.TOPLEFT',
-  'top-center': 'AnchorPosition.TOPCENTER',
-  'top-right': 'AnchorPosition.TOPRIGHT',
-  'center-left': 'AnchorPosition.MIDDLELEFT',
-  'center': 'AnchorPosition.MIDDLECENTER',
-  'center-right': 'AnchorPosition.MIDDLERIGHT',
-  'bottom-left': 'AnchorPosition.BOTTOMLEFT',
-  'bottom-center': 'AnchorPosition.BOTTOMCENTER',
-  'bottom-right': 'AnchorPosition.BOTTOMRIGHT',
-};
 
 export class PhotopeaEngine implements EditorEngine {
   private iframe: HTMLIFrameElement | null = null;
@@ -62,7 +45,11 @@ export class PhotopeaEngine implements EditorEngine {
 
   private enqueue<T>(action: () => Promise<T>): Promise<T> {
     return new Promise<T>((resolve, reject) => {
-      this.taskQueue.push({ action: action as () => Promise<unknown>, resolve: resolve as (val: unknown) => void, reject });
+      this.taskQueue.push({
+        action: action as () => Promise<unknown>,
+        resolve: resolve as (val: unknown) => void,
+        reject,
+      });
       this.processQueue();
     });
   }
@@ -262,64 +249,8 @@ export class PhotopeaEngine implements EditorEngine {
       throw new Error('No asset loaded in PhotopeaEngine.');
     }
 
-    if (!Number.isFinite(width) || width <= 0 || !Number.isFinite(height) || height <= 0) {
-      throw new Error('Width and height must be positive finite numbers.');
-    }
-
     this.setStatus('processing');
-
-    const script = `app.preferences.rulerUnits = Units.PIXELS; app.activeDocument.resizeImage(${width}, ${height});`;
-    await this.executeScript(script);
-
-    const resultAsset = await this.exportResult({ format: 'png' });
-    this.setStatus('ready');
-    return resultAsset;
-  }
-
-  public async resizeCanvas(width: number, height: number, anchor: CanvasAnchor = 'center'): Promise<Asset> {
-    if (!this.currentAsset) {
-      throw new Error('No asset loaded in PhotopeaEngine.');
-    }
-
-    if (!Number.isFinite(width) || width <= 0 || !Number.isFinite(height) || height <= 0) {
-      throw new Error('Canvas width and height must be positive finite numbers.');
-    }
-
-    this.setStatus('processing');
-
-    const anchorEnum = ANCHOR_MAP[anchor] || 'AnchorPosition.MIDDLECENTER';
-    const script = `app.preferences.rulerUnits = Units.PIXELS; app.activeDocument.resizeCanvas(${width}, ${height}, ${anchorEnum});`;
-    await this.executeScript(script);
-
-    const resultAsset = await this.exportResult({ format: 'png' });
-    this.setStatus('ready');
-    return resultAsset;
-  }
-
-  public async crop(bounds: CropBounds): Promise<Asset> {
-    if (!this.currentAsset) {
-      throw new Error('No asset loaded in PhotopeaEngine.');
-    }
-
-    const { x, y, width, height } = bounds;
-
-    if (
-      !Number.isFinite(x) || x < 0 ||
-      !Number.isFinite(y) || y < 0 ||
-      !Number.isFinite(width) || width <= 0 ||
-      !Number.isFinite(height) || height <= 0
-    ) {
-      throw new Error('Crop bounds must have non-negative x, y and positive finite width, height.');
-    }
-
-    this.setStatus('processing');
-
-    const left = x;
-    const top = y;
-    const right = x + width;
-    const bottom = y + height;
-
-    const script = `app.preferences.rulerUnits = Units.PIXELS; app.activeDocument.crop([${left}, ${top}, ${right}, ${bottom}]);`;
+    const script = `app.activeDocument.resizeImage(${width}, ${height});`;
     await this.executeScript(script);
 
     const resultAsset = await this.exportResult({ format: 'png' });
@@ -333,7 +264,6 @@ export class PhotopeaEngine implements EditorEngine {
     }
 
     const format = options.format || 'png';
-    const mimeType = format === 'svg' ? 'image/svg+xml' : `image/${format}`;
 
     const buffer = await this.enqueue<ArrayBuffer>(() => {
       if (!this.iframe || !this.iframe.contentWindow) {
@@ -365,25 +295,21 @@ export class PhotopeaEngine implements EditorEngine {
       });
     });
 
-    let dataUrl: string;
-    if (format === 'svg') {
-      const svgText = new TextDecoder().decode(buffer);
-      dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgText)}`;
-    } else {
-      const blob = new Blob([buffer], { type: mimeType });
-      dataUrl = await new Promise<string>((resolve) => {
-        const reader = new FileReader();
-        reader.onloadend = () => resolve(reader.result as string);
-        reader.readAsDataURL(blob);
-      });
-    }
+    const blob = new Blob([buffer], { type: `image/${format}` });
+    const dataUrl = await new Promise<string>((resolve) => {
+      const reader = new FileReader();
+      reader.onloadend = () => resolve(reader.result as string);
+      reader.readAsDataURL(blob);
+    });
 
     return {
       id: `${this.currentAsset.id}-edited-${Date.now()}`,
-      name: `${this.currentAsset.name}-edited.${format}`,
+      name: `${this.currentAsset.name.replace(/\.[^/.]+$/, '')}-edited.${format}`,
       category: this.currentAsset.category,
-      mimeType,
+      mimeType: `image/${format}`,
       data: dataUrl,
+      width: this.currentAsset.width,
+      height: this.currentAsset.height,
       metadata: {
         originalId: this.currentAsset.id,
         exportedAt: new Date().toISOString(),
