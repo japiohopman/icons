@@ -1,0 +1,916 @@
+[
+  {
+    "id": "cards_dice.D10-1",
+    "name": "D10 1",
+    "file": "/assets/icons/D10-1.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "D10"
+    ],
+    "description": "A canonical cards_dice icon representing D10 1."
+  },
+  {
+    "id": "cards_dice.D12-1",
+    "name": "D12 1",
+    "file": "/assets/icons/D12-1.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "D12"
+    ],
+    "description": "A canonical cards_dice icon representing D12 1."
+  },
+  {
+    "id": "cards_dice.D4-1",
+    "name": "D4 1",
+    "file": "/assets/icons/D4-1.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice"
+    ],
+    "description": "A canonical cards_dice icon representing D4 1."
+  },
+  {
+    "id": "cards_dice.buy-card",
+    "name": "Buy Card",
+    "file": "/assets/icons/buy-card.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "buy",
+      "card"
+    ],
+    "description": "A canonical cards_dice icon representing Buy Card."
+  },
+  {
+    "id": "cards_dice.card-10-clubs",
+    "name": "Card 10 Clubs",
+    "file": "/assets/icons/card-10-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 10 Clubs."
+  },
+  {
+    "id": "cards_dice.card-10-diamonds",
+    "name": "Card 10 Diamonds",
+    "file": "/assets/icons/card-10-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 10 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-10-hearts",
+    "name": "Card 10 Hearts",
+    "file": "/assets/icons/card-10-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 10 Hearts."
+  },
+  {
+    "id": "cards_dice.card-10-spades",
+    "name": "Card 10 Spades",
+    "file": "/assets/icons/card-10-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 10 Spades."
+  },
+  {
+    "id": "cards_dice.card-2-clubs",
+    "name": "Card 2 Clubs",
+    "file": "/assets/icons/card-2-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 2 Clubs."
+  },
+  {
+    "id": "cards_dice.card-2-diamonds",
+    "name": "Card 2 Diamonds",
+    "file": "/assets/icons/card-2-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 2 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-2-hearts",
+    "name": "Card 2 Hearts",
+    "file": "/assets/icons/card-2-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 2 Hearts."
+  },
+  {
+    "id": "cards_dice.card-2-spades",
+    "name": "Card 2 Spades",
+    "file": "/assets/icons/card-2-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 2 Spades."
+  },
+  {
+    "id": "cards_dice.card-3-clubs",
+    "name": "Card 3 Clubs",
+    "file": "/assets/icons/card-3-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 3 Clubs."
+  },
+  {
+    "id": "cards_dice.card-3-diamonds",
+    "name": "Card 3 Diamonds",
+    "file": "/assets/icons/card-3-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 3 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-3-hearts",
+    "name": "Card 3 Hearts",
+    "file": "/assets/icons/card-3-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 3 Hearts."
+  },
+  {
+    "id": "cards_dice.card-3-spades",
+    "name": "Card 3 Spades",
+    "file": "/assets/icons/card-3-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 3 Spades."
+  },
+  {
+    "id": "cards_dice.card-4-clubs",
+    "name": "Card 4 Clubs",
+    "file": "/assets/icons/card-4-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 4 Clubs."
+  },
+  {
+    "id": "cards_dice.card-4-diamonds",
+    "name": "Card 4 Diamonds",
+    "file": "/assets/icons/card-4-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 4 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-4-hearts",
+    "name": "Card 4 Hearts",
+    "file": "/assets/icons/card-4-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 4 Hearts."
+  },
+  {
+    "id": "cards_dice.card-4-spades",
+    "name": "Card 4 Spades",
+    "file": "/assets/icons/card-4-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 4 Spades."
+  },
+  {
+    "id": "cards_dice.card-5-clubs",
+    "name": "Card 5 Clubs",
+    "file": "/assets/icons/card-5-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 5 Clubs."
+  },
+  {
+    "id": "cards_dice.card-5-diamonds",
+    "name": "Card 5 Diamonds",
+    "file": "/assets/icons/card-5-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 5 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-5-hearts",
+    "name": "Card 5 Hearts",
+    "file": "/assets/icons/card-5-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 5 Hearts."
+  },
+  {
+    "id": "cards_dice.card-5-spades",
+    "name": "Card 5 Spades",
+    "file": "/assets/icons/card-5-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 5 Spades."
+  },
+  {
+    "id": "cards_dice.card-6-clubs",
+    "name": "Card 6 Clubs",
+    "file": "/assets/icons/card-6-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 6 Clubs."
+  },
+  {
+    "id": "cards_dice.card-6-diamonds",
+    "name": "Card 6 Diamonds",
+    "file": "/assets/icons/card-6-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 6 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-6-hearts",
+    "name": "Card 6 Hearts",
+    "file": "/assets/icons/card-6-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 6 Hearts."
+  },
+  {
+    "id": "cards_dice.card-6-spades",
+    "name": "Card 6 Spades",
+    "file": "/assets/icons/card-6-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 6 Spades."
+  },
+  {
+    "id": "cards_dice.card-7-clubs",
+    "name": "Card 7 Clubs",
+    "file": "/assets/icons/card-7-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 7 Clubs."
+  },
+  {
+    "id": "cards_dice.card-7-diamonds",
+    "name": "Card 7 Diamonds",
+    "file": "/assets/icons/card-7-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 7 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-7-hearts",
+    "name": "Card 7 Hearts",
+    "file": "/assets/icons/card-7-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 7 Hearts."
+  },
+  {
+    "id": "cards_dice.card-7-spades",
+    "name": "Card 7 Spades",
+    "file": "/assets/icons/card-7-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 7 Spades."
+  },
+  {
+    "id": "cards_dice.card-8-clubs",
+    "name": "Card 8 Clubs",
+    "file": "/assets/icons/card-8-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 8 Clubs."
+  },
+  {
+    "id": "cards_dice.card-8-diamonds",
+    "name": "Card 8 Diamonds",
+    "file": "/assets/icons/card-8-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 8 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-8-hearts",
+    "name": "Card 8 Hearts",
+    "file": "/assets/icons/card-8-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 8 Hearts."
+  },
+  {
+    "id": "cards_dice.card-8-spades",
+    "name": "Card 8 Spades",
+    "file": "/assets/icons/card-8-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 8 Spades."
+  },
+  {
+    "id": "cards_dice.card-9-clubs",
+    "name": "Card 9 Clubs",
+    "file": "/assets/icons/card-9-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card 9 Clubs."
+  },
+  {
+    "id": "cards_dice.card-9-diamonds",
+    "name": "Card 9 Diamonds",
+    "file": "/assets/icons/card-9-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card 9 Diamonds."
+  },
+  {
+    "id": "cards_dice.card-9-hearts",
+    "name": "Card 9 Hearts",
+    "file": "/assets/icons/card-9-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card 9 Hearts."
+  },
+  {
+    "id": "cards_dice.card-9-spades",
+    "name": "Card 9 Spades",
+    "file": "/assets/icons/card-9-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card 9 Spades."
+  },
+  {
+    "id": "cards_dice.card-ace-clubs",
+    "name": "Card Ace Clubs",
+    "file": "/assets/icons/card-ace-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "ace",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card Ace Clubs."
+  },
+  {
+    "id": "cards_dice.card-ace-diamonds",
+    "name": "Card Ace Diamonds",
+    "file": "/assets/icons/card-ace-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "ace",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card Ace Diamonds."
+  },
+  {
+    "id": "cards_dice.card-ace-hearts",
+    "name": "Card Ace Hearts",
+    "file": "/assets/icons/card-ace-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "ace",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card Ace Hearts."
+  },
+  {
+    "id": "cards_dice.card-ace-spades",
+    "name": "Card Ace Spades",
+    "file": "/assets/icons/card-ace-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "ace",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card Ace Spades."
+  },
+  {
+    "id": "cards_dice.card-discard",
+    "name": "Card Discard",
+    "file": "/assets/icons/card-discard.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "discard"
+    ],
+    "description": "A canonical cards_dice icon representing Card Discard."
+  },
+  {
+    "id": "cards_dice.card-draw",
+    "name": "Card Draw",
+    "file": "/assets/icons/card-draw.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "draw"
+    ],
+    "description": "A canonical cards_dice icon representing Card Draw."
+  },
+  {
+    "id": "cards_dice.card-exchange",
+    "name": "Card Exchange",
+    "file": "/assets/icons/card-exchange.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "exchange"
+    ],
+    "description": "A canonical cards_dice icon representing Card Exchange."
+  },
+  {
+    "id": "cards_dice.card-jack-clubs",
+    "name": "Card Jack Clubs",
+    "file": "/assets/icons/card-jack-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "jack",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card Jack Clubs."
+  },
+  {
+    "id": "cards_dice.card-jack-diamonds",
+    "name": "Card Jack Diamonds",
+    "file": "/assets/icons/card-jack-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "jack",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card Jack Diamonds."
+  },
+  {
+    "id": "cards_dice.card-jack-hearts",
+    "name": "Card Jack Hearts",
+    "file": "/assets/icons/card-jack-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "jack",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card Jack Hearts."
+  },
+  {
+    "id": "cards_dice.card-jack-spades",
+    "name": "Card Jack Spades",
+    "file": "/assets/icons/card-jack-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "jack",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card Jack Spades."
+  },
+  {
+    "id": "cards_dice.card-joker",
+    "name": "Card Joker",
+    "file": "/assets/icons/card-joker.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "joker"
+    ],
+    "description": "A canonical cards_dice icon representing Card Joker."
+  },
+  {
+    "id": "cards_dice.card-king-clubs",
+    "name": "Card King Clubs",
+    "file": "/assets/icons/card-king-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "king",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card King Clubs."
+  },
+  {
+    "id": "cards_dice.card-king-diamonds",
+    "name": "Card King Diamonds",
+    "file": "/assets/icons/card-king-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "king",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card King Diamonds."
+  },
+  {
+    "id": "cards_dice.card-king-hearts",
+    "name": "Card King Hearts",
+    "file": "/assets/icons/card-king-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "king",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card King Hearts."
+  },
+  {
+    "id": "cards_dice.card-king-spades",
+    "name": "Card King Spades",
+    "file": "/assets/icons/card-king-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "king",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card King Spades."
+  },
+  {
+    "id": "cards_dice.card-pick",
+    "name": "Card Pick",
+    "file": "/assets/icons/card-pick.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "pick"
+    ],
+    "description": "A canonical cards_dice icon representing Card Pick."
+  },
+  {
+    "id": "cards_dice.card-pickup",
+    "name": "Card Pickup",
+    "file": "/assets/icons/card-pickup.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "pickup"
+    ],
+    "description": "A canonical cards_dice icon representing Card Pickup."
+  },
+  {
+    "id": "cards_dice.card-play",
+    "name": "Card Play",
+    "file": "/assets/icons/card-play.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "play"
+    ],
+    "description": "A canonical cards_dice icon representing Card Play."
+  },
+  {
+    "id": "cards_dice.card-queen-clubs",
+    "name": "Card Queen Clubs",
+    "file": "/assets/icons/card-queen-clubs.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "queen",
+      "clubs"
+    ],
+    "description": "A canonical cards_dice icon representing Card Queen Clubs."
+  },
+  {
+    "id": "cards_dice.card-queen-diamonds",
+    "name": "Card Queen Diamonds",
+    "file": "/assets/icons/card-queen-diamonds.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "queen",
+      "diamonds"
+    ],
+    "description": "A canonical cards_dice icon representing Card Queen Diamonds."
+  },
+  {
+    "id": "cards_dice.card-queen-hearts",
+    "name": "Card Queen Hearts",
+    "file": "/assets/icons/card-queen-hearts.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "queen",
+      "hearts"
+    ],
+    "description": "A canonical cards_dice icon representing Card Queen Hearts."
+  },
+  {
+    "id": "cards_dice.card-queen-spades",
+    "name": "Card Queen Spades",
+    "file": "/assets/icons/card-queen-spades.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "queen",
+      "spades"
+    ],
+    "description": "A canonical cards_dice icon representing Card Queen Spades."
+  },
+  {
+    "id": "cards_dice.card-random",
+    "name": "Card Random",
+    "file": "/assets/icons/card-random.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card",
+      "random"
+    ],
+    "description": "A canonical cards_dice icon representing Card Random."
+  },
+  {
+    "id": "cards_dice.cardboard-box-closed",
+    "name": "Cardboard Box Closed",
+    "file": "/assets/icons/cardboard-box-closed.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "cardboard",
+      "box",
+      "closed"
+    ],
+    "description": "A canonical cards_dice icon representing Cardboard Box Closed."
+  },
+  {
+    "id": "cards_dice.cardboard-box",
+    "name": "Cardboard Box",
+    "file": "/assets/icons/cardboard-box.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "cardboard",
+      "box"
+    ],
+    "description": "A canonical cards_dice icon representing Cardboard Box."
+  },
+  {
+    "id": "cards_dice.d10",
+    "name": "D10",
+    "file": "/assets/icons/d10.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "d10"
+    ],
+    "description": "A canonical cards_dice icon representing D10."
+  },
+  {
+    "id": "cards_dice.d12",
+    "name": "D12",
+    "file": "/assets/icons/d12.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "d12"
+    ],
+    "description": "A canonical cards_dice icon representing D12."
+  },
+  {
+    "id": "cards_dice.d20",
+    "name": "D20",
+    "file": "/assets/icons/d20.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "d20"
+    ],
+    "description": "A canonical cards_dice icon representing D20."
+  },
+  {
+    "id": "cards_dice.d4",
+    "name": "D4",
+    "file": "/assets/icons/d4.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice"
+    ],
+    "description": "A canonical cards_dice icon representing D4."
+  },
+  {
+    "id": "cards_dice.d6",
+    "name": "D6",
+    "file": "/assets/icons/d6.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice"
+    ],
+    "description": "A canonical cards_dice icon representing D6."
+  },
+  {
+    "id": "cards_dice.d8",
+    "name": "D8",
+    "file": "/assets/icons/d8.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice"
+    ],
+    "description": "A canonical cards_dice icon representing D8."
+  },
+  {
+    "id": "cards_dice.id-card",
+    "name": "Id Card",
+    "file": "/assets/icons/id-card.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card"
+    ],
+    "description": "A canonical cards_dice icon representing Id Card."
+  },
+  {
+    "id": "cards_dice.sell-card",
+    "name": "Sell Card",
+    "file": "/assets/icons/sell-card.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "sell",
+      "card"
+    ],
+    "description": "A canonical cards_dice icon representing Sell Card."
+  },
+  {
+    "id": "cards_dice.swipe-card",
+    "name": "Swipe Card",
+    "file": "/assets/icons/swipe-card.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "swipe",
+      "card"
+    ],
+    "description": "A canonical cards_dice icon representing Swipe Card."
+  },
+  {
+    "id": "cards_dice.up-card",
+    "name": "Up Card",
+    "file": "/assets/icons/up-card.svg",
+    "category": "cards_dice",
+    "tags": [
+      "cards_dice",
+      "card"
+    ],
+    "description": "A canonical cards_dice icon representing Up Card."
+  }
+]

@@ -1,0 +1,5076 @@
+[
+  {
+    "id": "combat.3d-hammer",
+    "name": "3d Hammer",
+    "file": "/assets/icons/3d-hammer.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "hammer"
+    ],
+    "description": "A canonical combat icon representing 3d Hammer."
+  },
+  {
+    "id": "combat.abdominal-armor",
+    "name": "Abdominal Armor",
+    "file": "/assets/icons/abdominal-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "abdominal",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Abdominal Armor."
+  },
+  {
+    "id": "combat.acid-shield",
+    "name": "Acid Shield",
+    "file": "/assets/icons/acid-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "acid",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Acid Shield."
+  },
+  {
+    "id": "combat.american-football-helmet",
+    "name": "American Football Helmet",
+    "file": "/assets/icons/american-football-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "american",
+      "football",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing American Football Helmet."
+  },
+  {
+    "id": "combat.american-shield",
+    "name": "American Shield",
+    "file": "/assets/icons/american-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "american",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing American Shield."
+  },
+  {
+    "id": "combat.ammo-box",
+    "name": "Ammo Box",
+    "file": "/assets/icons/ammo-box.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ammo",
+      "box"
+    ],
+    "description": "A canonical combat icon representing Ammo Box."
+  },
+  {
+    "id": "combat.ammonite-fossil",
+    "name": "Ammonite Fossil",
+    "file": "/assets/icons/ammonite-fossil.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ammonite",
+      "fossil"
+    ],
+    "description": "A canonical combat icon representing Ammonite Fossil."
+  },
+  {
+    "id": "combat.ammonite",
+    "name": "Ammonite",
+    "file": "/assets/icons/ammonite.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ammonite"
+    ],
+    "description": "A canonical combat icon representing Ammonite."
+  },
+  {
+    "id": "combat.ancient-sword",
+    "name": "Ancient Sword",
+    "file": "/assets/icons/ancient-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ancient",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Ancient Sword."
+  },
+  {
+    "id": "combat.anti-aircraft-gun",
+    "name": "Anti Aircraft Gun",
+    "file": "/assets/icons/anti-aircraft-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "anti",
+      "aircraft",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Anti Aircraft Gun."
+  },
+  {
+    "id": "combat.armor-blueprint",
+    "name": "Armor Blueprint",
+    "file": "/assets/icons/armor-blueprint.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "armor",
+      "blueprint"
+    ],
+    "description": "A canonical combat icon representing Armor Blueprint."
+  },
+  {
+    "id": "combat.armor-cuisses",
+    "name": "Armor Cuisses",
+    "file": "/assets/icons/armor-cuisses.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "armor",
+      "cuisses"
+    ],
+    "description": "A canonical combat icon representing Armor Cuisses."
+  },
+  {
+    "id": "combat.armor-downgrade",
+    "name": "Armor Downgrade",
+    "file": "/assets/icons/armor-downgrade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "armor",
+      "downgrade"
+    ],
+    "description": "A canonical combat icon representing Armor Downgrade."
+  },
+  {
+    "id": "combat.armor-punch",
+    "name": "Armor Punch",
+    "file": "/assets/icons/armor-punch.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "armor",
+      "punch"
+    ],
+    "description": "A canonical combat icon representing Armor Punch."
+  },
+  {
+    "id": "combat.armor-upgrade",
+    "name": "Armor Upgrade",
+    "file": "/assets/icons/armor-upgrade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "armor",
+      "upgrade"
+    ],
+    "description": "A canonical combat icon representing Armor Upgrade."
+  },
+  {
+    "id": "combat.armor-vest",
+    "name": "Armor Vest",
+    "file": "/assets/icons/armor-vest.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "armor",
+      "vest"
+    ],
+    "description": "A canonical combat icon representing Armor Vest."
+  },
+  {
+    "id": "combat.armored-boomerang",
+    "name": "Armored Boomerang",
+    "file": "/assets/icons/armored-boomerang.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "armored",
+      "boomerang"
+    ],
+    "description": "A canonical combat icon representing Armored Boomerang."
+  },
+  {
+    "id": "combat.armored-pants",
+    "name": "Armored Pants",
+    "file": "/assets/icons/armored-pants.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "armored",
+      "pants"
+    ],
+    "description": "A canonical combat icon representing Armored Pants."
+  },
+  {
+    "id": "combat.arrow-cluster",
+    "name": "Arrow Cluster",
+    "file": "/assets/icons/arrow-cluster.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrow",
+      "cluster"
+    ],
+    "description": "A canonical combat icon representing Arrow Cluster."
+  },
+  {
+    "id": "combat.arrow-cursor",
+    "name": "Arrow Cursor",
+    "file": "/assets/icons/arrow-cursor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrow",
+      "cursor"
+    ],
+    "description": "A canonical combat icon representing Arrow Cursor."
+  },
+  {
+    "id": "combat.arrow-dunk",
+    "name": "Arrow Dunk",
+    "file": "/assets/icons/arrow-dunk.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrow",
+      "dunk"
+    ],
+    "description": "A canonical combat icon representing Arrow Dunk."
+  },
+  {
+    "id": "combat.arrow-flights",
+    "name": "Arrow Flights",
+    "file": "/assets/icons/arrow-flights.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrow",
+      "flights"
+    ],
+    "description": "A canonical combat icon representing Arrow Flights."
+  },
+  {
+    "id": "combat.arrow-scope",
+    "name": "Arrow Scope",
+    "file": "/assets/icons/arrow-scope.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrow",
+      "scope"
+    ],
+    "description": "A canonical combat icon representing Arrow Scope."
+  },
+  {
+    "id": "combat.arrow-wings",
+    "name": "Arrow Wings",
+    "file": "/assets/icons/arrow-wings.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrow",
+      "wings"
+    ],
+    "description": "A canonical combat icon representing Arrow Wings."
+  },
+  {
+    "id": "combat.arrowed",
+    "name": "Arrowed",
+    "file": "/assets/icons/arrowed.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrowed"
+    ],
+    "description": "A canonical combat icon representing Arrowed."
+  },
+  {
+    "id": "combat.arrowhead",
+    "name": "Arrowhead",
+    "file": "/assets/icons/arrowhead.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrowhead"
+    ],
+    "description": "A canonical combat icon representing Arrowhead."
+  },
+  {
+    "id": "combat.arrows-shield",
+    "name": "Arrows Shield",
+    "file": "/assets/icons/arrows-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arrows",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Arrows Shield."
+  },
+  {
+    "id": "combat.astronaut-helmet",
+    "name": "Astronaut Helmet",
+    "file": "/assets/icons/astronaut-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "astronaut",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Astronaut Helmet."
+  },
+  {
+    "id": "combat.attached-shield",
+    "name": "Attached Shield",
+    "file": "/assets/icons/attached-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "attached",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Attached Shield."
+  },
+  {
+    "id": "combat.attack-gauge",
+    "name": "Attack Gauge",
+    "file": "/assets/icons/attack-gauge.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "attack",
+      "gauge"
+    ],
+    "description": "A canonical combat icon representing Attack Gauge."
+  },
+  {
+    "id": "combat.attack",
+    "name": "Attack",
+    "file": "/assets/icons/attack.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "attack"
+    ],
+    "description": "A canonical combat icon representing Attack."
+  },
+  {
+    "id": "combat.autogun",
+    "name": "Autogun",
+    "file": "/assets/icons/autogun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "autogun"
+    ],
+    "description": "A canonical combat icon representing Autogun."
+  },
+  {
+    "id": "combat.awareness",
+    "name": "Awareness",
+    "file": "/assets/icons/awareness.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "awareness"
+    ],
+    "description": "A canonical combat icon representing Awareness."
+  },
+  {
+    "id": "combat.axe-in-log",
+    "name": "Axe In Log",
+    "file": "/assets/icons/axe-in-log.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "axe",
+      "log"
+    ],
+    "description": "A canonical combat icon representing Axe In Log."
+  },
+  {
+    "id": "combat.axe-in-stump",
+    "name": "Axe In Stump",
+    "file": "/assets/icons/axe-in-stump.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "axe",
+      "stump"
+    ],
+    "description": "A canonical combat icon representing Axe In Stump."
+  },
+  {
+    "id": "combat.axe-swing",
+    "name": "Axe Swing",
+    "file": "/assets/icons/axe-swing.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "axe",
+      "swing"
+    ],
+    "description": "A canonical combat icon representing Axe Swing."
+  },
+  {
+    "id": "combat.axe-sword",
+    "name": "Axe Sword",
+    "file": "/assets/icons/axe-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "axe",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Axe Sword."
+  },
+  {
+    "id": "combat.backgammon",
+    "name": "Backgammon",
+    "file": "/assets/icons/backgammon.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "backgammon"
+    ],
+    "description": "A canonical combat icon representing Backgammon."
+  },
+  {
+    "id": "combat.backward-time",
+    "name": "Backward Time",
+    "file": "/assets/icons/backward-time.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "backward",
+      "time"
+    ],
+    "description": "A canonical combat icon representing Backward Time."
+  },
+  {
+    "id": "combat.barbed-arrow",
+    "name": "Barbed Arrow",
+    "file": "/assets/icons/barbed-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "barbed",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Barbed Arrow."
+  },
+  {
+    "id": "combat.barbed-spear",
+    "name": "Barbed Spear",
+    "file": "/assets/icons/barbed-spear.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "barbed",
+      "spear"
+    ],
+    "description": "A canonical combat icon representing Barbed Spear."
+  },
+  {
+    "id": "combat.bat-blade",
+    "name": "Bat Blade",
+    "file": "/assets/icons/bat-blade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bat",
+      "blade"
+    ],
+    "description": "A canonical combat icon representing Bat Blade."
+  },
+  {
+    "id": "combat.battered-axe",
+    "name": "Battered Axe",
+    "file": "/assets/icons/battered-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "battered",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing Battered Axe."
+  },
+  {
+    "id": "combat.battle-axe",
+    "name": "Battle Axe",
+    "file": "/assets/icons/battle-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "battle",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing Battle Axe."
+  },
+  {
+    "id": "combat.battle-gear",
+    "name": "Battle Gear",
+    "file": "/assets/icons/battle-gear.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "battle",
+      "gear"
+    ],
+    "description": "A canonical combat icon representing Battle Gear."
+  },
+  {
+    "id": "combat.battle-mech",
+    "name": "Battle Mech",
+    "file": "/assets/icons/battle-mech.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "battle",
+      "mech"
+    ],
+    "description": "A canonical combat icon representing Battle Mech."
+  },
+  {
+    "id": "combat.battle-tank",
+    "name": "Battle Tank",
+    "file": "/assets/icons/battle-tank.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "battle",
+      "tank"
+    ],
+    "description": "A canonical combat icon representing Battle Tank."
+  },
+  {
+    "id": "combat.battleship",
+    "name": "Battleship",
+    "file": "/assets/icons/battleship.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "battleship"
+    ],
+    "description": "A canonical combat icon representing Battleship."
+  },
+  {
+    "id": "combat.bell-shield",
+    "name": "Bell Shield",
+    "file": "/assets/icons/bell-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bell",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Bell Shield."
+  },
+  {
+    "id": "combat.belt-armor",
+    "name": "Belt Armor",
+    "file": "/assets/icons/belt-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "belt",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Belt Armor."
+  },
+  {
+    "id": "combat.berries-bowl",
+    "name": "Berries Bowl",
+    "file": "/assets/icons/berries-bowl.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "berries",
+      "bowl"
+    ],
+    "description": "A canonical combat icon representing Berries Bowl."
+  },
+  {
+    "id": "combat.black-hand-shield",
+    "name": "Black Hand Shield",
+    "file": "/assets/icons/black-hand-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "black",
+      "hand",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Black Hand Shield."
+  },
+  {
+    "id": "combat.black-knight-helm",
+    "name": "Black Knight Helm",
+    "file": "/assets/icons/black-knight-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "black",
+      "knight",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Black Knight Helm."
+  },
+  {
+    "id": "combat.blade-bite",
+    "name": "Blade Bite",
+    "file": "/assets/icons/blade-bite.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "blade",
+      "bite"
+    ],
+    "description": "A canonical combat icon representing Blade Bite."
+  },
+  {
+    "id": "combat.blade-drag",
+    "name": "Blade Drag",
+    "file": "/assets/icons/blade-drag.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "blade",
+      "drag"
+    ],
+    "description": "A canonical combat icon representing Blade Drag."
+  },
+  {
+    "id": "combat.blade-fall",
+    "name": "Blade Fall",
+    "file": "/assets/icons/blade-fall.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "blade",
+      "fall"
+    ],
+    "description": "A canonical combat icon representing Blade Fall."
+  },
+  {
+    "id": "combat.bloody-sword",
+    "name": "Bloody Sword",
+    "file": "/assets/icons/bloody-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bloody",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Bloody Sword."
+  },
+  {
+    "id": "combat.bludgeoning",
+    "name": "Bludgeoning",
+    "file": "/assets/icons/bludgeoning.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bludgeoning"
+    ],
+    "description": "A canonical combat icon representing Bludgeoning."
+  },
+  {
+    "id": "combat.bolt-bomb",
+    "name": "Bolt Bomb",
+    "file": "/assets/icons/bolt-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bolt",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Bolt Bomb."
+  },
+  {
+    "id": "combat.bolt-shield",
+    "name": "Bolt Shield",
+    "file": "/assets/icons/bolt-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bolt",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Bolt Shield."
+  },
+  {
+    "id": "combat.bolter-gun",
+    "name": "Bolter Gun",
+    "file": "/assets/icons/bolter-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bolter",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Bolter Gun."
+  },
+  {
+    "id": "combat.bomber",
+    "name": "Bomber",
+    "file": "/assets/icons/bomber.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bomber"
+    ],
+    "description": "A canonical combat icon representing Bomber."
+  },
+  {
+    "id": "combat.bombing-run",
+    "name": "Bombing Run",
+    "file": "/assets/icons/bombing-run.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bombing",
+      "run"
+    ],
+    "description": "A canonical combat icon representing Bombing Run."
+  },
+  {
+    "id": "combat.bone-mace",
+    "name": "Bone Mace",
+    "file": "/assets/icons/bone-mace.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bone",
+      "mace"
+    ],
+    "description": "A canonical combat icon representing Bone Mace."
+  },
+  {
+    "id": "combat.boot-kick",
+    "name": "Boot Kick",
+    "file": "/assets/icons/boot-kick.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "boot",
+      "kick"
+    ],
+    "description": "A canonical combat icon representing Boot Kick."
+  },
+  {
+    "id": "combat.bordered-shield",
+    "name": "Bordered Shield",
+    "file": "/assets/icons/bordered-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bordered",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Bordered Shield."
+  },
+  {
+    "id": "combat.bottom-right-3d-arrow",
+    "name": "Bottom Right 3d Arrow",
+    "file": "/assets/icons/bottom-right-3d-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bottom",
+      "right",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Bottom Right 3d Arrow."
+  },
+  {
+    "id": "combat.bouncing-sword",
+    "name": "Bouncing Sword",
+    "file": "/assets/icons/bouncing-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bouncing",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Bouncing Sword."
+  },
+  {
+    "id": "combat.bow-arrow",
+    "name": "Bow Arrow",
+    "file": "/assets/icons/bow-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bow",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Bow Arrow."
+  },
+  {
+    "id": "combat.bow-string",
+    "name": "Bow String",
+    "file": "/assets/icons/bow-string.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bow",
+      "string"
+    ],
+    "description": "A canonical combat icon representing Bow String."
+  },
+  {
+    "id": "combat.bow-tie-ribbon",
+    "name": "Bow Tie Ribbon",
+    "file": "/assets/icons/bow-tie-ribbon.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bow",
+      "tie",
+      "ribbon"
+    ],
+    "description": "A canonical combat icon representing Bow Tie Ribbon."
+  },
+  {
+    "id": "combat.bow-tie",
+    "name": "Bow Tie",
+    "file": "/assets/icons/bow-tie.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bow",
+      "tie"
+    ],
+    "description": "A canonical combat icon representing Bow Tie."
+  },
+  {
+    "id": "combat.bowels",
+    "name": "Bowels",
+    "file": "/assets/icons/bowels.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowels"
+    ],
+    "description": "A canonical combat icon representing Bowels."
+  },
+  {
+    "id": "combat.bowen-knot",
+    "name": "Bowen Knot",
+    "file": "/assets/icons/bowen-knot.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowen",
+      "knot"
+    ],
+    "description": "A canonical combat icon representing Bowen Knot."
+  },
+  {
+    "id": "combat.bowie-knife-1",
+    "name": "Bowie Knife 1",
+    "file": "/assets/icons/bowie-knife-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowie",
+      "knife"
+    ],
+    "description": "A canonical combat icon representing Bowie Knife 1."
+  },
+  {
+    "id": "combat.bowie-knife",
+    "name": "Bowie Knife",
+    "file": "/assets/icons/bowie-knife.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowie",
+      "knife"
+    ],
+    "description": "A canonical combat icon representing Bowie Knife."
+  },
+  {
+    "id": "combat.bowl-of-rice",
+    "name": "Bowl Of Rice",
+    "file": "/assets/icons/bowl-of-rice.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowl",
+      "rice"
+    ],
+    "description": "A canonical combat icon representing Bowl Of Rice."
+  },
+  {
+    "id": "combat.bowl-spiral",
+    "name": "Bowl Spiral",
+    "file": "/assets/icons/bowl-spiral.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowl",
+      "spiral"
+    ],
+    "description": "A canonical combat icon representing Bowl Spiral."
+  },
+  {
+    "id": "combat.bowling-alley",
+    "name": "Bowling Alley",
+    "file": "/assets/icons/bowling-alley.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowling",
+      "alley"
+    ],
+    "description": "A canonical combat icon representing Bowling Alley."
+  },
+  {
+    "id": "combat.bowling-pin",
+    "name": "Bowling Pin",
+    "file": "/assets/icons/bowling-pin.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowling",
+      "pin"
+    ],
+    "description": "A canonical combat icon representing Bowling Pin."
+  },
+  {
+    "id": "combat.bowling-propulsion",
+    "name": "Bowling Propulsion",
+    "file": "/assets/icons/bowling-propulsion.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowling",
+      "propulsion"
+    ],
+    "description": "A canonical combat icon representing Bowling Propulsion."
+  },
+  {
+    "id": "combat.bowling-strike",
+    "name": "Bowling Strike",
+    "file": "/assets/icons/bowling-strike.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowling",
+      "strike"
+    ],
+    "description": "A canonical combat icon representing Bowling Strike."
+  },
+  {
+    "id": "combat.bowman",
+    "name": "Bowman",
+    "file": "/assets/icons/bowman.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bowman"
+    ],
+    "description": "A canonical combat icon representing Bowman."
+  },
+  {
+    "id": "combat.branch-arrow",
+    "name": "Branch Arrow",
+    "file": "/assets/icons/branch-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "branch",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Branch Arrow."
+  },
+  {
+    "id": "combat.broad-dagger",
+    "name": "Broad Dagger",
+    "file": "/assets/icons/broad-dagger.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "broad",
+      "dagger"
+    ],
+    "description": "A canonical combat icon representing Broad Dagger."
+  },
+  {
+    "id": "combat.broadhead-arrow",
+    "name": "Broadhead Arrow",
+    "file": "/assets/icons/broadhead-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "broadhead",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Broadhead Arrow."
+  },
+  {
+    "id": "combat.broadsword",
+    "name": "Broadsword",
+    "file": "/assets/icons/broadsword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "broadsword"
+    ],
+    "description": "A canonical combat icon representing Broadsword."
+  },
+  {
+    "id": "combat.brodie-helmet",
+    "name": "Brodie Helmet",
+    "file": "/assets/icons/brodie-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "brodie",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Brodie Helmet."
+  },
+  {
+    "id": "combat.broken-arrow",
+    "name": "Broken Arrow",
+    "file": "/assets/icons/broken-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "broken",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Broken Arrow."
+  },
+  {
+    "id": "combat.broken-axe",
+    "name": "Broken Axe",
+    "file": "/assets/icons/broken-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "broken",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing Broken Axe."
+  },
+  {
+    "id": "combat.broken-shield",
+    "name": "Broken Shield",
+    "file": "/assets/icons/broken-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "broken",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Broken Shield."
+  },
+  {
+    "id": "combat.brutal-helm",
+    "name": "Brutal Helm",
+    "file": "/assets/icons/brutal-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "brutal",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Brutal Helm."
+  },
+  {
+    "id": "combat.bubbling-bowl",
+    "name": "Bubbling Bowl",
+    "file": "/assets/icons/bubbling-bowl.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bubbling",
+      "bowl"
+    ],
+    "description": "A canonical combat icon representing Bubbling Bowl."
+  },
+  {
+    "id": "combat.bullet-bill",
+    "name": "Bullet Bill",
+    "file": "/assets/icons/bullet-bill.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bullet",
+      "bill"
+    ],
+    "description": "A canonical combat icon representing Bullet Bill."
+  },
+  {
+    "id": "combat.bullet-impacts",
+    "name": "Bullet Impacts",
+    "file": "/assets/icons/bullet-impacts.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bullet",
+      "impacts"
+    ],
+    "description": "A canonical combat icon representing Bullet Impacts."
+  },
+  {
+    "id": "combat.bullets",
+    "name": "Bullets",
+    "file": "/assets/icons/bullets.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bullets"
+    ],
+    "description": "A canonical combat icon representing Bullets."
+  },
+  {
+    "id": "combat.bundle-grenade",
+    "name": "Bundle Grenade",
+    "file": "/assets/icons/bundle-grenade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "bundle",
+      "grenade"
+    ],
+    "description": "A canonical combat icon representing Bundle Grenade."
+  },
+  {
+    "id": "combat.butterfly-warning",
+    "name": "Butterfly Warning",
+    "file": "/assets/icons/butterfly-warning.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "butterfly",
+      "warning"
+    ],
+    "description": "A canonical combat icon representing Butterfly Warning."
+  },
+  {
+    "id": "combat.cadillac-helm",
+    "name": "Cadillac Helm",
+    "file": "/assets/icons/cadillac-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cadillac",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Cadillac Helm."
+  },
+  {
+    "id": "combat.cannon-ball",
+    "name": "Cannon Ball",
+    "file": "/assets/icons/cannon-ball.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cannon",
+      "ball"
+    ],
+    "description": "A canonical combat icon representing Cannon Ball."
+  },
+  {
+    "id": "combat.cannon-shot",
+    "name": "Cannon Shot",
+    "file": "/assets/icons/cannon-shot.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cannon",
+      "shot"
+    ],
+    "description": "A canonical combat icon representing Cannon Shot."
+  },
+  {
+    "id": "combat.cannon",
+    "name": "Cannon",
+    "file": "/assets/icons/cannon.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cannon"
+    ],
+    "description": "A canonical combat icon representing Cannon."
+  },
+  {
+    "id": "combat.cape-armor",
+    "name": "Cape Armor",
+    "file": "/assets/icons/cape-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cape",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Cape Armor."
+  },
+  {
+    "id": "combat.carpet-bombing",
+    "name": "Carpet Bombing",
+    "file": "/assets/icons/carpet-bombing.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "carpet",
+      "bombing"
+    ],
+    "description": "A canonical combat icon representing Carpet Bombing."
+  },
+  {
+    "id": "combat.cassowary-head",
+    "name": "Cassowary Head",
+    "file": "/assets/icons/cassowary-head.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cassowary",
+      "head"
+    ],
+    "description": "A canonical combat icon representing Cassowary Head."
+  },
+  {
+    "id": "combat.centurion-helmet",
+    "name": "Centurion Helmet",
+    "file": "/assets/icons/centurion-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "centurion",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Centurion Helmet."
+  },
+  {
+    "id": "combat.chained-arrow-heads",
+    "name": "Chained Arrow Heads",
+    "file": "/assets/icons/chained-arrow-heads.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "chained",
+      "arrow",
+      "heads"
+    ],
+    "description": "A canonical combat icon representing Chained Arrow Heads."
+  },
+  {
+    "id": "combat.chaingun",
+    "name": "Chaingun",
+    "file": "/assets/icons/chaingun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "chaingun"
+    ],
+    "description": "A canonical combat icon representing Chaingun."
+  },
+  {
+    "id": "combat.charged-arrow",
+    "name": "Charged Arrow",
+    "file": "/assets/icons/charged-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "charged",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Charged Arrow."
+  },
+  {
+    "id": "combat.checked-shield-1",
+    "name": "Checked Shield 1",
+    "file": "/assets/icons/checked-shield-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "checked",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Checked Shield 1."
+  },
+  {
+    "id": "combat.checked-shield",
+    "name": "Checked Shield",
+    "file": "/assets/icons/checked-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "checked",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Checked Shield."
+  },
+  {
+    "id": "combat.chemical-arrow",
+    "name": "Chemical Arrow",
+    "file": "/assets/icons/chemical-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "chemical",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Chemical Arrow."
+  },
+  {
+    "id": "combat.chess-knight",
+    "name": "Chess Knight",
+    "file": "/assets/icons/chess-knight.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "chess",
+      "knight"
+    ],
+    "description": "A canonical combat icon representing Chess Knight."
+  },
+  {
+    "id": "combat.chest-armor",
+    "name": "Chest Armor",
+    "file": "/assets/icons/chest-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "chest",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Chest Armor."
+  },
+  {
+    "id": "combat.circle-claws",
+    "name": "Circle Claws",
+    "file": "/assets/icons/circle-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "circle",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Circle Claws."
+  },
+  {
+    "id": "combat.circular-sawblade",
+    "name": "Circular Sawblade",
+    "file": "/assets/icons/circular-sawblade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "circular",
+      "sawblade"
+    ],
+    "description": "A canonical combat icon representing Circular Sawblade."
+  },
+  {
+    "id": "combat.claw-hammer",
+    "name": "Claw Hammer",
+    "file": "/assets/icons/claw-hammer.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "claw",
+      "hammer"
+    ],
+    "description": "A canonical combat icon representing Claw Hammer."
+  },
+  {
+    "id": "combat.claws-1",
+    "name": "Claws 1",
+    "file": "/assets/icons/claws-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Claws 1."
+  },
+  {
+    "id": "combat.claws",
+    "name": "Claws",
+    "file": "/assets/icons/claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Claws."
+  },
+  {
+    "id": "combat.cloak-dagger",
+    "name": "Cloak Dagger",
+    "file": "/assets/icons/cloak-dagger.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cloak",
+      "dagger"
+    ],
+    "description": "A canonical combat icon representing Cloak Dagger."
+  },
+  {
+    "id": "combat.cluster-bomb",
+    "name": "Cluster Bomb",
+    "file": "/assets/icons/cluster-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cluster",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Cluster Bomb."
+  },
+  {
+    "id": "combat.cracked-helm",
+    "name": "Cracked Helm",
+    "file": "/assets/icons/cracked-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cracked",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Cracked Helm."
+  },
+  {
+    "id": "combat.cracked-shield",
+    "name": "Cracked Shield",
+    "file": "/assets/icons/cracked-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cracked",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Cracked Shield."
+  },
+  {
+    "id": "combat.crenulated-shield",
+    "name": "Crenulated Shield",
+    "file": "/assets/icons/crenulated-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crenulated",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Crenulated Shield."
+  },
+  {
+    "id": "combat.crescent-blade-1",
+    "name": "Crescent Blade 1",
+    "file": "/assets/icons/crescent-blade-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crescent",
+      "blade"
+    ],
+    "description": "A canonical combat icon representing Crescent Blade 1."
+  },
+  {
+    "id": "combat.crescent-blade",
+    "name": "Crescent Blade",
+    "file": "/assets/icons/crescent-blade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crescent",
+      "blade"
+    ],
+    "description": "A canonical combat icon representing Crescent Blade."
+  },
+  {
+    "id": "combat.crested-helmet",
+    "name": "Crested Helmet",
+    "file": "/assets/icons/crested-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crested",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Crested Helmet."
+  },
+  {
+    "id": "combat.croc-sword",
+    "name": "Croc Sword",
+    "file": "/assets/icons/croc-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "croc",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Croc Sword."
+  },
+  {
+    "id": "combat.cross-shield",
+    "name": "Cross Shield",
+    "file": "/assets/icons/cross-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cross",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Cross Shield."
+  },
+  {
+    "id": "combat.crossbow",
+    "name": "Crossbow",
+    "file": "/assets/icons/crossbow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crossbow"
+    ],
+    "description": "A canonical combat icon representing Crossbow."
+  },
+  {
+    "id": "combat.crossed-axes",
+    "name": "Crossed Axes",
+    "file": "/assets/icons/crossed-axes.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crossed",
+      "axes"
+    ],
+    "description": "A canonical combat icon representing Crossed Axes."
+  },
+  {
+    "id": "combat.crossed-claws",
+    "name": "Crossed Claws",
+    "file": "/assets/icons/crossed-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crossed",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Crossed Claws."
+  },
+  {
+    "id": "combat.crossed-swords",
+    "name": "Crossed Swords",
+    "file": "/assets/icons/crossed-swords.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crossed",
+      "swords"
+    ],
+    "description": "A canonical combat icon representing Crossed Swords."
+  },
+  {
+    "id": "combat.crosshair-arrow",
+    "name": "Crosshair Arrow",
+    "file": "/assets/icons/crosshair-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "crosshair",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Crosshair Arrow."
+  },
+  {
+    "id": "combat.cupidon-arrow",
+    "name": "Cupidon Arrow",
+    "file": "/assets/icons/cupidon-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "cupidon",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Cupidon Arrow."
+  },
+  {
+    "id": "combat.custodian-helmet",
+    "name": "Custodian Helmet",
+    "file": "/assets/icons/custodian-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "custodian",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Custodian Helmet."
+  },
+  {
+    "id": "combat.dagger-rose",
+    "name": "Dagger Rose",
+    "file": "/assets/icons/dagger-rose.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dagger",
+      "rose"
+    ],
+    "description": "A canonical combat icon representing Dagger Rose."
+  },
+  {
+    "id": "combat.daggers",
+    "name": "Daggers",
+    "file": "/assets/icons/daggers.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "daggers"
+    ],
+    "description": "A canonical combat icon representing Daggers."
+  },
+  {
+    "id": "combat.deadly-strike",
+    "name": "Deadly Strike",
+    "file": "/assets/icons/deadly-strike.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "deadly",
+      "strike"
+    ],
+    "description": "A canonical combat icon representing Deadly Strike."
+  },
+  {
+    "id": "combat.dervish-swords",
+    "name": "Dervish Swords",
+    "file": "/assets/icons/dervish-swords.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dervish",
+      "swords"
+    ],
+    "description": "A canonical combat icon representing Dervish Swords."
+  },
+  {
+    "id": "combat.dice-shield",
+    "name": "Dice Shield",
+    "file": "/assets/icons/dice-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dice",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Dice Shield."
+  },
+  {
+    "id": "combat.diving-dagger",
+    "name": "Diving Dagger",
+    "file": "/assets/icons/diving-dagger.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "diving",
+      "dagger"
+    ],
+    "description": "A canonical combat icon representing Diving Dagger."
+  },
+  {
+    "id": "combat.diving-helmet",
+    "name": "Diving Helmet",
+    "file": "/assets/icons/diving-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "diving",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Diving Helmet."
+  },
+  {
+    "id": "combat.dog-bowl",
+    "name": "Dog Bowl",
+    "file": "/assets/icons/dog-bowl.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dog",
+      "bowl"
+    ],
+    "description": "A canonical combat icon representing Dog Bowl."
+  },
+  {
+    "id": "combat.dragon-shield",
+    "name": "Dragon Shield",
+    "file": "/assets/icons/dragon-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dragon",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Dragon Shield."
+  },
+  {
+    "id": "combat.dripping-blade",
+    "name": "Dripping Blade",
+    "file": "/assets/icons/dripping-blade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dripping",
+      "blade"
+    ],
+    "description": "A canonical combat icon representing Dripping Blade."
+  },
+  {
+    "id": "combat.dripping-sword",
+    "name": "Dripping Sword",
+    "file": "/assets/icons/dripping-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dripping",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Dripping Sword."
+  },
+  {
+    "id": "combat.dwarf-face",
+    "name": "Dwarf Face",
+    "file": "/assets/icons/dwarf-face.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dwarf",
+      "face"
+    ],
+    "description": "A canonical combat icon representing Dwarf Face."
+  },
+  {
+    "id": "combat.dwarf-helmet",
+    "name": "Dwarf Helmet",
+    "file": "/assets/icons/dwarf-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dwarf",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Dwarf Helmet."
+  },
+  {
+    "id": "combat.dwarf-king",
+    "name": "Dwarf King",
+    "file": "/assets/icons/dwarf-king.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "dwarf",
+      "king"
+    ],
+    "description": "A canonical combat icon representing Dwarf King."
+  },
+  {
+    "id": "combat.edged-shield",
+    "name": "Edged Shield",
+    "file": "/assets/icons/edged-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "edged",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Edged Shield."
+  },
+  {
+    "id": "combat.elbow-pad",
+    "name": "Elbow Pad",
+    "file": "/assets/icons/elbow-pad.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "elbow",
+      "pad"
+    ],
+    "description": "A canonical combat icon representing Elbow Pad."
+  },
+  {
+    "id": "combat.elf-helmet",
+    "name": "Elf Helmet",
+    "file": "/assets/icons/elf-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "elf",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Elf Helmet."
+  },
+  {
+    "id": "combat.energy-arrow",
+    "name": "Energy Arrow",
+    "file": "/assets/icons/energy-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "energy",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Energy Arrow."
+  },
+  {
+    "id": "combat.energy-shield",
+    "name": "Energy Shield",
+    "file": "/assets/icons/energy-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "energy",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Energy Shield."
+  },
+  {
+    "id": "combat.energy-sword",
+    "name": "Energy Sword",
+    "file": "/assets/icons/energy-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "energy",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Energy Sword."
+  },
+  {
+    "id": "combat.eye-shield",
+    "name": "Eye Shield",
+    "file": "/assets/icons/eye-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "eye",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Eye Shield."
+  },
+  {
+    "id": "combat.falling-bomb",
+    "name": "Falling Bomb",
+    "file": "/assets/icons/falling-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "falling",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Falling Bomb."
+  },
+  {
+    "id": "combat.fast-arrow",
+    "name": "Fast Arrow",
+    "file": "/assets/icons/fast-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fast",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Fast Arrow."
+  },
+  {
+    "id": "combat.fast-backward-button",
+    "name": "Fast Backward Button",
+    "file": "/assets/icons/fast-backward-button.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fast",
+      "backward",
+      "button"
+    ],
+    "description": "A canonical combat icon representing Fast Backward Button."
+  },
+  {
+    "id": "combat.fast-forward-button",
+    "name": "Fast Forward Button",
+    "file": "/assets/icons/fast-forward-button.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fast",
+      "forward",
+      "button"
+    ],
+    "description": "A canonical combat icon representing Fast Forward Button."
+  },
+  {
+    "id": "combat.field-gun",
+    "name": "Field Gun",
+    "file": "/assets/icons/field-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "field",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Field Gun."
+  },
+  {
+    "id": "combat.fire-axe",
+    "name": "Fire Axe",
+    "file": "/assets/icons/fire-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fire",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing Fire Axe."
+  },
+  {
+    "id": "combat.fire-bomb",
+    "name": "Fire Bomb",
+    "file": "/assets/icons/fire-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fire",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Fire Bomb."
+  },
+  {
+    "id": "combat.fire-bowl",
+    "name": "Fire Bowl",
+    "file": "/assets/icons/fire-bowl.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fire",
+      "bowl"
+    ],
+    "description": "A canonical combat icon representing Fire Bowl."
+  },
+  {
+    "id": "combat.fire-punch",
+    "name": "Fire Punch",
+    "file": "/assets/icons/fire-punch.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fire",
+      "punch"
+    ],
+    "description": "A canonical combat icon representing Fire Punch."
+  },
+  {
+    "id": "combat.fire-shield",
+    "name": "Fire Shield",
+    "file": "/assets/icons/fire-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fire",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Fire Shield."
+  },
+  {
+    "id": "combat.flame-claws",
+    "name": "Flame Claws",
+    "file": "/assets/icons/flame-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "flame",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Flame Claws."
+  },
+  {
+    "id": "combat.flaming-arrow",
+    "name": "Flaming Arrow",
+    "file": "/assets/icons/flaming-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "flaming",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Flaming Arrow."
+  },
+  {
+    "id": "combat.flanged-mace",
+    "name": "Flanged Mace",
+    "file": "/assets/icons/flanged-mace.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "flanged",
+      "mace"
+    ],
+    "description": "A canonical combat icon representing Flanged Mace."
+  },
+  {
+    "id": "combat.flash-grenade",
+    "name": "Flash Grenade",
+    "file": "/assets/icons/flash-grenade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "flash",
+      "grenade"
+    ],
+    "description": "A canonical combat icon representing Flash Grenade."
+  },
+  {
+    "id": "combat.flat-hammer",
+    "name": "Flat Hammer",
+    "file": "/assets/icons/flat-hammer.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "flat",
+      "hammer"
+    ],
+    "description": "A canonical combat icon representing Flat Hammer."
+  },
+  {
+    "id": "combat.flying-dagger",
+    "name": "Flying Dagger",
+    "file": "/assets/icons/flying-dagger.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "flying",
+      "dagger"
+    ],
+    "description": "A canonical combat icon representing Flying Dagger."
+  },
+  {
+    "id": "combat.forward-field",
+    "name": "Forward Field",
+    "file": "/assets/icons/forward-field.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "forward",
+      "field"
+    ],
+    "description": "A canonical combat icon representing Forward Field."
+  },
+  {
+    "id": "combat.forward-sun",
+    "name": "Forward Sun",
+    "file": "/assets/icons/forward-sun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "forward",
+      "sun"
+    ],
+    "description": "A canonical combat icon representing Forward Sun."
+  },
+  {
+    "id": "combat.forward",
+    "name": "Forward",
+    "file": "/assets/icons/forward.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "forward"
+    ],
+    "description": "A canonical combat icon representing Forward."
+  },
+  {
+    "id": "combat.fragmented-sword",
+    "name": "Fragmented Sword",
+    "file": "/assets/icons/fragmented-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fragmented",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Fragmented Sword."
+  },
+  {
+    "id": "combat.frayed-arrow",
+    "name": "Frayed Arrow",
+    "file": "/assets/icons/frayed-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "frayed",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Frayed Arrow."
+  },
+  {
+    "id": "combat.frog-mouth-helm",
+    "name": "Frog Mouth Helm",
+    "file": "/assets/icons/frog-mouth-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "frog",
+      "mouth",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Frog Mouth Helm."
+  },
+  {
+    "id": "combat.frozen-arrow",
+    "name": "Frozen Arrow",
+    "file": "/assets/icons/frozen-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "frozen",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Frozen Arrow."
+  },
+  {
+    "id": "combat.fruit-bowl",
+    "name": "Fruit Bowl",
+    "file": "/assets/icons/fruit-bowl.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fruit",
+      "bowl"
+    ],
+    "description": "A canonical combat icon representing Fruit Bowl."
+  },
+  {
+    "id": "combat.fulguro-punch",
+    "name": "Fulguro Punch",
+    "file": "/assets/icons/fulguro-punch.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "fulguro",
+      "punch"
+    ],
+    "description": "A canonical combat icon representing Fulguro Punch."
+  },
+  {
+    "id": "combat.full-motorcycle-helmet",
+    "name": "Full Motorcycle Helmet",
+    "file": "/assets/icons/full-motorcycle-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "full",
+      "motorcycle",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Full Motorcycle Helmet."
+  },
+  {
+    "id": "combat.gauls-helm",
+    "name": "Gauls Helm",
+    "file": "/assets/icons/gauls-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "gauls",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Gauls Helm."
+  },
+  {
+    "id": "combat.gear-hammer",
+    "name": "Gear Hammer",
+    "file": "/assets/icons/gear-hammer.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "gear",
+      "hammer"
+    ],
+    "description": "A canonical combat icon representing Gear Hammer."
+  },
+  {
+    "id": "combat.gooey-sword",
+    "name": "Gooey Sword",
+    "file": "/assets/icons/gooey-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "gooey",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Gooey Sword."
+  },
+  {
+    "id": "combat.grasping-claws",
+    "name": "Grasping Claws",
+    "file": "/assets/icons/grasping-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "grasping",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Grasping Claws."
+  },
+  {
+    "id": "combat.great-war-tank",
+    "name": "Great War Tank",
+    "file": "/assets/icons/great-war-tank.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "great",
+      "war",
+      "tank"
+    ],
+    "description": "A canonical combat icon representing Great War Tank."
+  },
+  {
+    "id": "combat.greataxe",
+    "name": "Greataxe",
+    "file": "/assets/icons/greataxe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "greataxe"
+    ],
+    "description": "A canonical combat icon representing Greataxe."
+  },
+  {
+    "id": "combat.greatsword",
+    "name": "Greatsword",
+    "file": "/assets/icons/greatsword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "greatsword"
+    ],
+    "description": "A canonical combat icon representing Greatsword."
+  },
+  {
+    "id": "combat.grenade-1",
+    "name": "Grenade 1",
+    "file": "/assets/icons/grenade-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "grenade"
+    ],
+    "description": "A canonical combat icon representing Grenade 1."
+  },
+  {
+    "id": "combat.grenade",
+    "name": "Grenade",
+    "file": "/assets/icons/grenade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "grenade"
+    ],
+    "description": "A canonical combat icon representing Grenade."
+  },
+  {
+    "id": "combat.griffin-shield",
+    "name": "Griffin Shield",
+    "file": "/assets/icons/griffin-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "griffin",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Griffin Shield."
+  },
+  {
+    "id": "combat.gun-rose",
+    "name": "Gun Rose",
+    "file": "/assets/icons/gun-rose.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "gun",
+      "rose"
+    ],
+    "description": "A canonical combat icon representing Gun Rose."
+  },
+  {
+    "id": "combat.gun-stock",
+    "name": "Gun Stock",
+    "file": "/assets/icons/gun-stock.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "gun",
+      "stock"
+    ],
+    "description": "A canonical combat icon representing Gun Stock."
+  },
+  {
+    "id": "combat.gunshot",
+    "name": "Gunshot",
+    "file": "/assets/icons/gunshot.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "gunshot"
+    ],
+    "description": "A canonical combat icon representing Gunshot."
+  },
+  {
+    "id": "combat.hammer-break",
+    "name": "Hammer Break",
+    "file": "/assets/icons/hammer-break.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "hammer",
+      "break"
+    ],
+    "description": "A canonical combat icon representing Hammer Break."
+  },
+  {
+    "id": "combat.hammer-drop",
+    "name": "Hammer Drop",
+    "file": "/assets/icons/hammer-drop.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "hammer",
+      "drop"
+    ],
+    "description": "A canonical combat icon representing Hammer Drop."
+  },
+  {
+    "id": "combat.hammer-nails",
+    "name": "Hammer Nails",
+    "file": "/assets/icons/hammer-nails.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "hammer",
+      "nails"
+    ],
+    "description": "A canonical combat icon representing Hammer Nails."
+  },
+  {
+    "id": "combat.hammer-sickle",
+    "name": "Hammer Sickle",
+    "file": "/assets/icons/hammer-sickle.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "hammer",
+      "sickle"
+    ],
+    "description": "A canonical combat icon representing Hammer Sickle."
+  },
+  {
+    "id": "combat.hammer",
+    "name": "Hammer",
+    "file": "/assets/icons/hammer.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "hammer"
+    ],
+    "description": "A canonical combat icon representing Hammer."
+  },
+  {
+    "id": "combat.healing-shield",
+    "name": "Healing Shield",
+    "file": "/assets/icons/healing-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "healing",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Healing Shield."
+  },
+  {
+    "id": "combat.heart-armor",
+    "name": "Heart Armor",
+    "file": "/assets/icons/heart-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "heart",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Heart Armor."
+  },
+  {
+    "id": "combat.heart-shield",
+    "name": "Heart Shield",
+    "file": "/assets/icons/heart-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "heart",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Heart Shield."
+  },
+  {
+    "id": "combat.heavy-arrow",
+    "name": "Heavy Arrow",
+    "file": "/assets/icons/heavy-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "heavy",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Heavy Arrow."
+  },
+  {
+    "id": "combat.heavy-bullets",
+    "name": "Heavy Bullets",
+    "file": "/assets/icons/heavy-bullets.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "heavy",
+      "bullets"
+    ],
+    "description": "A canonical combat icon representing Heavy Bullets."
+  },
+  {
+    "id": "combat.heavy-helm",
+    "name": "Heavy Helm",
+    "file": "/assets/icons/heavy-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "heavy",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Heavy Helm."
+  },
+  {
+    "id": "combat.helmet-head-shot",
+    "name": "Helmet Head Shot",
+    "file": "/assets/icons/helmet-head-shot.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "helmet",
+      "head",
+      "shot"
+    ],
+    "description": "A canonical combat icon representing Helmet Head Shot."
+  },
+  {
+    "id": "combat.helmet",
+    "name": "Helmet",
+    "file": "/assets/icons/helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Helmet."
+  },
+  {
+    "id": "combat.high-kick",
+    "name": "High Kick",
+    "file": "/assets/icons/high-kick.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "high",
+      "kick"
+    ],
+    "description": "A canonical combat icon representing High Kick."
+  },
+  {
+    "id": "combat.high-punch",
+    "name": "High Punch",
+    "file": "/assets/icons/high-punch.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "high",
+      "punch"
+    ],
+    "description": "A canonical combat icon representing High Punch."
+  },
+  {
+    "id": "combat.holy-hand-grenade",
+    "name": "Holy Hand Grenade",
+    "file": "/assets/icons/holy-hand-grenade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "holy",
+      "hand",
+      "grenade"
+    ],
+    "description": "A canonical combat icon representing Holy Hand Grenade."
+  },
+  {
+    "id": "combat.hook-swords",
+    "name": "Hook Swords",
+    "file": "/assets/icons/hook-swords.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "hook",
+      "swords"
+    ],
+    "description": "A canonical combat icon representing Hook Swords."
+  },
+  {
+    "id": "combat.horned-helm",
+    "name": "Horned Helm",
+    "file": "/assets/icons/horned-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "horned",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Horned Helm."
+  },
+  {
+    "id": "combat.human-cannonball",
+    "name": "Human Cannonball",
+    "file": "/assets/icons/human-cannonball.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "human",
+      "cannonball"
+    ],
+    "description": "A canonical combat icon representing Human Cannonball."
+  },
+  {
+    "id": "combat.ice-bomb",
+    "name": "Ice Bomb",
+    "file": "/assets/icons/ice-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ice",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Ice Bomb."
+  },
+  {
+    "id": "combat.ice-shield",
+    "name": "Ice Shield",
+    "file": "/assets/icons/ice-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ice",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Ice Shield."
+  },
+  {
+    "id": "combat.ice-spear",
+    "name": "Ice Spear",
+    "file": "/assets/icons/ice-spear.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ice",
+      "spear"
+    ],
+    "description": "A canonical combat icon representing Ice Spear."
+  },
+  {
+    "id": "combat.imbricated-arrows",
+    "name": "Imbricated Arrows",
+    "file": "/assets/icons/imbricated-arrows.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "imbricated",
+      "arrows"
+    ],
+    "description": "A canonical combat icon representing Imbricated Arrows."
+  },
+  {
+    "id": "combat.inferno-bomb",
+    "name": "Inferno Bomb",
+    "file": "/assets/icons/inferno-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "inferno",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Inferno Bomb."
+  },
+  {
+    "id": "combat.interleaved-arrows",
+    "name": "Interleaved Arrows",
+    "file": "/assets/icons/interleaved-arrows.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "interleaved",
+      "arrows"
+    ],
+    "description": "A canonical combat icon representing Interleaved Arrows."
+  },
+  {
+    "id": "combat.interleaved-claws",
+    "name": "Interleaved Claws",
+    "file": "/assets/icons/interleaved-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "interleaved",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Interleaved Claws."
+  },
+  {
+    "id": "combat.ion-cannon-blast",
+    "name": "Ion Cannon Blast",
+    "file": "/assets/icons/ion-cannon-blast.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ion",
+      "cannon",
+      "blast"
+    ],
+    "description": "A canonical combat icon representing Ion Cannon Blast."
+  },
+  {
+    "id": "combat.iron-hulled-warship",
+    "name": "Iron Hulled Warship",
+    "file": "/assets/icons/iron-hulled-warship.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "iron",
+      "hulled",
+      "warship"
+    ],
+    "description": "A canonical combat icon representing Iron Hulled Warship."
+  },
+  {
+    "id": "combat.kick-scooter",
+    "name": "Kick Scooter",
+    "file": "/assets/icons/kick-scooter.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "kick",
+      "scooter"
+    ],
+    "description": "A canonical combat icon representing Kick Scooter."
+  },
+  {
+    "id": "combat.knight-banner",
+    "name": "Knight Banner",
+    "file": "/assets/icons/knight-banner.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "knight",
+      "banner"
+    ],
+    "description": "A canonical combat icon representing Knight Banner."
+  },
+  {
+    "id": "combat.laser-gun",
+    "name": "Laser Gun",
+    "file": "/assets/icons/laser-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "laser",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Laser Gun."
+  },
+  {
+    "id": "combat.laser-warning",
+    "name": "Laser Warning",
+    "file": "/assets/icons/laser-warning.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "laser",
+      "warning"
+    ],
+    "description": "A canonical combat icon representing Laser Warning."
+  },
+  {
+    "id": "combat.layered-armor",
+    "name": "Layered Armor",
+    "file": "/assets/icons/layered-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "layered",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Layered Armor."
+  },
+  {
+    "id": "combat.leather-armor",
+    "name": "Leather Armor",
+    "file": "/assets/icons/leather-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "leather",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Leather Armor."
+  },
+  {
+    "id": "combat.leg-armor",
+    "name": "Leg Armor",
+    "file": "/assets/icons/leg-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "leg",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Leg Armor."
+  },
+  {
+    "id": "combat.letter-bomb",
+    "name": "Letter Bomb",
+    "file": "/assets/icons/letter-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "letter",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Letter Bomb."
+  },
+  {
+    "id": "combat.light-helm",
+    "name": "Light Helm",
+    "file": "/assets/icons/light-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "light",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Light Helm."
+  },
+  {
+    "id": "combat.lightning-bow",
+    "name": "Lightning Bow",
+    "file": "/assets/icons/lightning-bow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "lightning",
+      "bow"
+    ],
+    "description": "A canonical combat icon representing Lightning Bow."
+  },
+  {
+    "id": "combat.lightning-shield",
+    "name": "Lightning Shield",
+    "file": "/assets/icons/lightning-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "lightning",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Lightning Shield."
+  },
+  {
+    "id": "combat.lob-arrow",
+    "name": "Lob Arrow",
+    "file": "/assets/icons/lob-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "lob",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Lob Arrow."
+  },
+  {
+    "id": "combat.lucifer-cannon",
+    "name": "Lucifer Cannon",
+    "file": "/assets/icons/lucifer-cannon.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "lucifer",
+      "cannon"
+    ],
+    "description": "A canonical combat icon representing Lucifer Cannon."
+  },
+  {
+    "id": "combat.m3-grease-gun",
+    "name": "M3 Grease Gun",
+    "file": "/assets/icons/m3-grease-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "grease",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing M3 Grease Gun."
+  },
+  {
+    "id": "combat.mace-head",
+    "name": "Mace Head",
+    "file": "/assets/icons/mace-head.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "mace",
+      "head"
+    ],
+    "description": "A canonical combat icon representing Mace Head."
+  },
+  {
+    "id": "combat.machine-gun-magazine",
+    "name": "Machine Gun Magazine",
+    "file": "/assets/icons/machine-gun-magazine.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "machine",
+      "gun",
+      "magazine"
+    ],
+    "description": "A canonical combat icon representing Machine Gun Magazine."
+  },
+  {
+    "id": "combat.machine-gun",
+    "name": "Machine Gun",
+    "file": "/assets/icons/machine-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "machine",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Machine Gun."
+  },
+  {
+    "id": "combat.magic-axe",
+    "name": "Magic Axe",
+    "file": "/assets/icons/magic-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "magic",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing Magic Axe."
+  },
+  {
+    "id": "combat.magic-shield",
+    "name": "Magic Shield",
+    "file": "/assets/icons/magic-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "magic",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Magic Shield."
+  },
+  {
+    "id": "combat.mammoth",
+    "name": "Mammoth",
+    "file": "/assets/icons/mammoth.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "mammoth"
+    ],
+    "description": "A canonical combat icon representing Mammoth."
+  },
+  {
+    "id": "combat.marrow-drain",
+    "name": "Marrow Drain",
+    "file": "/assets/icons/marrow-drain.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "marrow",
+      "drain"
+    ],
+    "description": "A canonical combat icon representing Marrow Drain."
+  },
+  {
+    "id": "combat.middle-arrow",
+    "name": "Middle Arrow",
+    "file": "/assets/icons/middle-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "middle",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Middle Arrow."
+  },
+  {
+    "id": "combat.minigun",
+    "name": "Minigun",
+    "file": "/assets/icons/minigun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "minigun"
+    ],
+    "description": "A canonical combat icon representing Minigun."
+  },
+  {
+    "id": "combat.mining-helmet",
+    "name": "Mining Helmet",
+    "file": "/assets/icons/mining-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "mining",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Mining Helmet."
+  },
+  {
+    "id": "combat.missile-launcher",
+    "name": "Missile Launcher",
+    "file": "/assets/icons/missile-launcher.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "missile",
+      "launcher"
+    ],
+    "description": "A canonical combat icon representing Missile Launcher."
+  },
+  {
+    "id": "combat.missile-mech",
+    "name": "Missile Mech",
+    "file": "/assets/icons/missile-mech.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "missile",
+      "mech"
+    ],
+    "description": "A canonical combat icon representing Missile Mech."
+  },
+  {
+    "id": "combat.missile-pod",
+    "name": "Missile Pod",
+    "file": "/assets/icons/missile-pod.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "missile",
+      "pod"
+    ],
+    "description": "A canonical combat icon representing Missile Pod."
+  },
+  {
+    "id": "combat.missile-swarm",
+    "name": "Missile Swarm",
+    "file": "/assets/icons/missile-swarm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "missile",
+      "swarm"
+    ],
+    "description": "A canonical combat icon representing Missile Swarm."
+  },
+  {
+    "id": "combat.moon-claws",
+    "name": "Moon Claws",
+    "file": "/assets/icons/moon-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "moon",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Moon Claws."
+  },
+  {
+    "id": "combat.mounted-knight",
+    "name": "Mounted Knight",
+    "file": "/assets/icons/mounted-knight.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "mounted",
+      "knight"
+    ],
+    "description": "A canonical combat icon representing Mounted Knight."
+  },
+  {
+    "id": "combat.ninja-armor",
+    "name": "Ninja Armor",
+    "file": "/assets/icons/ninja-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ninja",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Ninja Armor."
+  },
+  {
+    "id": "combat.nuclear-bomb",
+    "name": "Nuclear Bomb",
+    "file": "/assets/icons/nuclear-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "nuclear",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Nuclear Bomb."
+  },
+  {
+    "id": "combat.overlord-helm",
+    "name": "Overlord Helm",
+    "file": "/assets/icons/overlord-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "overlord",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Overlord Helm."
+  },
+  {
+    "id": "combat.paper-arrow",
+    "name": "Paper Arrow",
+    "file": "/assets/icons/paper-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "paper",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Paper Arrow."
+  },
+  {
+    "id": "combat.paper-bomb",
+    "name": "Paper Bomb",
+    "file": "/assets/icons/paper-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "paper",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Paper Bomb."
+  },
+  {
+    "id": "combat.pentarrows-tornado",
+    "name": "Pentarrows Tornado",
+    "file": "/assets/icons/pentarrows-tornado.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "pentarrows",
+      "tornado"
+    ],
+    "description": "A canonical combat icon representing Pentarrows Tornado."
+  },
+  {
+    "id": "combat.piercing-sword",
+    "name": "Piercing Sword",
+    "file": "/assets/icons/piercing-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "piercing",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Piercing Sword."
+  },
+  {
+    "id": "combat.piercing",
+    "name": "Piercing",
+    "file": "/assets/icons/piercing.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "piercing"
+    ],
+    "description": "A canonical combat icon representing Piercing."
+  },
+  {
+    "id": "combat.pirate-cannon",
+    "name": "Pirate Cannon",
+    "file": "/assets/icons/pirate-cannon.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "pirate",
+      "cannon"
+    ],
+    "description": "A canonical combat icon representing Pirate Cannon."
+  },
+  {
+    "id": "combat.pistol-gun",
+    "name": "Pistol Gun",
+    "file": "/assets/icons/pistol-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "pistol",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Pistol Gun."
+  },
+  {
+    "id": "combat.plain-arrow",
+    "name": "Plain Arrow",
+    "file": "/assets/icons/plain-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "plain",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Plain Arrow."
+  },
+  {
+    "id": "combat.plain-dagger",
+    "name": "Plain Dagger",
+    "file": "/assets/icons/plain-dagger.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "plain",
+      "dagger"
+    ],
+    "description": "A canonical combat icon representing Plain Dagger."
+  },
+  {
+    "id": "combat.pocket-bow",
+    "name": "Pocket Bow",
+    "file": "/assets/icons/pocket-bow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "pocket",
+      "bow"
+    ],
+    "description": "A canonical combat icon representing Pocket Bow."
+  },
+  {
+    "id": "combat.pointy-sword",
+    "name": "Pointy Sword",
+    "file": "/assets/icons/pointy-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "pointy",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Pointy Sword."
+  },
+  {
+    "id": "combat.punch-blast",
+    "name": "Punch Blast",
+    "file": "/assets/icons/punch-blast.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "punch",
+      "blast"
+    ],
+    "description": "A canonical combat icon representing Punch Blast."
+  },
+  {
+    "id": "combat.punch",
+    "name": "Punch",
+    "file": "/assets/icons/punch.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "punch"
+    ],
+    "description": "A canonical combat icon representing Punch."
+  },
+  {
+    "id": "combat.punching-bag",
+    "name": "Punching Bag",
+    "file": "/assets/icons/punching-bag.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "punching",
+      "bag"
+    ],
+    "description": "A canonical combat icon representing Punching Bag."
+  },
+  {
+    "id": "combat.rainbow-star",
+    "name": "Rainbow Star",
+    "file": "/assets/icons/rainbow-star.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "rainbow",
+      "star"
+    ],
+    "description": "A canonical combat icon representing Rainbow Star."
+  },
+  {
+    "id": "combat.ranged_attack",
+    "name": "Ranged Attack",
+    "file": "/assets/icons/ranged_attack.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ranged",
+      "attack"
+    ],
+    "description": "A canonical combat icon representing Ranged Attack."
+  },
+  {
+    "id": "combat.rapidshare-arrow",
+    "name": "Rapidshare Arrow",
+    "file": "/assets/icons/rapidshare-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "rapidshare",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Rapidshare Arrow."
+  },
+  {
+    "id": "combat.ray-gun",
+    "name": "Ray Gun",
+    "file": "/assets/icons/ray-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ray",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Ray Gun."
+  },
+  {
+    "id": "combat.razor-blade",
+    "name": "Razor Blade",
+    "file": "/assets/icons/razor-blade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "razor",
+      "blade"
+    ],
+    "description": "A canonical combat icon representing Razor Blade."
+  },
+  {
+    "id": "combat.relic-blade",
+    "name": "Relic Blade",
+    "file": "/assets/icons/relic-blade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "relic",
+      "blade"
+    ],
+    "description": "A canonical combat icon representing Relic Blade."
+  },
+  {
+    "id": "combat.reload-gun-barrel",
+    "name": "Reload Gun Barrel",
+    "file": "/assets/icons/reload-gun-barrel.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "reload",
+      "gun",
+      "barrel"
+    ],
+    "description": "A canonical combat icon representing Reload Gun Barrel."
+  },
+  {
+    "id": "combat.return-arrow",
+    "name": "Return Arrow",
+    "file": "/assets/icons/return-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "return",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Return Arrow."
+  },
+  {
+    "id": "combat.ribbon-shield",
+    "name": "Ribbon Shield",
+    "file": "/assets/icons/ribbon-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ribbon",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Ribbon Shield."
+  },
+  {
+    "id": "combat.rifle",
+    "name": "Rifle",
+    "file": "/assets/icons/rifle.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "rifle"
+    ],
+    "description": "A canonical combat icon representing Rifle."
+  },
+  {
+    "id": "combat.riot-shield",
+    "name": "Riot Shield",
+    "file": "/assets/icons/riot-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "riot",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Riot Shield."
+  },
+  {
+    "id": "combat.robot-helmet",
+    "name": "Robot Helmet",
+    "file": "/assets/icons/robot-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "robot",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Robot Helmet."
+  },
+  {
+    "id": "combat.rolling-bomb",
+    "name": "Rolling Bomb",
+    "file": "/assets/icons/rolling-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "rolling",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Rolling Bomb."
+  },
+  {
+    "id": "combat.roman-shield",
+    "name": "Roman Shield",
+    "file": "/assets/icons/roman-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "roman",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Roman Shield."
+  },
+  {
+    "id": "combat.rosa-shield-1",
+    "name": "Rosa Shield 1",
+    "file": "/assets/icons/rosa-shield-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "rosa",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Rosa Shield 1."
+  },
+  {
+    "id": "combat.rosa-shield",
+    "name": "Rosa Shield",
+    "file": "/assets/icons/rosa-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "rosa",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Rosa Shield."
+  },
+  {
+    "id": "combat.round-shield",
+    "name": "Round Shield",
+    "file": "/assets/icons/round-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "round",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Round Shield."
+  },
+  {
+    "id": "combat.rune-sword",
+    "name": "Rune Sword",
+    "file": "/assets/icons/rune-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "rune",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Rune Sword."
+  },
+  {
+    "id": "combat.rusty-sword",
+    "name": "Rusty Sword",
+    "file": "/assets/icons/rusty-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "rusty",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Rusty Sword."
+  },
+  {
+    "id": "combat.sacrificial-dagger",
+    "name": "Sacrificial Dagger",
+    "file": "/assets/icons/sacrificial-dagger.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sacrificial",
+      "dagger"
+    ],
+    "description": "A canonical combat icon representing Sacrificial Dagger."
+  },
+  {
+    "id": "combat.samurai-helmet",
+    "name": "Samurai Helmet",
+    "file": "/assets/icons/samurai-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "samurai",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Samurai Helmet."
+  },
+  {
+    "id": "combat.samus-helmet",
+    "name": "Samus Helmet",
+    "file": "/assets/icons/samus-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "samus",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Samus Helmet."
+  },
+  {
+    "id": "combat.save-arrow",
+    "name": "Save Arrow",
+    "file": "/assets/icons/save-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "save",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Save Arrow."
+  },
+  {
+    "id": "combat.sawed-off-shotgun",
+    "name": "Sawed Off Shotgun",
+    "file": "/assets/icons/sawed-off-shotgun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sawed",
+      "off",
+      "shotgun"
+    ],
+    "description": "A canonical combat icon representing Sawed Off Shotgun."
+  },
+  {
+    "id": "combat.scalpel-strike",
+    "name": "Scalpel Strike",
+    "file": "/assets/icons/scalpel-strike.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "scalpel",
+      "strike"
+    ],
+    "description": "A canonical combat icon representing Scalpel Strike."
+  },
+  {
+    "id": "combat.sentry-gun",
+    "name": "Sentry Gun",
+    "file": "/assets/icons/sentry-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sentry",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Sentry Gun."
+  },
+  {
+    "id": "combat.shard-sword",
+    "name": "Shard Sword",
+    "file": "/assets/icons/shard-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shard",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Shard Sword."
+  },
+  {
+    "id": "combat.sharp-axe",
+    "name": "Sharp Axe",
+    "file": "/assets/icons/sharp-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sharp",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing Sharp Axe."
+  },
+  {
+    "id": "combat.shattered-sword",
+    "name": "Shattered Sword",
+    "file": "/assets/icons/shattered-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shattered",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Shattered Sword."
+  },
+  {
+    "id": "combat.shield-1",
+    "name": "Shield 1",
+    "file": "/assets/icons/shield-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Shield 1."
+  },
+  {
+    "id": "combat.shield-bash",
+    "name": "Shield Bash",
+    "file": "/assets/icons/shield-bash.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield",
+      "bash"
+    ],
+    "description": "A canonical combat icon representing Shield Bash."
+  },
+  {
+    "id": "combat.shield-bounces",
+    "name": "Shield Bounces",
+    "file": "/assets/icons/shield-bounces.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield",
+      "bounces"
+    ],
+    "description": "A canonical combat icon representing Shield Bounces."
+  },
+  {
+    "id": "combat.shield-disabled",
+    "name": "Shield Disabled",
+    "file": "/assets/icons/shield-disabled.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield",
+      "disabled"
+    ],
+    "description": "A canonical combat icon representing Shield Disabled."
+  },
+  {
+    "id": "combat.shield-echoes",
+    "name": "Shield Echoes",
+    "file": "/assets/icons/shield-echoes.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield",
+      "echoes"
+    ],
+    "description": "A canonical combat icon representing Shield Echoes."
+  },
+  {
+    "id": "combat.shield-impact",
+    "name": "Shield Impact",
+    "file": "/assets/icons/shield-impact.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield",
+      "impact"
+    ],
+    "description": "A canonical combat icon representing Shield Impact."
+  },
+  {
+    "id": "combat.shield-opposition",
+    "name": "Shield Opposition",
+    "file": "/assets/icons/shield-opposition.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield",
+      "opposition"
+    ],
+    "description": "A canonical combat icon representing Shield Opposition."
+  },
+  {
+    "id": "combat.shield-reflect",
+    "name": "Shield Reflect",
+    "file": "/assets/icons/shield-reflect.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield",
+      "reflect"
+    ],
+    "description": "A canonical combat icon representing Shield Reflect."
+  },
+  {
+    "id": "combat.shield",
+    "name": "Shield",
+    "file": "/assets/icons/shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Shield."
+  },
+  {
+    "id": "combat.shieldcomb",
+    "name": "Shieldcomb",
+    "file": "/assets/icons/shieldcomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shieldcomb"
+    ],
+    "description": "A canonical combat icon representing Shieldcomb."
+  },
+  {
+    "id": "combat.shining-sword",
+    "name": "Shining Sword",
+    "file": "/assets/icons/shining-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shining",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Shining Sword."
+  },
+  {
+    "id": "combat.ship-bow",
+    "name": "Ship Bow",
+    "file": "/assets/icons/ship-bow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "ship",
+      "bow"
+    ],
+    "description": "A canonical combat icon representing Ship Bow."
+  },
+  {
+    "id": "combat.shotgun-rounds",
+    "name": "Shotgun Rounds",
+    "file": "/assets/icons/shotgun-rounds.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shotgun",
+      "rounds"
+    ],
+    "description": "A canonical combat icon representing Shotgun Rounds."
+  },
+  {
+    "id": "combat.shotgun",
+    "name": "Shotgun",
+    "file": "/assets/icons/shotgun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shotgun"
+    ],
+    "description": "A canonical combat icon representing Shotgun."
+  },
+  {
+    "id": "combat.shoulder-armor",
+    "name": "Shoulder Armor",
+    "file": "/assets/icons/shoulder-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shoulder",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Shoulder Armor."
+  },
+  {
+    "id": "combat.silver-bullet",
+    "name": "Silver Bullet",
+    "file": "/assets/icons/silver-bullet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "silver",
+      "bullet"
+    ],
+    "description": "A canonical combat icon representing Silver Bullet."
+  },
+  {
+    "id": "combat.skull-shield",
+    "name": "Skull Shield",
+    "file": "/assets/icons/skull-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "skull",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Skull Shield."
+  },
+  {
+    "id": "combat.slashed-shield",
+    "name": "Slashed Shield",
+    "file": "/assets/icons/slashed-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "slashed",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Slashed Shield."
+  },
+  {
+    "id": "combat.slashing",
+    "name": "Slashing",
+    "file": "/assets/icons/slashing.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "slashing"
+    ],
+    "description": "A canonical combat icon representing Slashing."
+  },
+  {
+    "id": "combat.slicing-arrow",
+    "name": "Slicing Arrow",
+    "file": "/assets/icons/slicing-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "slicing",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Slicing Arrow."
+  },
+  {
+    "id": "combat.smash-arrows",
+    "name": "Smash Arrows",
+    "file": "/assets/icons/smash-arrows.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "smash",
+      "arrows"
+    ],
+    "description": "A canonical combat icon representing Smash Arrows."
+  },
+  {
+    "id": "combat.smoke-bomb",
+    "name": "Smoke Bomb",
+    "file": "/assets/icons/smoke-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "smoke",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Smoke Bomb."
+  },
+  {
+    "id": "combat.soccer-kick",
+    "name": "Soccer Kick",
+    "file": "/assets/icons/soccer-kick.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "soccer",
+      "kick"
+    ],
+    "description": "A canonical combat icon representing Soccer Kick."
+  },
+  {
+    "id": "combat.sparky-bomb",
+    "name": "Sparky Bomb",
+    "file": "/assets/icons/sparky-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sparky",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Sparky Bomb."
+  },
+  {
+    "id": "combat.sparrow",
+    "name": "Sparrow",
+    "file": "/assets/icons/sparrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sparrow"
+    ],
+    "description": "A canonical combat icon representing Sparrow."
+  },
+  {
+    "id": "combat.spartan-helmet",
+    "name": "Spartan Helmet",
+    "file": "/assets/icons/spartan-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spartan",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Spartan Helmet."
+  },
+  {
+    "id": "combat.spear-feather",
+    "name": "Spear Feather",
+    "file": "/assets/icons/spear-feather.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spear",
+      "feather"
+    ],
+    "description": "A canonical combat icon representing Spear Feather."
+  },
+  {
+    "id": "combat.spear-hook",
+    "name": "Spear Hook",
+    "file": "/assets/icons/spear-hook.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spear",
+      "hook"
+    ],
+    "description": "A canonical combat icon representing Spear Hook."
+  },
+  {
+    "id": "combat.spearfishing",
+    "name": "Spearfishing",
+    "file": "/assets/icons/spearfishing.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spearfishing"
+    ],
+    "description": "A canonical combat icon representing Spearfishing."
+  },
+  {
+    "id": "combat.spears",
+    "name": "Spears",
+    "file": "/assets/icons/spears.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spears"
+    ],
+    "description": "A canonical combat icon representing Spears."
+  },
+  {
+    "id": "combat.spiked-armor",
+    "name": "Spiked Armor",
+    "file": "/assets/icons/spiked-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spiked",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Spiked Armor."
+  },
+  {
+    "id": "combat.spiked-mace",
+    "name": "Spiked Mace",
+    "file": "/assets/icons/spiked-mace.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spiked",
+      "mace"
+    ],
+    "description": "A canonical combat icon representing Spiked Mace."
+  },
+  {
+    "id": "combat.spiked-shield",
+    "name": "Spiked Shield",
+    "file": "/assets/icons/spiked-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spiked",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Spiked Shield."
+  },
+  {
+    "id": "combat.spiked-shoulder-armor",
+    "name": "Spiked Shoulder Armor",
+    "file": "/assets/icons/spiked-shoulder-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spiked",
+      "shoulder",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Spiked Shoulder Armor."
+  },
+  {
+    "id": "combat.spine-arrow",
+    "name": "Spine Arrow",
+    "file": "/assets/icons/spine-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spine",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Spine Arrow."
+  },
+  {
+    "id": "combat.spinning-blades",
+    "name": "Spinning Blades",
+    "file": "/assets/icons/spinning-blades.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spinning",
+      "blades"
+    ],
+    "description": "A canonical combat icon representing Spinning Blades."
+  },
+  {
+    "id": "combat.spinning-sword",
+    "name": "Spinning Sword",
+    "file": "/assets/icons/spinning-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spinning",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Spinning Sword."
+  },
+  {
+    "id": "combat.spiral-arrow",
+    "name": "Spiral Arrow",
+    "file": "/assets/icons/spiral-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spiral",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Spiral Arrow."
+  },
+  {
+    "id": "combat.split-arrows",
+    "name": "Split Arrows",
+    "file": "/assets/icons/split-arrows.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "split",
+      "arrows"
+    ],
+    "description": "A canonical combat icon representing Split Arrows."
+  },
+  {
+    "id": "combat.spotted-arrowhead",
+    "name": "Spotted Arrowhead",
+    "file": "/assets/icons/spotted-arrowhead.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "spotted",
+      "arrowhead"
+    ],
+    "description": "A canonical combat icon representing Spotted Arrowhead."
+  },
+  {
+    "id": "combat.stahlhelm",
+    "name": "Stahlhelm",
+    "file": "/assets/icons/stahlhelm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "stahlhelm"
+    ],
+    "description": "A canonical combat icon representing Stahlhelm."
+  },
+  {
+    "id": "combat.stake-hammer",
+    "name": "Stake Hammer",
+    "file": "/assets/icons/stake-hammer.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "stake",
+      "hammer"
+    ],
+    "description": "A canonical combat icon representing Stake Hammer."
+  },
+  {
+    "id": "combat.stealth-bomber",
+    "name": "Stealth Bomber",
+    "file": "/assets/icons/stealth-bomber.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "stealth",
+      "bomber"
+    ],
+    "description": "A canonical combat icon representing Stealth Bomber."
+  },
+  {
+    "id": "combat.steel-claws-1",
+    "name": "Steel Claws 1",
+    "file": "/assets/icons/steel-claws-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "steel",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Steel Claws 1."
+  },
+  {
+    "id": "combat.steel-claws",
+    "name": "Steel Claws",
+    "file": "/assets/icons/steel-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "steel",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Steel Claws."
+  },
+  {
+    "id": "combat.stick-grenade",
+    "name": "Stick Grenade",
+    "file": "/assets/icons/stick-grenade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "stick",
+      "grenade"
+    ],
+    "description": "A canonical combat icon representing Stick Grenade."
+  },
+  {
+    "id": "combat.stone-axe",
+    "name": "Stone Axe",
+    "file": "/assets/icons/stone-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "stone",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing Stone Axe."
+  },
+  {
+    "id": "combat.stone-spear",
+    "name": "Stone Spear",
+    "file": "/assets/icons/stone-spear.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "stone",
+      "spear"
+    ],
+    "description": "A canonical combat icon representing Stone Spear."
+  },
+  {
+    "id": "combat.striking-arrows",
+    "name": "Striking Arrows",
+    "file": "/assets/icons/striking-arrows.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "striking",
+      "arrows"
+    ],
+    "description": "A canonical combat icon representing Striking Arrows."
+  },
+  {
+    "id": "combat.striped-sword",
+    "name": "Striped Sword",
+    "file": "/assets/icons/striped-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "striped",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Striped Sword."
+  },
+  {
+    "id": "combat.stun-grenade",
+    "name": "Stun Grenade",
+    "file": "/assets/icons/stun-grenade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "stun",
+      "grenade"
+    ],
+    "description": "A canonical combat icon representing Stun Grenade."
+  },
+  {
+    "id": "combat.submarine-missile",
+    "name": "Submarine Missile",
+    "file": "/assets/icons/submarine-missile.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "submarine",
+      "missile"
+    ],
+    "description": "A canonical combat icon representing Submarine Missile."
+  },
+  {
+    "id": "combat.sun-spear",
+    "name": "Sun Spear",
+    "file": "/assets/icons/sun-spear.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sun",
+      "spear"
+    ],
+    "description": "A canonical combat icon representing Sun Spear."
+  },
+  {
+    "id": "combat.supersonic-arrow",
+    "name": "Supersonic Arrow",
+    "file": "/assets/icons/supersonic-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "supersonic",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Supersonic Arrow."
+  },
+  {
+    "id": "combat.supersonic-bullet",
+    "name": "Supersonic Bullet",
+    "file": "/assets/icons/supersonic-bullet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "supersonic",
+      "bullet"
+    ],
+    "description": "A canonical combat icon representing Supersonic Bullet."
+  },
+  {
+    "id": "combat.surrounded-shield",
+    "name": "Surrounded Shield",
+    "file": "/assets/icons/surrounded-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "surrounded",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Surrounded Shield."
+  },
+  {
+    "id": "combat.switchblade",
+    "name": "Switchblade",
+    "file": "/assets/icons/switchblade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "switchblade"
+    ],
+    "description": "A canonical combat icon representing Switchblade."
+  },
+  {
+    "id": "combat.sword-altar",
+    "name": "Sword Altar",
+    "file": "/assets/icons/sword-altar.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "altar"
+    ],
+    "description": "A canonical combat icon representing Sword Altar."
+  },
+  {
+    "id": "combat.sword-array",
+    "name": "Sword Array",
+    "file": "/assets/icons/sword-array.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "array"
+    ],
+    "description": "A canonical combat icon representing Sword Array."
+  },
+  {
+    "id": "combat.sword-brandish",
+    "name": "Sword Brandish",
+    "file": "/assets/icons/sword-brandish.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "brandish"
+    ],
+    "description": "A canonical combat icon representing Sword Brandish."
+  },
+  {
+    "id": "combat.sword-break",
+    "name": "Sword Break",
+    "file": "/assets/icons/sword-break.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "break"
+    ],
+    "description": "A canonical combat icon representing Sword Break."
+  },
+  {
+    "id": "combat.sword-clash",
+    "name": "Sword Clash",
+    "file": "/assets/icons/sword-clash.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "clash"
+    ],
+    "description": "A canonical combat icon representing Sword Clash."
+  },
+  {
+    "id": "combat.sword-hilt",
+    "name": "Sword Hilt",
+    "file": "/assets/icons/sword-hilt.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "hilt"
+    ],
+    "description": "A canonical combat icon representing Sword Hilt."
+  },
+  {
+    "id": "combat.sword-in-stone",
+    "name": "Sword In Stone",
+    "file": "/assets/icons/sword-in-stone.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "stone"
+    ],
+    "description": "A canonical combat icon representing Sword In Stone."
+  },
+  {
+    "id": "combat.sword-mold",
+    "name": "Sword Mold",
+    "file": "/assets/icons/sword-mold.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "mold"
+    ],
+    "description": "A canonical combat icon representing Sword Mold."
+  },
+  {
+    "id": "combat.sword-slice",
+    "name": "Sword Slice",
+    "file": "/assets/icons/sword-slice.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "slice"
+    ],
+    "description": "A canonical combat icon representing Sword Slice."
+  },
+  {
+    "id": "combat.sword-smithing",
+    "name": "Sword Smithing",
+    "file": "/assets/icons/sword-smithing.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "smithing"
+    ],
+    "description": "A canonical combat icon representing Sword Smithing."
+  },
+  {
+    "id": "combat.sword-spade",
+    "name": "Sword Spade",
+    "file": "/assets/icons/sword-spade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "spade"
+    ],
+    "description": "A canonical combat icon representing Sword Spade."
+  },
+  {
+    "id": "combat.sword-spin",
+    "name": "Sword Spin",
+    "file": "/assets/icons/sword-spin.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "spin"
+    ],
+    "description": "A canonical combat icon representing Sword Spin."
+  },
+  {
+    "id": "combat.sword-tie",
+    "name": "Sword Tie",
+    "file": "/assets/icons/sword-tie.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "tie"
+    ],
+    "description": "A canonical combat icon representing Sword Tie."
+  },
+  {
+    "id": "combat.sword-wound",
+    "name": "Sword Wound",
+    "file": "/assets/icons/sword-wound.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "sword",
+      "wound"
+    ],
+    "description": "A canonical combat icon representing Sword Wound."
+  },
+  {
+    "id": "combat.swordman",
+    "name": "Swordman",
+    "file": "/assets/icons/swordman.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "swordman"
+    ],
+    "description": "A canonical combat icon representing Swordman."
+  },
+  {
+    "id": "combat.swords-emblem",
+    "name": "Swords Emblem",
+    "file": "/assets/icons/swords-emblem.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "swords",
+      "emblem"
+    ],
+    "description": "A canonical combat icon representing Swords Emblem."
+  },
+  {
+    "id": "combat.swords-power",
+    "name": "Swords Power",
+    "file": "/assets/icons/swords-power.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "swords",
+      "power"
+    ],
+    "description": "A canonical combat icon representing Swords Power."
+  },
+  {
+    "id": "combat.swordwoman",
+    "name": "Swordwoman",
+    "file": "/assets/icons/swordwoman.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "swordwoman"
+    ],
+    "description": "A canonical combat icon representing Swordwoman."
+  },
+  {
+    "id": "combat.target-arrows",
+    "name": "Target Arrows",
+    "file": "/assets/icons/target-arrows.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "target",
+      "arrows"
+    ],
+    "description": "A canonical combat icon representing Target Arrows."
+  },
+  {
+    "id": "combat.templar-shield",
+    "name": "Templar Shield",
+    "file": "/assets/icons/templar-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "templar",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Templar Shield."
+  },
+  {
+    "id": "combat.temporary-shield",
+    "name": "Temporary Shield",
+    "file": "/assets/icons/temporary-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "temporary",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Temporary Shield."
+  },
+  {
+    "id": "combat.tentacle-strike",
+    "name": "Tentacle Strike",
+    "file": "/assets/icons/tentacle-strike.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "tentacle",
+      "strike"
+    ],
+    "description": "A canonical combat icon representing Tentacle Strike."
+  },
+  {
+    "id": "combat.thor-hammer",
+    "name": "Thor Hammer",
+    "file": "/assets/icons/thor-hammer.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "thor",
+      "hammer"
+    ],
+    "description": "A canonical combat icon representing Thor Hammer."
+  },
+  {
+    "id": "combat.thorned-arrow",
+    "name": "Thorned Arrow",
+    "file": "/assets/icons/thorned-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "thorned",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Thorned Arrow."
+  },
+  {
+    "id": "combat.thrown-daggers",
+    "name": "Thrown Daggers",
+    "file": "/assets/icons/thrown-daggers.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "thrown",
+      "daggers"
+    ],
+    "description": "A canonical combat icon representing Thrown Daggers."
+  },
+  {
+    "id": "combat.thrown-spear",
+    "name": "Thrown Spear",
+    "file": "/assets/icons/thrown-spear.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "thrown",
+      "spear"
+    ],
+    "description": "A canonical combat icon representing Thrown Spear."
+  },
+  {
+    "id": "combat.thunder-blade",
+    "name": "Thunder Blade",
+    "file": "/assets/icons/thunder-blade.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "thunder",
+      "blade"
+    ],
+    "description": "A canonical combat icon representing Thunder Blade."
+  },
+  {
+    "id": "combat.time-bomb",
+    "name": "Time Bomb",
+    "file": "/assets/icons/time-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "time",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Time Bomb."
+  },
+  {
+    "id": "combat.trait-armor-proficiencies",
+    "name": "Armor Proficiencies",
+    "file": "/assets/icons/trait-armor-proficiencies.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "trait",
+      "armor",
+      "proficiencies"
+    ],
+    "description": "A canonical combat icon representing Armor Proficiencies."
+  },
+  {
+    "id": "combat.trench-body-armor",
+    "name": "Trench Body Armor",
+    "file": "/assets/icons/trench-body-armor.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "trench",
+      "body",
+      "armor"
+    ],
+    "description": "A canonical combat icon representing Trench Body Armor."
+  },
+  {
+    "id": "combat.tribal-shield",
+    "name": "Tribal Shield",
+    "file": "/assets/icons/tribal-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "tribal",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Tribal Shield."
+  },
+  {
+    "id": "combat.trident-shield",
+    "name": "Trident Shield",
+    "file": "/assets/icons/trident-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "trident",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Trident Shield."
+  },
+  {
+    "id": "combat.triple-claws",
+    "name": "Triple Claws",
+    "file": "/assets/icons/triple-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "triple",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Triple Claws."
+  },
+  {
+    "id": "combat.tron-arrow",
+    "name": "Tron Arrow",
+    "file": "/assets/icons/tron-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "tron",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Tron Arrow."
+  },
+  {
+    "id": "combat.two-handed-sword",
+    "name": "Two Handed Sword",
+    "file": "/assets/icons/two-handed-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "two",
+      "handed",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Two Handed Sword."
+  },
+  {
+    "id": "combat.unarmed_strike",
+    "name": "Unarmed Strike",
+    "file": "/assets/icons/unarmed_strike.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "unarmed",
+      "strike"
+    ],
+    "description": "A canonical combat icon representing Unarmed Strike."
+  },
+  {
+    "id": "combat.unlit-bomb",
+    "name": "Unlit Bomb",
+    "file": "/assets/icons/unlit-bomb.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "unlit",
+      "bomb"
+    ],
+    "description": "A canonical combat icon representing Unlit Bomb."
+  },
+  {
+    "id": "combat.vibrating-shield",
+    "name": "Vibrating Shield",
+    "file": "/assets/icons/vibrating-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "vibrating",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Vibrating Shield."
+  },
+  {
+    "id": "combat.viking-helmet",
+    "name": "Viking Helmet",
+    "file": "/assets/icons/viking-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "viking",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Viking Helmet."
+  },
+  {
+    "id": "combat.viking-shield",
+    "name": "Viking Shield",
+    "file": "/assets/icons/viking-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "viking",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Viking Shield."
+  },
+  {
+    "id": "combat.visored-helm",
+    "name": "Visored Helm",
+    "file": "/assets/icons/visored-helm.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "visored",
+      "helm"
+    ],
+    "description": "A canonical combat icon representing Visored Helm."
+  },
+  {
+    "id": "combat.wanted-reward",
+    "name": "Wanted Reward",
+    "file": "/assets/icons/wanted-reward.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "wanted",
+      "reward"
+    ],
+    "description": "A canonical combat icon representing Wanted Reward."
+  },
+  {
+    "id": "combat.war-axe",
+    "name": "War Axe",
+    "file": "/assets/icons/war-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "war",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing War Axe."
+  },
+  {
+    "id": "combat.war-bonnet",
+    "name": "War Bonnet",
+    "file": "/assets/icons/war-bonnet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "war",
+      "bonnet"
+    ],
+    "description": "A canonical combat icon representing War Bonnet."
+  },
+  {
+    "id": "combat.war-pick",
+    "name": "War Pick",
+    "file": "/assets/icons/war-pick.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "war",
+      "pick"
+    ],
+    "description": "A canonical combat icon representing War Pick."
+  },
+  {
+    "id": "combat.warehouse",
+    "name": "Warehouse",
+    "file": "/assets/icons/warehouse.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "warehouse"
+    ],
+    "description": "A canonical combat icon representing Warehouse."
+  },
+  {
+    "id": "combat.warhammer-1",
+    "name": "Warhammer 1",
+    "file": "/assets/icons/warhammer-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "warhammer"
+    ],
+    "description": "A canonical combat icon representing Warhammer 1."
+  },
+  {
+    "id": "combat.warhammer",
+    "name": "Warhammer",
+    "file": "/assets/icons/warhammer.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "warhammer"
+    ],
+    "description": "A canonical combat icon representing Warhammer."
+  },
+  {
+    "id": "combat.warlock-eye",
+    "name": "Warlock Eye",
+    "file": "/assets/icons/warlock-eye.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "warlock",
+      "eye"
+    ],
+    "description": "A canonical combat icon representing Warlock Eye."
+  },
+  {
+    "id": "combat.warlock-hood",
+    "name": "Warlock Hood",
+    "file": "/assets/icons/warlock-hood.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "warlock",
+      "hood"
+    ],
+    "description": "A canonical combat icon representing Warlock Hood."
+  },
+  {
+    "id": "combat.warlord-helmet",
+    "name": "Warlord Helmet",
+    "file": "/assets/icons/warlord-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "warlord",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Warlord Helmet."
+  },
+  {
+    "id": "combat.warp-pipe",
+    "name": "Warp Pipe",
+    "file": "/assets/icons/warp-pipe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "warp",
+      "pipe"
+    ],
+    "description": "A canonical combat icon representing Warp Pipe."
+  },
+  {
+    "id": "combat.water-gun",
+    "name": "Water Gun",
+    "file": "/assets/icons/water-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "water",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Water Gun."
+  },
+  {
+    "id": "combat.wave-strike",
+    "name": "Wave Strike",
+    "file": "/assets/icons/wave-strike.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "wave",
+      "strike"
+    ],
+    "description": "A canonical combat icon representing Wave Strike."
+  },
+  {
+    "id": "combat.wheelbarrow",
+    "name": "Wheelbarrow",
+    "file": "/assets/icons/wheelbarrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "wheelbarrow"
+    ],
+    "description": "A canonical combat icon representing Wheelbarrow."
+  },
+  {
+    "id": "combat.wide-arrow-dunk",
+    "name": "Wide Arrow Dunk",
+    "file": "/assets/icons/wide-arrow-dunk.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "wide",
+      "arrow",
+      "dunk"
+    ],
+    "description": "A canonical combat icon representing Wide Arrow Dunk."
+  },
+  {
+    "id": "combat.winchester-rifle",
+    "name": "Winchester Rifle",
+    "file": "/assets/icons/winchester-rifle.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "winchester",
+      "rifle"
+    ],
+    "description": "A canonical combat icon representing Winchester Rifle."
+  },
+  {
+    "id": "combat.winged-arrow",
+    "name": "Winged Arrow",
+    "file": "/assets/icons/winged-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "winged",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Winged Arrow."
+  },
+  {
+    "id": "combat.winged-shield",
+    "name": "Winged Shield",
+    "file": "/assets/icons/winged-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "winged",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Winged Shield."
+  },
+  {
+    "id": "combat.winged-sword",
+    "name": "Winged Sword",
+    "file": "/assets/icons/winged-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "winged",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Winged Sword."
+  },
+  {
+    "id": "combat.wolverine-claws-1",
+    "name": "Wolverine Claws 1",
+    "file": "/assets/icons/wolverine-claws-1.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "wolverine",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Wolverine Claws 1."
+  },
+  {
+    "id": "combat.wolverine-claws",
+    "name": "Wolverine Claws",
+    "file": "/assets/icons/wolverine-claws.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "wolverine",
+      "claws"
+    ],
+    "description": "A canonical combat icon representing Wolverine Claws."
+  },
+  {
+    "id": "combat.wood-axe",
+    "name": "Wood Axe",
+    "file": "/assets/icons/wood-axe.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "wood",
+      "axe"
+    ],
+    "description": "A canonical combat icon representing Wood Axe."
+  },
+  {
+    "id": "combat.wooden-helmet",
+    "name": "Wooden Helmet",
+    "file": "/assets/icons/wooden-helmet.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "wooden",
+      "helmet"
+    ],
+    "description": "A canonical combat icon representing Wooden Helmet."
+  },
+  {
+    "id": "combat.zat-gun",
+    "name": "Zat Gun",
+    "file": "/assets/icons/zat-gun.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "zat",
+      "gun"
+    ],
+    "description": "A canonical combat icon representing Zat Gun."
+  },
+  {
+    "id": "combat.zebra-shield",
+    "name": "Zebra Shield",
+    "file": "/assets/icons/zebra-shield.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "zebra",
+      "shield"
+    ],
+    "description": "A canonical combat icon representing Zebra Shield."
+  },
+  {
+    "id": "combat.zeus-sword",
+    "name": "Zeus Sword",
+    "file": "/assets/icons/zeus-sword.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "zeus",
+      "sword"
+    ],
+    "description": "A canonical combat icon representing Zeus Sword."
+  },
+  {
+    "id": "combat.zig-arrow",
+    "name": "Zig Arrow",
+    "file": "/assets/icons/zig-arrow.svg",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "zig",
+      "arrow"
+    ],
+    "description": "A canonical combat icon representing Zig Arrow."
+  }
+]

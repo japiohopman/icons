@@ -1,0 +1,2712 @@
+[
+  {
+    "id": "magic.alien-fire",
+    "name": "Alien Fire",
+    "file": "/assets/icons/alien-fire.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "alien",
+      "fire"
+    ],
+    "description": "A canonical magic icon representing Alien Fire."
+  },
+  {
+    "id": "magic.aura",
+    "name": "Aura",
+    "file": "/assets/icons/aura.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "aura"
+    ],
+    "description": "A canonical magic icon representing Aura."
+  },
+  {
+    "id": "magic.beam-satellite",
+    "name": "Beam Satellite",
+    "file": "/assets/icons/beam-satellite.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "beam",
+      "satellite"
+    ],
+    "description": "A canonical magic icon representing Beam Satellite."
+  },
+  {
+    "id": "magic.beam-wake",
+    "name": "Beam Wake",
+    "file": "/assets/icons/beam-wake.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "beam",
+      "wake"
+    ],
+    "description": "A canonical magic icon representing Beam Wake."
+  },
+  {
+    "id": "magic.beams-aura",
+    "name": "Beams Aura",
+    "file": "/assets/icons/beams-aura.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "beams",
+      "aura"
+    ],
+    "description": "A canonical magic icon representing Beams Aura."
+  },
+  {
+    "id": "magic.biceps",
+    "name": "Biceps",
+    "file": "/assets/icons/biceps.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "biceps"
+    ],
+    "description": "A canonical magic icon representing Biceps."
+  },
+  {
+    "id": "magic.bolt-spell-cast",
+    "name": "Bolt Spell Cast",
+    "file": "/assets/icons/bolt-spell-cast.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "bolt",
+      "spell",
+      "cast"
+    ],
+    "description": "A canonical magic icon representing Bolt Spell Cast."
+  },
+  {
+    "id": "magic.bubbling-beam",
+    "name": "Bubbling Beam",
+    "file": "/assets/icons/bubbling-beam.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "bubbling",
+      "beam"
+    ],
+    "description": "A canonical magic icon representing Bubbling Beam."
+  },
+  {
+    "id": "magic.cake-slice",
+    "name": "Cake Slice",
+    "file": "/assets/icons/cake-slice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "cake",
+      "slice"
+    ],
+    "description": "A canonical magic icon representing Cake Slice."
+  },
+  {
+    "id": "magic.campfire",
+    "name": "Campfire",
+    "file": "/assets/icons/campfire.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "campfire"
+    ],
+    "description": "A canonical magic icon representing Campfire."
+  },
+  {
+    "id": "magic.ceiling-light",
+    "name": "Ceiling Light",
+    "file": "/assets/icons/ceiling-light.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ceiling",
+      "light"
+    ],
+    "description": "A canonical magic icon representing Ceiling Light."
+  },
+  {
+    "id": "magic.chain-lightning",
+    "name": "Chain Lightning",
+    "file": "/assets/icons/chain-lightning.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "chain",
+      "lightning"
+    ],
+    "description": "A canonical magic icon representing Chain Lightning."
+  },
+  {
+    "id": "magic.chalice-drops",
+    "name": "Chalice Drops",
+    "file": "/assets/icons/chalice-drops.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "chalice",
+      "drops"
+    ],
+    "description": "A canonical magic icon representing Chalice Drops."
+  },
+  {
+    "id": "magic.choice",
+    "name": "Choice",
+    "file": "/assets/icons/choice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "choice"
+    ],
+    "description": "A canonical magic icon representing Choice."
+  },
+  {
+    "id": "magic.circle-sparks",
+    "name": "Circle Sparks",
+    "file": "/assets/icons/circle-sparks.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "circle",
+      "sparks"
+    ],
+    "description": "A canonical magic icon representing Circle Sparks."
+  },
+  {
+    "id": "magic.comet-spark",
+    "name": "Comet Spark",
+    "file": "/assets/icons/comet-spark.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "comet",
+      "spark"
+    ],
+    "description": "A canonical magic icon representing Comet Spark."
+  },
+  {
+    "id": "magic.cool-spices",
+    "name": "Cool Spices",
+    "file": "/assets/icons/cool-spices.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "cool",
+      "spices"
+    ],
+    "description": "A canonical magic icon representing Cool Spices."
+  },
+  {
+    "id": "magic.crescent-staff",
+    "name": "Crescent Staff",
+    "file": "/assets/icons/crescent-staff.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crescent",
+      "staff"
+    ],
+    "description": "A canonical magic icon representing Crescent Staff."
+  },
+  {
+    "id": "magic.crystal-ball",
+    "name": "Crystal Ball",
+    "file": "/assets/icons/crystal-ball.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crystal",
+      "ball"
+    ],
+    "description": "A canonical magic icon representing Crystal Ball."
+  },
+  {
+    "id": "magic.crystal-cluster",
+    "name": "Crystal Cluster",
+    "file": "/assets/icons/crystal-cluster.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crystal",
+      "cluster"
+    ],
+    "description": "A canonical magic icon representing Crystal Cluster."
+  },
+  {
+    "id": "magic.crystal-eye",
+    "name": "Crystal Eye",
+    "file": "/assets/icons/crystal-eye.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crystal",
+      "eye"
+    ],
+    "description": "A canonical magic icon representing Crystal Eye."
+  },
+  {
+    "id": "magic.crystal-growth",
+    "name": "Crystal Growth",
+    "file": "/assets/icons/crystal-growth.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crystal",
+      "growth"
+    ],
+    "description": "A canonical magic icon representing Crystal Growth."
+  },
+  {
+    "id": "magic.crystal-shine",
+    "name": "Crystal Shine",
+    "file": "/assets/icons/crystal-shine.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crystal",
+      "shine"
+    ],
+    "description": "A canonical magic icon representing Crystal Shine."
+  },
+  {
+    "id": "magic.crystal-shrine",
+    "name": "Crystal Shrine",
+    "file": "/assets/icons/crystal-shrine.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crystal",
+      "shrine"
+    ],
+    "description": "A canonical magic icon representing Crystal Shrine."
+  },
+  {
+    "id": "magic.crystal-wand",
+    "name": "Crystal Wand",
+    "file": "/assets/icons/crystal-wand.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crystal",
+      "wand"
+    ],
+    "description": "A canonical magic icon representing Crystal Wand."
+  },
+  {
+    "id": "magic.crystalize",
+    "name": "Crystalize",
+    "file": "/assets/icons/crystalize.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "crystalize"
+    ],
+    "description": "A canonical magic icon representing Crystalize."
+  },
+  {
+    "id": "magic.death-juice",
+    "name": "Death Juice",
+    "file": "/assets/icons/death-juice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "death",
+      "juice"
+    ],
+    "description": "A canonical magic icon representing Death Juice."
+  },
+  {
+    "id": "magic.delighted",
+    "name": "Delighted",
+    "file": "/assets/icons/delighted.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "delighted"
+    ],
+    "description": "A canonical magic icon representing Delighted."
+  },
+  {
+    "id": "magic.dice-eight-faces-eight",
+    "name": "Dice Eight Faces Eight",
+    "file": "/assets/icons/dice-eight-faces-eight.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "eight",
+      "faces"
+    ],
+    "description": "A canonical magic icon representing Dice Eight Faces Eight."
+  },
+  {
+    "id": "magic.dice-fire",
+    "name": "Dice Fire",
+    "file": "/assets/icons/dice-fire.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "fire"
+    ],
+    "description": "A canonical magic icon representing Dice Fire."
+  },
+  {
+    "id": "magic.dice-six-faces-five",
+    "name": "Dice Six Faces Five",
+    "file": "/assets/icons/dice-six-faces-five.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "six",
+      "faces",
+      "five"
+    ],
+    "description": "A canonical magic icon representing Dice Six Faces Five."
+  },
+  {
+    "id": "magic.dice-six-faces-four",
+    "name": "Dice Six Faces Four",
+    "file": "/assets/icons/dice-six-faces-four.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "six",
+      "faces",
+      "four"
+    ],
+    "description": "A canonical magic icon representing Dice Six Faces Four."
+  },
+  {
+    "id": "magic.dice-six-faces-one",
+    "name": "Dice Six Faces One",
+    "file": "/assets/icons/dice-six-faces-one.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "six",
+      "faces",
+      "one"
+    ],
+    "description": "A canonical magic icon representing Dice Six Faces One."
+  },
+  {
+    "id": "magic.dice-six-faces-six",
+    "name": "Dice Six Faces Six",
+    "file": "/assets/icons/dice-six-faces-six.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "six",
+      "faces"
+    ],
+    "description": "A canonical magic icon representing Dice Six Faces Six."
+  },
+  {
+    "id": "magic.dice-six-faces-three",
+    "name": "Dice Six Faces Three",
+    "file": "/assets/icons/dice-six-faces-three.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "six",
+      "faces",
+      "three"
+    ],
+    "description": "A canonical magic icon representing Dice Six Faces Three."
+  },
+  {
+    "id": "magic.dice-six-faces-two",
+    "name": "Dice Six Faces Two",
+    "file": "/assets/icons/dice-six-faces-two.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "six",
+      "faces",
+      "two"
+    ],
+    "description": "A canonical magic icon representing Dice Six Faces Two."
+  },
+  {
+    "id": "magic.dice-target",
+    "name": "Dice Target",
+    "file": "/assets/icons/dice-target.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "target"
+    ],
+    "description": "A canonical magic icon representing Dice Target."
+  },
+  {
+    "id": "magic.dice-twenty-faces-one",
+    "name": "Dice Twenty Faces One",
+    "file": "/assets/icons/dice-twenty-faces-one.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "twenty",
+      "faces",
+      "one"
+    ],
+    "description": "A canonical magic icon representing Dice Twenty Faces One."
+  },
+  {
+    "id": "magic.dice-twenty-faces-twenty",
+    "name": "Dice Twenty Faces Twenty",
+    "file": "/assets/icons/dice-twenty-faces-twenty.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "twenty",
+      "faces"
+    ],
+    "description": "A canonical magic icon representing Dice Twenty Faces Twenty."
+  },
+  {
+    "id": "magic.dice_roll",
+    "name": "Dice Roll",
+    "file": "/assets/icons/dice_roll.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dice",
+      "roll"
+    ],
+    "description": "A canonical magic icon representing Dice Roll."
+  },
+  {
+    "id": "magic.divination",
+    "name": "Divination",
+    "file": "/assets/icons/divination.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "divination"
+    ],
+    "description": "A canonical magic icon representing Divination."
+  },
+  {
+    "id": "magic.double-street-lights",
+    "name": "Double Street Lights",
+    "file": "/assets/icons/double-street-lights.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "double",
+      "street",
+      "lights"
+    ],
+    "description": "A canonical magic icon representing Double Street Lights."
+  },
+  {
+    "id": "magic.dungeon-light",
+    "name": "Dungeon Light",
+    "file": "/assets/icons/dungeon-light.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "dungeon",
+      "light"
+    ],
+    "description": "A canonical magic icon representing Dungeon Light."
+  },
+  {
+    "id": "magic.embrassed-energy",
+    "name": "Embrassed Energy",
+    "file": "/assets/icons/embrassed-energy.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "embrassed",
+      "energy"
+    ],
+    "description": "A canonical magic icon representing Embrassed Energy."
+  },
+  {
+    "id": "magic.energy-breath",
+    "name": "Energy Breath",
+    "file": "/assets/icons/energy-breath.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "energy",
+      "breath"
+    ],
+    "description": "A canonical magic icon representing Energy Breath."
+  },
+  {
+    "id": "magic.energy-tank",
+    "name": "Energy Tank",
+    "file": "/assets/icons/energy-tank.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "energy",
+      "tank"
+    ],
+    "description": "A canonical magic icon representing Energy Tank."
+  },
+  {
+    "id": "magic.enlightenment",
+    "name": "Enlightenment",
+    "file": "/assets/icons/enlightenment.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "enlightenment"
+    ],
+    "description": "A canonical magic icon representing Enlightenment."
+  },
+  {
+    "id": "magic.extraction-orb",
+    "name": "Extraction Orb",
+    "file": "/assets/icons/extraction-orb.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "extraction",
+      "orb"
+    ],
+    "description": "A canonical magic icon representing Extraction Orb."
+  },
+  {
+    "id": "magic.fairy-wand",
+    "name": "Fairy Wand",
+    "file": "/assets/icons/fairy-wand.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fairy",
+      "wand"
+    ],
+    "description": "A canonical magic icon representing Fairy Wand."
+  },
+  {
+    "id": "magic.fire-1",
+    "name": "Fire 1",
+    "file": "/assets/icons/fire-1.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire"
+    ],
+    "description": "A canonical magic icon representing Fire 1."
+  },
+  {
+    "id": "magic.fire-ace",
+    "name": "Fire Ace",
+    "file": "/assets/icons/fire-ace.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "ace"
+    ],
+    "description": "A canonical magic icon representing Fire Ace."
+  },
+  {
+    "id": "magic.fire-breath",
+    "name": "Fire Breath",
+    "file": "/assets/icons/fire-breath.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "breath"
+    ],
+    "description": "A canonical magic icon representing Fire Breath."
+  },
+  {
+    "id": "magic.fire-dash",
+    "name": "Fire Dash",
+    "file": "/assets/icons/fire-dash.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "dash"
+    ],
+    "description": "A canonical magic icon representing Fire Dash."
+  },
+  {
+    "id": "magic.fire-extinguisher",
+    "name": "Fire Extinguisher",
+    "file": "/assets/icons/fire-extinguisher.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "extinguisher"
+    ],
+    "description": "A canonical magic icon representing Fire Extinguisher."
+  },
+  {
+    "id": "magic.fire-flower",
+    "name": "Fire Flower",
+    "file": "/assets/icons/fire-flower.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "flower"
+    ],
+    "description": "A canonical magic icon representing Fire Flower."
+  },
+  {
+    "id": "magic.fire-iris",
+    "name": "Fire Iris",
+    "file": "/assets/icons/fire-iris.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "iris"
+    ],
+    "description": "A canonical magic icon representing Fire Iris."
+  },
+  {
+    "id": "magic.fire-ray",
+    "name": "Fire Ray",
+    "file": "/assets/icons/fire-ray.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "ray"
+    ],
+    "description": "A canonical magic icon representing Fire Ray."
+  },
+  {
+    "id": "magic.fire-shrine",
+    "name": "Fire Shrine",
+    "file": "/assets/icons/fire-shrine.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "shrine"
+    ],
+    "description": "A canonical magic icon representing Fire Shrine."
+  },
+  {
+    "id": "magic.fire-silhouette",
+    "name": "Fire Silhouette",
+    "file": "/assets/icons/fire-silhouette.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "silhouette"
+    ],
+    "description": "A canonical magic icon representing Fire Silhouette."
+  },
+  {
+    "id": "magic.fire-spell-cast",
+    "name": "Fire Spell Cast",
+    "file": "/assets/icons/fire-spell-cast.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "spell",
+      "cast"
+    ],
+    "description": "A canonical magic icon representing Fire Spell Cast."
+  },
+  {
+    "id": "magic.fire-tail",
+    "name": "Fire Tail",
+    "file": "/assets/icons/fire-tail.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "tail"
+    ],
+    "description": "A canonical magic icon representing Fire Tail."
+  },
+  {
+    "id": "magic.fire-wave",
+    "name": "Fire Wave",
+    "file": "/assets/icons/fire-wave.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "wave"
+    ],
+    "description": "A canonical magic icon representing Fire Wave."
+  },
+  {
+    "id": "magic.fire-zone",
+    "name": "Fire Zone",
+    "file": "/assets/icons/fire-zone.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "zone"
+    ],
+    "description": "A canonical magic icon representing Fire Zone."
+  },
+  {
+    "id": "magic.fire",
+    "name": "Fire",
+    "file": "/assets/icons/fire.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire"
+    ],
+    "description": "A canonical magic icon representing Fire."
+  },
+  {
+    "id": "magic.fire_breath",
+    "name": "Fire Breath",
+    "file": "/assets/icons/fire_breath.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fire",
+      "breath"
+    ],
+    "description": "A canonical magic icon representing Fire Breath."
+  },
+  {
+    "id": "magic.fireball",
+    "name": "Fireball",
+    "file": "/assets/icons/fireball.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fireball"
+    ],
+    "description": "A canonical magic icon representing Fireball."
+  },
+  {
+    "id": "magic.fireflake",
+    "name": "Fireflake",
+    "file": "/assets/icons/fireflake.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fireflake"
+    ],
+    "description": "A canonical magic icon representing Fireflake."
+  },
+  {
+    "id": "magic.fireplace",
+    "name": "Fireplace",
+    "file": "/assets/icons/fireplace.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fireplace"
+    ],
+    "description": "A canonical magic icon representing Fireplace."
+  },
+  {
+    "id": "magic.firewall",
+    "name": "Firewall",
+    "file": "/assets/icons/firewall.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "firewall"
+    ],
+    "description": "A canonical magic icon representing Firewall."
+  },
+  {
+    "id": "magic.firework-rocket",
+    "name": "Firework Rocket",
+    "file": "/assets/icons/firework-rocket.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "firework",
+      "rocket"
+    ],
+    "description": "A canonical magic icon representing Firework Rocket."
+  },
+  {
+    "id": "magic.flame-spin",
+    "name": "Flame Spin",
+    "file": "/assets/icons/flame-spin.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flame",
+      "spin"
+    ],
+    "description": "A canonical magic icon representing Flame Spin."
+  },
+  {
+    "id": "magic.flame-tunnel",
+    "name": "Flame Tunnel",
+    "file": "/assets/icons/flame-tunnel.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flame",
+      "tunnel"
+    ],
+    "description": "A canonical magic icon representing Flame Tunnel."
+  },
+  {
+    "id": "magic.flame",
+    "name": "Flame",
+    "file": "/assets/icons/flame.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flame"
+    ],
+    "description": "A canonical magic icon representing Flame."
+  },
+  {
+    "id": "magic.flamed-leaf",
+    "name": "Flamed Leaf",
+    "file": "/assets/icons/flamed-leaf.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flamed",
+      "leaf"
+    ],
+    "description": "A canonical magic icon representing Flamed Leaf."
+  },
+  {
+    "id": "magic.flamer",
+    "name": "Flamer",
+    "file": "/assets/icons/flamer.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flamer"
+    ],
+    "description": "A canonical magic icon representing Flamer."
+  },
+  {
+    "id": "magic.flamethrower-soldier",
+    "name": "Flamethrower Soldier",
+    "file": "/assets/icons/flamethrower-soldier.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flamethrower",
+      "soldier"
+    ],
+    "description": "A canonical magic icon representing Flamethrower Soldier."
+  },
+  {
+    "id": "magic.flamethrower",
+    "name": "Flamethrower",
+    "file": "/assets/icons/flamethrower.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flamethrower"
+    ],
+    "description": "A canonical magic icon representing Flamethrower."
+  },
+  {
+    "id": "magic.flashlight",
+    "name": "Flashlight",
+    "file": "/assets/icons/flashlight.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flashlight"
+    ],
+    "description": "A canonical magic icon representing Flashlight."
+  },
+  {
+    "id": "magic.flint-spark",
+    "name": "Flint Spark",
+    "file": "/assets/icons/flint-spark.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "flint",
+      "spark"
+    ],
+    "description": "A canonical magic icon representing Flint Spark."
+  },
+  {
+    "id": "magic.floating-crystal",
+    "name": "Floating Crystal",
+    "file": "/assets/icons/floating-crystal.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "floating",
+      "crystal"
+    ],
+    "description": "A canonical magic icon representing Floating Crystal."
+  },
+  {
+    "id": "magic.fluffy-flame",
+    "name": "Fluffy Flame",
+    "file": "/assets/icons/fluffy-flame.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fluffy",
+      "flame"
+    ],
+    "description": "A canonical magic icon representing Fluffy Flame."
+  },
+  {
+    "id": "magic.focused-lightning",
+    "name": "Focused Lightning",
+    "file": "/assets/icons/focused-lightning.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "focused",
+      "lightning"
+    ],
+    "description": "A canonical magic icon representing Focused Lightning."
+  },
+  {
+    "id": "magic.fog-light",
+    "name": "Fog Light",
+    "file": "/assets/icons/fog-light.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "fog",
+      "light"
+    ],
+    "description": "A canonical magic icon representing Fog Light."
+  },
+  {
+    "id": "magic.frostfire",
+    "name": "Frostfire",
+    "file": "/assets/icons/frostfire.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "frostfire"
+    ],
+    "description": "A canonical magic icon representing Frostfire."
+  },
+  {
+    "id": "magic.frozen-orb",
+    "name": "Frozen Orb",
+    "file": "/assets/icons/frozen-orb.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "frozen",
+      "orb"
+    ],
+    "description": "A canonical magic icon representing Frozen Orb."
+  },
+  {
+    "id": "magic.heavy-lightning",
+    "name": "Heavy Lightning",
+    "file": "/assets/icons/heavy-lightning.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "heavy",
+      "lightning"
+    ],
+    "description": "A canonical magic icon representing Heavy Lightning."
+  },
+  {
+    "id": "magic.highlighter",
+    "name": "Highlighter",
+    "file": "/assets/icons/highlighter.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "highlighter"
+    ],
+    "description": "A canonical magic icon representing Highlighter."
+  },
+  {
+    "id": "magic.hot-spices",
+    "name": "Hot Spices",
+    "file": "/assets/icons/hot-spices.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "hot",
+      "spices"
+    ],
+    "description": "A canonical magic icon representing Hot Spices."
+  },
+  {
+    "id": "magic.i-beam",
+    "name": "I Beam",
+    "file": "/assets/icons/i-beam.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "beam"
+    ],
+    "description": "A canonical magic icon representing I Beam."
+  },
+  {
+    "id": "magic.ice-bolt",
+    "name": "Ice Bolt",
+    "file": "/assets/icons/ice-bolt.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "bolt"
+    ],
+    "description": "A canonical magic icon representing Ice Bolt."
+  },
+  {
+    "id": "magic.ice-cream-cone",
+    "name": "Ice Cream Cone",
+    "file": "/assets/icons/ice-cream-cone.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "cream",
+      "cone"
+    ],
+    "description": "A canonical magic icon representing Ice Cream Cone."
+  },
+  {
+    "id": "magic.ice-cream-scoop",
+    "name": "Ice Cream Scoop",
+    "file": "/assets/icons/ice-cream-scoop.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "cream",
+      "scoop"
+    ],
+    "description": "A canonical magic icon representing Ice Cream Scoop."
+  },
+  {
+    "id": "magic.ice-cube",
+    "name": "Ice Cube",
+    "file": "/assets/icons/ice-cube.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "cube"
+    ],
+    "description": "A canonical magic icon representing Ice Cube."
+  },
+  {
+    "id": "magic.ice-cubes",
+    "name": "Ice Cubes",
+    "file": "/assets/icons/ice-cubes.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "cubes"
+    ],
+    "description": "A canonical magic icon representing Ice Cubes."
+  },
+  {
+    "id": "magic.ice-golem",
+    "name": "Ice Golem",
+    "file": "/assets/icons/ice-golem.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "golem"
+    ],
+    "description": "A canonical magic icon representing Ice Golem."
+  },
+  {
+    "id": "magic.ice-iris",
+    "name": "Ice Iris",
+    "file": "/assets/icons/ice-iris.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "iris"
+    ],
+    "description": "A canonical magic icon representing Ice Iris."
+  },
+  {
+    "id": "magic.ice-pop",
+    "name": "Ice Pop",
+    "file": "/assets/icons/ice-pop.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "pop"
+    ],
+    "description": "A canonical magic icon representing Ice Pop."
+  },
+  {
+    "id": "magic.ice-skate",
+    "name": "Ice Skate",
+    "file": "/assets/icons/ice-skate.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "skate"
+    ],
+    "description": "A canonical magic icon representing Ice Skate."
+  },
+  {
+    "id": "magic.ice-spell-cast",
+    "name": "Ice Spell Cast",
+    "file": "/assets/icons/ice-spell-cast.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "ice",
+      "spell",
+      "cast"
+    ],
+    "description": "A canonical magic icon representing Ice Spell Cast."
+  },
+  {
+    "id": "magic.iceberg",
+    "name": "Iceberg",
+    "file": "/assets/icons/iceberg.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "iceberg"
+    ],
+    "description": "A canonical magic icon representing Iceberg."
+  },
+  {
+    "id": "magic.icebergs",
+    "name": "Icebergs",
+    "file": "/assets/icons/icebergs.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "icebergs"
+    ],
+    "description": "A canonical magic icon representing Icebergs."
+  },
+  {
+    "id": "magic.iceland",
+    "name": "Iceland",
+    "file": "/assets/icons/iceland.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "iceland"
+    ],
+    "description": "A canonical magic icon representing Iceland."
+  },
+  {
+    "id": "magic.icicles-aura",
+    "name": "Icicles Aura",
+    "file": "/assets/icons/icicles-aura.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "icicles",
+      "aura"
+    ],
+    "description": "A canonical magic icon representing Icicles Aura."
+  },
+  {
+    "id": "magic.illusion",
+    "name": "Illusion",
+    "file": "/assets/icons/illusion.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "illusion"
+    ],
+    "description": "A canonical magic icon representing Illusion."
+  },
+  {
+    "id": "magic.incense",
+    "name": "Incense",
+    "file": "/assets/icons/incense.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "incense"
+    ],
+    "description": "A canonical magic icon representing Incense."
+  },
+  {
+    "id": "magic.injustice",
+    "name": "Injustice",
+    "file": "/assets/icons/injustice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "injustice"
+    ],
+    "description": "A canonical magic icon representing Injustice."
+  },
+  {
+    "id": "magic.inverted-dice-1",
+    "name": "Inverted Dice 1",
+    "file": "/assets/icons/inverted-dice-1.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "inverted",
+      "dice"
+    ],
+    "description": "A canonical magic icon representing Inverted Dice 1."
+  },
+  {
+    "id": "magic.inverted-dice-2",
+    "name": "Inverted Dice 2",
+    "file": "/assets/icons/inverted-dice-2.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "inverted",
+      "dice"
+    ],
+    "description": "A canonical magic icon representing Inverted Dice 2."
+  },
+  {
+    "id": "magic.inverted-dice-3",
+    "name": "Inverted Dice 3",
+    "file": "/assets/icons/inverted-dice-3.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "inverted",
+      "dice"
+    ],
+    "description": "A canonical magic icon representing Inverted Dice 3."
+  },
+  {
+    "id": "magic.inverted-dice-4",
+    "name": "Inverted Dice 4",
+    "file": "/assets/icons/inverted-dice-4.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "inverted",
+      "dice"
+    ],
+    "description": "A canonical magic icon representing Inverted Dice 4."
+  },
+  {
+    "id": "magic.inverted-dice-5",
+    "name": "Inverted Dice 5",
+    "file": "/assets/icons/inverted-dice-5.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "inverted",
+      "dice"
+    ],
+    "description": "A canonical magic icon representing Inverted Dice 5."
+  },
+  {
+    "id": "magic.inverted-dice-6",
+    "name": "Inverted Dice 6",
+    "file": "/assets/icons/inverted-dice-6.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "inverted",
+      "dice"
+    ],
+    "description": "A canonical magic icon representing Inverted Dice 6."
+  },
+  {
+    "id": "magic.item-choice",
+    "name": "Item Choice",
+    "file": "/assets/icons/item-choice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "item",
+      "choice"
+    ],
+    "description": "A canonical magic icon representing Item Choice."
+  },
+  {
+    "id": "magic.justice-star",
+    "name": "Justice Star",
+    "file": "/assets/icons/justice-star.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "justice",
+      "star"
+    ],
+    "description": "A canonical magic icon representing Justice Star."
+  },
+  {
+    "id": "magic.laser-sparks",
+    "name": "Laser Sparks",
+    "file": "/assets/icons/laser-sparks.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "laser",
+      "sparks"
+    ],
+    "description": "A canonical magic icon representing Laser Sparks."
+  },
+  {
+    "id": "magic.light-bulb",
+    "name": "Light Bulb",
+    "file": "/assets/icons/light-bulb.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "light",
+      "bulb"
+    ],
+    "description": "A canonical magic icon representing Light Bulb."
+  },
+  {
+    "id": "magic.light-fighter",
+    "name": "Light Fighter",
+    "file": "/assets/icons/light-fighter.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "light",
+      "fighter"
+    ],
+    "description": "A canonical magic icon representing Light Fighter."
+  },
+  {
+    "id": "magic.light-projector",
+    "name": "Light Projector",
+    "file": "/assets/icons/light-projector.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "light",
+      "projector"
+    ],
+    "description": "A canonical magic icon representing Light Projector."
+  },
+  {
+    "id": "magic.light-sabers",
+    "name": "Light Sabers",
+    "file": "/assets/icons/light-sabers.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "light",
+      "sabers"
+    ],
+    "description": "A canonical magic icon representing Light Sabers."
+  },
+  {
+    "id": "magic.light-thorny-triskelion",
+    "name": "Light Thorny Triskelion",
+    "file": "/assets/icons/light-thorny-triskelion.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "light",
+      "thorny",
+      "triskelion"
+    ],
+    "description": "A canonical magic icon representing Light Thorny Triskelion."
+  },
+  {
+    "id": "magic.lighter",
+    "name": "Lighter",
+    "file": "/assets/icons/lighter.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lighter"
+    ],
+    "description": "A canonical magic icon representing Lighter."
+  },
+  {
+    "id": "magic.lighthouse",
+    "name": "Lighthouse",
+    "file": "/assets/icons/lighthouse.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lighthouse"
+    ],
+    "description": "A canonical magic icon representing Lighthouse."
+  },
+  {
+    "id": "magic.lightning-arc",
+    "name": "Lightning Arc",
+    "file": "/assets/icons/lightning-arc.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "arc"
+    ],
+    "description": "A canonical magic icon representing Lightning Arc."
+  },
+  {
+    "id": "magic.lightning-branches",
+    "name": "Lightning Branches",
+    "file": "/assets/icons/lightning-branches.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "branches"
+    ],
+    "description": "A canonical magic icon representing Lightning Branches."
+  },
+  {
+    "id": "magic.lightning-dissipation",
+    "name": "Lightning Dissipation",
+    "file": "/assets/icons/lightning-dissipation.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "dissipation"
+    ],
+    "description": "A canonical magic icon representing Lightning Dissipation."
+  },
+  {
+    "id": "magic.lightning-dome",
+    "name": "Lightning Dome",
+    "file": "/assets/icons/lightning-dome.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "dome"
+    ],
+    "description": "A canonical magic icon representing Lightning Dome."
+  },
+  {
+    "id": "magic.lightning-electron",
+    "name": "Lightning Electron",
+    "file": "/assets/icons/lightning-electron.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "electron"
+    ],
+    "description": "A canonical magic icon representing Lightning Electron."
+  },
+  {
+    "id": "magic.lightning-flame",
+    "name": "Lightning Flame",
+    "file": "/assets/icons/lightning-flame.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "flame"
+    ],
+    "description": "A canonical magic icon representing Lightning Flame."
+  },
+  {
+    "id": "magic.lightning-frequency",
+    "name": "Lightning Frequency",
+    "file": "/assets/icons/lightning-frequency.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "frequency"
+    ],
+    "description": "A canonical magic icon representing Lightning Frequency."
+  },
+  {
+    "id": "magic.lightning-helix",
+    "name": "Lightning Helix",
+    "file": "/assets/icons/lightning-helix.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "helix"
+    ],
+    "description": "A canonical magic icon representing Lightning Helix."
+  },
+  {
+    "id": "magic.lightning-mask",
+    "name": "Lightning Mask",
+    "file": "/assets/icons/lightning-mask.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "mask"
+    ],
+    "description": "A canonical magic icon representing Lightning Mask."
+  },
+  {
+    "id": "magic.lightning-saber",
+    "name": "Lightning Saber",
+    "file": "/assets/icons/lightning-saber.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "saber"
+    ],
+    "description": "A canonical magic icon representing Lightning Saber."
+  },
+  {
+    "id": "magic.lightning-shadow",
+    "name": "Lightning Shadow",
+    "file": "/assets/icons/lightning-shadow.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "shadow"
+    ],
+    "description": "A canonical magic icon representing Lightning Shadow."
+  },
+  {
+    "id": "magic.lightning-shout",
+    "name": "Lightning Shout",
+    "file": "/assets/icons/lightning-shout.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "shout"
+    ],
+    "description": "A canonical magic icon representing Lightning Shout."
+  },
+  {
+    "id": "magic.lightning-slashes",
+    "name": "Lightning Slashes",
+    "file": "/assets/icons/lightning-slashes.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "slashes"
+    ],
+    "description": "A canonical magic icon representing Lightning Slashes."
+  },
+  {
+    "id": "magic.lightning-spanner",
+    "name": "Lightning Spanner",
+    "file": "/assets/icons/lightning-spanner.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "spanner"
+    ],
+    "description": "A canonical magic icon representing Lightning Spanner."
+  },
+  {
+    "id": "magic.lightning-storm",
+    "name": "Lightning Storm",
+    "file": "/assets/icons/lightning-storm.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "storm"
+    ],
+    "description": "A canonical magic icon representing Lightning Storm."
+  },
+  {
+    "id": "magic.lightning-tear",
+    "name": "Lightning Tear",
+    "file": "/assets/icons/lightning-tear.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "tear"
+    ],
+    "description": "A canonical magic icon representing Lightning Tear."
+  },
+  {
+    "id": "magic.lightning-tree",
+    "name": "Lightning Tree",
+    "file": "/assets/icons/lightning-tree.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "tree"
+    ],
+    "description": "A canonical magic icon representing Lightning Tree."
+  },
+  {
+    "id": "magic.lightning-trio",
+    "name": "Lightning Trio",
+    "file": "/assets/icons/lightning-trio.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "trio"
+    ],
+    "description": "A canonical magic icon representing Lightning Trio."
+  },
+  {
+    "id": "magic.lightning",
+    "name": "Lightning",
+    "file": "/assets/icons/lightning.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning"
+    ],
+    "description": "A canonical magic icon representing Lightning."
+  },
+  {
+    "id": "magic.lightning_breath",
+    "name": "Lightning Breath",
+    "file": "/assets/icons/lightning_breath.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lightning",
+      "breath"
+    ],
+    "description": "A canonical magic icon representing Lightning Breath."
+  },
+  {
+    "id": "magic.lunar-wand",
+    "name": "Lunar Wand",
+    "file": "/assets/icons/lunar-wand.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "lunar",
+      "wand"
+    ],
+    "description": "A canonical magic icon representing Lunar Wand."
+  },
+  {
+    "id": "magic.magic-portal",
+    "name": "Magic Portal",
+    "file": "/assets/icons/magic-portal.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "portal"
+    ],
+    "description": "A canonical magic icon representing Magic Portal."
+  },
+  {
+    "id": "magic.manacles",
+    "name": "Manacles",
+    "file": "/assets/icons/manacles.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "manacles"
+    ],
+    "description": "A canonical magic icon representing Manacles."
+  },
+  {
+    "id": "magic.manual-juicer",
+    "name": "Manual Juicer",
+    "file": "/assets/icons/manual-juicer.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "manual",
+      "juicer"
+    ],
+    "description": "A canonical magic icon representing Manual Juicer."
+  },
+  {
+    "id": "magic.melting-ice-cube",
+    "name": "Melting Ice Cube",
+    "file": "/assets/icons/melting-ice-cube.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "melting",
+      "ice",
+      "cube"
+    ],
+    "description": "A canonical magic icon representing Melting Ice Cube."
+  },
+  {
+    "id": "magic.moon-orbit",
+    "name": "Moon Orbit",
+    "file": "/assets/icons/moon-orbit.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "moon",
+      "orbit"
+    ],
+    "description": "A canonical magic icon representing Moon Orbit."
+  },
+  {
+    "id": "magic.morbid-humour",
+    "name": "Morbid Humour",
+    "file": "/assets/icons/morbid-humour.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "morbid",
+      "humour"
+    ],
+    "description": "A canonical magic icon representing Morbid Humour."
+  },
+  {
+    "id": "magic.music-spell",
+    "name": "Music Spell",
+    "file": "/assets/icons/music-spell.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "music",
+      "spell"
+    ],
+    "description": "A canonical magic icon representing Music Spell."
+  },
+  {
+    "id": "magic.necromancy",
+    "name": "Necromancy",
+    "file": "/assets/icons/necromancy.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "necromancy"
+    ],
+    "description": "A canonical magic icon representing Necromancy."
+  },
+  {
+    "id": "magic.office-chair",
+    "name": "Office Chair",
+    "file": "/assets/icons/office-chair.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "office",
+      "chair"
+    ],
+    "description": "A canonical magic icon representing Office Chair."
+  },
+  {
+    "id": "magic.orange-slice",
+    "name": "Orange Slice",
+    "file": "/assets/icons/orange-slice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "orange",
+      "slice"
+    ],
+    "description": "A canonical magic icon representing Orange Slice."
+  },
+  {
+    "id": "magic.orb-direction",
+    "name": "Orb Direction",
+    "file": "/assets/icons/orb-direction.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "orb",
+      "direction"
+    ],
+    "description": "A canonical magic icon representing Orb Direction."
+  },
+  {
+    "id": "magic.orb-wand",
+    "name": "Orb Wand",
+    "file": "/assets/icons/orb-wand.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "orb",
+      "wand"
+    ],
+    "description": "A canonical magic icon representing Orb Wand."
+  },
+  {
+    "id": "magic.orbit",
+    "name": "Orbit",
+    "file": "/assets/icons/orbit.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "orbit"
+    ],
+    "description": "A canonical magic icon representing Orbit."
+  },
+  {
+    "id": "magic.orbital-rays",
+    "name": "Orbital Rays",
+    "file": "/assets/icons/orbital-rays.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "orbital",
+      "rays"
+    ],
+    "description": "A canonical magic icon representing Orbital Rays."
+  },
+  {
+    "id": "magic.orbital",
+    "name": "Orbital",
+    "file": "/assets/icons/orbital.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "orbital"
+    ],
+    "description": "A canonical magic icon representing Orbital."
+  },
+  {
+    "id": "magic.perspective-dice-five",
+    "name": "Perspective Dice Five",
+    "file": "/assets/icons/perspective-dice-five.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "five"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Five."
+  },
+  {
+    "id": "magic.perspective-dice-four",
+    "name": "Perspective Dice Four",
+    "file": "/assets/icons/perspective-dice-four.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "four"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Four."
+  },
+  {
+    "id": "magic.perspective-dice-one",
+    "name": "Perspective Dice One",
+    "file": "/assets/icons/perspective-dice-one.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "one"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice One."
+  },
+  {
+    "id": "magic.perspective-dice-six-faces-five",
+    "name": "Perspective Dice Six Faces Five",
+    "file": "/assets/icons/perspective-dice-six-faces-five.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "six",
+      "faces",
+      "five"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Six Faces Five."
+  },
+  {
+    "id": "magic.perspective-dice-six-faces-four",
+    "name": "Perspective Dice Six Faces Four",
+    "file": "/assets/icons/perspective-dice-six-faces-four.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "six",
+      "faces",
+      "four"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Six Faces Four."
+  },
+  {
+    "id": "magic.perspective-dice-six-faces-one",
+    "name": "Perspective Dice Six Faces One",
+    "file": "/assets/icons/perspective-dice-six-faces-one.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "six",
+      "faces",
+      "one"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Six Faces One."
+  },
+  {
+    "id": "magic.perspective-dice-six-faces-random",
+    "name": "Perspective Dice Six Faces Random",
+    "file": "/assets/icons/perspective-dice-six-faces-random.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "six",
+      "faces",
+      "random"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Six Faces Random."
+  },
+  {
+    "id": "magic.perspective-dice-six-faces-six",
+    "name": "Perspective Dice Six Faces Six",
+    "file": "/assets/icons/perspective-dice-six-faces-six.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "six",
+      "faces"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Six Faces Six."
+  },
+  {
+    "id": "magic.perspective-dice-six-faces-three",
+    "name": "Perspective Dice Six Faces Three",
+    "file": "/assets/icons/perspective-dice-six-faces-three.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "six",
+      "faces",
+      "three"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Six Faces Three."
+  },
+  {
+    "id": "magic.perspective-dice-six-faces-two",
+    "name": "Perspective Dice Six Faces Two",
+    "file": "/assets/icons/perspective-dice-six-faces-two.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "six",
+      "faces",
+      "two"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Six Faces Two."
+  },
+  {
+    "id": "magic.perspective-dice-six",
+    "name": "Perspective Dice Six",
+    "file": "/assets/icons/perspective-dice-six.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "six"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Six."
+  },
+  {
+    "id": "magic.perspective-dice-three",
+    "name": "Perspective Dice Three",
+    "file": "/assets/icons/perspective-dice-three.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "three"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Three."
+  },
+  {
+    "id": "magic.perspective-dice-two",
+    "name": "Perspective Dice Two",
+    "file": "/assets/icons/perspective-dice-two.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "perspective",
+      "dice",
+      "two"
+    ],
+    "description": "A canonical magic icon representing Perspective Dice Two."
+  },
+  {
+    "id": "magic.pie-slice",
+    "name": "Pie Slice",
+    "file": "/assets/icons/pie-slice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "pie",
+      "slice"
+    ],
+    "description": "A canonical magic icon representing Pie Slice."
+  },
+  {
+    "id": "magic.pizza-slice",
+    "name": "Pizza Slice",
+    "file": "/assets/icons/pizza-slice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "pizza",
+      "slice"
+    ],
+    "description": "A canonical magic icon representing Pizza Slice."
+  },
+  {
+    "id": "magic.police-badge",
+    "name": "Police Badge",
+    "file": "/assets/icons/police-badge.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "police",
+      "badge"
+    ],
+    "description": "A canonical magic icon representing Police Badge."
+  },
+  {
+    "id": "magic.police-car",
+    "name": "Police Car",
+    "file": "/assets/icons/police-car.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "police",
+      "car"
+    ],
+    "description": "A canonical magic icon representing Police Car."
+  },
+  {
+    "id": "magic.police-officer-head",
+    "name": "Police Officer Head",
+    "file": "/assets/icons/police-officer-head.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "police",
+      "officer",
+      "head"
+    ],
+    "description": "A canonical magic icon representing Police Officer Head."
+  },
+  {
+    "id": "magic.police-target",
+    "name": "Police Target",
+    "file": "/assets/icons/police-target.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "police",
+      "target"
+    ],
+    "description": "A canonical magic icon representing Police Target."
+  },
+  {
+    "id": "magic.portal",
+    "name": "Portal",
+    "file": "/assets/icons/portal.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "portal"
+    ],
+    "description": "A canonical magic icon representing Portal."
+  },
+  {
+    "id": "magic.post-office",
+    "name": "Post Office",
+    "file": "/assets/icons/post-office.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "post",
+      "office"
+    ],
+    "description": "A canonical magic icon representing Post Office."
+  },
+  {
+    "id": "magic.power-lightning",
+    "name": "Power Lightning",
+    "file": "/assets/icons/power-lightning.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "power",
+      "lightning"
+    ],
+    "description": "A canonical magic icon representing Power Lightning."
+  },
+  {
+    "id": "magic.price-tag",
+    "name": "Price Tag",
+    "file": "/assets/icons/price-tag.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "price",
+      "tag"
+    ],
+    "description": "A canonical magic icon representing Price Tag."
+  },
+  {
+    "id": "magic.rear-aura",
+    "name": "Rear Aura",
+    "file": "/assets/icons/rear-aura.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "rear",
+      "aura"
+    ],
+    "description": "A canonical magic icon representing Rear Aura."
+  },
+  {
+    "id": "magic.rice-cooker",
+    "name": "Rice Cooker",
+    "file": "/assets/icons/rice-cooker.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "rice",
+      "cooker"
+    ],
+    "description": "A canonical magic icon representing Rice Cooker."
+  },
+  {
+    "id": "magic.rocket-flight",
+    "name": "Rocket Flight",
+    "file": "/assets/icons/rocket-flight.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "rocket",
+      "flight"
+    ],
+    "description": "A canonical magic icon representing Rocket Flight."
+  },
+  {
+    "id": "magic.rolling-dice-cup",
+    "name": "Rolling Dice Cup",
+    "file": "/assets/icons/rolling-dice-cup.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "rolling",
+      "dice",
+      "cup"
+    ],
+    "description": "A canonical magic icon representing Rolling Dice Cup."
+  },
+  {
+    "id": "magic.rolling-dices",
+    "name": "Rolling Dices",
+    "file": "/assets/icons/rolling-dices.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "rolling",
+      "dices"
+    ],
+    "description": "A canonical magic icon representing Rolling Dices."
+  },
+  {
+    "id": "magic.rolling-energy",
+    "name": "Rolling Energy",
+    "file": "/assets/icons/rolling-energy.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "rolling",
+      "energy"
+    ],
+    "description": "A canonical magic icon representing Rolling Energy."
+  },
+  {
+    "id": "magic.rune-stone",
+    "name": "Rune Stone",
+    "file": "/assets/icons/rune-stone.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "rune",
+      "stone"
+    ],
+    "description": "A canonical magic icon representing Rune Stone."
+  },
+  {
+    "id": "magic.shadow-follower",
+    "name": "Shadow Follower",
+    "file": "/assets/icons/shadow-follower.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "shadow",
+      "follower"
+    ],
+    "description": "A canonical magic icon representing Shadow Follower."
+  },
+  {
+    "id": "magic.shadow-grasp",
+    "name": "Shadow Grasp",
+    "file": "/assets/icons/shadow-grasp.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "shadow",
+      "grasp"
+    ],
+    "description": "A canonical magic icon representing Shadow Grasp."
+  },
+  {
+    "id": "magic.sinusoidal-beam",
+    "name": "Sinusoidal Beam",
+    "file": "/assets/icons/sinusoidal-beam.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "sinusoidal",
+      "beam"
+    ],
+    "description": "A canonical magic icon representing Sinusoidal Beam."
+  },
+  {
+    "id": "magic.skull-slices",
+    "name": "Skull Slices",
+    "file": "/assets/icons/skull-slices.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "skull",
+      "slices"
+    ],
+    "description": "A canonical magic icon representing Skull Slices."
+  },
+  {
+    "id": "magic.skull-staff",
+    "name": "Skull Staff",
+    "file": "/assets/icons/skull-staff.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "skull",
+      "staff"
+    ],
+    "description": "A canonical magic icon representing Skull Staff."
+  },
+  {
+    "id": "magic.sliced-mushroom",
+    "name": "Sliced Mushroom",
+    "file": "/assets/icons/sliced-mushroom.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "sliced",
+      "mushroom"
+    ],
+    "description": "A canonical magic icon representing Sliced Mushroom."
+  },
+  {
+    "id": "magic.sliced-sausage",
+    "name": "Sliced Sausage",
+    "file": "/assets/icons/sliced-sausage.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "sliced",
+      "sausage"
+    ],
+    "description": "A canonical magic icon representing Sliced Sausage."
+  },
+  {
+    "id": "magic.small-fire",
+    "name": "Small Fire",
+    "file": "/assets/icons/small-fire.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "small",
+      "fire"
+    ],
+    "description": "A canonical magic icon representing Small Fire."
+  },
+  {
+    "id": "magic.smoking-orb",
+    "name": "Smoking Orb",
+    "file": "/assets/icons/smoking-orb.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "smoking",
+      "orb"
+    ],
+    "description": "A canonical magic icon representing Smoking Orb."
+  },
+  {
+    "id": "magic.sonic-lightning",
+    "name": "Sonic Lightning",
+    "file": "/assets/icons/sonic-lightning.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "sonic",
+      "lightning"
+    ],
+    "description": "A canonical magic icon representing Sonic Lightning."
+  },
+  {
+    "id": "magic.spark-plug",
+    "name": "Spark Plug",
+    "file": "/assets/icons/spark-plug.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "spark",
+      "plug"
+    ],
+    "description": "A canonical magic icon representing Spark Plug."
+  },
+  {
+    "id": "magic.spark-spirit",
+    "name": "Spark Spirit",
+    "file": "/assets/icons/spark-spirit.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "spark",
+      "spirit"
+    ],
+    "description": "A canonical magic icon representing Spark Spirit."
+  },
+  {
+    "id": "magic.sparkles",
+    "name": "Sparkles",
+    "file": "/assets/icons/sparkles.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "sparkles"
+    ],
+    "description": "A canonical magic icon representing Sparkles."
+  },
+  {
+    "id": "magic.sparkling-sabre",
+    "name": "Sparkling Sabre",
+    "file": "/assets/icons/sparkling-sabre.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "sparkling",
+      "sabre"
+    ],
+    "description": "A canonical magic icon representing Sparkling Sabre."
+  },
+  {
+    "id": "magic.spell-slot",
+    "name": "Spell Slot",
+    "file": "/assets/icons/spell-slot.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "spell",
+      "slot"
+    ],
+    "description": "A canonical magic icon representing Spell Slot."
+  },
+  {
+    "id": "magic.spell",
+    "name": "Spell",
+    "file": "/assets/icons/spell.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "spell"
+    ],
+    "description": "A canonical magic icon representing Spell."
+  },
+  {
+    "id": "magic.street-light",
+    "name": "Street Light",
+    "file": "/assets/icons/street-light.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "street",
+      "light"
+    ],
+    "description": "A canonical magic icon representing Street Light."
+  },
+  {
+    "id": "magic.sunbeams",
+    "name": "Sunbeams",
+    "file": "/assets/icons/sunbeams.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "sunbeams"
+    ],
+    "description": "A canonical magic icon representing Sunbeams."
+  },
+  {
+    "id": "magic.tarot-11-justice",
+    "name": "Tarot 11 Justice",
+    "file": "/assets/icons/tarot-11-justice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "tarot",
+      "justice"
+    ],
+    "description": "A canonical magic icon representing Tarot 11 Justice."
+  },
+  {
+    "id": "magic.tarot_11_justice",
+    "name": "Justice",
+    "file": "/assets/icons/tarot_11_justice.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "tarot",
+      "justice"
+    ],
+    "description": "A canonical magic icon representing Justice."
+  },
+  {
+    "id": "magic.teleport-1",
+    "name": "Teleport 1",
+    "file": "/assets/icons/teleport-1.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "teleport"
+    ],
+    "description": "A canonical magic icon representing Teleport 1."
+  },
+  {
+    "id": "magic.teleport",
+    "name": "Teleport",
+    "file": "/assets/icons/teleport.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "teleport"
+    ],
+    "description": "A canonical magic icon representing Teleport."
+  },
+  {
+    "id": "magic.traffic-lights-green",
+    "name": "Traffic Lights Green",
+    "file": "/assets/icons/traffic-lights-green.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "traffic",
+      "lights",
+      "green"
+    ],
+    "description": "A canonical magic icon representing Traffic Lights Green."
+  },
+  {
+    "id": "magic.traffic-lights-orange",
+    "name": "Traffic Lights Orange",
+    "file": "/assets/icons/traffic-lights-orange.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "traffic",
+      "lights",
+      "orange"
+    ],
+    "description": "A canonical magic icon representing Traffic Lights Orange."
+  },
+  {
+    "id": "magic.traffic-lights-ready-to-go",
+    "name": "Traffic Lights Ready To Go",
+    "file": "/assets/icons/traffic-lights-ready-to-go.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "traffic",
+      "lights",
+      "ready"
+    ],
+    "description": "A canonical magic icon representing Traffic Lights Ready To Go."
+  },
+  {
+    "id": "magic.traffic-lights-red",
+    "name": "Traffic Lights Red",
+    "file": "/assets/icons/traffic-lights-red.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "traffic",
+      "lights",
+      "red"
+    ],
+    "description": "A canonical magic icon representing Traffic Lights Red."
+  },
+  {
+    "id": "magic.transmutation",
+    "name": "Transmutation",
+    "file": "/assets/icons/transmutation.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "transmutation"
+    ],
+    "description": "A canonical magic icon representing Transmutation."
+  },
+  {
+    "id": "magic.triorb",
+    "name": "Triorb",
+    "file": "/assets/icons/triorb.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "triorb"
+    ],
+    "description": "A canonical magic icon representing Triorb."
+  },
+  {
+    "id": "magic.two-shadows",
+    "name": "Two Shadows",
+    "file": "/assets/icons/two-shadows.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "two",
+      "shadows"
+    ],
+    "description": "A canonical magic icon representing Two Shadows."
+  },
+  {
+    "id": "magic.unfriendly-fire",
+    "name": "Unfriendly Fire",
+    "file": "/assets/icons/unfriendly-fire.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "unfriendly",
+      "fire"
+    ],
+    "description": "A canonical magic icon representing Unfriendly Fire."
+  },
+  {
+    "id": "magic.unstable-orb",
+    "name": "Unstable Orb",
+    "file": "/assets/icons/unstable-orb.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "unstable",
+      "orb"
+    ],
+    "description": "A canonical magic icon representing Unstable Orb."
+  },
+  {
+    "id": "magic.vortex",
+    "name": "Vortex",
+    "file": "/assets/icons/vortex.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "vortex"
+    ],
+    "description": "A canonical magic icon representing Vortex."
+  },
+  {
+    "id": "magic.wall-light",
+    "name": "Wall Light",
+    "file": "/assets/icons/wall-light.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "wall",
+      "light"
+    ],
+    "description": "A canonical magic icon representing Wall Light."
+  },
+  {
+    "id": "magic.wildfires",
+    "name": "Wildfires",
+    "file": "/assets/icons/wildfires.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "wildfires"
+    ],
+    "description": "A canonical magic icon representing Wildfires."
+  },
+  {
+    "id": "magic.witch-flight",
+    "name": "Witch Flight",
+    "file": "/assets/icons/witch-flight.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "witch",
+      "flight"
+    ],
+    "description": "A canonical magic icon representing Witch Flight."
+  },
+  {
+    "id": "magic.wizard-staff",
+    "name": "Wizard Staff",
+    "file": "/assets/icons/wizard-staff.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "wizard",
+      "staff"
+    ],
+    "description": "A canonical magic icon representing Wizard Staff."
+  },
+  {
+    "id": "magic.wood-beam",
+    "name": "Wood Beam",
+    "file": "/assets/icons/wood-beam.svg",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "wood",
+      "beam"
+    ],
+    "description": "A canonical magic icon representing Wood Beam."
+  }
+]

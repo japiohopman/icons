@@ -1,0 +1,3515 @@
+[
+  {
+    "id": "creatures.aberration",
+    "name": "Aberration",
+    "file": "/assets/icons/aberration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "aberration"
+    ],
+    "description": "A canonical creatures icon representing Aberration."
+  },
+  {
+    "id": "creatures.abjuration",
+    "name": "Abjuration",
+    "file": "/assets/icons/abjuration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "abjuration"
+    ],
+    "description": "A canonical creatures icon representing Abjuration."
+  },
+  {
+    "id": "creatures.acrobatic",
+    "name": "Acrobatic",
+    "file": "/assets/icons/acrobatic.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "acrobatic"
+    ],
+    "description": "A canonical creatures icon representing Acrobatic."
+  },
+  {
+    "id": "creatures.advantage",
+    "name": "Advantage",
+    "file": "/assets/icons/advantage.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "advantage"
+    ],
+    "description": "A canonical creatures icon representing Advantage."
+  },
+  {
+    "id": "creatures.air-force",
+    "name": "Air Force",
+    "file": "/assets/icons/air-force.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "air",
+      "force"
+    ],
+    "description": "A canonical creatures icon representing Air Force."
+  },
+  {
+    "id": "creatures.angler-fish",
+    "name": "Angler Fish",
+    "file": "/assets/icons/angler-fish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "angler",
+      "fish"
+    ],
+    "description": "A canonical creatures icon representing Angler Fish."
+  },
+  {
+    "id": "creatures.angular-spider",
+    "name": "Angular Spider",
+    "file": "/assets/icons/angular-spider.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "angular",
+      "spider"
+    ],
+    "description": "A canonical creatures icon representing Angular Spider."
+  },
+  {
+    "id": "creatures.ant",
+    "name": "Ant",
+    "file": "/assets/icons/ant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "ant"
+    ],
+    "description": "A canonical creatures icon representing Ant."
+  },
+  {
+    "id": "creatures.antarctica",
+    "name": "Antarctica",
+    "file": "/assets/icons/antarctica.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "antarctica"
+    ],
+    "description": "A canonical creatures icon representing Antarctica."
+  },
+  {
+    "id": "creatures.anteater",
+    "name": "Anteater",
+    "file": "/assets/icons/anteater.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "anteater"
+    ],
+    "description": "A canonical creatures icon representing Anteater."
+  },
+  {
+    "id": "creatures.anthem",
+    "name": "Anthem",
+    "file": "/assets/icons/anthem.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "anthem"
+    ],
+    "description": "A canonical creatures icon representing Anthem."
+  },
+  {
+    "id": "creatures.antibody",
+    "name": "Antibody",
+    "file": "/assets/icons/antibody.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "antibody"
+    ],
+    "description": "A canonical creatures icon representing Antibody."
+  },
+  {
+    "id": "creatures.anticlockwise-rotation",
+    "name": "Anticlockwise Rotation",
+    "file": "/assets/icons/anticlockwise-rotation.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "anticlockwise",
+      "rotation"
+    ],
+    "description": "A canonical creatures icon representing Anticlockwise Rotation."
+  },
+  {
+    "id": "creatures.ants",
+    "name": "Ants",
+    "file": "/assets/icons/ants.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "ants"
+    ],
+    "description": "A canonical creatures icon representing Ants."
+  },
+  {
+    "id": "creatures.balloon-dog",
+    "name": "Balloon Dog",
+    "file": "/assets/icons/balloon-dog.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "balloon",
+      "dog"
+    ],
+    "description": "A canonical creatures icon representing Balloon Dog."
+  },
+  {
+    "id": "creatures.baseball-bat",
+    "name": "Baseball Bat",
+    "file": "/assets/icons/baseball-bat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "baseball",
+      "bat"
+    ],
+    "description": "A canonical creatures icon representing Baseball Bat."
+  },
+  {
+    "id": "creatures.bat-1",
+    "name": "Bat 1",
+    "file": "/assets/icons/bat-1.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bat"
+    ],
+    "description": "A canonical creatures icon representing Bat 1."
+  },
+  {
+    "id": "creatures.bat-leth",
+    "name": "Bat Leth",
+    "file": "/assets/icons/bat-leth.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bat",
+      "leth"
+    ],
+    "description": "A canonical creatures icon representing Bat Leth."
+  },
+  {
+    "id": "creatures.bat-mask",
+    "name": "Bat Mask",
+    "file": "/assets/icons/bat-mask.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bat",
+      "mask"
+    ],
+    "description": "A canonical creatures icon representing Bat Mask."
+  },
+  {
+    "id": "creatures.bat-wing",
+    "name": "Bat Wing",
+    "file": "/assets/icons/bat-wing.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bat",
+      "wing"
+    ],
+    "description": "A canonical creatures icon representing Bat Wing."
+  },
+  {
+    "id": "creatures.bat",
+    "name": "Bat",
+    "file": "/assets/icons/bat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bat"
+    ],
+    "description": "A canonical creatures icon representing Bat."
+  },
+  {
+    "id": "creatures.bathtub",
+    "name": "Bathtub",
+    "file": "/assets/icons/bathtub.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bathtub"
+    ],
+    "description": "A canonical creatures icon representing Bathtub."
+  },
+  {
+    "id": "creatures.baton",
+    "name": "Baton",
+    "file": "/assets/icons/baton.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "baton"
+    ],
+    "description": "A canonical creatures icon representing Baton."
+  },
+  {
+    "id": "creatures.batteries",
+    "name": "Batteries",
+    "file": "/assets/icons/batteries.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "batteries"
+    ],
+    "description": "A canonical creatures icon representing Batteries."
+  },
+  {
+    "id": "creatures.battery-0",
+    "name": "Battery 0",
+    "file": "/assets/icons/battery-0.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery"
+    ],
+    "description": "A canonical creatures icon representing Battery 0."
+  },
+  {
+    "id": "creatures.battery-100",
+    "name": "Battery 100",
+    "file": "/assets/icons/battery-100.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery",
+      "100"
+    ],
+    "description": "A canonical creatures icon representing Battery 100."
+  },
+  {
+    "id": "creatures.battery-25",
+    "name": "Battery 25",
+    "file": "/assets/icons/battery-25.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery"
+    ],
+    "description": "A canonical creatures icon representing Battery 25."
+  },
+  {
+    "id": "creatures.battery-50",
+    "name": "Battery 50",
+    "file": "/assets/icons/battery-50.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery"
+    ],
+    "description": "A canonical creatures icon representing Battery 50."
+  },
+  {
+    "id": "creatures.battery-75",
+    "name": "Battery 75",
+    "file": "/assets/icons/battery-75.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery"
+    ],
+    "description": "A canonical creatures icon representing Battery 75."
+  },
+  {
+    "id": "creatures.battery-minus",
+    "name": "Battery Minus",
+    "file": "/assets/icons/battery-minus.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery",
+      "minus"
+    ],
+    "description": "A canonical creatures icon representing Battery Minus."
+  },
+  {
+    "id": "creatures.battery-pack-alt",
+    "name": "Battery Pack Alt",
+    "file": "/assets/icons/battery-pack-alt.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery",
+      "pack",
+      "alt"
+    ],
+    "description": "A canonical creatures icon representing Battery Pack Alt."
+  },
+  {
+    "id": "creatures.battery-pack",
+    "name": "Battery Pack",
+    "file": "/assets/icons/battery-pack.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery",
+      "pack"
+    ],
+    "description": "A canonical creatures icon representing Battery Pack."
+  },
+  {
+    "id": "creatures.battery-plus",
+    "name": "Battery Plus",
+    "file": "/assets/icons/battery-plus.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "battery",
+      "plus"
+    ],
+    "description": "A canonical creatures icon representing Battery Plus."
+  },
+  {
+    "id": "creatures.batwing-emblem",
+    "name": "Batwing Emblem",
+    "file": "/assets/icons/batwing-emblem.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "batwing",
+      "emblem"
+    ],
+    "description": "A canonical creatures icon representing Batwing Emblem."
+  },
+  {
+    "id": "creatures.bear-face",
+    "name": "Bear Face",
+    "file": "/assets/icons/bear-face.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bear",
+      "face"
+    ],
+    "description": "A canonical creatures icon representing Bear Face."
+  },
+  {
+    "id": "creatures.bear-head",
+    "name": "Bear Head",
+    "file": "/assets/icons/bear-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bear",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Bear Head."
+  },
+  {
+    "id": "creatures.beard",
+    "name": "Beard",
+    "file": "/assets/icons/beard.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beard"
+    ],
+    "description": "A canonical creatures icon representing Beard."
+  },
+  {
+    "id": "creatures.beast-eye",
+    "name": "Beast Eye",
+    "file": "/assets/icons/beast-eye.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beast",
+      "eye"
+    ],
+    "description": "A canonical creatures icon representing Beast Eye."
+  },
+  {
+    "id": "creatures.beast",
+    "name": "Beast",
+    "file": "/assets/icons/beast.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beast"
+    ],
+    "description": "A canonical creatures icon representing Beast."
+  },
+  {
+    "id": "creatures.bee",
+    "name": "Bee",
+    "file": "/assets/icons/bee.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bee"
+    ],
+    "description": "A canonical creatures icon representing Bee."
+  },
+  {
+    "id": "creatures.beech",
+    "name": "Beech",
+    "file": "/assets/icons/beech.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beech"
+    ],
+    "description": "A canonical creatures icon representing Beech."
+  },
+  {
+    "id": "creatures.beehive",
+    "name": "Beehive",
+    "file": "/assets/icons/beehive.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beehive"
+    ],
+    "description": "A canonical creatures icon representing Beehive."
+  },
+  {
+    "id": "creatures.beer-horn",
+    "name": "Beer Horn",
+    "file": "/assets/icons/beer-horn.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beer",
+      "horn"
+    ],
+    "description": "A canonical creatures icon representing Beer Horn."
+  },
+  {
+    "id": "creatures.beer-stein",
+    "name": "Beer Stein",
+    "file": "/assets/icons/beer-stein.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beer",
+      "stein"
+    ],
+    "description": "A canonical creatures icon representing Beer Stein."
+  },
+  {
+    "id": "creatures.beet",
+    "name": "Beet",
+    "file": "/assets/icons/beet.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beet"
+    ],
+    "description": "A canonical creatures icon representing Beet."
+  },
+  {
+    "id": "creatures.beetle-shell",
+    "name": "Beetle Shell",
+    "file": "/assets/icons/beetle-shell.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "beetle",
+      "shell"
+    ],
+    "description": "A canonical creatures icon representing Beetle Shell."
+  },
+  {
+    "id": "creatures.bird-cage",
+    "name": "Bird Cage",
+    "file": "/assets/icons/bird-cage.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bird",
+      "cage"
+    ],
+    "description": "A canonical creatures icon representing Bird Cage."
+  },
+  {
+    "id": "creatures.bird-claw",
+    "name": "Bird Claw",
+    "file": "/assets/icons/bird-claw.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bird",
+      "claw"
+    ],
+    "description": "A canonical creatures icon representing Bird Claw."
+  },
+  {
+    "id": "creatures.bird-house",
+    "name": "Bird House",
+    "file": "/assets/icons/bird-house.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bird",
+      "house"
+    ],
+    "description": "A canonical creatures icon representing Bird House."
+  },
+  {
+    "id": "creatures.bird-limb",
+    "name": "Bird Limb",
+    "file": "/assets/icons/bird-limb.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bird",
+      "limb"
+    ],
+    "description": "A canonical creatures icon representing Bird Limb."
+  },
+  {
+    "id": "creatures.bird-mask",
+    "name": "Bird Mask",
+    "file": "/assets/icons/bird-mask.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bird",
+      "mask"
+    ],
+    "description": "A canonical creatures icon representing Bird Mask."
+  },
+  {
+    "id": "creatures.bird-scepter",
+    "name": "Bird Scepter",
+    "file": "/assets/icons/bird-scepter.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bird",
+      "scepter"
+    ],
+    "description": "A canonical creatures icon representing Bird Scepter."
+  },
+  {
+    "id": "creatures.bird-twitter",
+    "name": "Bird Twitter",
+    "file": "/assets/icons/bird-twitter.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "bird",
+      "twitter"
+    ],
+    "description": "A canonical creatures icon representing Bird Twitter."
+  },
+  {
+    "id": "creatures.blackcurrant",
+    "name": "Blackcurrant",
+    "file": "/assets/icons/blackcurrant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "blackcurrant"
+    ],
+    "description": "A canonical creatures icon representing Blackcurrant."
+  },
+  {
+    "id": "creatures.boat-fishing",
+    "name": "Boat Fishing",
+    "file": "/assets/icons/boat-fishing.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "boat",
+      "fishing"
+    ],
+    "description": "A canonical creatures icon representing Boat Fishing."
+  },
+  {
+    "id": "creatures.break-concentration",
+    "name": "Break Concentration",
+    "file": "/assets/icons/break-concentration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "break",
+      "concentration"
+    ],
+    "description": "A canonical creatures icon representing Break Concentration."
+  },
+  {
+    "id": "creatures.byzantin-temple",
+    "name": "Byzantin Temple",
+    "file": "/assets/icons/byzantin-temple.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "byzantin",
+      "temple"
+    ],
+    "description": "A canonical creatures icon representing Byzantin Temple."
+  },
+  {
+    "id": "creatures.canned-fish",
+    "name": "Canned Fish",
+    "file": "/assets/icons/canned-fish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "canned",
+      "fish"
+    ],
+    "description": "A canonical creatures icon representing Canned Fish."
+  },
+  {
+    "id": "creatures.cantua",
+    "name": "Cantua",
+    "file": "/assets/icons/cantua.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "cantua"
+    ],
+    "description": "A canonical creatures icon representing Cantua."
+  },
+  {
+    "id": "creatures.car-battery",
+    "name": "Car Battery",
+    "file": "/assets/icons/car-battery.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "car",
+      "battery"
+    ],
+    "description": "A canonical creatures icon representing Car Battery."
+  },
+  {
+    "id": "creatures.cargo-crate",
+    "name": "Cargo Crate",
+    "file": "/assets/icons/cargo-crate.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "cargo",
+      "crate"
+    ],
+    "description": "A canonical creatures icon representing Cargo Crate."
+  },
+  {
+    "id": "creatures.carnivorous-plant",
+    "name": "Carnivorous Plant",
+    "file": "/assets/icons/carnivorous-plant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "carnivorous",
+      "plant"
+    ],
+    "description": "A canonical creatures icon representing Carnivorous Plant."
+  },
+  {
+    "id": "creatures.cat",
+    "name": "Cat",
+    "file": "/assets/icons/cat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "cat"
+    ],
+    "description": "A canonical creatures icon representing Cat."
+  },
+  {
+    "id": "creatures.catapult",
+    "name": "Catapult",
+    "file": "/assets/icons/catapult.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "catapult"
+    ],
+    "description": "A canonical creatures icon representing Catapult."
+  },
+  {
+    "id": "creatures.catch",
+    "name": "Catch",
+    "file": "/assets/icons/catch.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "catch"
+    ],
+    "description": "A canonical creatures icon representing Catch."
+  },
+  {
+    "id": "creatures.caterpillar",
+    "name": "Caterpillar",
+    "file": "/assets/icons/caterpillar.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "caterpillar"
+    ],
+    "description": "A canonical creatures icon representing Caterpillar."
+  },
+  {
+    "id": "creatures.celebration-fire",
+    "name": "Celebration Fire",
+    "file": "/assets/icons/celebration-fire.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "celebration",
+      "fire"
+    ],
+    "description": "A canonical creatures icon representing Celebration Fire."
+  },
+  {
+    "id": "creatures.chanterelles",
+    "name": "Chanterelles",
+    "file": "/assets/icons/chanterelles.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "chanterelles"
+    ],
+    "description": "A canonical creatures icon representing Chanterelles."
+  },
+  {
+    "id": "creatures.circling-fish",
+    "name": "Circling Fish",
+    "file": "/assets/icons/circling-fish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "circling",
+      "fish"
+    ],
+    "description": "A canonical creatures icon representing Circling Fish."
+  },
+  {
+    "id": "creatures.classical-knowledge",
+    "name": "Classical Knowledge",
+    "file": "/assets/icons/classical-knowledge.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "classical",
+      "knowledge"
+    ],
+    "description": "A canonical creatures icon representing Classical Knowledge."
+  },
+  {
+    "id": "creatures.clownfish",
+    "name": "Clownfish",
+    "file": "/assets/icons/clownfish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "clownfish"
+    ],
+    "description": "A canonical creatures icon representing Clownfish."
+  },
+  {
+    "id": "creatures.concentrating",
+    "name": "Concentrating",
+    "file": "/assets/icons/concentrating.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "concentrating"
+    ],
+    "description": "A canonical creatures icon representing Concentrating."
+  },
+  {
+    "id": "creatures.concentration-orb",
+    "name": "Concentration Orb",
+    "file": "/assets/icons/concentration-orb.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "concentration",
+      "orb"
+    ],
+    "description": "A canonical creatures icon representing Concentration Orb."
+  },
+  {
+    "id": "creatures.conjuration",
+    "name": "Conjuration",
+    "file": "/assets/icons/conjuration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "conjuration"
+    ],
+    "description": "A canonical creatures icon representing Conjuration."
+  },
+  {
+    "id": "creatures.cootie-catcher",
+    "name": "Cootie Catcher",
+    "file": "/assets/icons/cootie-catcher.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "cootie",
+      "catcher"
+    ],
+    "description": "A canonical creatures icon representing Cootie Catcher."
+  },
+  {
+    "id": "creatures.cowled",
+    "name": "Cowled",
+    "file": "/assets/icons/cowled.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "cowled"
+    ],
+    "description": "A canonical creatures icon representing Cowled."
+  },
+  {
+    "id": "creatures.crab-claw",
+    "name": "Crab Claw",
+    "file": "/assets/icons/crab-claw.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crab",
+      "claw"
+    ],
+    "description": "A canonical creatures icon representing Crab Claw."
+  },
+  {
+    "id": "creatures.crab",
+    "name": "Crab",
+    "file": "/assets/icons/crab.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crab"
+    ],
+    "description": "A canonical creatures icon representing Crab."
+  },
+  {
+    "id": "creatures.crenel-crown",
+    "name": "Crenel Crown",
+    "file": "/assets/icons/crenel-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crenel",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Crenel Crown."
+  },
+  {
+    "id": "creatures.cricket-bat",
+    "name": "Cricket Bat",
+    "file": "/assets/icons/cricket-bat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "cricket",
+      "bat"
+    ],
+    "description": "A canonical creatures icon representing Cricket Bat."
+  },
+  {
+    "id": "creatures.croissant",
+    "name": "Croissant",
+    "file": "/assets/icons/croissant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "croissant"
+    ],
+    "description": "A canonical creatures icon representing Croissant."
+  },
+  {
+    "id": "creatures.croissants-pupil",
+    "name": "Croissants Pupil",
+    "file": "/assets/icons/croissants-pupil.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "croissants",
+      "pupil"
+    ],
+    "description": "A canonical creatures icon representing Croissants Pupil."
+  },
+  {
+    "id": "creatures.crow-dive",
+    "name": "Crow Dive",
+    "file": "/assets/icons/crow-dive.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crow",
+      "dive"
+    ],
+    "description": "A canonical creatures icon representing Crow Dive."
+  },
+  {
+    "id": "creatures.crow-nest",
+    "name": "Crow Nest",
+    "file": "/assets/icons/crow-nest.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crow",
+      "nest"
+    ],
+    "description": "A canonical creatures icon representing Crow Nest."
+  },
+  {
+    "id": "creatures.crown-of-thorns",
+    "name": "Crown Of Thorns",
+    "file": "/assets/icons/crown-of-thorns.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crown",
+      "thorns"
+    ],
+    "description": "A canonical creatures icon representing Crown Of Thorns."
+  },
+  {
+    "id": "creatures.crown",
+    "name": "Crown",
+    "file": "/assets/icons/crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Crown."
+  },
+  {
+    "id": "creatures.crowned-explosion",
+    "name": "Crowned Explosion",
+    "file": "/assets/icons/crowned-explosion.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crowned",
+      "explosion"
+    ],
+    "description": "A canonical creatures icon representing Crowned Explosion."
+  },
+  {
+    "id": "creatures.crowned-heart",
+    "name": "Crowned Heart",
+    "file": "/assets/icons/crowned-heart.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crowned",
+      "heart"
+    ],
+    "description": "A canonical creatures icon representing Crowned Heart."
+  },
+  {
+    "id": "creatures.crowned-skull",
+    "name": "Crowned Skull",
+    "file": "/assets/icons/crowned-skull.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "crowned",
+      "skull"
+    ],
+    "description": "A canonical creatures icon representing Crowned Skull."
+  },
+  {
+    "id": "creatures.cubeforce",
+    "name": "Cubeforce",
+    "file": "/assets/icons/cubeforce.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "cubeforce"
+    ],
+    "description": "A canonical creatures icon representing Cubeforce."
+  },
+  {
+    "id": "creatures.dehydration",
+    "name": "Dehydration",
+    "file": "/assets/icons/dehydration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dehydration"
+    ],
+    "description": "A canonical creatures icon representing Dehydration."
+  },
+  {
+    "id": "creatures.delicate-perfume",
+    "name": "Delicate Perfume",
+    "file": "/assets/icons/delicate-perfume.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "delicate",
+      "perfume"
+    ],
+    "description": "A canonical creatures icon representing Delicate Perfume."
+  },
+  {
+    "id": "creatures.desert-eagle",
+    "name": "Desert Eagle",
+    "file": "/assets/icons/desert-eagle.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "desert",
+      "eagle"
+    ],
+    "description": "A canonical creatures icon representing Desert Eagle."
+  },
+  {
+    "id": "creatures.deshret-red-crown",
+    "name": "Deshret Red Crown",
+    "file": "/assets/icons/deshret-red-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "deshret",
+      "red",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Deshret Red Crown."
+  },
+  {
+    "id": "creatures.devil-mask",
+    "name": "Devil Mask",
+    "file": "/assets/icons/devil-mask.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "devil",
+      "mask"
+    ],
+    "description": "A canonical creatures icon representing Devil Mask."
+  },
+  {
+    "id": "creatures.dinosaur-bones",
+    "name": "Dinosaur Bones",
+    "file": "/assets/icons/dinosaur-bones.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dinosaur",
+      "bones"
+    ],
+    "description": "A canonical creatures icon representing Dinosaur Bones."
+  },
+  {
+    "id": "creatures.dinosaur-egg",
+    "name": "Dinosaur Egg",
+    "file": "/assets/icons/dinosaur-egg.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dinosaur",
+      "egg"
+    ],
+    "description": "A canonical creatures icon representing Dinosaur Egg."
+  },
+  {
+    "id": "creatures.dinosaur-rex",
+    "name": "Dinosaur Rex",
+    "file": "/assets/icons/dinosaur-rex.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dinosaur",
+      "rex"
+    ],
+    "description": "A canonical creatures icon representing Dinosaur Rex."
+  },
+  {
+    "id": "creatures.direwolf",
+    "name": "Direwolf",
+    "file": "/assets/icons/direwolf.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "direwolf"
+    ],
+    "description": "A canonical creatures icon representing Direwolf."
+  },
+  {
+    "id": "creatures.disintegrate",
+    "name": "Disintegrate",
+    "file": "/assets/icons/disintegrate.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "disintegrate"
+    ],
+    "description": "A canonical creatures icon representing Disintegrate."
+  },
+  {
+    "id": "creatures.dog-house",
+    "name": "Dog House",
+    "file": "/assets/icons/dog-house.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dog",
+      "house"
+    ],
+    "description": "A canonical creatures icon representing Dog House."
+  },
+  {
+    "id": "creatures.double-dragon",
+    "name": "Double Dragon",
+    "file": "/assets/icons/double-dragon.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "double",
+      "dragon"
+    ],
+    "description": "A canonical creatures icon representing Double Dragon."
+  },
+  {
+    "id": "creatures.double-fish",
+    "name": "Double Fish",
+    "file": "/assets/icons/double-fish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "double",
+      "fish"
+    ],
+    "description": "A canonical creatures icon representing Double Fish."
+  },
+  {
+    "id": "creatures.dragon-balls",
+    "name": "Dragon Balls",
+    "file": "/assets/icons/dragon-balls.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragon",
+      "balls"
+    ],
+    "description": "A canonical creatures icon representing Dragon Balls."
+  },
+  {
+    "id": "creatures.dragon-breath",
+    "name": "Dragon Breath",
+    "file": "/assets/icons/dragon-breath.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragon",
+      "breath"
+    ],
+    "description": "A canonical creatures icon representing Dragon Breath."
+  },
+  {
+    "id": "creatures.dragon-head-1",
+    "name": "Dragon Head 1",
+    "file": "/assets/icons/dragon-head-1.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragon",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Dragon Head 1."
+  },
+  {
+    "id": "creatures.dragon-head",
+    "name": "Dragon Head",
+    "file": "/assets/icons/dragon-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragon",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Dragon Head."
+  },
+  {
+    "id": "creatures.dragon-orb",
+    "name": "Dragon Orb",
+    "file": "/assets/icons/dragon-orb.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragon",
+      "orb"
+    ],
+    "description": "A canonical creatures icon representing Dragon Orb."
+  },
+  {
+    "id": "creatures.dragon-spiral",
+    "name": "Dragon Spiral",
+    "file": "/assets/icons/dragon-spiral.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragon",
+      "spiral"
+    ],
+    "description": "A canonical creatures icon representing Dragon Spiral."
+  },
+  {
+    "id": "creatures.dragon",
+    "name": "Dragon",
+    "file": "/assets/icons/dragon.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragon"
+    ],
+    "description": "A canonical creatures icon representing Dragon."
+  },
+  {
+    "id": "creatures.dragonfly",
+    "name": "Dragonfly",
+    "file": "/assets/icons/dragonfly.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragonfly"
+    ],
+    "description": "A canonical creatures icon representing Dragonfly."
+  },
+  {
+    "id": "creatures.dragons",
+    "name": "Dragons",
+    "file": "/assets/icons/dragons.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dragons"
+    ],
+    "description": "A canonical creatures icon representing Dragons."
+  },
+  {
+    "id": "creatures.drakkar-dragon",
+    "name": "Drakkar Dragon",
+    "file": "/assets/icons/drakkar-dragon.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "drakkar",
+      "dragon"
+    ],
+    "description": "A canonical creatures icon representing Drakkar Dragon."
+  },
+  {
+    "id": "creatures.dream-catcher",
+    "name": "Dream Catcher",
+    "file": "/assets/icons/dream-catcher.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "dream",
+      "catcher"
+    ],
+    "description": "A canonical creatures icon representing Dream Catcher."
+  },
+  {
+    "id": "creatures.duplicate",
+    "name": "Duplicate",
+    "file": "/assets/icons/duplicate.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "duplicate"
+    ],
+    "description": "A canonical creatures icon representing Duplicate."
+  },
+  {
+    "id": "creatures.duration",
+    "name": "Duration",
+    "file": "/assets/icons/duration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "duration"
+    ],
+    "description": "A canonical creatures icon representing Duration."
+  },
+  {
+    "id": "creatures.eagle-emblem",
+    "name": "Eagle Emblem",
+    "file": "/assets/icons/eagle-emblem.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "eagle",
+      "emblem"
+    ],
+    "description": "A canonical creatures icon representing Eagle Emblem."
+  },
+  {
+    "id": "creatures.eagle-head",
+    "name": "Eagle Head",
+    "file": "/assets/icons/eagle-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "eagle",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Eagle Head."
+  },
+  {
+    "id": "creatures.egyptian-bird",
+    "name": "Egyptian Bird",
+    "file": "/assets/icons/egyptian-bird.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "egyptian",
+      "bird"
+    ],
+    "description": "A canonical creatures icon representing Egyptian Bird."
+  },
+  {
+    "id": "creatures.elephant-head",
+    "name": "Elephant Head",
+    "file": "/assets/icons/elephant-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "elephant",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Elephant Head."
+  },
+  {
+    "id": "creatures.elephant",
+    "name": "Elephant",
+    "file": "/assets/icons/elephant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "elephant"
+    ],
+    "description": "A canonical creatures icon representing Elephant."
+  },
+  {
+    "id": "creatures.enchant",
+    "name": "Enchant",
+    "file": "/assets/icons/enchant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "enchant"
+    ],
+    "description": "A canonical creatures icon representing Enchant."
+  },
+  {
+    "id": "creatures.enchantment",
+    "name": "Enchantment",
+    "file": "/assets/icons/enchantment.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "enchantment"
+    ],
+    "description": "A canonical creatures icon representing Enchantment."
+  },
+  {
+    "id": "creatures.evil-bat",
+    "name": "Evil Bat",
+    "file": "/assets/icons/evil-bat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "evil",
+      "bat"
+    ],
+    "description": "A canonical creatures icon representing Evil Bat."
+  },
+  {
+    "id": "creatures.evocation",
+    "name": "Evocation",
+    "file": "/assets/icons/evocation.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "evocation"
+    ],
+    "description": "A canonical creatures icon representing Evocation."
+  },
+  {
+    "id": "creatures.fish-cooked",
+    "name": "Fish Cooked",
+    "file": "/assets/icons/fish-cooked.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fish",
+      "cooked"
+    ],
+    "description": "A canonical creatures icon representing Fish Cooked."
+  },
+  {
+    "id": "creatures.fish-corpse",
+    "name": "Fish Corpse",
+    "file": "/assets/icons/fish-corpse.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fish",
+      "corpse"
+    ],
+    "description": "A canonical creatures icon representing Fish Corpse."
+  },
+  {
+    "id": "creatures.fish-eggs",
+    "name": "Fish Eggs",
+    "file": "/assets/icons/fish-eggs.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fish",
+      "eggs"
+    ],
+    "description": "A canonical creatures icon representing Fish Eggs."
+  },
+  {
+    "id": "creatures.fish-escape",
+    "name": "Fish Escape",
+    "file": "/assets/icons/fish-escape.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fish",
+      "escape"
+    ],
+    "description": "A canonical creatures icon representing Fish Escape."
+  },
+  {
+    "id": "creatures.fish-monster",
+    "name": "Fish Monster",
+    "file": "/assets/icons/fish-monster.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fish",
+      "monster"
+    ],
+    "description": "A canonical creatures icon representing Fish Monster."
+  },
+  {
+    "id": "creatures.fish-scales",
+    "name": "Fish Scales",
+    "file": "/assets/icons/fish-scales.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fish",
+      "scales"
+    ],
+    "description": "A canonical creatures icon representing Fish Scales."
+  },
+  {
+    "id": "creatures.fish-smoking",
+    "name": "Fish Smoking",
+    "file": "/assets/icons/fish-smoking.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fish",
+      "smoking"
+    ],
+    "description": "A canonical creatures icon representing Fish Smoking."
+  },
+  {
+    "id": "creatures.fishbone",
+    "name": "Fishbone",
+    "file": "/assets/icons/fishbone.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishbone"
+    ],
+    "description": "A canonical creatures icon representing Fishbone."
+  },
+  {
+    "id": "creatures.fishhook-fork",
+    "name": "Fishhook Fork",
+    "file": "/assets/icons/fishhook-fork.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishhook",
+      "fork"
+    ],
+    "description": "A canonical creatures icon representing Fishhook Fork."
+  },
+  {
+    "id": "creatures.fishing-boat",
+    "name": "Fishing Boat",
+    "file": "/assets/icons/fishing-boat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishing",
+      "boat"
+    ],
+    "description": "A canonical creatures icon representing Fishing Boat."
+  },
+  {
+    "id": "creatures.fishing-hook",
+    "name": "Fishing Hook",
+    "file": "/assets/icons/fishing-hook.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishing",
+      "hook"
+    ],
+    "description": "A canonical creatures icon representing Fishing Hook."
+  },
+  {
+    "id": "creatures.fishing-jig",
+    "name": "Fishing Jig",
+    "file": "/assets/icons/fishing-jig.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishing",
+      "jig"
+    ],
+    "description": "A canonical creatures icon representing Fishing Jig."
+  },
+  {
+    "id": "creatures.fishing-lure",
+    "name": "Fishing Lure",
+    "file": "/assets/icons/fishing-lure.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishing",
+      "lure"
+    ],
+    "description": "A canonical creatures icon representing Fishing Lure."
+  },
+  {
+    "id": "creatures.fishing-net",
+    "name": "Fishing Net",
+    "file": "/assets/icons/fishing-net.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishing",
+      "net"
+    ],
+    "description": "A canonical creatures icon representing Fishing Net."
+  },
+  {
+    "id": "creatures.fishing-pole",
+    "name": "Fishing Pole",
+    "file": "/assets/icons/fishing-pole.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishing",
+      "pole"
+    ],
+    "description": "A canonical creatures icon representing Fishing Pole."
+  },
+  {
+    "id": "creatures.fishing-spoon",
+    "name": "Fishing Spoon",
+    "file": "/assets/icons/fishing-spoon.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishing",
+      "spoon"
+    ],
+    "description": "A canonical creatures icon representing Fishing Spoon."
+  },
+  {
+    "id": "creatures.fishing",
+    "name": "Fishing",
+    "file": "/assets/icons/fishing.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fishing"
+    ],
+    "description": "A canonical creatures icon representing Fishing."
+  },
+  {
+    "id": "creatures.flatfish",
+    "name": "Flatfish",
+    "file": "/assets/icons/flatfish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "flatfish"
+    ],
+    "description": "A canonical creatures icon representing Flatfish."
+  },
+  {
+    "id": "creatures.flying-beetle",
+    "name": "Flying Beetle",
+    "file": "/assets/icons/flying-beetle.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "flying",
+      "beetle"
+    ],
+    "description": "A canonical creatures icon representing Flying Beetle."
+  },
+  {
+    "id": "creatures.force",
+    "name": "Force",
+    "file": "/assets/icons/force.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "force"
+    ],
+    "description": "A canonical creatures icon representing Force."
+  },
+  {
+    "id": "creatures.fried-fish",
+    "name": "Fried Fish",
+    "file": "/assets/icons/fried-fish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "fried",
+      "fish"
+    ],
+    "description": "A canonical creatures icon representing Fried Fish."
+  },
+  {
+    "id": "creatures.frisbee",
+    "name": "Frisbee",
+    "file": "/assets/icons/frisbee.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "frisbee"
+    ],
+    "description": "A canonical creatures icon representing Frisbee."
+  },
+  {
+    "id": "creatures.frog-foot",
+    "name": "Frog Foot",
+    "file": "/assets/icons/frog-foot.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "frog",
+      "foot"
+    ],
+    "description": "A canonical creatures icon representing Frog Foot."
+  },
+  {
+    "id": "creatures.frog-prince",
+    "name": "Frog Prince",
+    "file": "/assets/icons/frog-prince.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "frog",
+      "prince"
+    ],
+    "description": "A canonical creatures icon representing Frog Prince."
+  },
+  {
+    "id": "creatures.frog",
+    "name": "Frog",
+    "file": "/assets/icons/frog.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "frog"
+    ],
+    "description": "A canonical creatures icon representing Frog."
+  },
+  {
+    "id": "creatures.giant-1",
+    "name": "Giant 1",
+    "file": "/assets/icons/giant-1.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "giant"
+    ],
+    "description": "A canonical creatures icon representing Giant 1."
+  },
+  {
+    "id": "creatures.giant-squid",
+    "name": "Giant Squid",
+    "file": "/assets/icons/giant-squid.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "giant",
+      "squid"
+    ],
+    "description": "A canonical creatures icon representing Giant Squid."
+  },
+  {
+    "id": "creatures.giant",
+    "name": "Giant",
+    "file": "/assets/icons/giant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "giant"
+    ],
+    "description": "A canonical creatures icon representing Giant."
+  },
+  {
+    "id": "creatures.gift-of-knowledge",
+    "name": "Gift Of Knowledge",
+    "file": "/assets/icons/gift-of-knowledge.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "gift",
+      "knowledge"
+    ],
+    "description": "A canonical creatures icon representing Gift Of Knowledge."
+  },
+  {
+    "id": "creatures.glass-celebration",
+    "name": "Glass Celebration",
+    "file": "/assets/icons/glass-celebration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "glass",
+      "celebration"
+    ],
+    "description": "A canonical creatures icon representing Glass Celebration."
+  },
+  {
+    "id": "creatures.goblin-camp",
+    "name": "Goblin Camp",
+    "file": "/assets/icons/goblin-camp.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "goblin",
+      "camp"
+    ],
+    "description": "A canonical creatures icon representing Goblin Camp."
+  },
+  {
+    "id": "creatures.goblin-head",
+    "name": "Goblin Head",
+    "file": "/assets/icons/goblin-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "goblin",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Goblin Head."
+  },
+  {
+    "id": "creatures.goblin",
+    "name": "Goblin",
+    "file": "/assets/icons/goblin.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "goblin"
+    ],
+    "description": "A canonical creatures icon representing Goblin."
+  },
+  {
+    "id": "creatures.hanging-spider",
+    "name": "Hanging Spider",
+    "file": "/assets/icons/hanging-spider.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "hanging",
+      "spider"
+    ],
+    "description": "A canonical creatures icon representing Hanging Spider."
+  },
+  {
+    "id": "creatures.heart-battery",
+    "name": "Heart Battery",
+    "file": "/assets/icons/heart-battery.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "heart",
+      "battery"
+    ],
+    "description": "A canonical creatures icon representing Heart Battery."
+  },
+  {
+    "id": "creatures.hedjet-white-crown",
+    "name": "Hedjet White Crown",
+    "file": "/assets/icons/hedjet-white-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "hedjet",
+      "white",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Hedjet White Crown."
+  },
+  {
+    "id": "creatures.hollow-cat",
+    "name": "Hollow Cat",
+    "file": "/assets/icons/hollow-cat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "hollow",
+      "cat"
+    ],
+    "description": "A canonical creatures icon representing Hollow Cat."
+  },
+  {
+    "id": "creatures.horse-head-1",
+    "name": "Horse Head 1",
+    "file": "/assets/icons/horse-head-1.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "horse",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Horse Head 1."
+  },
+  {
+    "id": "creatures.horse-head",
+    "name": "Horse Head",
+    "file": "/assets/icons/horse-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "horse",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Horse Head."
+  },
+  {
+    "id": "creatures.horseshoe",
+    "name": "Horseshoe",
+    "file": "/assets/icons/horseshoe.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "horseshoe"
+    ],
+    "description": "A canonical creatures icon representing Horseshoe."
+  },
+  {
+    "id": "creatures.hot-dog",
+    "name": "Hot Dog",
+    "file": "/assets/icons/hot-dog.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "hot",
+      "dog"
+    ],
+    "description": "A canonical creatures icon representing Hot Dog."
+  },
+  {
+    "id": "creatures.hummingbird",
+    "name": "Hummingbird",
+    "file": "/assets/icons/hummingbird.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "hummingbird"
+    ],
+    "description": "A canonical creatures icon representing Hummingbird."
+  },
+  {
+    "id": "creatures.hydra-shot",
+    "name": "Hydra Shot",
+    "file": "/assets/icons/hydra-shot.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "hydra",
+      "shot"
+    ],
+    "description": "A canonical creatures icon representing Hydra Shot."
+  },
+  {
+    "id": "creatures.hydra",
+    "name": "Hydra",
+    "file": "/assets/icons/hydra.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "hydra"
+    ],
+    "description": "A canonical creatures icon representing Hydra."
+  },
+  {
+    "id": "creatures.imperial-crown",
+    "name": "Imperial Crown",
+    "file": "/assets/icons/imperial-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "imperial",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Imperial Crown."
+  },
+  {
+    "id": "creatures.inauguration",
+    "name": "Inauguration",
+    "file": "/assets/icons/inauguration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "inauguration"
+    ],
+    "description": "A canonical creatures icon representing Inauguration."
+  },
+  {
+    "id": "creatures.incubator",
+    "name": "Incubator",
+    "file": "/assets/icons/incubator.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "incubator"
+    ],
+    "description": "A canonical creatures icon representing Incubator."
+  },
+  {
+    "id": "creatures.insect-jaws",
+    "name": "Insect Jaws",
+    "file": "/assets/icons/insect-jaws.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "insect",
+      "jaws"
+    ],
+    "description": "A canonical creatures icon representing Insect Jaws."
+  },
+  {
+    "id": "creatures.inspiration",
+    "name": "Inspiration",
+    "file": "/assets/icons/inspiration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "inspiration"
+    ],
+    "description": "A canonical creatures icon representing Inspiration."
+  },
+  {
+    "id": "creatures.intricate-necklace",
+    "name": "Intricate Necklace",
+    "file": "/assets/icons/intricate-necklace.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "intricate",
+      "necklace"
+    ],
+    "description": "A canonical creatures icon representing Intricate Necklace."
+  },
+  {
+    "id": "creatures.item-grant",
+    "name": "Item Grant",
+    "file": "/assets/icons/item-grant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "item",
+      "grant"
+    ],
+    "description": "A canonical creatures icon representing Item Grant."
+  },
+  {
+    "id": "creatures.jellyfish",
+    "name": "Jellyfish",
+    "file": "/assets/icons/jellyfish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "jellyfish"
+    ],
+    "description": "A canonical creatures icon representing Jellyfish."
+  },
+  {
+    "id": "creatures.jumping-dog",
+    "name": "Jumping Dog",
+    "file": "/assets/icons/jumping-dog.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "jumping",
+      "dog"
+    ],
+    "description": "A canonical creatures icon representing Jumping Dog."
+  },
+  {
+    "id": "creatures.kiwi-bird",
+    "name": "Kiwi Bird",
+    "file": "/assets/icons/kiwi-bird.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "kiwi",
+      "bird"
+    ],
+    "description": "A canonical creatures icon representing Kiwi Bird."
+  },
+  {
+    "id": "creatures.kraken-tentacle",
+    "name": "Kraken Tentacle",
+    "file": "/assets/icons/kraken-tentacle.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "kraken",
+      "tentacle"
+    ],
+    "description": "A canonical creatures icon representing Kraken Tentacle."
+  },
+  {
+    "id": "creatures.laurel-crown",
+    "name": "Laurel Crown",
+    "file": "/assets/icons/laurel-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "laurel",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Laurel Crown."
+  },
+  {
+    "id": "creatures.leaf-skeleton",
+    "name": "Leaf Skeleton",
+    "file": "/assets/icons/leaf-skeleton.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "leaf",
+      "skeleton"
+    ],
+    "description": "A canonical creatures icon representing Leaf Skeleton."
+  },
+  {
+    "id": "creatures.leapfrog",
+    "name": "Leapfrog",
+    "file": "/assets/icons/leapfrog.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "leapfrog"
+    ],
+    "description": "A canonical creatures icon representing Leapfrog."
+  },
+  {
+    "id": "creatures.long-antennae-bug",
+    "name": "Long Antennae Bug",
+    "file": "/assets/icons/long-antennae-bug.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "long",
+      "antennae",
+      "bug"
+    ],
+    "description": "A canonical creatures icon representing Long Antennae Bug."
+  },
+  {
+    "id": "creatures.long-legged-spider",
+    "name": "Long Legged Spider",
+    "file": "/assets/icons/long-legged-spider.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "long",
+      "legged",
+      "spider"
+    ],
+    "description": "A canonical creatures icon representing Long Legged Spider."
+  },
+  {
+    "id": "creatures.love-howl",
+    "name": "Love Howl",
+    "file": "/assets/icons/love-howl.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "love",
+      "howl"
+    ],
+    "description": "A canonical creatures icon representing Love Howl."
+  },
+  {
+    "id": "creatures.lucky-fisherman",
+    "name": "Lucky Fisherman",
+    "file": "/assets/icons/lucky-fisherman.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "lucky",
+      "fisherman"
+    ],
+    "description": "A canonical creatures icon representing Lucky Fisherman."
+  },
+  {
+    "id": "creatures.manta-ray",
+    "name": "Manta Ray",
+    "file": "/assets/icons/manta-ray.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "manta",
+      "ray"
+    ],
+    "description": "A canonical creatures icon representing Manta Ray."
+  },
+  {
+    "id": "creatures.mantrap",
+    "name": "Mantrap",
+    "file": "/assets/icons/mantrap.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "mantrap"
+    ],
+    "description": "A canonical creatures icon representing Mantrap."
+  },
+  {
+    "id": "creatures.masked-spider",
+    "name": "Masked Spider",
+    "file": "/assets/icons/masked-spider.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "masked",
+      "spider"
+    ],
+    "description": "A canonical creatures icon representing Masked Spider."
+  },
+  {
+    "id": "creatures.mighty-force",
+    "name": "Mighty Force",
+    "file": "/assets/icons/mighty-force.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "mighty",
+      "force"
+    ],
+    "description": "A canonical creatures icon representing Mighty Force."
+  },
+  {
+    "id": "creatures.monster-grasp",
+    "name": "Monster Grasp",
+    "file": "/assets/icons/monster-grasp.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "monster",
+      "grasp"
+    ],
+    "description": "A canonical creatures icon representing Monster Grasp."
+  },
+  {
+    "id": "creatures.monster",
+    "name": "Monster",
+    "file": "/assets/icons/monster.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "monster"
+    ],
+    "description": "A canonical creatures icon representing Monster."
+  },
+  {
+    "id": "creatures.monstera-leaf",
+    "name": "Monstera Leaf",
+    "file": "/assets/icons/monstera-leaf.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "monstera",
+      "leaf"
+    ],
+    "description": "A canonical creatures icon representing Monstera Leaf."
+  },
+  {
+    "id": "creatures.moon-bats",
+    "name": "Moon Bats",
+    "file": "/assets/icons/moon-bats.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "moon",
+      "bats"
+    ],
+    "description": "A canonical creatures icon representing Moon Bats."
+  },
+  {
+    "id": "creatures.nest-birds",
+    "name": "Nest Birds",
+    "file": "/assets/icons/nest-birds.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "nest",
+      "birds"
+    ],
+    "description": "A canonical creatures icon representing Nest Birds."
+  },
+  {
+    "id": "creatures.nuclear-plant",
+    "name": "Nuclear Plant",
+    "file": "/assets/icons/nuclear-plant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "nuclear",
+      "plant"
+    ],
+    "description": "A canonical creatures icon representing Nuclear Plant."
+  },
+  {
+    "id": "creatures.octopus",
+    "name": "Octopus",
+    "file": "/assets/icons/octopus.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "octopus"
+    ],
+    "description": "A canonical creatures icon representing Octopus."
+  },
+  {
+    "id": "creatures.orc-head",
+    "name": "Orc Head",
+    "file": "/assets/icons/orc-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "orc",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Orc Head."
+  },
+  {
+    "id": "creatures.owl",
+    "name": "Owl",
+    "file": "/assets/icons/owl.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "owl"
+    ],
+    "description": "A canonical creatures icon representing Owl."
+  },
+  {
+    "id": "creatures.paper-frog",
+    "name": "Paper Frog",
+    "file": "/assets/icons/paper-frog.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "paper",
+      "frog"
+    ],
+    "description": "A canonical creatures icon representing Paper Frog."
+  },
+  {
+    "id": "creatures.pegasus",
+    "name": "Pegasus",
+    "file": "/assets/icons/pegasus.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pegasus"
+    ],
+    "description": "A canonical creatures icon representing Pegasus."
+  },
+  {
+    "id": "creatures.ping-pong-bat",
+    "name": "Ping Pong Bat",
+    "file": "/assets/icons/ping-pong-bat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "ping",
+      "pong",
+      "bat"
+    ],
+    "description": "A canonical creatures icon representing Ping Pong Bat."
+  },
+  {
+    "id": "creatures.pirate-captain",
+    "name": "Pirate Captain",
+    "file": "/assets/icons/pirate-captain.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pirate",
+      "captain"
+    ],
+    "description": "A canonical creatures icon representing Pirate Captain."
+  },
+  {
+    "id": "creatures.pirate-coat",
+    "name": "Pirate Coat",
+    "file": "/assets/icons/pirate-coat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pirate",
+      "coat"
+    ],
+    "description": "A canonical creatures icon representing Pirate Coat."
+  },
+  {
+    "id": "creatures.pirate-flag",
+    "name": "Pirate Flag",
+    "file": "/assets/icons/pirate-flag.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pirate",
+      "flag"
+    ],
+    "description": "A canonical creatures icon representing Pirate Flag."
+  },
+  {
+    "id": "creatures.pirate-grave",
+    "name": "Pirate Grave",
+    "file": "/assets/icons/pirate-grave.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pirate",
+      "grave"
+    ],
+    "description": "A canonical creatures icon representing Pirate Grave."
+  },
+  {
+    "id": "creatures.pirate-hat",
+    "name": "Pirate Hat",
+    "file": "/assets/icons/pirate-hat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pirate",
+      "hat"
+    ],
+    "description": "A canonical creatures icon representing Pirate Hat."
+  },
+  {
+    "id": "creatures.pirate-hook",
+    "name": "Pirate Hook",
+    "file": "/assets/icons/pirate-hook.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pirate",
+      "hook"
+    ],
+    "description": "A canonical creatures icon representing Pirate Hook."
+  },
+  {
+    "id": "creatures.pirate-skull",
+    "name": "Pirate Skull",
+    "file": "/assets/icons/pirate-skull.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pirate",
+      "skull"
+    ],
+    "description": "A canonical creatures icon representing Pirate Skull."
+  },
+  {
+    "id": "creatures.plant-roots",
+    "name": "Plant Roots",
+    "file": "/assets/icons/plant-roots.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "plant",
+      "roots"
+    ],
+    "description": "A canonical creatures icon representing Plant Roots."
+  },
+  {
+    "id": "creatures.plant-seed",
+    "name": "Plant Seed",
+    "file": "/assets/icons/plant-seed.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "plant",
+      "seed"
+    ],
+    "description": "A canonical creatures icon representing Plant Seed."
+  },
+  {
+    "id": "creatures.plant",
+    "name": "Plant",
+    "file": "/assets/icons/plant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "plant"
+    ],
+    "description": "A canonical creatures icon representing Plant."
+  },
+  {
+    "id": "creatures.plants-and-animals",
+    "name": "Plants And Animals",
+    "file": "/assets/icons/plants-and-animals.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "plants",
+      "and",
+      "animals"
+    ],
+    "description": "A canonical creatures icon representing Plants And Animals."
+  },
+  {
+    "id": "creatures.polar-bear",
+    "name": "Polar Bear",
+    "file": "/assets/icons/polar-bear.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "polar",
+      "bear"
+    ],
+    "description": "A canonical creatures icon representing Polar Bear."
+  },
+  {
+    "id": "creatures.pope-crown",
+    "name": "Pope Crown",
+    "file": "/assets/icons/pope-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pope",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Pope Crown."
+  },
+  {
+    "id": "creatures.porcelain-vase",
+    "name": "Porcelain Vase",
+    "file": "/assets/icons/porcelain-vase.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "porcelain",
+      "vase"
+    ],
+    "description": "A canonical creatures icon representing Porcelain Vase."
+  },
+  {
+    "id": "creatures.porcupine",
+    "name": "Porcupine",
+    "file": "/assets/icons/porcupine.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "porcupine"
+    ],
+    "description": "A canonical creatures icon representing Porcupine."
+  },
+  {
+    "id": "creatures.porcupinefish",
+    "name": "Porcupinefish",
+    "file": "/assets/icons/porcupinefish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "porcupinefish"
+    ],
+    "description": "A canonical creatures icon representing Porcupinefish."
+  },
+  {
+    "id": "creatures.power-generator",
+    "name": "Power Generator",
+    "file": "/assets/icons/power-generator.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "power",
+      "generator"
+    ],
+    "description": "A canonical creatures icon representing Power Generator."
+  },
+  {
+    "id": "creatures.praying-mantis",
+    "name": "Praying Mantis",
+    "file": "/assets/icons/praying-mantis.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "praying",
+      "mantis"
+    ],
+    "description": "A canonical creatures icon representing Praying Mantis."
+  },
+  {
+    "id": "creatures.primitive-torch",
+    "name": "Primitive Torch",
+    "file": "/assets/icons/primitive-torch.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "primitive",
+      "torch"
+    ],
+    "description": "A canonical creatures icon representing Primitive Torch."
+  },
+  {
+    "id": "creatures.pschent-double-crown",
+    "name": "Pschent Double Crown",
+    "file": "/assets/icons/pschent-double-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "pschent",
+      "double",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Pschent Double Crown."
+  },
+  {
+    "id": "creatures.queen-crown",
+    "name": "Queen Crown",
+    "file": "/assets/icons/queen-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "queen",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Queen Crown."
+  },
+  {
+    "id": "creatures.radiant",
+    "name": "Radiant",
+    "file": "/assets/icons/radiant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "radiant"
+    ],
+    "description": "A canonical creatures icon representing Radiant."
+  },
+  {
+    "id": "creatures.raise-skeleton",
+    "name": "Raise Skeleton",
+    "file": "/assets/icons/raise-skeleton.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "raise",
+      "skeleton"
+    ],
+    "description": "A canonical creatures icon representing Raise Skeleton."
+  },
+  {
+    "id": "creatures.raise-zombie",
+    "name": "Raise Zombie",
+    "file": "/assets/icons/raise-zombie.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "raise",
+      "zombie"
+    ],
+    "description": "A canonical creatures icon representing Raise Zombie."
+  },
+  {
+    "id": "creatures.rat",
+    "name": "Rat",
+    "file": "/assets/icons/rat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "rat"
+    ],
+    "description": "A canonical creatures icon representing Rat."
+  },
+  {
+    "id": "creatures.rattlesnake",
+    "name": "Rattlesnake",
+    "file": "/assets/icons/rattlesnake.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "rattlesnake"
+    ],
+    "description": "A canonical creatures icon representing Rattlesnake."
+  },
+  {
+    "id": "creatures.regeneration",
+    "name": "Regeneration",
+    "file": "/assets/icons/regeneration.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "regeneration"
+    ],
+    "description": "A canonical creatures icon representing Regeneration."
+  },
+  {
+    "id": "creatures.robot-antennas",
+    "name": "Robot Antennas",
+    "file": "/assets/icons/robot-antennas.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "robot",
+      "antennas"
+    ],
+    "description": "A canonical creatures icon representing Robot Antennas."
+  },
+  {
+    "id": "creatures.saber-toothed-cat-head",
+    "name": "Saber Toothed Cat Head",
+    "file": "/assets/icons/saber-toothed-cat-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "saber",
+      "toothed",
+      "cat",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Saber Toothed Cat Head."
+  },
+  {
+    "id": "creatures.sad-crab",
+    "name": "Sad Crab",
+    "file": "/assets/icons/sad-crab.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sad",
+      "crab"
+    ],
+    "description": "A canonical creatures icon representing Sad Crab."
+  },
+  {
+    "id": "creatures.saint-basil-cathedral",
+    "name": "Saint Basil Cathedral",
+    "file": "/assets/icons/saint-basil-cathedral.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "saint",
+      "basil",
+      "cathedral"
+    ],
+    "description": "A canonical creatures icon representing Saint Basil Cathedral."
+  },
+  {
+    "id": "creatures.sand-snake",
+    "name": "Sand Snake",
+    "file": "/assets/icons/sand-snake.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sand",
+      "snake"
+    ],
+    "description": "A canonical creatures icon representing Sand Snake."
+  },
+  {
+    "id": "creatures.santa-hat",
+    "name": "Santa Hat",
+    "file": "/assets/icons/santa-hat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "santa",
+      "hat"
+    ],
+    "description": "A canonical creatures icon representing Santa Hat."
+  },
+  {
+    "id": "creatures.satellite-communication",
+    "name": "Satellite Communication",
+    "file": "/assets/icons/satellite-communication.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "satellite",
+      "communication"
+    ],
+    "description": "A canonical creatures icon representing Satellite Communication."
+  },
+  {
+    "id": "creatures.sauropod-skeleton",
+    "name": "Sauropod Skeleton",
+    "file": "/assets/icons/sauropod-skeleton.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sauropod",
+      "skeleton"
+    ],
+    "description": "A canonical creatures icon representing Sauropod Skeleton."
+  },
+  {
+    "id": "creatures.scarab-beetle",
+    "name": "Scarab Beetle",
+    "file": "/assets/icons/scarab-beetle.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "scarab",
+      "beetle"
+    ],
+    "description": "A canonical creatures icon representing Scarab Beetle."
+  },
+  {
+    "id": "creatures.scarecrow",
+    "name": "Scarecrow",
+    "file": "/assets/icons/scarecrow.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "scarecrow"
+    ],
+    "description": "A canonical creatures icon representing Scarecrow."
+  },
+  {
+    "id": "creatures.school-of-fish",
+    "name": "School Of Fish",
+    "file": "/assets/icons/school-of-fish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "school",
+      "fish"
+    ],
+    "description": "A canonical creatures icon representing School Of Fish."
+  },
+  {
+    "id": "creatures.schrodingers-cat-alive",
+    "name": "Schrodingers Cat Alive",
+    "file": "/assets/icons/schrodingers-cat-alive.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "schrodingers",
+      "cat",
+      "alive"
+    ],
+    "description": "A canonical creatures icon representing Schrodingers Cat Alive."
+  },
+  {
+    "id": "creatures.schrodingers-cat-dead",
+    "name": "Schrodingers Cat Dead",
+    "file": "/assets/icons/schrodingers-cat-dead.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "schrodingers",
+      "cat",
+      "dead"
+    ],
+    "description": "A canonical creatures icon representing Schrodingers Cat Dead."
+  },
+  {
+    "id": "creatures.sea-dragon",
+    "name": "Sea Dragon",
+    "file": "/assets/icons/sea-dragon.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sea",
+      "dragon"
+    ],
+    "description": "A canonical creatures icon representing Sea Dragon."
+  },
+  {
+    "id": "creatures.seahorse",
+    "name": "Seahorse",
+    "file": "/assets/icons/seahorse.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "seahorse"
+    ],
+    "description": "A canonical creatures icon representing Seahorse."
+  },
+  {
+    "id": "creatures.sergeant",
+    "name": "Sergeant",
+    "file": "/assets/icons/sergeant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sergeant"
+    ],
+    "description": "A canonical creatures icon representing Sergeant."
+  },
+  {
+    "id": "creatures.serrated-slash",
+    "name": "Serrated Slash",
+    "file": "/assets/icons/serrated-slash.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "serrated",
+      "slash"
+    ],
+    "description": "A canonical creatures icon representing Serrated Slash."
+  },
+  {
+    "id": "creatures.sextant",
+    "name": "Sextant",
+    "file": "/assets/icons/sextant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sextant"
+    ],
+    "description": "A canonical creatures icon representing Sextant."
+  },
+  {
+    "id": "creatures.shambling-zombie",
+    "name": "Shambling Zombie",
+    "file": "/assets/icons/shambling-zombie.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "shambling",
+      "zombie"
+    ],
+    "description": "A canonical creatures icon representing Shambling Zombie."
+  },
+  {
+    "id": "creatures.shark-bite",
+    "name": "Shark Bite",
+    "file": "/assets/icons/shark-bite.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "shark",
+      "bite"
+    ],
+    "description": "A canonical creatures icon representing Shark Bite."
+  },
+  {
+    "id": "creatures.shark-fin",
+    "name": "Shark Fin",
+    "file": "/assets/icons/shark-fin.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "shark",
+      "fin"
+    ],
+    "description": "A canonical creatures icon representing Shark Fin."
+  },
+  {
+    "id": "creatures.shark-jaws",
+    "name": "Shark Jaws",
+    "file": "/assets/icons/shark-jaws.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "shark",
+      "jaws"
+    ],
+    "description": "A canonical creatures icon representing Shark Jaws."
+  },
+  {
+    "id": "creatures.sharp-crown",
+    "name": "Sharp Crown",
+    "file": "/assets/icons/sharp-crown.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sharp",
+      "crown"
+    ],
+    "description": "A canonical creatures icon representing Sharp Crown."
+  },
+  {
+    "id": "creatures.sitting-dog",
+    "name": "Sitting Dog",
+    "file": "/assets/icons/sitting-dog.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sitting",
+      "dog"
+    ],
+    "description": "A canonical creatures icon representing Sitting Dog."
+  },
+  {
+    "id": "creatures.skeleton-inside",
+    "name": "Skeleton Inside",
+    "file": "/assets/icons/skeleton-inside.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "skeleton",
+      "inside"
+    ],
+    "description": "A canonical creatures icon representing Skeleton Inside."
+  },
+  {
+    "id": "creatures.skeleton",
+    "name": "Skeleton",
+    "file": "/assets/icons/skeleton.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "skeleton"
+    ],
+    "description": "A canonical creatures icon representing Skeleton."
+  },
+  {
+    "id": "creatures.small-fishing-sailboat",
+    "name": "Small Fishing Sailboat",
+    "file": "/assets/icons/small-fishing-sailboat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "small",
+      "fishing",
+      "sailboat"
+    ],
+    "description": "A canonical creatures icon representing Small Fishing Sailboat."
+  },
+  {
+    "id": "creatures.snake-bite",
+    "name": "Snake Bite",
+    "file": "/assets/icons/snake-bite.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "snake",
+      "bite"
+    ],
+    "description": "A canonical creatures icon representing Snake Bite."
+  },
+  {
+    "id": "creatures.snake-egg",
+    "name": "Snake Egg",
+    "file": "/assets/icons/snake-egg.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "snake",
+      "egg"
+    ],
+    "description": "A canonical creatures icon representing Snake Egg."
+  },
+  {
+    "id": "creatures.snake-jar",
+    "name": "Snake Jar",
+    "file": "/assets/icons/snake-jar.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "snake",
+      "jar"
+    ],
+    "description": "A canonical creatures icon representing Snake Jar."
+  },
+  {
+    "id": "creatures.snake-spiral",
+    "name": "Snake Spiral",
+    "file": "/assets/icons/snake-spiral.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "snake",
+      "spiral"
+    ],
+    "description": "A canonical creatures icon representing Snake Spiral."
+  },
+  {
+    "id": "creatures.snake-tongue",
+    "name": "Snake Tongue",
+    "file": "/assets/icons/snake-tongue.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "snake",
+      "tongue"
+    ],
+    "description": "A canonical creatures icon representing Snake Tongue."
+  },
+  {
+    "id": "creatures.snake-totem",
+    "name": "Snake Totem",
+    "file": "/assets/icons/snake-totem.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "snake",
+      "totem"
+    ],
+    "description": "A canonical creatures icon representing Snake Totem."
+  },
+  {
+    "id": "creatures.snake",
+    "name": "Snake",
+    "file": "/assets/icons/snake.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "snake"
+    ],
+    "description": "A canonical creatures icon representing Snake."
+  },
+  {
+    "id": "creatures.sniffing-dog",
+    "name": "Sniffing Dog",
+    "file": "/assets/icons/sniffing-dog.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "sniffing",
+      "dog"
+    ],
+    "description": "A canonical creatures icon representing Sniffing Dog."
+  },
+  {
+    "id": "creatures.spider-alt",
+    "name": "Spider Alt",
+    "file": "/assets/icons/spider-alt.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "spider",
+      "alt"
+    ],
+    "description": "A canonical creatures icon representing Spider Alt."
+  },
+  {
+    "id": "creatures.spider-bot",
+    "name": "Spider Bot",
+    "file": "/assets/icons/spider-bot.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "spider",
+      "bot"
+    ],
+    "description": "A canonical creatures icon representing Spider Bot."
+  },
+  {
+    "id": "creatures.spider-eye",
+    "name": "Spider Eye",
+    "file": "/assets/icons/spider-eye.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "spider",
+      "eye"
+    ],
+    "description": "A canonical creatures icon representing Spider Eye."
+  },
+  {
+    "id": "creatures.spider-face",
+    "name": "Spider Face",
+    "file": "/assets/icons/spider-face.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "spider",
+      "face"
+    ],
+    "description": "A canonical creatures icon representing Spider Face."
+  },
+  {
+    "id": "creatures.spider-mask",
+    "name": "Spider Mask",
+    "file": "/assets/icons/spider-mask.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "spider",
+      "mask"
+    ],
+    "description": "A canonical creatures icon representing Spider Mask."
+  },
+  {
+    "id": "creatures.spider-web",
+    "name": "Spider Web",
+    "file": "/assets/icons/spider-web.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "spider",
+      "web"
+    ],
+    "description": "A canonical creatures icon representing Spider Web."
+  },
+  {
+    "id": "creatures.spiked-bat",
+    "name": "Spiked Bat",
+    "file": "/assets/icons/spiked-bat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "spiked",
+      "bat"
+    ],
+    "description": "A canonical creatures icon representing Spiked Bat."
+  },
+  {
+    "id": "creatures.spiked-dragon-head",
+    "name": "Spiked Dragon Head",
+    "file": "/assets/icons/spiked-dragon-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "spiked",
+      "dragon",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Spiked Dragon Head."
+  },
+  {
+    "id": "creatures.suffocation",
+    "name": "Suffocation",
+    "file": "/assets/icons/suffocation.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "suffocation"
+    ],
+    "description": "A canonical creatures icon representing Suffocation."
+  },
+  {
+    "id": "creatures.swamp-bat",
+    "name": "Swamp Bat",
+    "file": "/assets/icons/swamp-bat.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "swamp",
+      "bat"
+    ],
+    "description": "A canonical creatures icon representing Swamp Bat."
+  },
+  {
+    "id": "creatures.tarot-05-the-hierophant",
+    "name": "Tarot 05 The Hierophant",
+    "file": "/assets/icons/tarot-05-the-hierophant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "tarot",
+      "the",
+      "hierophant"
+    ],
+    "description": "A canonical creatures icon representing Tarot 05 The Hierophant."
+  },
+  {
+    "id": "creatures.tarot-15-the-devil",
+    "name": "Tarot 15 The Devil",
+    "file": "/assets/icons/tarot-15-the-devil.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "tarot",
+      "the",
+      "devil"
+    ],
+    "description": "A canonical creatures icon representing Tarot 15 The Devil."
+  },
+  {
+    "id": "creatures.tarot_05_the_hierophant",
+    "name": "The Hierophant",
+    "file": "/assets/icons/tarot_05_the_hierophant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "tarot",
+      "the",
+      "hierophant"
+    ],
+    "description": "A canonical creatures icon representing The Hierophant."
+  },
+  {
+    "id": "creatures.tarot_15_the_devil",
+    "name": "The Devil",
+    "file": "/assets/icons/tarot_15_the_devil.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "tarot",
+      "the",
+      "devil"
+    ],
+    "description": "A canonical creatures icon representing The Devil."
+  },
+  {
+    "id": "creatures.telescopic-baton",
+    "name": "Telescopic Baton",
+    "file": "/assets/icons/telescopic-baton.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "telescopic",
+      "baton"
+    ],
+    "description": "A canonical creatures icon representing Telescopic Baton."
+  },
+  {
+    "id": "creatures.torc",
+    "name": "Torc",
+    "file": "/assets/icons/torc.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "torc"
+    ],
+    "description": "A canonical creatures icon representing Torc."
+  },
+  {
+    "id": "creatures.torch",
+    "name": "Torch",
+    "file": "/assets/icons/torch.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "torch"
+    ],
+    "description": "A canonical creatures icon representing Torch."
+  },
+  {
+    "id": "creatures.tree-beehive",
+    "name": "Tree Beehive",
+    "file": "/assets/icons/tree-beehive.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "tree",
+      "beehive"
+    ],
+    "description": "A canonical creatures icon representing Tree Beehive."
+  },
+  {
+    "id": "creatures.tribal-pendant",
+    "name": "Tribal Pendant",
+    "file": "/assets/icons/tribal-pendant.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "tribal",
+      "pendant"
+    ],
+    "description": "A canonical creatures icon representing Tribal Pendant."
+  },
+  {
+    "id": "creatures.triceratops-head",
+    "name": "Triceratops Head",
+    "file": "/assets/icons/triceratops-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "triceratops",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Triceratops Head."
+  },
+  {
+    "id": "creatures.triforce",
+    "name": "Triforce",
+    "file": "/assets/icons/triforce.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "triforce"
+    ],
+    "description": "A canonical creatures icon representing Triforce."
+  },
+  {
+    "id": "creatures.triple-scratches",
+    "name": "Triple Scratches",
+    "file": "/assets/icons/triple-scratches.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "triple",
+      "scratches"
+    ],
+    "description": "A canonical creatures icon representing Triple Scratches."
+  },
+  {
+    "id": "creatures.trojan-horse",
+    "name": "Trojan Horse",
+    "file": "/assets/icons/trojan-horse.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "trojan",
+      "horse"
+    ],
+    "description": "A canonical creatures icon representing Trojan Horse."
+  },
+  {
+    "id": "creatures.tropical-fish",
+    "name": "Tropical Fish",
+    "file": "/assets/icons/tropical-fish.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "tropical",
+      "fish"
+    ],
+    "description": "A canonical creatures icon representing Tropical Fish."
+  },
+  {
+    "id": "creatures.unicorn",
+    "name": "Unicorn",
+    "file": "/assets/icons/unicorn.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "unicorn"
+    ],
+    "description": "A canonical creatures icon representing Unicorn."
+  },
+  {
+    "id": "creatures.vibrating-ball",
+    "name": "Vibrating Ball",
+    "file": "/assets/icons/vibrating-ball.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "vibrating",
+      "ball"
+    ],
+    "description": "A canonical creatures icon representing Vibrating Ball."
+  },
+  {
+    "id": "creatures.vibrating-smartphone",
+    "name": "Vibrating Smartphone",
+    "file": "/assets/icons/vibrating-smartphone.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "vibrating",
+      "smartphone"
+    ],
+    "description": "A canonical creatures icon representing Vibrating Smartphone."
+  },
+  {
+    "id": "creatures.vulture",
+    "name": "Vulture",
+    "file": "/assets/icons/vulture.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "vulture"
+    ],
+    "description": "A canonical creatures icon representing Vulture."
+  },
+  {
+    "id": "creatures.wasp-sting",
+    "name": "Wasp Sting",
+    "file": "/assets/icons/wasp-sting.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "wasp",
+      "sting"
+    ],
+    "description": "A canonical creatures icon representing Wasp Sting."
+  },
+  {
+    "id": "creatures.werewolf",
+    "name": "Werewolf",
+    "file": "/assets/icons/werewolf.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "werewolf"
+    ],
+    "description": "A canonical creatures icon representing Werewolf."
+  },
+  {
+    "id": "creatures.wolf-head",
+    "name": "Wolf Head",
+    "file": "/assets/icons/wolf-head.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "wolf",
+      "head"
+    ],
+    "description": "A canonical creatures icon representing Wolf Head."
+  },
+  {
+    "id": "creatures.wolf-howl",
+    "name": "Wolf Howl",
+    "file": "/assets/icons/wolf-howl.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "wolf",
+      "howl"
+    ],
+    "description": "A canonical creatures icon representing Wolf Howl."
+  },
+  {
+    "id": "creatures.wolf-trap",
+    "name": "Wolf Trap",
+    "file": "/assets/icons/wolf-trap.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "wolf",
+      "trap"
+    ],
+    "description": "A canonical creatures icon representing Wolf Trap."
+  },
+  {
+    "id": "creatures.wooden-crate",
+    "name": "Wooden Crate",
+    "file": "/assets/icons/wooden-crate.svg",
+    "category": "creatures",
+    "tags": [
+      "creatures",
+      "wooden",
+      "crate"
+    ],
+    "description": "A canonical creatures icon representing Wooden Crate."
+  }
+]
