@@ -4,6 +4,8 @@
  */
 
 export * from './asset';
+export * from './vault';
+export type { EditorEngine } from './engine';
 
 export interface IconDefinition {
   label?: string;

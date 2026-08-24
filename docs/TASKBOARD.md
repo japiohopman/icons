@@ -111,6 +111,20 @@ The Photopea iframe/runtime exists internally but operates behind the applicatio
 
 ### IN PROGRESS
 
+#### VAULT-003 — Asset Explorer, Virtual Folders & Performance
+
+**Goal**
+
+Evolve the Asset Vault into a desktop-like asset management application with virtual folders, drag-and-drop, virtualization, and centralized Zustand state.
+
+**Required outcomes**
+
+- Created lightweight Zustand store (`src/store/assetVaultStore.ts`) managing vault state while leaving I/O and engines outside.
+- Implemented logical virtual folders (`src/assets/catalog/folders.json`, `/api/folders`, `/api/assets/move`) without touching flat physical asset files in `public/assets/icons/`.
+- Built virtualized asset grid/list rendering via `@tanstack/react-virtual` in `AssetBrowser.tsx`, keeping initial DOM nodes down to ~30-60 elements for 4,476 assets.
+- Integrated `@dnd-kit/core` drag-and-drop for asset assignment to virtual folders with keyboard dropdown fallback in `AssetInspector.tsx`.
+- Updated documentation and verified performance.
+
 #### VAULT-002 — Production Asset Editor & Save / Save As Workflow
 
 **Goal**

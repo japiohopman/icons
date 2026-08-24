@@ -1,11 +1,11 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { Asset } from '@/types/asset';
-import { IconDefinition, VaultFilterOptions, FolderNode, FileNode, ExplorerNode } from '@/types/vault';
+import { IconDefinition, VaultFilterOptions } from '@/types/vault';
 import { assetService } from '@/services/assetService';
 import { EXPLORER_TREE } from '@/assets/icons';
 
 export function useAssetVault() {
-  const [selectedAssetId, setSelectedAssetId] = useState<string | null>('save');
+  const [selectedAssetId, setSelectedAssetId] = useState<string | null>('combat.3d-hammer');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFolderPath, setActiveFolderPath] = useState('all');
   const [expandedFolders, setExpandedFolders] = useState<Record<string, boolean>>({});

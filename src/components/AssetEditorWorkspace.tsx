@@ -4,10 +4,9 @@
  */
 
 import React, { useEffect, useRef, useState } from 'react';
-import { Asset, EngineStatus } from '../types/asset';
-import { CatalogAsset } from '../types/asset';
-import { PhotopeaEngine } from '../engine/PhotopeaEngine';
-import { CATALOG_CATEGORIES } from '../lib/catalog';
+import { Asset, EngineStatus, CatalogAsset } from '@/types';
+import { PhotopeaEngine } from '@/engine/PhotopeaEngine';
+import { CATALOG_CATEGORIES } from '@/lib/catalog';
 
 interface AssetEditorWorkspaceProps {
   catalogAsset: CatalogAsset | null;
@@ -285,7 +284,7 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
           <button
             onClick={handleSave}
             disabled={isProcessing || engineStatus !== 'ready'}
-            className="px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white text-xs font-semibold rounded-md transition-colors shadow-xs flex items-center gap-1.5"
+            className="px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white text-xs font-semibold rounded-md transition-colors shadow-xs flex items-center gap-1.5 font-sans"
           >
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
@@ -296,7 +295,7 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
           <button
             onClick={() => setShowSaveAsDialog(true)}
             disabled={isProcessing || engineStatus !== 'ready'}
-            className="px-3.5 py-1.5 bg-slate-800 hover:bg-slate-700 disabled:opacity-50 text-slate-200 text-xs font-semibold rounded-md transition-colors border border-slate-700 flex items-center gap-1.5"
+            className="px-3.5 py-1.5 bg-slate-800 hover:bg-slate-700 disabled:opacity-50 text-slate-200 text-xs font-semibold rounded-md transition-colors border border-slate-700 flex items-center gap-1.5 font-sans"
           >
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />

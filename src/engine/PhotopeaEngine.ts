@@ -32,6 +32,10 @@ export class PhotopeaEngine implements EditorEngine {
     }
   }
 
+  public getContainer(): HTMLElement | null {
+    return this.container;
+  }
+
   public getStatus(): EngineStatus {
     return this.status;
   }
