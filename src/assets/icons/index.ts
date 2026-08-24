@@ -1,4 +1,4 @@
-import { IconDefinition, FolderNode, ExplorerNode } from '@/types/vault';
+import { IconDefinition, FolderNode } from '@/types/vault';
 
 // Process and parse dynamically imported SVGs
 const svgModules = (import.meta as Record<string, any>).glob('/src/assets/icons/svg/**/*.svg', { query: '?raw', eager: true });

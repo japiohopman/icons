@@ -1,21 +1,25 @@
 import React from 'react';
 import { GameIcon } from '@/assets/game_icons';
 import { motion } from 'motion/react';
-import { Asset } from '@/types/asset';
+import { Asset, CatalogAsset } from '@/types/asset';
 import { IconDefinition } from '@/types/vault';
+import { useAssetVaultStore } from '@/store/assetVaultStore';
 
 interface AssetInspectorProps {
   selectedAssetId: string | null;
-  selectedAsset: Asset | null;
+  selectedAsset: CatalogAsset | Asset | null;
   selectedMetadata: IconDefinition | null;
   onOpenEditor: () => void;
 }
 
 export const AssetInspector: React.FC<AssetInspectorProps> = ({
   selectedAssetId,
+  selectedAsset,
   selectedMetadata,
   onOpenEditor,
 }) => {
+  const { folders, moveAssetToFolder } = useAssetVaultStore();
+  const currentFolderId = selectedAsset && 'folderId' in selectedAsset ? selectedAsset.folderId || '' : '';
   return (
     <aside className="w-80 bg-white border-l border-slate-200 shrink-0 hidden lg:flex flex-col z-10 shadow-[-4px_0_12px_rgba(0,0,0,0.02)]">
       {selectedAssetId ? (
@@ -69,7 +73,7 @@ export const AssetInspector: React.FC<AssetInspectorProps> = ({
                   </div>
                 )}
 
-                <div className="pt-4 border-t border-slate-100">
+                <div className="pt-4 border-t border-slate-100 space-y-4">
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Viewbox</label>
@@ -81,6 +85,29 @@ export const AssetInspector: React.FC<AssetInspectorProps> = ({
                         {selectedAssetId}
                       </span>
                     </div>
+                  </div>
+
+                  <div>
+                    <label htmlFor="folder-assignment-select" className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+                      Virtual Folder Location
+                    </label>
+                    <select
+                      id="folder-assignment-select"
+                      value={currentFolderId}
+                      onChange={(e) => {
+                        const targetId = e.target.value || null;
+                        moveAssetToFolder(selectedAssetId, targetId);
+                      }}
+                      className="w-full text-xs bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-slate-700 focus:outline-hidden focus:border-indigo-400 transition-colors cursor-pointer"
+                      aria-label="Assign to Virtual Folder"
+                    >
+                      <option value="">Unassigned (All Assets / Root)</option>
+                      {folders.map((f) => (
+                        <option key={f.id} value={f.id}>
+                          📁 {f.name}
+                        </option>
+                      ))}
+                    </select>
                   </div>
                 </div>
               </div>

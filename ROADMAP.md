@@ -214,10 +214,10 @@ The Photopea iframe/runtime may exist internally, but it is not the application'
 - [x] Build application-owned asset browser from catalog data
 - [x] Build asset inspector
 - [x] Separate asset storage from editor implementation
-- [ ] Establish logical/virtual folder model
-- [ ] Establish centralized Asset Vault application state
-- [ ] Add desktop-like folder and drag/drop workflows
-- [ ] Add virtualized/lazy asset browsing for large catalogs
+- [x] Establish logical/virtual folder model
+- [x] Establish centralized Asset Vault application state
+- [x] Add desktop-like folder and drag/drop workflows
+- [x] Add virtualized/lazy asset browsing for large catalogs
 
 ### Phase 3 — Core editing
 

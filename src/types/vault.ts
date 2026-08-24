@@ -25,6 +25,21 @@ export type ExplorerNode = FileNode | FolderNode;
 export interface VaultFilterOptions {
   searchQuery?: string;
   folderPath?: string;
+  folderId?: string;
   category?: string;
   showMissingOnly?: boolean;
+}
+
+/**
+ * Logical virtual folder model for Asset Vault organization.
+ * Physical icon asset storage remains flat in `public/assets/icons/`.
+ * Logical folders exist strictly in application catalog metadata.
+ */
+export interface VirtualFolder {
+  id: string;
+  name: string;
+  /** Null or parent VirtualFolder ID */
+  parentId: string | null;
+  /** Optional icon or category association */
+  category?: string;
 }

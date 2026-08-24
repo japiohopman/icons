@@ -5,8 +5,8 @@
 
 import React from 'react';
 import { motion, HTMLMotionProps } from 'motion/react';
-import { CatalogAsset } from '../types/asset';
-import { getAssetById, getAssetByFile } from '../lib/catalog';
+import { CatalogAsset } from '@/types';
+import { getAssetById, getAssetByFile } from '@/lib/catalog';
 
 interface GameIconProps extends Omit<HTMLMotionProps<'img'>, 'children'> {
   asset?: CatalogAsset | null;

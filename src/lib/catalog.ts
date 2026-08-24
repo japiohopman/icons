@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { CatalogAsset, CatalogCategory } from '../types/asset';
+import { CatalogAsset, CatalogCategory } from '@/types';
 
 export const CATALOG_CATEGORIES: CatalogCategory[] = [
   { id: 'combat', name: 'Combat & Weapons', description: 'Attacks, weapons, armor, and combat tactics.' },

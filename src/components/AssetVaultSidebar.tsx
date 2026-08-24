@@ -1,223 +1,137 @@
-import React, { useMemo } from 'react';
-import { ExplorerNode, FolderNode } from '@/types/vault';
+import React, { useState } from 'react';
+import { useDroppable } from '@dnd-kit/core';
+import { useAssetVaultStore } from '@/store/assetVaultStore';
+import { FolderTree } from './FolderTree';
 
-interface TreeNodeProps {
-  node: ExplorerNode;
-  depth: number;
-  activeFolderPath: string;
-  selectedAssetId: string | null;
-  onFolderSelect: (path: string) => void;
-  onFileSelect: (iconId: string) => void;
-  expandedFolders: Record<string, boolean>;
-  onToggleFolder: (path: string) => void;
-  searchQuery: string;
-}
+export const AssetVaultSidebar: React.FC = () => {
+  const {
+    assets,
+    activeFolderId,
+    setActiveFolderId,
+    createFolder,
+  } = useAssetVaultStore();
 
-const TreeNode: React.FC<TreeNodeProps> = ({
-  node,
-  depth,
-  activeFolderPath,
-  selectedAssetId,
-  onFolderSelect,
-  onFileSelect,
-  expandedFolders,
-  onToggleFolder,
-  searchQuery,
-}) => {
-  const isFolder = node.type === 'folder';
-  const isExpanded = !!expandedFolders[node.path];
-  const isActive = isFolder ? activeFolderPath === node.path : selectedAssetId === node.iconId;
+  const [showNewFolderModal, setShowNewFolderModal] = useState(false);
+  const [newFolderName, setNewFolderName] = useState('');
 
-  const totalFiles = useMemo(() => {
-    if (!isFolder) return 1;
-    let count = 0;
-    const traverse = (n: ExplorerNode) => {
-      if (n.type === 'file') count++;
-      else (n as FolderNode).children.forEach(traverse);
-    };
-    traverse(node);
-    return count;
-  }, [node, isFolder]);
+  const { setNodeRef: setRootDroppableRef, isOver: isOverRoot } = useDroppable({
+    id: 'folder-drop-all',
+    data: {
+      type: 'folder',
+      folderId: 'all',
+    },
+  });
 
-  const hasSearchMatch = useMemo(() => {
-    if (!searchQuery) return true;
-    const traverse = (n: ExplorerNode): boolean => {
-      if (n.type === 'file') {
-        return n.iconId.toLowerCase().includes(searchQuery.toLowerCase());
-      }
-      return (n as FolderNode).children.some(traverse);
-    };
-    return traverse(node);
-  }, [node, searchQuery]);
+  const handleCreateFolderSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!newFolderName.trim()) return;
+    await createFolder(newFolderName.trim());
+    setNewFolderName('');
+    setShowNewFolderModal(false);
+  };
 
-  if (!hasSearchMatch) return null;
-
-  if (isFolder) {
-    const folderNode = node as FolderNode;
-    return (
-      <div className="select-none">
-        <button
-          onClick={() => {
-            onToggleFolder(folderNode.path);
-            onFolderSelect(folderNode.path);
-          }}
-          style={{ paddingLeft: `${depth * 12 + 6}px` }}
-          className={`w-full flex items-center py-1.5 text-[11.5px] rounded-md transition-all group ${
-            isActive
-              ? 'bg-indigo-50 text-indigo-900 font-semibold shadow-xs'
-              : 'text-slate-500 hover:bg-slate-50 hover:text-slate-700'
-          }`}
-        >
-          <span className="w-3.5 h-3.5 flex items-center justify-center shrink-0 mr-1 text-slate-400 group-hover:text-slate-600 transition-colors">
-            <svg
-              className={`w-2.5 h-2.5 transition-transform duration-200 ${isExpanded ? 'rotate-90' : ''}`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
-            </svg>
-          </span>
-
-          <span className={`mr-2 shrink-0 ${isActive ? 'text-indigo-500' : 'text-slate-400 group-hover:text-slate-500'}`}>
-            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-              />
-            </svg>
-          </span>
-
-          <span className="truncate">{folderNode.name}</span>
-
-          <span
-            className={`ml-auto text-[9px] font-mono px-1.5 py-0.25 rounded transition-all ${
-              isActive ? 'bg-white text-indigo-600 border border-slate-200' : 'opacity-40 group-hover:opacity-60'
-            }`}
-          >
-            {totalFiles}
-          </span>
-        </button>
-
-        {isExpanded && folderNode.children.length > 0 && (
-          <div className="mt-0.5 space-y-0.5">
-            {folderNode.children.map((child) => (
-              <TreeNode
-                key={child.path}
-                node={child}
-                depth={depth + 1}
-                activeFolderPath={activeFolderPath}
-                selectedAssetId={selectedAssetId}
-                onFolderSelect={onFolderSelect}
-                onFileSelect={onFileSelect}
-                expandedFolders={expandedFolders}
-                onToggleFolder={onToggleFolder}
-                searchQuery={searchQuery}
-              />
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  } else {
-    if (searchQuery && !node.iconId.toLowerCase().includes(searchQuery.toLowerCase())) {
-      return null;
-    }
-
-    return (
-      <button
-        onClick={() => onFileSelect(node.iconId)}
-        style={{ paddingLeft: `${depth * 12 + 18}px` }}
-        className={`w-full flex items-center py-1 pr-2 text-[11px] rounded-md transition-all group ${
-          isActive
-            ? 'bg-indigo-50 text-indigo-900 font-semibold shadow-xs'
-            : 'text-slate-500 hover:bg-slate-50 hover:text-slate-700'
-        }`}
-      >
-        <span className={`mr-2 shrink-0 ${isActive ? 'text-indigo-500' : 'text-slate-400 group-hover:text-slate-500'}`}>
-          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-          </svg>
-        </span>
-        <span className="truncate text-slate-600 group-hover:text-slate-900">{node.name}</span>
-      </button>
-    );
-  }
-};
-
-interface AssetVaultSidebarProps {
-  explorerTree: FolderNode;
-  activeFolderPath: string;
-  selectedAssetId: string | null;
-  onFolderSelect: (path: string) => void;
-  onFileSelect: (assetId: string) => void;
-  expandedFolders: Record<string, boolean>;
-  onToggleFolder: (path: string) => void;
-  searchQuery: string;
-  totalAssetsCount: number;
-}
-
-export const AssetVaultSidebar: React.FC<AssetVaultSidebarProps> = ({
-  explorerTree,
-  activeFolderPath,
-  selectedAssetId,
-  onFolderSelect,
-  onFileSelect,
-  expandedFolders,
-  onToggleFolder,
-  searchQuery,
-  totalAssetsCount,
-}) => {
   return (
-    <aside className="w-64 bg-white border-r border-slate-200 flex flex-col shrink-0">
-      <div className="p-4 border-b border-slate-50">
-        <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest pl-2 mb-3 mt-1">Explorer</div>
+    <aside className="w-64 bg-white border-r border-slate-200 flex flex-col shrink-0 select-none">
+      <div className="p-4 border-b border-slate-100 flex items-center justify-between">
+        <div>
+          <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Navigation</div>
+          <h2 className="text-xs font-bold text-slate-800">Virtual Folders</h2>
+        </div>
         <button
-          onClick={() => onFolderSelect('all')}
-          className={`w-full flex items-center px-2 py-1.5 text-sm rounded-md transition-colors ${
-            activeFolderPath === 'all'
-              ? 'bg-slate-100 text-slate-900 font-semibold'
-              : 'text-slate-500 hover:bg-slate-50 hover:text-slate-700'
+          onClick={() => setShowNewFolderModal(true)}
+          className="px-2 py-1 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 rounded-md text-[11px] font-semibold transition-colors flex items-center gap-1 border border-indigo-200/60 shadow-xs cursor-pointer"
+          title="Create New Virtual Folder"
+        >
+          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+          </svg>
+          New Folder
+        </button>
+      </div>
+
+      <nav className="flex-1 overflow-y-auto p-3 space-y-3 custom-scrollbar">
+        <div
+          ref={setRootDroppableRef}
+          onClick={() => setActiveFolderId('all')}
+          className={`w-full flex items-center px-2.5 py-2 text-xs rounded-lg cursor-pointer transition-all ${
+            isOverRoot
+              ? 'bg-indigo-100 ring-2 ring-indigo-500/40 font-semibold'
+              : activeFolderId === 'all'
+              ? 'bg-slate-900 text-white font-semibold shadow-xs'
+              : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
           }`}
         >
           <svg
-            className={`w-4 h-4 mr-2.5 ${activeFolderPath === 'all' ? 'text-indigo-500' : 'text-slate-400'}`}
+            className={`w-4 h-4 mr-2.5 ${activeFolderId === 'all' ? 'text-indigo-400' : 'text-slate-400'}`}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
           </svg>
-          All Assets
-          <span className="ml-auto text-[10px] font-mono opacity-50">{totalAssetsCount}</span>
-        </button>
-      </div>
+          <span>All Assets</span>
+          <span
+            className={`ml-auto text-[10px] font-mono px-1.5 py-0.25 rounded ${
+              activeFolderId === 'all' ? 'bg-slate-800 text-slate-300' : 'bg-slate-100 text-slate-500'
+            }`}
+          >
+            {assets.length}
+          </span>
+        </div>
 
-      <nav className="flex-1 overflow-y-auto px-3 py-4 space-y-0.5 custom-scrollbar">
-        {explorerTree.children.map((child) => (
-          <TreeNode
-            key={child.path}
-            node={child}
-            depth={0}
-            activeFolderPath={activeFolderPath}
-            selectedAssetId={selectedAssetId}
-            onFolderSelect={onFolderSelect}
-            onFileSelect={onFileSelect}
-            expandedFolders={expandedFolders}
-            onToggleFolder={onToggleFolder}
-            searchQuery={searchQuery}
-          />
-        ))}
+        <div className="pt-2 border-t border-slate-100">
+          <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2 px-2">Folders</div>
+          <FolderTree />
+        </div>
       </nav>
 
-      <div className="p-4 border-t border-slate-100 bg-slate-50/30">
-        <div className="flex items-center gap-2 px-2 py-2 text-[11px] text-slate-400 font-medium">
-          <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
-          <span>Asset Vault Operational</span>
+      <div className="p-3 border-t border-slate-100 bg-slate-50/50">
+        <div className="flex items-center gap-2 px-2 py-1 text-[11px] text-slate-400 font-medium">
+          <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
+          <span>Virtual Folder System Operational</span>
         </div>
       </div>
+
+      {showNewFolderModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/40 backdrop-blur-xs p-4">
+          <form
+            onSubmit={handleCreateFolderSubmit}
+            className="bg-white border border-slate-200 rounded-xl p-5 w-full max-w-sm shadow-xl space-y-4"
+          >
+            <h3 className="text-sm font-bold text-slate-800">Create New Virtual Folder</h3>
+            <p className="text-xs text-slate-500">
+              Folders organize assets logically in catalog metadata while keeping physical files flat in public/assets/icons/.
+            </p>
+            <div>
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Folder Name</label>
+              <input
+                type="text"
+                value={newFolderName}
+                onChange={(e) => setNewFolderName(e.target.value)}
+                placeholder="e.g. Legendary Weapons"
+                autoFocus
+                className="w-full px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-800 rounded-lg text-xs focus:bg-white focus:border-indigo-500 focus:outline-hidden"
+              />
+            </div>
+            <div className="flex justify-end gap-2 pt-2">
+              <button
+                type="button"
+                onClick={() => setShowNewFolderModal(false)}
+                className="px-3 py-1.5 text-xs text-slate-500 hover:text-slate-700 cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="submit"
+                disabled={!newFolderName.trim()}
+                className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-lg text-xs font-semibold shadow-xs cursor-pointer"
+              >
+                Create Folder
+              </button>
+            </div>
+          </form>
+        </div>
+      )}
     </aside>
   );
 };

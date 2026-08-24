@@ -1,9 +1,10 @@
-import { Asset } from '@/types/asset';
+import { Asset, CatalogAsset } from '@/types/asset';
 import { IconDefinition, VaultFilterOptions } from '@/types/vault';
-import { ALL_ICONS, EXPLORER_TREE } from '@/assets/icons';
+import { getAssetById, getIconCatalog, addOrUpdateCatalogAsset } from '@/lib/catalog';
 
 export interface IAssetService {
   getAsset(id: string): Promise<Asset | null>;
+  getCatalogAsset(id: string): CatalogAsset | undefined;
   getIconDefinition(id: string): IconDefinition | null;
   listAssetIds(filter?: VaultFilterOptions): Promise<string[]>;
   saveAsset(asset: Asset): Promise<void>;
@@ -17,54 +18,85 @@ class VaultAssetService implements IAssetService {
       return this.inMemoryVault[id];
     }
 
-    const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
-    if (!def) return null;
+    const catAsset = getAssetById(id);
+    if (!catAsset) return null;
 
-    const pathStr = def.path || '';
-    const svgData = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="${pathStr}"/></svg>`;
-    const dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgData)}`;
+    let dataUrl = catAsset.file;
+    try {
+      const res = await fetch(catAsset.file);
+      if (res.ok) {
+        const svgText = await res.text();
+        dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgText)}`;
+      }
+    } catch (e) {
+      // Fallback to static URL
+    }
 
     return {
-      id,
-      name: `${id}.svg`,
+      id: catAsset.id,
+      name: `${catAsset.name}.svg`,
       category: 'icon',
       mimeType: 'image/svg+xml',
       data: dataUrl,
       width: 512,
       height: 512,
       metadata: {
-        label: def.label,
-        description: def.description,
-        usage: def.usage,
-        usedIn: def.usedIn,
+        label: catAsset.name,
+        description: catAsset.description,
+        tags: catAsset.tags,
+        category: catAsset.category,
+        file: catAsset.file,
       },
     };
   }
 
+  public getCatalogAsset(id: string): CatalogAsset | undefined {
+    return getAssetById(id);
+  }
+
   public getIconDefinition(id: string): IconDefinition | null {
-    return (ALL_ICONS as Record<string, IconDefinition>)[id] || null;
+    const catAsset = getAssetById(id);
+    if (!catAsset) return null;
+    return {
+      label: catAsset.name,
+      description: catAsset.description,
+      usage: `Canonical ${catAsset.category} asset`,
+    };
   }
 
   public async listAssetIds(filter?: VaultFilterOptions): Promise<string[]> {
-    let ids = Object.keys(ALL_ICONS);
+    let assets = getIconCatalog();
+
+    if (filter?.category && filter.category !== 'all') {
+      assets = assets.filter((a) => a.category === filter.category);
+    }
+
+    if (filter?.folderId) {
+      assets = assets.filter((a) => a.folderId === filter.folderId || a.category === filter.folderId);
+    }
 
     if (filter?.searchQuery) {
       const q = filter.searchQuery.toLowerCase();
-      ids = ids.filter((id) => id.toLowerCase().includes(q));
+      assets = assets.filter(
+        (a) =>
+          a.id.toLowerCase().includes(q) ||
+          a.name.toLowerCase().includes(q) ||
+          a.tags.some((t) => t.toLowerCase().includes(q))
+      );
     }
 
-    if (filter?.showMissingOnly) {
-      ids = ids.filter((id) => {
-        const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
-        return !def || !def.path;
-      });
-    }
-
-    return ids;
+    return assets.map((a) => a.id);
   }
 
   public async saveAsset(asset: Asset): Promise<void> {
     this.inMemoryVault[asset.id] = asset;
+    const catAsset = getAssetById(asset.id);
+    if (catAsset) {
+      addOrUpdateCatalogAsset({
+        ...catAsset,
+        name: asset.name.replace(/\.svg$/, ''),
+      });
+    }
   }
 }
 
