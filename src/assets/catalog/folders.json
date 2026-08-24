@@ -1,0 +1,68 @@
+[
+  {
+    "id": "combat",
+    "name": "Combat & Weapons",
+    "parentId": null,
+    "icon": "sword"
+  },
+  {
+    "id": "equipment",
+    "name": "Equipment & Items",
+    "parentId": null,
+    "icon": "backpack"
+  },
+  {
+    "id": "creatures",
+    "name": "Creatures & Beasts",
+    "parentId": null,
+    "icon": "monster"
+  },
+  {
+    "id": "magic",
+    "name": "Magic & Spells",
+    "parentId": null,
+    "icon": "spell"
+  },
+  {
+    "id": "conditions",
+    "name": "Conditions & Statuses",
+    "parentId": null,
+    "icon": "status"
+  },
+  {
+    "id": "character",
+    "name": "Character & Traits",
+    "parentId": null,
+    "icon": "character"
+  },
+  {
+    "id": "world",
+    "name": "World & Atlas",
+    "parentId": null,
+    "icon": "map"
+  },
+  {
+    "id": "cards_dice",
+    "name": "Cards & Dice",
+    "parentId": null,
+    "icon": "dice"
+  },
+  {
+    "id": "tarot",
+    "name": "Tarot Arcana",
+    "parentId": null,
+    "icon": "card"
+  },
+  {
+    "id": "ui",
+    "name": "User Interface",
+    "parentId": null,
+    "icon": "ui"
+  },
+  {
+    "id": "general",
+    "name": "General Vault Assets",
+    "parentId": null,
+    "icon": "folder"
+  }
+]

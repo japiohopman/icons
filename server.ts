@@ -10,6 +10,130 @@ async function startServer() {
   // Increase payload limit to handle data URLs / binary payloads
   app.use(express.json({ limit: "25mb" }));
 
+  const foldersJsonPath = path.join(process.cwd(), "src/assets/catalog/folders.json");
+
+  // GET /api/folders - Return logical virtual folder tree
+  app.get("/api/folders", (_req, res) => {
+    try {
+      if (!fs.existsSync(foldersJsonPath)) {
+        return res.json([]);
+      }
+      const raw = fs.readFileSync(foldersJsonPath, "utf8");
+      const folders = JSON.parse(raw);
+      return res.json(folders);
+    } catch (err: any) {
+      console.error("[API GET /api/folders] Error:", err);
+      return res.status(500).json({ error: "Failed to read folders." });
+    }
+  });
+
+  // POST /api/folders - Manage virtual folder tree (create, rename, delete)
+  app.post("/api/folders", (req, res) => {
+    const { action, id, name, parentId } = req.body;
+
+    try {
+      let folders: any[] = [];
+      if (fs.existsSync(foldersJsonPath)) {
+        const raw = fs.readFileSync(foldersJsonPath, "utf8");
+        folders = JSON.parse(raw);
+      }
+
+      if (action === "create") {
+        if (!id || !name) {
+          return res.status(400).json({ error: "Missing folder id or name." });
+        }
+        if (folders.some((f) => f.id === id)) {
+          return res.status(409).json({ error: "Folder ID already exists." });
+        }
+        const newFolder = { id, name, parentId: parentId || null, icon: "folder" };
+        folders.push(newFolder);
+        fs.writeFileSync(foldersJsonPath, JSON.stringify(folders, null, 2), "utf8");
+        return res.json({ success: true, folder: newFolder, folders });
+      }
+
+      if (action === "rename") {
+        if (!id || !name) {
+          return res.status(400).json({ error: "Missing folder id or name." });
+        }
+        const folder = folders.find((f) => f.id === id);
+        if (!folder) {
+          return res.status(404).json({ error: "Folder not found." });
+        }
+        folder.name = name;
+        fs.writeFileSync(foldersJsonPath, JSON.stringify(folders, null, 2), "utf8");
+        return res.json({ success: true, folder, folders });
+      }
+
+      if (action === "delete") {
+        if (!id) {
+          return res.status(400).json({ error: "Missing folder id." });
+        }
+        folders = folders.filter((f) => f.id !== id && f.parentId !== id);
+        fs.writeFileSync(foldersJsonPath, JSON.stringify(folders, null, 2), "utf8");
+        return res.json({ success: true, folders });
+      }
+
+      return res.status(400).json({ error: "Invalid action." });
+    } catch (err: any) {
+      console.error("[API POST /api/folders] Error:", err);
+      return res.status(500).json({ error: "Failed to update folders." });
+    }
+  });
+
+  // POST /api/assets/move - Logical drag-and-drop folder assignment without physical file moves
+  app.post("/api/assets/move", (req, res) => {
+    const { assetId, targetFolderId } = req.body;
+
+    if (!assetId || !targetFolderId) {
+      return res.status(400).json({ error: "Missing assetId or targetFolderId." });
+    }
+
+    const catalogDir = path.join(process.cwd(), "src/assets/catalog/icons");
+
+    try {
+      if (!fs.existsSync(catalogDir)) {
+        return res.status(404).json({ error: "Catalog directory not found." });
+      }
+
+      let movedAsset: any = null;
+      const catFiles = fs.readdirSync(catalogDir).filter((f) => f.endsWith(".json"));
+
+      for (const cFile of catFiles) {
+        const filePath = path.join(catalogDir, cFile);
+        const raw = fs.readFileSync(filePath, "utf8");
+        let items: any[] = JSON.parse(raw);
+
+        const itemIndex = items.findIndex((i) => i.id === assetId);
+        if (itemIndex >= 0) {
+          movedAsset = { ...items[itemIndex], category: targetFolderId };
+
+          // If moving across category files, remove from old file and append to target category file
+          items.splice(itemIndex, 1);
+          fs.writeFileSync(filePath, JSON.stringify(items, null, 2), "utf8");
+
+          const targetFile = path.join(catalogDir, `${targetFolderId}.json`);
+          let targetItems: any[] = [];
+          if (fs.existsSync(targetFile)) {
+            targetItems = JSON.parse(fs.readFileSync(targetFile, "utf8"));
+          }
+          targetItems.push(movedAsset);
+          fs.writeFileSync(targetFile, JSON.stringify(targetItems, null, 2), "utf8");
+          break;
+        }
+      }
+
+      if (!movedAsset) {
+        return res.status(404).json({ error: "Asset not found in catalog." });
+      }
+
+      console.log(`[API /api/assets/move] Moved asset '${assetId}' to folder '${targetFolderId}'`);
+      return res.json({ success: true, asset: movedAsset });
+    } catch (err: any) {
+      console.error("[API /api/assets/move] Error:", err);
+      return res.status(500).json({ error: "Failed to move asset." });
+    }
+  });
+
   app.post("/api/assets/save", (req, res) => {
     const { action, assetId, originalAssetId, name, category, file, content, tags, description } = req.body;
 
