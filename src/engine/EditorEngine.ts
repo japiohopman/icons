@@ -12,6 +12,11 @@ export interface EditorEngine {
   resize(width: number, height: number): Promise<Asset>;
   resizeCanvas(width: number, height: number, anchor?: CanvasAnchor): Promise<Asset>;
   crop(bounds: CropBounds): Promise<Asset>;
+  rotate(angle: number): Promise<void>;
+  flip(direction: 'horizontal' | 'vertical'): Promise<void>;
+  duplicateLayer(): Promise<void>;
+  deleteActiveLayer(): Promise<void>;
+  setLayerOpacity(opacity: number): Promise<void>;
   exportResult(options?: ExportOptions): Promise<Asset>;
   getStatus(): EngineStatus;
   onStatusChange(callback: (status: EngineStatus) => void): () => void;
