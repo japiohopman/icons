@@ -16,6 +16,7 @@ export const AssetInspector: React.FC<AssetInspectorProps> = ({
   selectedMetadata,
   onOpenEditor,
 }) => {
+  const [activeVariant, setActiveVariant] = React.useState<'default' | 'solid' | 'outline' | 'minimal'>('default');
   return (
     <aside className="w-80 bg-white border-l border-slate-200 shrink-0 hidden lg:flex flex-col z-10 shadow-[-4px_0_12px_rgba(0,0,0,0.02)]">
       {selectedAssetId ? (
@@ -49,6 +50,26 @@ export const AssetInspector: React.FC<AssetInspectorProps> = ({
                   <span className="text-[10px] font-mono bg-indigo-50 text-indigo-700 px-1.5 py-0.5 rounded border border-indigo-100/50 uppercase tracking-tighter">
                     SVG Asset
                   </span>
+                </div>
+              </div>
+
+              {/* Variant Switcher */}
+              <div>
+                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Icon Variant</label>
+                <div className="grid grid-cols-4 gap-1 p-1 bg-slate-100 rounded-lg text-[10px] font-medium text-slate-600">
+                  {(['default', 'solid', 'outline', 'minimal'] as const).map((variant) => (
+                    <button
+                      key={variant}
+                      onClick={() => setActiveVariant(variant)}
+                      className={`py-1 rounded-md capitalize transition-all ${
+                        activeVariant === variant
+                          ? 'bg-white font-bold text-indigo-600 shadow-xs'
+                          : 'hover:text-slate-900'
+                      }`}
+                    >
+                      {variant}
+                    </button>
+                  ))}
                 </div>
               </div>
 

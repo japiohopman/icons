@@ -10,6 +10,7 @@ import { PhotopeaEngine } from '../engine/PhotopeaEngine';
 import { CATALOG_CATEGORIES } from '../lib/catalog';
 import { executeRotateTool, executeFlipTool } from '../tools/rotate';
 import { executeDuplicateLayerTool, executeDeleteLayerTool, executeSetLayerOpacityTool } from '../tools/layers';
+import { REUSABLE_PRESETS, applyEditingPreset } from '../tools/export';
 
 interface AssetEditorWorkspaceProps {
   catalogAsset: CatalogAsset | null;
@@ -522,6 +523,42 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
                   >
                     - Delete Layer
                   </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Reusable Presets Section */}
+            <div className="pt-4 border-t border-slate-800">
+              <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">Editing Presets</h3>
+              <div className="space-y-2 bg-slate-950/60 p-4 rounded-xl border border-slate-800/80">
+                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+                  Apply Style Preset
+                </label>
+                <div className="space-y-2">
+                  {REUSABLE_PRESETS.map((preset) => (
+                    <button
+                      key={preset.id}
+                      onClick={async () => {
+                        if (engineRef.current) {
+                          setIsProcessing(true);
+                          try {
+                            await applyEditingPreset(engineRef.current, preset);
+                            setMessage({ type: 'success', text: `Applied preset '${preset.name}'!` });
+                            setHasUnsavedChanges(true);
+                          } catch (err: any) {
+                            setMessage({ type: 'error', text: err.message || 'Failed to apply preset' });
+                          } finally {
+                            setIsProcessing(false);
+                          }
+                        }
+                      }}
+                      disabled={isProcessing || engineStatus !== 'ready'}
+                      className="w-full p-2 bg-slate-900 hover:bg-slate-800 disabled:opacity-50 text-left rounded-lg border border-slate-800 transition-colors"
+                    >
+                      <div className="text-xs font-semibold text-slate-200">{preset.name}</div>
+                      <div className="text-[10px] text-slate-400">{preset.description}</div>
+                    </button>
+                  ))}
                 </div>
               </div>
             </div>
