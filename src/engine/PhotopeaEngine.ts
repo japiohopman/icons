@@ -274,6 +274,70 @@ export class PhotopeaEngine implements EditorEngine {
     return resultAsset;
   }
 
+  public async resizeCanvas(width: number, height: number): Promise<Asset> {
+    if (!this.currentAsset) {
+      throw new Error('No asset loaded in PhotopeaEngine.');
+    }
+
+    this.setStatus('processing');
+    const script = `app.activeDocument.resizeCanvas(${width}, ${height});`;
+    await this.executeScript(script);
+
+    const resultAsset = await this.exportResult({ format: 'png' });
+    this.setStatus('ready');
+    return resultAsset;
+  }
+
+  public async crop(bounds: { x: number; y: number; width: number; height: number }): Promise<Asset> {
+    if (!this.currentAsset) {
+      throw new Error('No asset loaded in PhotopeaEngine.');
+    }
+
+    this.setStatus('processing');
+    const script = `app.activeDocument.crop([${bounds.x}, ${bounds.y}, ${bounds.x + bounds.width}, ${bounds.y + bounds.height}]);`;
+    await this.executeScript(script);
+
+    const resultAsset = await this.exportResult({ format: 'png' });
+    this.setStatus('ready');
+    return resultAsset;
+  }
+
+  public async rotate(angle: number): Promise<void> {
+    this.setStatus('processing');
+    const script = `app.activeDocument.activeLayer.rotate(${angle});`;
+    await this.executeScript(script);
+    this.setStatus('ready');
+  }
+
+  public async flip(direction: 'horizontal' | 'vertical'): Promise<void> {
+    this.setStatus('processing');
+    const dirStr = direction === 'horizontal' ? 'Direction.HORIZONTAL' : 'Direction.VERTICAL';
+    const script = `app.activeDocument.activeLayer.flip(${dirStr});`;
+    await this.executeScript(script);
+    this.setStatus('ready');
+  }
+
+  public async duplicateLayer(): Promise<void> {
+    this.setStatus('processing');
+    const script = `app.activeDocument.activeLayer.duplicate();`;
+    await this.executeScript(script);
+    this.setStatus('ready');
+  }
+
+  public async deleteActiveLayer(): Promise<void> {
+    this.setStatus('processing');
+    const script = `app.activeDocument.activeLayer.remove();`;
+    await this.executeScript(script);
+    this.setStatus('ready');
+  }
+
+  public async setLayerOpacity(opacity: number): Promise<void> {
+    this.setStatus('processing');
+    const script = `app.activeDocument.activeLayer.opacity = ${opacity};`;
+    await this.executeScript(script);
+    this.setStatus('ready');
+  }
+
   public async exportResult(options: ExportOptions = {}): Promise<Asset> {
     if (!this.currentAsset) {
       throw new Error('No active asset to export.');

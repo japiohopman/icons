@@ -49,6 +49,41 @@ export interface EditorEngine {
   resize(width: number, height: number): Promise<Asset>;
 
   /**
+   * Resizes document canvas dimensions.
+   */
+  resizeCanvas(width: number, height: number, anchor?: CanvasAnchor): Promise<Asset>;
+
+  /**
+   * Crops document canvas to specified bounds.
+   */
+  crop(bounds: CropBounds): Promise<Asset>;
+
+  /**
+   * Rotates document canvas or active layer by angle in degrees.
+   */
+  rotate(angle: number): Promise<void>;
+
+  /**
+   * Flips active layer or canvas horizontally or vertically.
+   */
+  flip(direction: 'horizontal' | 'vertical'): Promise<void>;
+
+  /**
+   * Duplicates the active layer.
+   */
+  duplicateLayer(): Promise<void>;
+
+  /**
+   * Deletes the active layer.
+   */
+  deleteActiveLayer(): Promise<void>;
+
+  /**
+   * Sets opacity of the active layer (0 - 100).
+   */
+  setLayerOpacity(opacity: number): Promise<void>;
+
+  /**
    * Exports the current document state as a new Asset result without modifying the source asset.
    */
   exportResult(options?: ExportOptions): Promise<Asset>;

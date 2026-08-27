@@ -8,6 +8,9 @@ import { Asset, EngineStatus } from '../types/asset';
 import { CatalogAsset } from '../types/asset';
 import { PhotopeaEngine } from '../engine/PhotopeaEngine';
 import { CATALOG_CATEGORIES } from '../lib/catalog';
+import { executeRotateTool, executeFlipTool } from '../tools/rotate';
+import { executeDuplicateLayerTool, executeDeleteLayerTool, executeSetLayerOpacityTool } from '../tools/layers';
+import { REUSABLE_PRESETS, applyEditingPreset } from '../tools/export';
 
 interface AssetEditorWorkspaceProps {
   catalogAsset: CatalogAsset | null;
@@ -36,6 +39,7 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
   const [saveAsSlug, setSaveAsSlug] = useState<string>('');
   const [showSaveAsDialog, setShowSaveAsDialog] = useState<boolean>(false);
   const [exportFormat, setExportFormat] = useState<'png' | 'svg' | 'jpg' | 'webp'>('png');
+  const [layerOpacity, setLayerOpacity] = useState<number>(100);
 
   // Initialize values when catalogAsset changes
   useEffect(() => {
@@ -385,6 +389,176 @@ export const AssetEditorWorkspace: React.FC<AssetEditorWorkspaceProps> = ({
                   <span className="font-mono text-[11px] text-slate-400 block truncate bg-slate-900 px-2.5 py-1.5 rounded-lg border border-slate-800" title={catalogAsset.file}>
                     public{catalogAsset.file}
                   </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Phase 3 Editing Tools Section */}
+            <div className="pt-4 border-t border-slate-800">
+              <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">Rotate, Flip & Layers</h3>
+              <div className="space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800/80">
+                <div>
+                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1.5">
+                    Rotate Canvas / Layer
+                  </label>
+                  <div className="grid grid-cols-2 gap-2">
+                    <button
+                      onClick={async () => {
+                        if (engineRef.current) {
+                          setIsProcessing(true);
+                          await executeRotateTool(engineRef.current, -90);
+                          setHasUnsavedChanges(true);
+                          setIsProcessing(false);
+                        }
+                      }}
+                      disabled={isProcessing || engineStatus !== 'ready'}
+                      className="px-2.5 py-1.5 bg-slate-900 hover:bg-slate-800 disabled:opacity-50 text-slate-200 text-xs rounded-lg border border-slate-700 flex items-center justify-center gap-1"
+                    >
+                      ↺ 90° CCW
+                    </button>
+                    <button
+                      onClick={async () => {
+                        if (engineRef.current) {
+                          setIsProcessing(true);
+                          await executeRotateTool(engineRef.current, 90);
+                          setHasUnsavedChanges(true);
+                          setIsProcessing(false);
+                        }
+                      }}
+                      disabled={isProcessing || engineStatus !== 'ready'}
+                      className="px-2.5 py-1.5 bg-slate-900 hover:bg-slate-800 disabled:opacity-50 text-slate-200 text-xs rounded-lg border border-slate-700 flex items-center justify-center gap-1"
+                    >
+                      ↻ 90° CW
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1.5">
+                    Flip Axis
+                  </label>
+                  <div className="grid grid-cols-2 gap-2">
+                    <button
+                      onClick={async () => {
+                        if (engineRef.current) {
+                          setIsProcessing(true);
+                          await executeFlipTool(engineRef.current, 'horizontal');
+                          setHasUnsavedChanges(true);
+                          setIsProcessing(false);
+                        }
+                      }}
+                      disabled={isProcessing || engineStatus !== 'ready'}
+                      className="px-2.5 py-1.5 bg-slate-900 hover:bg-slate-800 disabled:opacity-50 text-slate-200 text-xs rounded-lg border border-slate-700"
+                    >
+                      ↔ Flip H
+                    </button>
+                    <button
+                      onClick={async () => {
+                        if (engineRef.current) {
+                          setIsProcessing(true);
+                          await executeFlipTool(engineRef.current, 'vertical');
+                          setHasUnsavedChanges(true);
+                          setIsProcessing(false);
+                        }
+                      }}
+                      disabled={isProcessing || engineStatus !== 'ready'}
+                      className="px-2.5 py-1.5 bg-slate-900 hover:bg-slate-800 disabled:opacity-50 text-slate-200 text-xs rounded-lg border border-slate-700"
+                    >
+                      ↕ Flip V
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex justify-between items-center mb-1">
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                      Layer Opacity
+                    </label>
+                    <span className="font-mono text-xs text-indigo-400">{layerOpacity}%</span>
+                  </div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value={layerOpacity}
+                    onChange={async (e) => {
+                      const opacity = Number(e.target.value);
+                      setLayerOpacity(opacity);
+                      if (engineRef.current) {
+                        await executeSetLayerOpacityTool(engineRef.current, opacity);
+                        setHasUnsavedChanges(true);
+                      }
+                    }}
+                    disabled={isProcessing || engineStatus !== 'ready'}
+                    className="w-full accent-indigo-500 cursor-pointer"
+                  />
+                </div>
+
+                <div className="grid grid-cols-2 gap-2 pt-1">
+                  <button
+                    onClick={async () => {
+                      if (engineRef.current) {
+                        setIsProcessing(true);
+                        await executeDuplicateLayerTool(engineRef.current);
+                        setHasUnsavedChanges(true);
+                        setIsProcessing(false);
+                      }
+                    }}
+                    disabled={isProcessing || engineStatus !== 'ready'}
+                    className="px-2.5 py-1.5 bg-indigo-950/60 hover:bg-indigo-900/80 disabled:opacity-50 text-indigo-300 text-xs rounded-lg border border-indigo-800/60"
+                  >
+                    + Duplicate Layer
+                  </button>
+                  <button
+                    onClick={async () => {
+                      if (engineRef.current) {
+                        setIsProcessing(true);
+                        await executeDeleteLayerTool(engineRef.current);
+                        setHasUnsavedChanges(true);
+                        setIsProcessing(false);
+                      }
+                    }}
+                    disabled={isProcessing || engineStatus !== 'ready'}
+                    className="px-2.5 py-1.5 bg-red-950/40 hover:bg-red-900/60 disabled:opacity-50 text-red-300 text-xs rounded-lg border border-red-800/40"
+                  >
+                    - Delete Layer
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Reusable Presets Section */}
+            <div className="pt-4 border-t border-slate-800">
+              <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">Editing Presets</h3>
+              <div className="space-y-2 bg-slate-950/60 p-4 rounded-xl border border-slate-800/80">
+                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+                  Apply Style Preset
+                </label>
+                <div className="space-y-2">
+                  {REUSABLE_PRESETS.map((preset) => (
+                    <button
+                      key={preset.id}
+                      onClick={async () => {
+                        if (engineRef.current) {
+                          setIsProcessing(true);
+                          try {
+                            await applyEditingPreset(engineRef.current, preset);
+                            setMessage({ type: 'success', text: `Applied preset '${preset.name}'!` });
+                            setHasUnsavedChanges(true);
+                          } catch (err: any) {
+                            setMessage({ type: 'error', text: err.message || 'Failed to apply preset' });
+                          } finally {
+                            setIsProcessing(false);
+                          }
+                        }
+                      }}
+                      disabled={isProcessing || engineStatus !== 'ready'}
+                      className="w-full p-2 bg-slate-900 hover:bg-slate-800 disabled:opacity-50 text-left rounded-lg border border-slate-800 transition-colors"
+                    >
+                      <div className="text-xs font-semibold text-slate-200">{preset.name}</div>
+                      <div className="text-[10px] text-slate-400">{preset.description}</div>
+                    </button>
+                  ))}
                 </div>
               </div>
             </div>
