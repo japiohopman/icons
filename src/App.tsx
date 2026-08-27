@@ -36,7 +36,9 @@ export default function App() {
 
   useEffect(() => {
     // Keep Zustand store active folder in sync with hook
-    useAssetVaultStore.getState().setActiveFolderId(activeFolderPath);
+    if (useAssetVaultStore.getState().activeFolderId !== activeFolderPath) {
+      useAssetVaultStore.getState().setActiveFolderId(activeFolderPath);
+    }
   }, [activeFolderPath]);
 
   const handleDragEnd = async (event: DragEndEvent) => {

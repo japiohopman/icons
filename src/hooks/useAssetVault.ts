@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { Asset } from '@/types/asset';
-import { IconDefinition, VaultFilterOptions } from '@/types/vault';
+import { IconDefinition } from '@/types/vault';
 import { assetService } from '@/services/assetService';
 import { EXPLORER_TREE } from '@/assets/icons';
 
@@ -14,16 +14,14 @@ export function useAssetVault() {
   const [filteredAssetIds, setFilteredAssetIds] = useState<string[]>([]);
   const [selectedAsset, setSelectedAsset] = useState<Asset | null>(null);
 
-  const filterOptions = useMemo<VaultFilterOptions>(() => ({
-    searchQuery,
-    folderPath: activeFolderPath,
-    showMissingOnly,
-  }), [searchQuery, activeFolderPath, showMissingOnly]);
-
   const loadAssetList = useCallback(async () => {
-    const ids = await assetService.listAssetIds(filterOptions);
+    const ids = await assetService.listAssetIds({
+      searchQuery,
+      folderPath: activeFolderPath,
+      showMissingOnly,
+    });
     setFilteredAssetIds(ids);
-  }, [filterOptions]);
+  }, [searchQuery, activeFolderPath, showMissingOnly]);
 
   useEffect(() => {
     loadAssetList();

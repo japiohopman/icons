@@ -136,19 +136,21 @@ export class PhotopeaEngine implements EditorEngine {
         }
 
         if (typeof data === 'string') {
-          if (this.activeExportResolve) {
-            const res = this.activeExportResolve;
-            const rej = this.activeExportReject;
-            this.activeExportResolve = null;
-            this.activeExportReject = null;
-
-            if (data === 'done') {
-              if (rej) {
-                rej(new Error('Export operation failed: Photopea finished execution without export payload.'));
-              }
-            } else {
+          if (data === 'done') {
+            if (this.activeScriptResolve) {
+              const res = this.activeScriptResolve;
+              this.activeScriptResolve = null;
+              this.activeScriptReject = null;
               res(data);
             }
+            return;
+          }
+
+          if (this.activeExportResolve) {
+            const res = this.activeExportResolve;
+            this.activeExportResolve = null;
+            this.activeExportReject = null;
+            res(data);
             return;
           }
 
