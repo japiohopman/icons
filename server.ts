@@ -68,7 +68,19 @@ async function startServer() {
         if (!id) {
           return res.status(400).json({ error: "Missing folder id." });
         }
-        folders = folders.filter((f) => f.id !== id && f.parentId !== id);
+        // Helper to collect all descendant IDs recursively
+        const getDescendantIds = (targetId: string): string[] => {
+          const children = folders.filter((f) => f.parentId === targetId);
+          let ids: string[] = [];
+          for (const child of children) {
+            ids.push(child.id);
+            ids = ids.concat(getDescendantIds(child.id));
+          }
+          return ids;
+        };
+
+        const idsToDelete = new Set([id, ...getDescendantIds(id)]);
+        folders = folders.filter((f) => !idsToDelete.has(f.id));
         fs.writeFileSync(foldersJsonPath, JSON.stringify(folders, null, 2), "utf8");
         return res.json({ success: true, folders });
       }
