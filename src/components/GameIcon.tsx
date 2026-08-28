@@ -15,6 +15,7 @@ interface GameIconProps extends Omit<HTMLMotionProps<'img'>, 'children'> {
   size?: number;
   width?: number;
   height?: number;
+  color?: string;
   animation?: 'none' | 'bounce' | 'pulse' | 'spin' | 'ping' | 'float';
   fallbackName?: string;
 }
@@ -27,6 +28,7 @@ export const GameIcon: React.FC<GameIconProps> = ({
   size,
   width,
   height,
+  color,
   animation,
   fallbackName = 'combat.attack',
   ...props
@@ -40,12 +42,16 @@ export const GameIcon: React.FC<GameIconProps> = ({
     } else if (name.startsWith('/assets/')) {
       const foundByFile = getAssetByFile(name);
       resolvedFile = foundByFile ? foundByFile.file : name;
+    } else {
+      const iconPath = `/assets/icons/${name.endsWith('.svg') ? name : `${name}.svg`}`;
+      const foundByFile = getAssetByFile(iconPath);
+      resolvedFile = foundByFile ? foundByFile.file : iconPath;
     }
   }
 
   if (!resolvedFile && fallbackName) {
     const fallback = getAssetById(fallbackName);
-    resolvedFile = fallback ? fallback.file : `/assets/icons/attack.svg`;
+    resolvedFile = fallback ? fallback.file : `/assets/icons/save.svg`;
   }
 
   if (!resolvedFile) {
@@ -75,7 +81,7 @@ export const GameIcon: React.FC<GameIconProps> = ({
     },
     ping: {
       scale: [1, 1.5, 1],
-      opacity: [1, 0, 1],
+      opacity: [1, 0.8, 1],
       transition: { duration: 1.5, repeat: Infinity, ease: 'easeOut' },
     },
   };
@@ -89,8 +95,13 @@ export const GameIcon: React.FC<GameIconProps> = ({
       width={w}
       height={h}
       className={`inline-block object-contain pointer-events-none select-none ${className || ''}`}
+      style={{
+        width: w,
+        height: h,
+        filter: color && color !== 'currentColor' ? `drop-shadow(0px 0px 0px ${color})` : undefined,
+      }}
       animate={{ ...anim }}
-      {...props}
+      {...(props as any)}
     />
   );
 };
