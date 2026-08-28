@@ -1,6 +1,7 @@
 import { Asset } from '@/types/asset';
 import { IconDefinition, VaultFilterOptions } from '@/types/vault';
 import { ALL_ICONS } from '@/assets/icons';
+import { getAssetById, getIconCatalog } from '@/lib/catalog';
 
 export interface IAssetService {
   getAsset(id: string): Promise<Asset | null>;
@@ -17,47 +18,50 @@ class VaultAssetService implements IAssetService {
       return this.inMemoryVault[id];
     }
 
+    const catalogAsset = getAssetById(id);
     const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
-    if (!def) return null;
 
-    const pathStr = def.path || '';
-    const svgData = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="${pathStr}"/></svg>`;
-    const dataUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgData)}`;
+    if (!catalogAsset && !def) return null;
+
+    const fileUrl = catalogAsset?.file || `/assets/icons/${id}.svg`;
 
     return {
       id,
-      name: `${id}.svg`,
+      name: catalogAsset?.name || `${id}.svg`,
       category: 'icon',
       mimeType: 'image/svg+xml',
-      data: dataUrl,
+      file: fileUrl,
+      data: fileUrl,
       width: 512,
       height: 512,
       metadata: {
-        label: def.label,
-        description: def.description,
-        usage: def.usage,
-        usedIn: def.usedIn,
+        label: catalogAsset?.name || def?.label || id,
+        description: catalogAsset?.description || def?.description,
+        usage: def?.usage,
+        usedIn: def?.usedIn,
       },
-    };
+    } as Asset & { file?: string };
   }
 
   public getIconDefinition(id: string): IconDefinition | null {
-    return (ALL_ICONS as Record<string, IconDefinition>)[id] || null;
+    const catalogAsset = getAssetById(id);
+    const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
+    if (catalogAsset) {
+      return {
+        label: catalogAsset.name,
+        description: catalogAsset.description,
+      };
+    }
+    return def || null;
   }
 
   public async listAssetIds(filter?: VaultFilterOptions): Promise<string[]> {
-    let ids = Object.keys(ALL_ICONS);
+    const catalog = getIconCatalog();
+    let ids = catalog.length > 0 ? catalog.map((a) => a.id) : Object.keys(ALL_ICONS);
 
     if (filter?.searchQuery) {
       const q = filter.searchQuery.toLowerCase();
       ids = ids.filter((id) => id.toLowerCase().includes(q));
-    }
-
-    if (filter?.showMissingOnly) {
-      ids = ids.filter((id) => {
-        const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
-        return !def || !def.path;
-      });
     }
 
     return ids;

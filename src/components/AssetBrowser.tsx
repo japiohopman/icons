@@ -83,15 +83,23 @@ export const AssetBrowser: React.FC<AssetBrowserProps> = ({
 }) => {
   const parentRef = useRef<HTMLDivElement>(null);
 
-  // Virtualization calculations for large catalog lists
+  // Grid Virtualizer (6 items per row)
   const COLUMNS = 6;
-  const rowCount = Math.ceil(assetIds.length / COLUMNS);
+  const gridRowCount = Math.ceil(assetIds.length / COLUMNS);
 
-  const rowVirtualizer = useVirtualizer({
-    count: rowCount,
+  const gridRowVirtualizer = useVirtualizer({
+    count: gridRowCount,
     getScrollElement: () => parentRef.current,
     estimateSize: () => 124,
     overscan: 5,
+  });
+
+  // List Virtualizer (1 item per row)
+  const listVirtualizer = useVirtualizer({
+    count: assetIds.length,
+    getScrollElement: () => parentRef.current,
+    estimateSize: () => 52,
+    overscan: 8,
   });
 
   return (
@@ -154,12 +162,13 @@ export const AssetBrowser: React.FC<AssetBrowserProps> = ({
         {viewMode === 'grid' ? (
           <div
             style={{
-              height: `${rowVirtualizer.getTotalSize()}px`,
+              height: `${gridRowVirtualizer.getTotalSize()}px`,
               width: '100%',
               position: 'relative',
+              willChange: 'transform',
             }}
           >
-            {rowVirtualizer.getVirtualItems().map((virtualRow) => {
+            {gridRowVirtualizer.getVirtualItems().map((virtualRow) => {
               const startIndex = virtualRow.index * COLUMNS;
               const rowItems = assetIds.slice(startIndex, startIndex + COLUMNS);
 
@@ -173,6 +182,7 @@ export const AssetBrowser: React.FC<AssetBrowserProps> = ({
                     width: '100%',
                     height: `${virtualRow.size}px`,
                     transform: `translateY(${virtualRow.start}px)`,
+                    willChange: 'transform',
                   }}
                   className="grid grid-cols-6 gap-4 pr-2"
                 >
@@ -190,42 +200,65 @@ export const AssetBrowser: React.FC<AssetBrowserProps> = ({
           </div>
         ) : (
           <div className="flex flex-col gap-2 pb-12">
-            <div className="grid grid-cols-[50px_200px_1fr_120px] gap-4 px-4 py-2.5 bg-slate-100 rounded-lg text-[10px] font-bold text-slate-500 uppercase tracking-wider items-center">
+            <div className="grid grid-cols-[50px_200px_1fr_120px] gap-4 px-4 py-2.5 bg-slate-100 rounded-lg text-[10px] font-bold text-slate-500 uppercase tracking-wider items-center mb-2">
               <div className="text-center">Preview</div>
               <div>Asset ID</div>
               <div>Description</div>
               <div className="text-right">Action</div>
             </div>
 
-            {assetIds.map((id) => {
-              const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
-              const isSelected = selectedAssetId === id;
+            <div
+              style={{
+                height: `${listVirtualizer.getTotalSize()}px`,
+                width: '100%',
+                position: 'relative',
+                willChange: 'transform',
+              }}
+            >
+              {listVirtualizer.getVirtualItems().map((virtualRow) => {
+                const id = assetIds[virtualRow.index];
+                const def = (ALL_ICONS as Record<string, IconDefinition>)[id];
+                const isSelected = selectedAssetId === id;
 
-              return (
-                <motion.div
-                  key={id}
-                  onClick={() => onSelectAsset(id)}
-                  className={`grid grid-cols-[50px_200px_1fr_120px] gap-4 px-4 py-2.5 bg-white border rounded-xl items-center transition-all cursor-pointer ${
-                    isSelected
-                      ? 'border-indigo-400 ring-2 ring-indigo-500/10 shadow-xs bg-indigo-50/10'
-                      : 'border-slate-200 hover:border-slate-300'
-                  }`}
-                >
-                  <div className="flex items-center justify-center w-9 h-9 bg-slate-50 rounded-lg text-slate-600">
-                    <GameIcon name={id} size={24} />
+                return (
+                  <div
+                    key={virtualRow.key}
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: `${virtualRow.size}px`,
+                      transform: `translateY(${virtualRow.start}px)`,
+                      willChange: 'transform',
+                    }}
+                    className="pb-2"
+                  >
+                    <motion.div
+                      onClick={() => onSelectAsset(id)}
+                      className={`grid grid-cols-[50px_200px_1fr_120px] gap-4 px-4 py-2.5 bg-white border rounded-xl items-center transition-all cursor-pointer h-11 ${
+                        isSelected
+                          ? 'border-indigo-400 ring-2 ring-indigo-500/10 shadow-xs bg-indigo-50/10'
+                          : 'border-slate-200 hover:border-slate-300'
+                      }`}
+                    >
+                      <div className="flex items-center justify-center w-7 h-7 bg-slate-50 rounded-lg text-slate-600">
+                        <GameIcon name={id} size={20} />
+                      </div>
+                      <div className="font-bold text-slate-800 text-xs truncate font-mono">{id}</div>
+                      <div className="text-xs text-slate-500 truncate italic">
+                        {def?.description || 'System icon asset.'}
+                      </div>
+                      <div className="text-right">
+                        <span className="text-[10px] font-mono text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-100">
+                          Select
+                        </span>
+                      </div>
+                    </motion.div>
                   </div>
-                  <div className="font-bold text-slate-800 text-xs truncate font-mono">{id}</div>
-                  <div className="text-xs text-slate-500 truncate italic">
-                    {def?.description || 'System icon asset.'}
-                  </div>
-                  <div className="text-right">
-                    <span className="text-[10px] font-mono text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-100">
-                      Select
-                    </span>
-                  </div>
-                </motion.div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         )}
 
