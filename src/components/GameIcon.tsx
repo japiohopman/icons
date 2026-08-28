@@ -94,6 +94,8 @@ export const GameIcon: React.FC<GameIconProps> = ({
       alt={asset?.name || name || 'Icon'}
       width={w}
       height={h}
+      loading="lazy"
+      decoding="async"
       className={`inline-block object-contain pointer-events-none select-none ${className || ''}`}
       style={{
         width: w,
